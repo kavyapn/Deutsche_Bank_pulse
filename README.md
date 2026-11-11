@@ -6,7 +6,7 @@ Open [PULS Onboarding V1 — English](PULS_Onboarding_V1_English.html) in a brow
 
 The in-branch concept includes simulated card/NFC sign-in, seven interactive questions, draggable life moments, a goal timeline, an adjustable spending chart, answer review, and a confirmation gate before the demo widget is unlocked.
 
-This is a prototype: no banking API, card hardware, or live app activation is connected. Answers are stored in the browser tab for the session and cleared on session end or five minutes of inactivity. The progress sidebar is shown on wider terminal screens; the flow also adapts to mobile.
+This is a prototype: no banking API, card hardware, or live app activation is connected. Answers are stored in the browser tab for the session and cleared on session end or five minutes of inactivity. The onboarding uses a centred layout with a progress bar and adapts to mobile screens.
 
 ## Files in chronological order
 
