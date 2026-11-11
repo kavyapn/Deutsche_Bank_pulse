@@ -326,6 +326,12 @@ body[data-view="overview"] .journey-stage.left{left:calc(13.3% - 40px)}
 body[data-view="overview"] .journey-stage.right{right:calc(12.2% - 40px)}
 @media(max-width:1050px) and (min-width:701px){body[data-view="overview"] .puls-experience{grid-template-columns:300px minmax(0,1fr)}body[data-view="overview"] .journey-stage{width:270px}body[data-view="overview"] .journey-stage.left{left:14px}body[data-view="overview"] .journey-stage.right{right:14px}body[data-view="overview"] .score-assembly{max-width:280px}}
 @media(max-width:700px){body[data-view="overview"] .puls-experience{grid-template-columns:145px minmax(0,1fr)}body[data-view="overview"] .score-assembly{height:170px;max-width:135px}body[data-view="overview"] .score-trigger{width:130px;gap:12px}body[data-view="overview"] .score-trigger .large-ring{width:125px;height:125px}body[data-view="overview"] .score-trigger .large-ring-inner b{font-size:43px}body[data-view="overview"] .score-trigger .large-ring-inner small{font-size:10px}body[data-view="overview"] .score-trigger .score-toggle-label{font-size:9px}body[data-view="overview"] .score-wings{top:170px;width:130px}body[data-view="overview"] .score-wings.right{top:305px}body[data-view="overview"] .journey-stage{width:calc(100% - 24px);padding:11px;gap:8px}body[data-view="overview"] .journey-stage.left{left:12px}body[data-view="overview"] .journey-stage.right{right:12px}body[data-view="overview"] .coach-composer{padding:9px 14px max(12px,env(safe-area-inset-bottom))}body[data-view="overview"] .coach-composer form{max-width:420px}}
+
+/* The score floats directly on the same canvas as the learning path. */
+body[data-view="overview"] .puls-experience{background:#fbfcff}
+body[data-view="overview"] .sticky-score{background:transparent;border:0;border-radius:0;box-shadow:none;isolation:auto}
+body[data-view="overview"] .score-assembly,body[data-view="overview"] .score-trigger{background:transparent;border:0;border-radius:0;box-shadow:none}
+body[data-view="overview"] .journey-scroll{background:transparent}
 </style></head>
 <body><div class="appframe"><main class="stage"><div class="webapp" id="phone"><div class="glass"><div id="screen" style="display:flex;flex:1;min-height:0;flex-direction:column"></div><div class="toast" id="toast" role="status"></div></div></div></main></div><footer class="web-footer"><span>Interactive concept · Illustrative data · No live banking connection</span><button onclick="go('home')">Back to widget ↑</button></footer>
 <script>
