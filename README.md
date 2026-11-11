@@ -1,5 +1,13 @@
 # Deutsche Bank PULS
 
+## Interactive onboarding prototype
+
+Open [PULS Onboarding V1 — English](PULS_Onboarding_V1_English.html) in a browser. The standalone HTML file works without installation or a server.
+
+The in-branch concept includes simulated card/NFC sign-in, seven interactive questions, draggable life moments, a goal timeline, an adjustable spending chart, answer review, and a confirmation gate before the demo widget is unlocked.
+
+This is a prototype: no banking API, card hardware, or live app activation is connected. Answers are stored in the browser tab for the session and cleared on session end or five minutes of inactivity. The progress sidebar is shown on wider terminal screens; the flow also adapts to mobile.
+
 ## Files in chronological order
 
 Sorted by the modification timestamps of the supplied files. The HTML prototypes follow versions v4, v7, v8, v9, v10, and V10 English. All timestamps use Europe/Berlin time. Files with identical timestamps have no established relative chronological order.
@@ -18,4 +26,4 @@ Sorted by the modification timestamps of the supplied files. The HTML prototypes
 | 11.11.2026 15:57:20 | [PULS_widget_v10_Static_Subscore.html](PULS_widget_v10_Static_Subscore.html) |
 | 11.11.2026 16:09:46 | [PULS_V10_English_Interactive.html](PULS_V10_English_Interactive.html) |
 
-File contents are preserved as supplied. German filenames have been translated into English. The English V10 prototype was already in the repository before the remaining files were uploaded; the existing Git history has been preserved.
+The original uploaded file contents are preserved as supplied. The onboarding prototype was subsequently added as new work. German filenames have been translated into English. The English V10 prototype was already in the repository before the remaining files were uploaded; the existing Git history has been preserved.
