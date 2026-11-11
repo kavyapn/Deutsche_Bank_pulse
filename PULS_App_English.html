@@ -301,6 +301,31 @@ body[data-view="overview"] .coach-composer .composer-send{width:42px;height:42px
 body[data-view="overview"] .insight-fixed{grid-column:2;grid-row:1;min-height:0;height:100%;overflow-y:auto;border:0;border-radius:0}
 body[data-view="overview"] .insight-fixed .insight-content{max-width:850px;margin:auto;min-height:100%;padding:40px 45px}
 @media(max-width:700px){body[data-view="overview"] .puls-header{height:48px;min-height:48px;flex-basis:48px;padding:0 15px}body[data-view="overview"] .puls-experience{grid-template-columns:125px minmax(0,1fr);grid-template-rows:minmax(0,1fr) auto}body[data-view="overview"] .sticky-score{padding:12px 5px}body[data-view="overview"] .score-assembly{height:145px;max-width:120px}body[data-view="overview"] .score-trigger{width:110px;gap:10px}body[data-view="overview"] .score-trigger .large-ring{width:95px;height:95px}body[data-view="overview"] .score-trigger .large-ring-inner b{font-size:33px}body[data-view="overview"] .score-trigger .large-ring-inner small{font-size:10px}body[data-view="overview"] .score-toggle-label{font-size:9px;white-space:normal;line-height:1.5}body[data-view="overview"] .score-wings{width:115px;top:150px;gap:5px}body[data-view="overview"] .score-wings.right{top:285px}body[data-view="overview"] .score-wing{min-height:36px}body[data-view="overview"] .sticky-score.expanded .score-ring-piece.left-half{transform:translateX(-12px)}body[data-view="overview"] .sticky-score.expanded .score-ring-piece.right-half{transform:translateX(12px)}body[data-view="overview"] .journey-world{min-height:1000px}body[data-view="overview"] .journey-stage{width:calc(100% - 24px);padding:11px;gap:8px;min-height:98px}body[data-view="overview"] .journey-stage.left{left:12px}body[data-view="overview"] .journey-stage.right{right:12px}body[data-view="overview"] .journey-stage .stage-node{width:35px;height:35px;font-size:15px}body[data-view="overview"] .journey-stage .stage-copy b{font-size:12px}body[data-view="overview"] .journey-stage .stage-copy small{font-size:10px}body[data-view="overview"] .journey-stage .stage-copy em{font-size:9px}body[data-view="overview"] .coach-composer{padding:12px 14px max(14px,env(safe-area-inset-bottom))}body[data-view="overview"] .coach-composer input{font-size:12px}body[data-view="overview"] .insight-fixed .insight-content{padding:24px 17px}body[data-view="overview"] .insight-fixed .insight-intro h2{font-size:20px}}
+
+/* Keep the learning trail proportional within a wide canvas. */
+body[data-view="overview"] .coach-composer{padding:10px 24px 14px}
+body[data-view="overview"] .coach-composer form{max-width:560px;padding:5px 5px 5px 17px;gap:9px}
+body[data-view="overview"] .coach-composer input{height:31px;font-size:12px}
+body[data-view="overview"] .coach-composer .composer-send{width:34px;height:34px}
+body[data-view="overview"] .coach-composer .composer-send svg{width:20px;height:20px}
+body[data-view="overview"] .score-assembly{height:255px;max-width:370px}
+body[data-view="overview"] .score-trigger{width:220px;gap:18px}
+body[data-view="overview"] .score-trigger .large-ring{width:210px;height:210px}
+body[data-view="overview"] .score-trigger .large-ring-inner b{font-size:68px;letter-spacing:-2.5px}
+body[data-view="overview"] .score-trigger .large-ring-inner small{font-size:14px}
+body[data-view="overview"] .score-trigger .score-toggle-label{font-size:11px}
+body[data-view="overview"] .score-wings{top:255px;width:calc(50% - 6px);gap:7px}
+body[data-view="overview"] .score-wing{min-height:37px;padding:7px 10px}
+body[data-view="overview"] .score-wing span{max-width:none;font-size:10px}
+body[data-view="overview"] .score-wings.left{left:0}body[data-view="overview"] .score-wings.right{right:0}
+body[data-view="overview"] .journey-scroll{background:#fbfcff}
+body[data-view="overview"] .journey-world{width:min(100%,620px);max-width:620px;min-height:1000px;height:1000px;margin:0 auto}
+body[data-view="overview"] .journey-road{height:1000px;width:100%;left:0;top:0}
+body[data-view="overview"] .journey-stage{width:300px;min-height:96px;padding:13px 15px;gap:13px}
+body[data-view="overview"] .journey-stage.left{left:calc(13.3% - 40px)}
+body[data-view="overview"] .journey-stage.right{right:calc(12.2% - 40px)}
+@media(max-width:1050px) and (min-width:701px){body[data-view="overview"] .puls-experience{grid-template-columns:300px minmax(0,1fr)}body[data-view="overview"] .journey-stage{width:270px}body[data-view="overview"] .journey-stage.left{left:14px}body[data-view="overview"] .journey-stage.right{right:14px}body[data-view="overview"] .score-assembly{max-width:280px}}
+@media(max-width:700px){body[data-view="overview"] .puls-experience{grid-template-columns:145px minmax(0,1fr)}body[data-view="overview"] .score-assembly{height:170px;max-width:135px}body[data-view="overview"] .score-trigger{width:130px;gap:12px}body[data-view="overview"] .score-trigger .large-ring{width:125px;height:125px}body[data-view="overview"] .score-trigger .large-ring-inner b{font-size:43px}body[data-view="overview"] .score-trigger .large-ring-inner small{font-size:10px}body[data-view="overview"] .score-trigger .score-toggle-label{font-size:9px}body[data-view="overview"] .score-wings{top:170px;width:130px}body[data-view="overview"] .score-wings.right{top:305px}body[data-view="overview"] .journey-stage{width:calc(100% - 24px);padding:11px;gap:8px}body[data-view="overview"] .journey-stage.left{left:12px}body[data-view="overview"] .journey-stage.right{right:12px}body[data-view="overview"] .coach-composer{padding:9px 14px max(12px,env(safe-area-inset-bottom))}body[data-view="overview"] .coach-composer form{max-width:420px}}
 </style></head>
 <body><div class="appframe"><main class="stage"><div class="webapp" id="phone"><div class="glass"><div id="screen" style="display:flex;flex:1;min-height:0;flex-direction:column"></div><div class="toast" id="toast" role="status"></div></div></div></main></div><footer class="web-footer"><span>Interactive concept · Illustrative data · No live banking connection</span><button onclick="go('home')">Back to widget ↑</button></footer>
 <script>
