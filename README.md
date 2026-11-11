@@ -1,5 +1,9 @@
 # Deutsche Bank PULS
 
+## English widget website
+
+Open [the English widget website](PULS_App_English.html) in a browser. This adapts the English V10 prototype into a responsive standalone HTML surface without a smartphone frame, studio controls, or a banking home page. The scope is the financial wellbeing widget and its detail, learning, goal, and demo coach views. Banking data and actions remain illustrative.
+
 ## Interactive onboarding prototype
 
 Open [PULS Onboarding V1 — English](PULS_Onboarding_V1_English.html) in a browser. The standalone HTML file works without installation or a server.
