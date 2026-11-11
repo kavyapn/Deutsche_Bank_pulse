@@ -8,6 +8,10 @@ The in-branch concept includes simulated card/NFC sign-in, seven interactive que
 
 This is a prototype: no banking API, card hardware, or live app activation is connected. Answers are stored in the browser tab for the session and cleared on session end or five minutes of inactivity. The onboarding uses a centred layout with a progress bar and adapts to mobile screens.
 
+## Specifications
+
+- [PULS Scoring Weights – Specification for Development](docs/PULS_Scoring_Weights_Spec.md): dimension weights per tier, persona and life event, with configuration and test vectors.
+
 ## Files in chronological order
 
 Sorted by the modification timestamps of the supplied files. The HTML prototypes follow versions v4, v7, v8, v9, v10, and V10 English. All timestamps use Europe/Berlin time. Files with identical timestamps have no established relative chronological order.
