@@ -17,6 +17,8 @@ main{min-height:calc(100dvh - 64px);padding:22px 48px 20px}
 .mini-features{justify-content:center}.auth-buttons{margin-left:auto;margin-right:auto;max-width:340px}
 .nav{width:100%}.footer{max-width:800px;width:100%;margin-left:auto;margin-right:auto}
 @media(max-width:760px){main{padding:18px 20px 20px}.welcome{min-height:unset;padding:28px 0}.welcome h1{font-size:40px}.progress{margin-bottom:27px}.header-right{gap:10px}}
+.consent-intro{max-width:620px;padding:56px 0}.consent-intro h1{max-width:560px}.consent-intro .lead{max-width:470px}.consent-intro .consent-detail{font-size:12px;color:var(--muted);max-width:420px;margin-top:24px;margin-bottom:0}
+@media(max-width:760px){.consent-intro{padding:36px 0}.consent-intro h1{font-size:36px}}
 </style>
 </head>
 <body>
@@ -41,7 +43,7 @@ const goalName=()=>goalOptions.find(x=>x[0]===state.goal)?.[2]||'A direction to 
 const monthDate=()=>{const d=new Date();d.setDate(1);d.setMonth(d.getMonth()+state.months);return d.toLocaleDateString('en-GB',{month:'short',year:'numeric'});};
 function toast(t){$('announcer').textContent=t;document.querySelector('.notice')?.remove();const el=document.createElement('div');el.className='notice';el.textContent=t;document.body.append(el);clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.remove(),2200);}
 function start(method){state.method=method;state.stage='consent';save();render();}
-function startQuestions(){state.sample=$('sample-consent').checked;state.stage='questions';state.step=0;save();render();}
+function startQuestions(){state.sample=false;state.stage='questions';state.step=0;save();render();}
 function render(){
  const current=state.stage==='questions'?state.step:-1;
  const completed=state.stage==='review'||state.activated?7:state.stage==='questions'?state.step:0;
@@ -60,7 +62,8 @@ function render(){
  document.querySelector('h1')?.setAttribute('tabindex','-1');document.querySelector('h1')?.focus({preventScroll:true});window.scrollTo(0,0);
 }
 function welcome(){return `<div class="question welcome"><div><p class="eyebrow">YOUR FINANCIAL CHECK-IN</p><h1>Your life.<br>Your plans.<br>Let’s connect the dots.</h1><p class="lead">A few small interactions. A clearer picture of where you are — and what could come next.</p><div class="mini-features"><span>◷ About 4 minutes</span><span>◇ Made around you</span></div><div class="auth-buttons"><button class="primary" onclick="start('card')">Insert your card <span>→</span></button><button class="secondary" onclick="start('nfc')">Tap your card with NFC &nbsp; ◉</button></div><p class="hint">Demo: both buttons simulate an authenticated card session.<br>No card, PIN or personal banking details are collected.</p></div></div>`;}
-function consent(){return `<section class="question"><p class="eyebrow">A STARTING POINT YOU CONTROL</p><h1>Shall we start with<br>a little context?</h1><p class="lead">You’re signed in for this simulated ${state.method==='nfc'?'NFC':'card'} session. Choose how you would like to begin.</p><div class="card-list"><div class="choice"><span class="icon">◇</span><div><strong>Your answers shape your experience</strong><small>Life moments, everyday habits and your own priorities.</small></div></div><div class="choice"><span class="icon">▣</span><div><strong>You decide what to share</strong><small>Skip any question. Review and change your answers before activation.</small></div></div></div><div class="consent-box"><label><input id="sample-consent" type="checkbox" ${state.sample?'checked':''}><span>Start my monthly picture with an illustrative spending split.<br><span class="hint">Optional demo data only. No account data is accessed. Without this option, you build your own split.</span></span></label></div><div class="inline-note">Your answers stay in this browser tab for this prototype session. Ending the session or five minutes of inactivity clears them.</div></section>`;}
+function consent(){return `<section class="question consent-intro"><p class="eyebrow">YOUR PERSONAL STARTING POINT</p><h1>Let’s make this about you.</h1><p class="lead">We’ll ask about what matters to you and help you build your personal financial picture.</p><p class="lead consent-detail">You can skip questions and review your answers before activating your widget.</p></section>`;}
+
 function question(){
  const intro=(eyebrow,title,lead)=>`<section class="question"><p class="eyebrow">${eyebrow}</p><h1>${title}</h1><p class="lead">${lead}</p>`;
  if(state.step===0)return intro('01 · YOUR LIFE RIGHT NOW','What’s happening in your life?','Choose the moments that feel relevant. Tap a card to select it. You can choose more than one.')+`<div class="life-layout"><div class="life-grid">${lifeOptions.map(([id,icon,name])=>`<button data-life="${id}" class="choice${selected(state.life.includes(id))}" aria-pressed="${state.life.includes(id)}" onclick="toggleLife('${id}')"><span class="icon">${icon}</span><strong>${name}</strong><span class="check">${state.life.includes(id)?'✓':''}</span></button>`).join('')}</div></div></section>`;
