@@ -1,0 +1,569 @@
+{
+ "schema_version": "0.1",
+ "synthetic": true,
+ "window": {
+  "start": "2025-11-01",
+  "end": "2026-10-31",
+  "months": [
+   "2025-11",
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07",
+   "2026-08",
+   "2026-09",
+   "2026-10"
+  ]
+ },
+ "categories": {
+  "income": {
+   "essential": false
+  },
+  "housing": {
+   "essential": true
+  },
+  "groceries": {
+   "essential": true
+  },
+  "transport": {
+   "essential": true
+  },
+  "insurance": {
+   "essential": true
+  },
+  "health": {
+   "essential": true
+  },
+  "telecom": {
+   "essential": true
+  },
+  "education": {
+   "essential": true
+  },
+  "tax": {
+   "essential": true
+  },
+  "debt_payment": {
+   "essential": true
+  },
+  "restaurants": {
+   "essential": false
+  },
+  "leisure": {
+   "essential": false
+  },
+  "shopping": {
+   "essential": false
+  },
+  "travel": {
+   "essential": false
+  },
+  "subscriptions": {
+   "essential": false
+  },
+  "fee": {
+   "essential": false
+  },
+  "transfer": {
+   "essential": false
+  },
+  "inheritance": {
+   "essential": false
+  }
+ },
+ "saving_out_subcategories": [
+  "to_savings",
+  "investment_buy",
+  "pension_contribution"
+ ],
+ "saving_in_subcategories": [
+  "from_savings",
+  "investment_sell"
+ ],
+ "late_subcategories": [
+  "dunning_fee",
+  "returned_direct_debit",
+  "bnpl_late_fee"
+ ],
+ "market": {
+  "monthly_return_pct": {
+   "2025-11": 1.5,
+   "2025-12": 0.8,
+   "2026-01": 2.1,
+   "2026-02": -1.2,
+   "2026-03": 1.9,
+   "2026-04": -12.0,
+   "2026-05": 3.5,
+   "2026-06": 2.2,
+   "2026-07": 1.0,
+   "2026-08": -0.6,
+   "2026-09": 1.8,
+   "2026-10": 1.2
+  }
+ },
+ "instruments": {
+  "etf_world": {
+   "name": "Global Equity ETF (synthetic)",
+   "asset_class": "equity_fund",
+   "prices": {
+    "2025-11": 100.0,
+    "2025-12": 101.5,
+    "2026-01": 102.312,
+    "2026-02": 104.4606,
+    "2026-03": 103.207,
+    "2026-04": 105.168,
+    "2026-05": 92.5478,
+    "2026-06": 95.787,
+    "2026-07": 97.8943,
+    "2026-08": 98.8732,
+    "2026-09": 98.28,
+    "2026-10": 100.049,
+    "end": 101.2496
+   }
+  },
+  "bond_fund": {
+   "name": "Euro Bond Fund (synthetic)",
+   "asset_class": "bond_fund",
+   "prices": {
+    "2025-11": 100.0,
+    "2025-12": 100.2232,
+    "2026-01": 100.5374,
+    "2026-02": 100.8914,
+    "2026-03": 100.5539,
+    "2026-04": 100.6555,
+    "2026-05": 98.1753,
+    "2026-06": 99.1901,
+    "2026-07": 99.7527,
+    "2026-08": 100.2625,
+    "2026-09": 100.2171,
+    "2026-10": 100.6965,
+    "end": 100.9942
+   }
+  },
+  "money_market": {
+   "name": "Money Market Fund (synthetic)",
+   "asset_class": "money_market",
+   "prices": {
+    "2025-11": 100.0,
+    "2025-12": 100.2,
+    "2026-01": 100.4004,
+    "2026-02": 100.6012,
+    "2026-03": 100.8024,
+    "2026-04": 101.004,
+    "2026-05": 101.206,
+    "2026-06": 101.4084,
+    "2026-07": 101.6112,
+    "2026-08": 101.8145,
+    "2026-09": 102.0181,
+    "2026-10": 102.2221,
+    "end": 102.4266
+   }
+  },
+  "tech_stock": {
+   "name": "Example Tech AG (fictional)",
+   "asset_class": "single_stock",
+   "prices": {
+    "2025-11": 100.0,
+    "2025-12": 97.2518,
+    "2026-01": 100.9141,
+    "2026-02": 105.6259,
+    "2026-03": 105.3053,
+    "2026-04": 102.9632,
+    "2026-05": 79.0431,
+    "2026-06": 81.0834,
+    "2026-07": 82.6202,
+    "2026-08": 84.6166,
+    "2026-09": 83.7385,
+    "2026-10": 87.3082,
+    "end": 87.1976
+   }
+  },
+  "family_holding": {
+   "name": "Nordlicht Holding AG (fictional)",
+   "asset_class": "single_stock",
+   "prices": {
+    "2025-11": 100.0,
+    "2025-12": 102.4174,
+    "2026-01": 104.208,
+    "2026-02": 105.4561,
+    "2026-03": 107.56,
+    "2026-04": 111.2098,
+    "2026-05": 97.8579,
+    "2026-06": 100.7539,
+    "2026-07": 101.9236,
+    "2026-08": 102.4453,
+    "2026-09": 101.4897,
+    "2026-10": 104.9649,
+    "end": 106.9979
+   }
+  },
+  "crypto": {
+   "name": "Crypto asset (synthetic)",
+   "asset_class": "crypto",
+   "prices": {
+    "2025-11": 100.0,
+    "2025-12": 101.0659,
+    "2026-01": 97.2845,
+    "2026-02": 99.3532,
+    "2026-03": 103.6508,
+    "2026-04": 103.5495,
+    "2026-05": 74.0054,
+    "2026-06": 82.3747,
+    "2026-07": 79.5423,
+    "2026-08": 81.7622,
+    "2026-09": 86.9438,
+    "2026-10": 80.3481,
+    "end": 81.2082
+   }
+  }
+ },
+ "risk_asset_classes": [
+  "equity_fund",
+  "single_stock",
+  "crypto"
+ ],
+ "knowledge": {
+  "domain_weights": {
+   "money_fundamentals": 20,
+   "credit_borrowing": 20,
+   "investing_risk": 20,
+   "tax_employment": 15,
+   "digital_safety": 15,
+   "applied_decisions": 10
+  },
+  "questions": [
+   {
+    "id": "q_mf1",
+    "domain": "money_fundamentals",
+    "text": "Your savings earn 3% interest and inflation is 5%. After one year, what can you buy with the money?",
+    "options": [
+     "More than today",
+     "The same as today",
+     "Less than today"
+    ],
+    "correct": 2
+   },
+   {
+    "id": "q_mf2",
+    "domain": "money_fundamentals",
+    "text": "You invest €100 at 2% per year and leave the interest in the account. After five years you have:",
+    "options": [
+     "Exactly €110",
+     "More than €110",
+     "Less than €110"
+    ],
+    "correct": 1
+   },
+   {
+    "id": "q_mf3",
+    "domain": "money_fundamentals",
+    "text": "What is a budget mainly for?",
+    "options": [
+     "Predicting the stock market",
+     "Planning income against spending",
+     "Reducing your tax rate"
+    ],
+    "correct": 1
+   },
+   {
+    "id": "q_cb1",
+    "domain": "credit_borrowing",
+    "text": "Which figure lets you compare the total yearly cost of two loans?",
+    "options": [
+     "The nominal interest rate",
+     "The effective annual rate (APR)",
+     "The monthly instalment"
+    ],
+    "correct": 1
+   },
+   {
+    "id": "q_cb2",
+    "domain": "credit_borrowing",
+    "text": "You extend a loan from 12 to 36 months at the same rate. What happens?",
+    "options": [
+     "Lower instalment, more total interest",
+     "Lower instalment, less total interest",
+     "Nothing changes"
+    ],
+    "correct": 0
+   },
+   {
+    "id": "q_cb3",
+    "domain": "credit_borrowing",
+    "text": "You miss a buy-now-pay-later instalment. What is the most likely result?",
+    "options": [
+     "Nothing, it is interest-free",
+     "Late fees and possibly a negative credit entry",
+     "The purchase is cancelled and refunded"
+    ],
+    "correct": 1
+   },
+   {
+    "id": "q_ir1",
+    "domain": "investing_risk",
+    "text": "What does diversification do?",
+    "options": [
+     "It guarantees a profit",
+     "It reduces the impact of a single position",
+     "It removes all market risk"
+    ],
+    "correct": 1
+   },
+   {
+    "id": "q_ir2",
+    "domain": "investing_risk",
+    "text": "An investment promises a much higher return than the market. What does that usually mean?",
+    "options": [
+     "Higher risk",
+     "Lower risk",
+     "No relation to risk"
+    ],
+    "correct": 0
+   },
+   {
+    "id": "q_ir3",
+    "domain": "investing_risk",
+    "text": "Two funds hold the same assets. Fund A costs 0.2% per year, fund B 1.5%. Over 20 years:",
+    "options": [
+     "B ends higher",
+     "A ends clearly higher",
+     "The difference is negligible"
+    ],
+    "correct": 1
+   },
+   {
+    "id": "q_te1",
+    "domain": "tax_employment",
+    "text": "What is the difference between gross and net salary?",
+    "options": [
+     "Net is before tax",
+     "Net is after tax and social contributions",
+     "There is no difference"
+    ],
+    "correct": 1
+   },
+   {
+    "id": "q_te2",
+    "domain": "tax_employment",
+    "text": "What is a saver's allowance for capital income?",
+    "options": [
+     "An amount of capital income that stays tax-free",
+     "A bonus paid by the bank",
+     "A fee for opening a securities account"
+    ],
+    "correct": 0
+   },
+   {
+    "id": "q_te3",
+    "domain": "tax_employment",
+    "text": "Why can filing a tax return be worth it for an employee?",
+    "options": [
+     "Work-related expenses can lead to a refund",
+     "It raises the gross salary",
+     "It is never worth it"
+    ],
+    "correct": 0
+   },
+   {
+    "id": "q_ds1",
+    "domain": "digital_safety",
+    "text": "An email from 'your bank' asks you to confirm your password via a link. What do you do?",
+    "options": [
+     "Click and confirm quickly",
+     "Do not click; open the banking app yourself",
+     "Reply with the password"
+    ],
+    "correct": 1
+   },
+   {
+    "id": "q_ds2",
+    "domain": "digital_safety",
+    "text": "An influencer promises a guaranteed 20% per month. This is:",
+    "options": [
+     "A normal offer",
+     "A red flag for fraud",
+     "A regulated savings product"
+    ],
+    "correct": 1
+   },
+   {
+    "id": "q_ds3",
+    "domain": "digital_safety",
+    "text": "Who may you give a transaction approval code (TAN) to?",
+    "options": [
+     "A caller from the bank's security team",
+     "A friend who helps you",
+     "Nobody"
+    ],
+    "correct": 2
+   },
+   {
+    "id": "q_ad1",
+    "domain": "applied_decisions",
+    "text": "Where does money for an unexpected repair fit best?",
+    "options": [
+     "Instantly available and low risk",
+     "In a single stock",
+     "In a locked five-year product"
+    ],
+    "correct": 0
+   },
+   {
+    "id": "q_ad2",
+    "domain": "applied_decisions",
+    "text": "You have €1,000, a card debt at 14% and an investment with an expected 6%. What is usually the better first step?",
+    "options": [
+     "Invest the €1,000",
+     "Repay the card debt",
+     "Split it evenly"
+    ],
+    "correct": 1
+   },
+   {
+    "id": "q_ad3",
+    "domain": "applied_decisions",
+    "text": "Contract A: €20 a month for 24 months. Contract B: €15 a month for 24 months plus €150 once. Which is cheaper in total?",
+    "options": [
+     "A (€480)",
+     "B (€510)",
+     "Both cost the same"
+    ],
+    "correct": 0
+   }
+  ],
+  "lessons": [
+   {
+    "id": "l_budget",
+    "title": "Budget basics",
+    "domain": "money_fundamentals",
+    "checkpoint": "cp_budget_3m"
+   },
+   {
+    "id": "l_emergency",
+    "title": "Emergency fund: 3 months",
+    "domain": "money_fundamentals",
+    "checkpoint": "cp_emergency_3m"
+   },
+   {
+    "id": "l_debt",
+    "title": "Debt and buy-now-pay-later",
+    "domain": "credit_borrowing",
+    "checkpoint": "cp_bills_12m"
+   },
+   {
+    "id": "l_invest",
+    "title": "Investing 101",
+    "domain": "investing_risk",
+    "checkpoint": "cp_plan_6m"
+   },
+   {
+    "id": "l_diversify",
+    "title": "Diversification",
+    "domain": "investing_risk",
+    "checkpoint": "cp_diversified"
+   },
+   {
+    "id": "l_protect",
+    "title": "Risk and protection",
+    "domain": "applied_decisions",
+    "checkpoint": "cp_liability"
+   },
+   {
+    "id": "l_tax",
+    "title": "Your first tax return",
+    "domain": "tax_employment",
+    "checkpoint": "cp_tax_refund"
+   },
+   {
+    "id": "l_scam",
+    "title": "Scam safety",
+    "domain": "digital_safety",
+    "checkpoint": null
+   }
+  ],
+  "checkpoints": {
+   "cp_budget_3m": "Last 3 months within budget (B2 rule)",
+   "cp_emergency_3m": "Emergency fund of at least 3 months on the 60-day average (F1)",
+   "cp_bills_12m": "12 of 12 months without a late-payment event (B3)",
+   "cp_plan_6m": "Savings plan executed in each of the last 6 scheduled months",
+   "cp_diversified": "Portfolio exists and single stocks plus crypto are at most 20% of it",
+   "cp_liability": "Personal liability insurance in place",
+   "cp_tax_refund": "Tax refund credit received in the window"
+  },
+  "xp_rules": {
+   "lesson_completed": 50,
+   "quiz_first_attempt_correct": 10,
+   "checkpoint_verified": 150,
+   "monthly_cap_lessons_and_quiz": 300,
+   "level_thresholds": [
+    0,
+    500,
+    1200,
+    2200,
+    3500
+   ]
+  }
+ },
+ "risk_questionnaire": {
+  "items": [
+   {
+    "id": "rt1",
+    "text": "I am willing to accept that my investments fall in value for a while in order to earn more in the long run.",
+    "reverse": false
+   },
+   {
+    "id": "rt2",
+    "text": "If my portfolio lost 20% in a month, I would hold or buy more.",
+    "reverse": false
+   },
+   {
+    "id": "rt3",
+    "text": "Safety of my money matters more to me than return.",
+    "reverse": true
+   },
+   {
+    "id": "rt4",
+    "text": "I am comfortable with investments whose value changes from day to day.",
+    "reverse": false
+   },
+   {
+    "id": "rt5",
+    "text": "Losses bother me for a long time.",
+    "reverse": true
+   }
+  ]
+ },
+ "self_efficacy": {
+  "items": [
+   {
+    "id": "se1",
+    "text": "I know how to get myself to follow through on my financial intentions."
+   },
+   {
+    "id": "se2",
+    "text": "I am confident that I can reach the financial goals I set."
+   },
+   {
+    "id": "se3",
+    "text": "I know where to find good advice when I make a financial decision."
+   },
+   {
+    "id": "se4",
+    "text": "When an unexpected expense comes up, I can usually find a solution."
+   }
+  ]
+ },
+ "personas": [
+  "student_explorer",
+  "apprentice_builder",
+  "first_salary_professional",
+  "freelance_creator",
+  "startup_founder",
+  "life_stage_planner",
+  "wealth_successor"
+ ]
+}

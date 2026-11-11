@@ -1,0 +1,22 @@
+{
+  "version": "0.1",
+  "dimensions": ["F", "B", "Z", "L", "K", "E"],
+  "tiers": {
+    "start":  { "F": 25, "B": 30, "Z": 10, "L": 10, "K": 15, "E": 10 },
+    "pro":    { "F": 25, "B": 30, "Z": 20, "L": 10, "K": 10, "E": 5 },
+    "wealth": { "F": 30, "B": 20, "Z": 30, "L": 15, "K": 5,  "E": 0 }
+  },
+  "personas": {
+    "student_explorer":          { "defaultTier": "start",  "tilt": { "F": -5, "B": 0,   "Z": 0,  "L": 0, "K": 5,  "E": 0 } },
+    "apprentice_builder":        { "defaultTier": "start",  "tilt": { "F": 0,  "B": 5,   "Z": 0,  "L": 0, "K": -5, "E": 0 } },
+    "first_salary_professional": { "defaultTier": "pro",    "tilt": { "F": 0,  "B": 0,   "Z": -5, "L": 0, "K": 0,  "E": 5 } },
+    "freelance_creator":         { "defaultTier": "pro",    "tilt": { "F": 5,  "B": -5,  "Z": 0,  "L": 0, "K": 0,  "E": 0 } },
+    "startup_founder":           { "defaultTier": "pro",    "tilt": { "F": 5,  "B": -10, "Z": 0,  "L": 5, "K": 0,  "E": 0 } },
+    "life_stage_planner":        { "defaultTier": "pro",    "tilt": { "F": 0,  "B": -5,  "Z": 5,  "L": 5, "K": -5, "E": 0 } },
+    "wealth_successor":          { "defaultTier": "wealth", "tilt": { "F": -5, "B": 0,   "Z": 0,  "L": 0, "K": 5,  "E": 0 } }
+  },
+  "constraints": { "floor": { "F": 20, "B": 15 }, "capSum": { "dims": ["K", "E"], "max": 30 }, "maxTiltAbs": 10 },
+  "eventOverlay": { "dimension": "L", "deltaPp": 5, "maxMonths": 6 },
+  "transition": { "blendMonths": 3 },
+  "referenceTier": "pro"
+}

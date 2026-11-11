@@ -15,6 +15,11 @@ This is a prototype: no banking API, card hardware, or live app activation is co
 ## Specifications
 
 - [PULS Scoring Weights – Specification for Development](docs/PULS_Scoring_Weights_Spec.md): dimension weights per tier, persona and life event, with configuration and test vectors.
+- [PULS Score Calculation and Synthetic Persona Data](docs/PULS_Score_Calculation_Spec.md): calculation of the indicators from spending, saving, investing, the risk questionnaire and knowledge gamification.
+
+## Synthetic data and reference scorer
+
+Seven synthetic clients, one per persona, are in `data/synthetic/personas/`. `tools/generate_synthetic_data.py` regenerates them and `tools/score_reference.py` calculates the expected scores in `data/synthetic/expected_scores.json`. All data is fictional.
 
 ## Files in chronological order
 

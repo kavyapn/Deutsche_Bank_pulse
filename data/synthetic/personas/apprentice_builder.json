@@ -1,0 +1,2737 @@
+{
+ "schema_version": "0.1",
+ "synthetic": true,
+ "window": {
+  "start": "2025-11-01",
+  "end": "2026-10-31",
+  "months": [
+   "2025-11",
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07",
+   "2026-08",
+   "2026-09",
+   "2026-10"
+  ]
+ },
+ "profile": {
+  "persona_id": "apprentice_builder",
+  "name": "Jonas",
+  "age": 21,
+  "tier": "start",
+  "personas": [
+   {
+    "id": "apprentice_builder",
+    "share": 1.0
+   }
+  ],
+  "income_type": "stable",
+  "story": "Apprentice with regular trainee pay. Repays a small consumer loan for a scooter and saves by standing order every month. One short round trip into savings must not count as saving."
+ },
+ "accounts": [
+  {
+   "id": "current",
+   "type": "current",
+   "opening_balance": 1250
+  },
+  {
+   "id": "savings",
+   "type": "savings",
+   "access": "instant",
+   "opening_balance": 1500
+  }
+ ],
+ "transactions": [
+  {
+   "id": "app-00002",
+   "date": "2025-11-01",
+   "account_id": "current",
+   "amount": -420,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "app-00009",
+   "date": "2025-11-02",
+   "account_id": "current",
+   "amount": -39.15,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00007",
+   "date": "2025-11-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "app-00014",
+   "date": "2025-11-03",
+   "account_id": "current",
+   "amount": -26.98,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "app-00003",
+   "date": "2025-11-05",
+   "account_id": "current",
+   "amount": -20,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "app-00005",
+   "date": "2025-11-05",
+   "account_id": "current",
+   "amount": -90,
+   "category": "debt_payment",
+   "subcategory": "consumer_loan",
+   "counterparty": "Kreditbank AG"
+  },
+  {
+   "id": "app-00004",
+   "date": "2025-11-07",
+   "account_id": "current",
+   "amount": -25,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "app-00020",
+   "date": "2025-11-08",
+   "account_id": "current",
+   "amount": -16.67,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "app-00006",
+   "date": "2025-11-12",
+   "account_id": "current",
+   "amount": -6,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "app-00018",
+   "date": "2025-11-16",
+   "account_id": "current",
+   "amount": -28.62,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "app-00010",
+   "date": "2025-11-17",
+   "account_id": "current",
+   "amount": -40.76,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00012",
+   "date": "2025-11-17",
+   "account_id": "current",
+   "amount": -17.33,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00017",
+   "date": "2025-11-17",
+   "account_id": "current",
+   "amount": -8.17,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "app-00008",
+   "date": "2025-11-19",
+   "account_id": "current",
+   "amount": -30.95,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00011",
+   "date": "2025-11-20",
+   "account_id": "current",
+   "amount": -1.76,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00016",
+   "date": "2025-11-20",
+   "account_id": "current",
+   "amount": -29.93,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00019",
+   "date": "2025-11-22",
+   "account_id": "current",
+   "amount": -28.4,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "app-00015",
+   "date": "2025-11-23",
+   "account_id": "current",
+   "amount": -4.19,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "app-00013",
+   "date": "2025-11-24",
+   "account_id": "current",
+   "amount": -52.44,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00001",
+   "date": "2025-11-27",
+   "account_id": "current",
+   "amount": 1150,
+   "category": "income",
+   "subcategory": "trainee_pay",
+   "counterparty": "Werkbau GmbH"
+  },
+  {
+   "id": "app-00021",
+   "date": "2025-11-28",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-app-20"
+  },
+  {
+   "id": "app-00022",
+   "date": "2025-11-28",
+   "account_id": "savings",
+   "amount": 100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-app-20"
+  },
+  {
+   "id": "app-00024",
+   "date": "2025-12-01",
+   "account_id": "current",
+   "amount": -420,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "app-00029",
+   "date": "2025-12-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "app-00032",
+   "date": "2025-12-03",
+   "account_id": "current",
+   "amount": -14.3,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00025",
+   "date": "2025-12-05",
+   "account_id": "current",
+   "amount": -20,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "app-00027",
+   "date": "2025-12-05",
+   "account_id": "current",
+   "amount": -90,
+   "category": "debt_payment",
+   "subcategory": "consumer_loan",
+   "counterparty": "Kreditbank AG"
+  },
+  {
+   "id": "app-00035",
+   "date": "2025-12-05",
+   "account_id": "current",
+   "amount": -45.76,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00026",
+   "date": "2025-12-07",
+   "account_id": "current",
+   "amount": -25,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "app-00033",
+   "date": "2025-12-08",
+   "account_id": "current",
+   "amount": -32.22,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00034",
+   "date": "2025-12-10",
+   "account_id": "current",
+   "amount": -10.88,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00028",
+   "date": "2025-12-12",
+   "account_id": "current",
+   "amount": -6,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "app-00031",
+   "date": "2025-12-12",
+   "account_id": "current",
+   "amount": -5.91,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00040",
+   "date": "2025-12-13",
+   "account_id": "current",
+   "amount": -13.82,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "app-00042",
+   "date": "2025-12-18",
+   "account_id": "current",
+   "amount": -11.68,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "app-00041",
+   "date": "2025-12-20",
+   "account_id": "current",
+   "amount": -33.76,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "app-00038",
+   "date": "2025-12-21",
+   "account_id": "current",
+   "amount": -1.94,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00039",
+   "date": "2025-12-21",
+   "account_id": "current",
+   "amount": -11.18,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "app-00036",
+   "date": "2025-12-25",
+   "account_id": "current",
+   "amount": -33.77,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "app-00030",
+   "date": "2025-12-26",
+   "account_id": "current",
+   "amount": -72.24,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00023",
+   "date": "2025-12-27",
+   "account_id": "current",
+   "amount": 1150,
+   "category": "income",
+   "subcategory": "trainee_pay",
+   "counterparty": "Werkbau GmbH"
+  },
+  {
+   "id": "app-00037",
+   "date": "2025-12-27",
+   "account_id": "current",
+   "amount": -19.2,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "app-00043",
+   "date": "2025-12-28",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-app-42"
+  },
+  {
+   "id": "app-00044",
+   "date": "2025-12-28",
+   "account_id": "savings",
+   "amount": 100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-app-42"
+  },
+  {
+   "id": "app-00046",
+   "date": "2026-01-01",
+   "account_id": "current",
+   "amount": -420,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "app-00051",
+   "date": "2026-01-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "app-00047",
+   "date": "2026-01-05",
+   "account_id": "current",
+   "amount": -20,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "app-00049",
+   "date": "2026-01-05",
+   "account_id": "current",
+   "amount": -90,
+   "category": "debt_payment",
+   "subcategory": "consumer_loan",
+   "counterparty": "Kreditbank AG"
+  },
+  {
+   "id": "app-00060",
+   "date": "2026-01-05",
+   "account_id": "current",
+   "amount": -22.34,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00062",
+   "date": "2026-01-05",
+   "account_id": "current",
+   "amount": -38.06,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "app-00063",
+   "date": "2026-01-05",
+   "account_id": "current",
+   "amount": -4.89,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "app-00048",
+   "date": "2026-01-07",
+   "account_id": "current",
+   "amount": -25,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "app-00057",
+   "date": "2026-01-07",
+   "account_id": "current",
+   "amount": -23.12,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00058",
+   "date": "2026-01-08",
+   "account_id": "current",
+   "amount": -29.66,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00055",
+   "date": "2026-01-09",
+   "account_id": "current",
+   "amount": -19.29,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00052",
+   "date": "2026-01-10",
+   "account_id": "current",
+   "amount": -8.94,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00050",
+   "date": "2026-01-12",
+   "account_id": "current",
+   "amount": -6,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "app-00054",
+   "date": "2026-01-13",
+   "account_id": "current",
+   "amount": -46.31,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00061",
+   "date": "2026-01-13",
+   "account_id": "current",
+   "amount": -3.34,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "app-00059",
+   "date": "2026-01-14",
+   "account_id": "current",
+   "amount": -14.23,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "app-00064",
+   "date": "2026-01-14",
+   "account_id": "current",
+   "amount": -36.22,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "app-00056",
+   "date": "2026-01-22",
+   "account_id": "current",
+   "amount": -74.17,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00053",
+   "date": "2026-01-25",
+   "account_id": "current",
+   "amount": -13.12,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00045",
+   "date": "2026-01-27",
+   "account_id": "current",
+   "amount": 1150,
+   "category": "income",
+   "subcategory": "trainee_pay",
+   "counterparty": "Werkbau GmbH"
+  },
+  {
+   "id": "app-00065",
+   "date": "2026-01-28",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-app-64"
+  },
+  {
+   "id": "app-00066",
+   "date": "2026-01-28",
+   "account_id": "savings",
+   "amount": 100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-app-64"
+  },
+  {
+   "id": "app-00068",
+   "date": "2026-02-01",
+   "account_id": "current",
+   "amount": -420,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "app-00073",
+   "date": "2026-02-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "app-00069",
+   "date": "2026-02-05",
+   "account_id": "current",
+   "amount": -20,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "app-00071",
+   "date": "2026-02-05",
+   "account_id": "current",
+   "amount": -90,
+   "category": "debt_payment",
+   "subcategory": "consumer_loan",
+   "counterparty": "Kreditbank AG"
+  },
+  {
+   "id": "app-00086",
+   "date": "2026-02-06",
+   "account_id": "current",
+   "amount": -12.01,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "app-00070",
+   "date": "2026-02-07",
+   "account_id": "current",
+   "amount": -25,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "app-00074",
+   "date": "2026-02-07",
+   "account_id": "current",
+   "amount": -30.08,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00079",
+   "date": "2026-02-08",
+   "account_id": "current",
+   "amount": -41.07,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00083",
+   "date": "2026-02-08",
+   "account_id": "current",
+   "amount": -13.41,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "app-00085",
+   "date": "2026-02-08",
+   "account_id": "current",
+   "amount": -28.28,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "app-00072",
+   "date": "2026-02-12",
+   "account_id": "current",
+   "amount": -6,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "app-00081",
+   "date": "2026-02-13",
+   "account_id": "current",
+   "amount": -4.99,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00075",
+   "date": "2026-02-15",
+   "account_id": "current",
+   "amount": -8.83,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00077",
+   "date": "2026-02-19",
+   "account_id": "current",
+   "amount": -18.76,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00078",
+   "date": "2026-02-21",
+   "account_id": "current",
+   "amount": -52.63,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00084",
+   "date": "2026-02-21",
+   "account_id": "current",
+   "amount": -35.13,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "app-00076",
+   "date": "2026-02-26",
+   "account_id": "current",
+   "amount": -8.62,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00080",
+   "date": "2026-02-26",
+   "account_id": "current",
+   "amount": -6.01,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00067",
+   "date": "2026-02-27",
+   "account_id": "current",
+   "amount": 1150,
+   "category": "income",
+   "subcategory": "trainee_pay",
+   "counterparty": "Werkbau GmbH"
+  },
+  {
+   "id": "app-00082",
+   "date": "2026-02-27",
+   "account_id": "current",
+   "amount": -53.7,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00087",
+   "date": "2026-02-28",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-app-86"
+  },
+  {
+   "id": "app-00088",
+   "date": "2026-02-28",
+   "account_id": "savings",
+   "amount": 100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-app-86"
+  },
+  {
+   "id": "app-00090",
+   "date": "2026-03-01",
+   "account_id": "current",
+   "amount": -420,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "app-00096",
+   "date": "2026-03-02",
+   "account_id": "current",
+   "amount": -43.57,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00095",
+   "date": "2026-03-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "app-00108",
+   "date": "2026-03-03",
+   "account_id": "current",
+   "amount": -1.56,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "app-00091",
+   "date": "2026-03-05",
+   "account_id": "current",
+   "amount": -20,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "app-00093",
+   "date": "2026-03-05",
+   "account_id": "current",
+   "amount": -90,
+   "category": "debt_payment",
+   "subcategory": "consumer_loan",
+   "counterparty": "Kreditbank AG"
+  },
+  {
+   "id": "app-00098",
+   "date": "2026-03-05",
+   "account_id": "current",
+   "amount": -8.11,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00103",
+   "date": "2026-03-05",
+   "account_id": "current",
+   "amount": -3.15,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "app-00092",
+   "date": "2026-03-07",
+   "account_id": "current",
+   "amount": -25,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "app-00097",
+   "date": "2026-03-07",
+   "account_id": "current",
+   "amount": -72.1,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00105",
+   "date": "2026-03-09",
+   "account_id": "current",
+   "amount": -29.38,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "app-00102",
+   "date": "2026-03-11",
+   "account_id": "current",
+   "amount": -36.35,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00094",
+   "date": "2026-03-12",
+   "account_id": "current",
+   "amount": -6,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "app-00099",
+   "date": "2026-03-15",
+   "account_id": "current",
+   "amount": -9.27,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00101",
+   "date": "2026-03-16",
+   "account_id": "current",
+   "amount": -21.17,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00107",
+   "date": "2026-03-16",
+   "account_id": "current",
+   "amount": -19.07,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "app-00106",
+   "date": "2026-03-18",
+   "account_id": "current",
+   "amount": -11.74,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "app-00100",
+   "date": "2026-03-20",
+   "account_id": "current",
+   "amount": -4.79,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00104",
+   "date": "2026-03-26",
+   "account_id": "current",
+   "amount": -1.84,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "app-00089",
+   "date": "2026-03-27",
+   "account_id": "current",
+   "amount": 1150,
+   "category": "income",
+   "subcategory": "trainee_pay",
+   "counterparty": "Werkbau GmbH"
+  },
+  {
+   "id": "app-00109",
+   "date": "2026-03-28",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-app-108"
+  },
+  {
+   "id": "app-00110",
+   "date": "2026-03-28",
+   "account_id": "savings",
+   "amount": 100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-app-108"
+  },
+  {
+   "id": "app-00112",
+   "date": "2026-04-01",
+   "account_id": "current",
+   "amount": -420,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "app-00117",
+   "date": "2026-04-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "app-00113",
+   "date": "2026-04-05",
+   "account_id": "current",
+   "amount": -20,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "app-00115",
+   "date": "2026-04-05",
+   "account_id": "current",
+   "amount": -90,
+   "category": "debt_payment",
+   "subcategory": "consumer_loan",
+   "counterparty": "Kreditbank AG"
+  },
+  {
+   "id": "app-00126",
+   "date": "2026-04-05",
+   "account_id": "current",
+   "amount": -10.12,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "app-00128",
+   "date": "2026-04-05",
+   "account_id": "current",
+   "amount": -25.83,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "app-00121",
+   "date": "2026-04-06",
+   "account_id": "current",
+   "amount": -7.18,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00114",
+   "date": "2026-04-07",
+   "account_id": "current",
+   "amount": -25,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "app-00119",
+   "date": "2026-04-09",
+   "account_id": "current",
+   "amount": -81.47,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00129",
+   "date": "2026-04-09",
+   "account_id": "current",
+   "amount": -15.01,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "app-00130",
+   "date": "2026-04-09",
+   "account_id": "current",
+   "amount": -4.99,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "app-00116",
+   "date": "2026-04-12",
+   "account_id": "current",
+   "amount": -6,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "app-00118",
+   "date": "2026-04-16",
+   "account_id": "current",
+   "amount": -5.3,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00122",
+   "date": "2026-04-18",
+   "account_id": "current",
+   "amount": -61.75,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00127",
+   "date": "2026-04-21",
+   "account_id": "current",
+   "amount": -17.02,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "app-00125",
+   "date": "2026-04-22",
+   "account_id": "current",
+   "amount": -19.08,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "app-00120",
+   "date": "2026-04-23",
+   "account_id": "current",
+   "amount": -8.51,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00123",
+   "date": "2026-04-26",
+   "account_id": "current",
+   "amount": -7.05,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00111",
+   "date": "2026-04-27",
+   "account_id": "current",
+   "amount": 1150,
+   "category": "income",
+   "subcategory": "trainee_pay",
+   "counterparty": "Werkbau GmbH"
+  },
+  {
+   "id": "app-00124",
+   "date": "2026-04-27",
+   "account_id": "current",
+   "amount": -4.06,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00131",
+   "date": "2026-04-28",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-app-130"
+  },
+  {
+   "id": "app-00132",
+   "date": "2026-04-28",
+   "account_id": "savings",
+   "amount": 100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-app-130"
+  },
+  {
+   "id": "app-00134",
+   "date": "2026-05-01",
+   "account_id": "current",
+   "amount": -420,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "app-00144",
+   "date": "2026-05-01",
+   "account_id": "current",
+   "amount": -34.8,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00145",
+   "date": "2026-05-01",
+   "account_id": "current",
+   "amount": -52.95,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00147",
+   "date": "2026-05-01",
+   "account_id": "current",
+   "amount": -9.61,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "app-00142",
+   "date": "2026-05-02",
+   "account_id": "current",
+   "amount": -22.92,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00265",
+   "date": "2026-05-02",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-app-264"
+  },
+  {
+   "id": "app-00266",
+   "date": "2026-05-02",
+   "account_id": "savings",
+   "amount": 300,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-app-264"
+  },
+  {
+   "id": "app-00139",
+   "date": "2026-05-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "app-00141",
+   "date": "2026-05-03",
+   "account_id": "current",
+   "amount": -16.43,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00135",
+   "date": "2026-05-05",
+   "account_id": "current",
+   "amount": -20,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "app-00137",
+   "date": "2026-05-05",
+   "account_id": "current",
+   "amount": -90,
+   "category": "debt_payment",
+   "subcategory": "consumer_loan",
+   "counterparty": "Kreditbank AG"
+  },
+  {
+   "id": "app-00136",
+   "date": "2026-05-07",
+   "account_id": "current",
+   "amount": -25,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "app-00150",
+   "date": "2026-05-09",
+   "account_id": "current",
+   "amount": -22.04,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "app-00151",
+   "date": "2026-05-09",
+   "account_id": "current",
+   "amount": -8.81,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "app-00138",
+   "date": "2026-05-12",
+   "account_id": "current",
+   "amount": -6,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "app-00267",
+   "date": "2026-05-12",
+   "account_id": "savings",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "from_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-app-266"
+  },
+  {
+   "id": "app-00268",
+   "date": "2026-05-12",
+   "account_id": "current",
+   "amount": 300,
+   "category": "transfer",
+   "subcategory": "from_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-app-266"
+  },
+  {
+   "id": "app-00149",
+   "date": "2026-05-13",
+   "account_id": "current",
+   "amount": -17.96,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "app-00143",
+   "date": "2026-05-15",
+   "account_id": "current",
+   "amount": -25.3,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00148",
+   "date": "2026-05-16",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00146",
+   "date": "2026-05-17",
+   "account_id": "current",
+   "amount": -51.21,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00140",
+   "date": "2026-05-23",
+   "account_id": "current",
+   "amount": -18.67,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00133",
+   "date": "2026-05-27",
+   "account_id": "current",
+   "amount": 1150,
+   "category": "income",
+   "subcategory": "trainee_pay",
+   "counterparty": "Werkbau GmbH"
+  },
+  {
+   "id": "app-00152",
+   "date": "2026-05-27",
+   "account_id": "current",
+   "amount": -39.4,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "app-00153",
+   "date": "2026-05-28",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-app-152"
+  },
+  {
+   "id": "app-00154",
+   "date": "2026-05-28",
+   "account_id": "savings",
+   "amount": 100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-app-152"
+  },
+  {
+   "id": "app-00156",
+   "date": "2026-06-01",
+   "account_id": "current",
+   "amount": -420,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "app-00166",
+   "date": "2026-06-01",
+   "account_id": "current",
+   "amount": -2.36,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00170",
+   "date": "2026-06-01",
+   "account_id": "current",
+   "amount": -9.54,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "app-00174",
+   "date": "2026-06-01",
+   "account_id": "current",
+   "amount": -10.31,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "app-00161",
+   "date": "2026-06-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "app-00157",
+   "date": "2026-06-05",
+   "account_id": "current",
+   "amount": -20,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "app-00159",
+   "date": "2026-06-05",
+   "account_id": "current",
+   "amount": -90,
+   "category": "debt_payment",
+   "subcategory": "consumer_loan",
+   "counterparty": "Kreditbank AG"
+  },
+  {
+   "id": "app-00167",
+   "date": "2026-06-06",
+   "account_id": "current",
+   "amount": -21.86,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00158",
+   "date": "2026-06-07",
+   "account_id": "current",
+   "amount": -25,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "app-00165",
+   "date": "2026-06-07",
+   "account_id": "current",
+   "amount": -32.99,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00163",
+   "date": "2026-06-10",
+   "account_id": "current",
+   "amount": -31.0,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00160",
+   "date": "2026-06-12",
+   "account_id": "current",
+   "amount": -6,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "app-00173",
+   "date": "2026-06-16",
+   "account_id": "current",
+   "amount": -27.45,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "app-00164",
+   "date": "2026-06-17",
+   "account_id": "current",
+   "amount": -54.67,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00172",
+   "date": "2026-06-20",
+   "account_id": "current",
+   "amount": -4.92,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "app-00171",
+   "date": "2026-06-24",
+   "account_id": "current",
+   "amount": -57.79,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "app-00155",
+   "date": "2026-06-27",
+   "account_id": "current",
+   "amount": 1150,
+   "category": "income",
+   "subcategory": "trainee_pay",
+   "counterparty": "Werkbau GmbH"
+  },
+  {
+   "id": "app-00168",
+   "date": "2026-06-27",
+   "account_id": "current",
+   "amount": -6.52,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "app-00169",
+   "date": "2026-06-27",
+   "account_id": "current",
+   "amount": -13.74,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00162",
+   "date": "2026-06-28",
+   "account_id": "current",
+   "amount": -13.29,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00175",
+   "date": "2026-06-28",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-app-174"
+  },
+  {
+   "id": "app-00176",
+   "date": "2026-06-28",
+   "account_id": "savings",
+   "amount": 100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-app-174"
+  },
+  {
+   "id": "app-00178",
+   "date": "2026-07-01",
+   "account_id": "current",
+   "amount": -420,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "app-00183",
+   "date": "2026-07-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "app-00186",
+   "date": "2026-07-03",
+   "account_id": "current",
+   "amount": -16.93,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00195",
+   "date": "2026-07-03",
+   "account_id": "current",
+   "amount": -16.23,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "app-00179",
+   "date": "2026-07-05",
+   "account_id": "current",
+   "amount": -20,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "app-00181",
+   "date": "2026-07-05",
+   "account_id": "current",
+   "amount": -90,
+   "category": "debt_payment",
+   "subcategory": "consumer_loan",
+   "counterparty": "Kreditbank AG"
+  },
+  {
+   "id": "app-00180",
+   "date": "2026-07-07",
+   "account_id": "current",
+   "amount": -25,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "app-00182",
+   "date": "2026-07-12",
+   "account_id": "current",
+   "amount": -6,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "app-00188",
+   "date": "2026-07-12",
+   "account_id": "current",
+   "amount": -32.73,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00193",
+   "date": "2026-07-13",
+   "account_id": "current",
+   "amount": -18.75,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "app-00185",
+   "date": "2026-07-14",
+   "account_id": "current",
+   "amount": -36.72,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00187",
+   "date": "2026-07-16",
+   "account_id": "current",
+   "amount": -56.18,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00191",
+   "date": "2026-07-17",
+   "account_id": "current",
+   "amount": -4.77,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00196",
+   "date": "2026-07-17",
+   "account_id": "current",
+   "amount": -16.05,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "app-00194",
+   "date": "2026-07-18",
+   "account_id": "current",
+   "amount": -29.97,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "app-00192",
+   "date": "2026-07-21",
+   "account_id": "current",
+   "amount": -47.74,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "app-00184",
+   "date": "2026-07-22",
+   "account_id": "current",
+   "amount": -47.92,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00189",
+   "date": "2026-07-23",
+   "account_id": "current",
+   "amount": -11.13,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00177",
+   "date": "2026-07-27",
+   "account_id": "current",
+   "amount": 1150,
+   "category": "income",
+   "subcategory": "trainee_pay",
+   "counterparty": "Werkbau GmbH"
+  },
+  {
+   "id": "app-00190",
+   "date": "2026-07-28",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "app-00197",
+   "date": "2026-07-28",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-app-196"
+  },
+  {
+   "id": "app-00198",
+   "date": "2026-07-28",
+   "account_id": "savings",
+   "amount": 100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-app-196"
+  },
+  {
+   "id": "app-00200",
+   "date": "2026-08-01",
+   "account_id": "current",
+   "amount": -420,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "app-00206",
+   "date": "2026-08-01",
+   "account_id": "current",
+   "amount": -6.0,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00205",
+   "date": "2026-08-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "app-00201",
+   "date": "2026-08-05",
+   "account_id": "current",
+   "amount": -20,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "app-00203",
+   "date": "2026-08-05",
+   "account_id": "current",
+   "amount": -90,
+   "category": "debt_payment",
+   "subcategory": "consumer_loan",
+   "counterparty": "Kreditbank AG"
+  },
+  {
+   "id": "app-00216",
+   "date": "2026-08-06",
+   "account_id": "current",
+   "amount": -41.97,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "app-00202",
+   "date": "2026-08-07",
+   "account_id": "current",
+   "amount": -25,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "app-00213",
+   "date": "2026-08-07",
+   "account_id": "current",
+   "amount": -28.99,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "app-00210",
+   "date": "2026-08-09",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00212",
+   "date": "2026-08-09",
+   "account_id": "current",
+   "amount": -3.54,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "app-00218",
+   "date": "2026-08-10",
+   "account_id": "current",
+   "amount": -35.88,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "app-00204",
+   "date": "2026-08-12",
+   "account_id": "current",
+   "amount": -6,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "app-00217",
+   "date": "2026-08-12",
+   "account_id": "current",
+   "amount": -26.13,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "app-00207",
+   "date": "2026-08-16",
+   "account_id": "current",
+   "amount": -62.58,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00209",
+   "date": "2026-08-18",
+   "account_id": "current",
+   "amount": -90.71,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00215",
+   "date": "2026-08-21",
+   "account_id": "current",
+   "amount": -25.93,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "app-00211",
+   "date": "2026-08-22",
+   "account_id": "current",
+   "amount": -12.44,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00208",
+   "date": "2026-08-25",
+   "account_id": "current",
+   "amount": -7.43,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00214",
+   "date": "2026-08-25",
+   "account_id": "current",
+   "amount": -3.23,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "app-00199",
+   "date": "2026-08-27",
+   "account_id": "current",
+   "amount": 1150,
+   "category": "income",
+   "subcategory": "trainee_pay",
+   "counterparty": "Werkbau GmbH"
+  },
+  {
+   "id": "app-00219",
+   "date": "2026-08-28",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-app-218"
+  },
+  {
+   "id": "app-00220",
+   "date": "2026-08-28",
+   "account_id": "savings",
+   "amount": 100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-app-218"
+  },
+  {
+   "id": "app-00222",
+   "date": "2026-09-01",
+   "account_id": "current",
+   "amount": -420,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "app-00238",
+   "date": "2026-09-01",
+   "account_id": "current",
+   "amount": -22.33,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "app-00227",
+   "date": "2026-09-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "app-00230",
+   "date": "2026-09-04",
+   "account_id": "current",
+   "amount": -6.83,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00236",
+   "date": "2026-09-04",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00223",
+   "date": "2026-09-05",
+   "account_id": "current",
+   "amount": -20,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "app-00225",
+   "date": "2026-09-05",
+   "account_id": "current",
+   "amount": -90,
+   "category": "debt_payment",
+   "subcategory": "consumer_loan",
+   "counterparty": "Kreditbank AG"
+  },
+  {
+   "id": "app-00229",
+   "date": "2026-09-06",
+   "account_id": "current",
+   "amount": -64.63,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00224",
+   "date": "2026-09-07",
+   "account_id": "current",
+   "amount": -25,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "app-00226",
+   "date": "2026-09-12",
+   "account_id": "current",
+   "amount": -6,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "app-00237",
+   "date": "2026-09-12",
+   "account_id": "current",
+   "amount": -21.21,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "app-00235",
+   "date": "2026-09-17",
+   "account_id": "current",
+   "amount": -26.05,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "app-00228",
+   "date": "2026-09-18",
+   "account_id": "current",
+   "amount": -1.15,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00231",
+   "date": "2026-09-20",
+   "account_id": "current",
+   "amount": -38.98,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00239",
+   "date": "2026-09-22",
+   "account_id": "current",
+   "amount": -7.89,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "app-00233",
+   "date": "2026-09-25",
+   "account_id": "current",
+   "amount": -22.01,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00232",
+   "date": "2026-09-26",
+   "account_id": "current",
+   "amount": -8.67,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00221",
+   "date": "2026-09-27",
+   "account_id": "current",
+   "amount": 1150,
+   "category": "income",
+   "subcategory": "trainee_pay",
+   "counterparty": "Werkbau GmbH"
+  },
+  {
+   "id": "app-00234",
+   "date": "2026-09-27",
+   "account_id": "current",
+   "amount": -19.17,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "app-00240",
+   "date": "2026-09-27",
+   "account_id": "current",
+   "amount": -30.19,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "app-00241",
+   "date": "2026-09-28",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-app-240"
+  },
+  {
+   "id": "app-00242",
+   "date": "2026-09-28",
+   "account_id": "savings",
+   "amount": 100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-app-240"
+  },
+  {
+   "id": "app-00244",
+   "date": "2026-10-01",
+   "account_id": "current",
+   "amount": -420,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "app-00249",
+   "date": "2026-10-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "app-00254",
+   "date": "2026-10-04",
+   "account_id": "current",
+   "amount": -8.73,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00245",
+   "date": "2026-10-05",
+   "account_id": "current",
+   "amount": -20,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "app-00247",
+   "date": "2026-10-05",
+   "account_id": "current",
+   "amount": -90,
+   "category": "debt_payment",
+   "subcategory": "consumer_loan",
+   "counterparty": "Kreditbank AG"
+  },
+  {
+   "id": "app-00251",
+   "date": "2026-10-05",
+   "account_id": "current",
+   "amount": -31.03,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00246",
+   "date": "2026-10-07",
+   "account_id": "current",
+   "amount": -25,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "app-00262",
+   "date": "2026-10-07",
+   "account_id": "current",
+   "amount": -17.39,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "app-00260",
+   "date": "2026-10-08",
+   "account_id": "current",
+   "amount": -15.44,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "app-00256",
+   "date": "2026-10-10",
+   "account_id": "current",
+   "amount": -26.63,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "app-00250",
+   "date": "2026-10-11",
+   "account_id": "current",
+   "amount": -35.99,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00248",
+   "date": "2026-10-12",
+   "account_id": "current",
+   "amount": -6,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "app-00252",
+   "date": "2026-10-18",
+   "account_id": "current",
+   "amount": -14.68,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "app-00257",
+   "date": "2026-10-20",
+   "account_id": "current",
+   "amount": -5.38,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "app-00259",
+   "date": "2026-10-21",
+   "account_id": "current",
+   "amount": -27.79,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "app-00261",
+   "date": "2026-10-22",
+   "account_id": "current",
+   "amount": -16.79,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "app-00253",
+   "date": "2026-10-24",
+   "account_id": "current",
+   "amount": -43.92,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "app-00255",
+   "date": "2026-10-24",
+   "account_id": "current",
+   "amount": -44.51,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "app-00243",
+   "date": "2026-10-27",
+   "account_id": "current",
+   "amount": 1150,
+   "category": "income",
+   "subcategory": "trainee_pay",
+   "counterparty": "Werkbau GmbH"
+  },
+  {
+   "id": "app-00258",
+   "date": "2026-10-27",
+   "account_id": "current",
+   "amount": -15.07,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "app-00263",
+   "date": "2026-10-28",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-app-262"
+  },
+  {
+   "id": "app-00264",
+   "date": "2026-10-28",
+   "account_id": "savings",
+   "amount": 100,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-app-262"
+  }
+ ],
+ "liabilities": [
+  {
+   "id": "loan",
+   "type": "consumer_loan",
+   "outstanding_start": 1800,
+   "outstanding_end": 840
+  }
+ ],
+ "securities": null,
+ "protection": {
+  "liability_insurance": true,
+  "disability_insurance": false,
+  "health_insurance": true,
+  "pension": {
+   "projected_monthly": 310
+  },
+  "documents": {
+   "power_of_attorney": false,
+   "will": false,
+   "emergency_folder": false
+  }
+ },
+ "life_events": [],
+ "risk_questionnaire": {
+  "answered_on": "2026-10-05",
+  "scale": "1-5",
+  "answers": {
+   "rt1": 2,
+   "rt2": 2,
+   "rt3": 4,
+   "rt4": 2,
+   "rt5": 4
+  },
+  "horizon_years": 6
+ },
+ "self_efficacy": {
+  "answered_on": "2026-10-05",
+  "scale": "1-5",
+  "answers": {
+   "se1": 4,
+   "se2": 4,
+   "se3": 3,
+   "se4": 3
+  }
+ },
+ "learning_events": [
+  {
+   "ts": "2026-01-03T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_mf1",
+   "domain": "money_fundamentals",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-01-04T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_mf2",
+   "domain": "money_fundamentals",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-01-05T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_mf3",
+   "domain": "money_fundamentals",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-01-06T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_cb1",
+   "domain": "credit_borrowing",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-01-07T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_cb2",
+   "domain": "credit_borrowing",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-01-08T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_cb3",
+   "domain": "credit_borrowing",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-01-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_budget"
+  },
+  {
+   "ts": "2026-02-09T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir1",
+   "domain": "investing_risk",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-02-10T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir2",
+   "domain": "investing_risk",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-10T18:35:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir1",
+   "domain": "investing_risk",
+   "attempt": 2,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-11T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir3",
+   "domain": "investing_risk",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-02-12T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_te1",
+   "domain": "tax_employment",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-12T18:35:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir3",
+   "domain": "investing_risk",
+   "attempt": 2,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_debt"
+  },
+  {
+   "ts": "2026-02-13T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_te2",
+   "domain": "tax_employment",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-02-14T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_te3",
+   "domain": "tax_employment",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-02-14T18:35:00",
+   "type": "quiz_answer",
+   "question_id": "q_te2",
+   "domain": "tax_employment",
+   "attempt": 2,
+   "correct": true
+  },
+  {
+   "ts": "2026-03-15T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ds1",
+   "domain": "digital_safety",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-03-16T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ds2",
+   "domain": "digital_safety",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-03-17T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ds3",
+   "domain": "digital_safety",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-03-18T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ad1",
+   "domain": "applied_decisions",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-03-18T18:35:00",
+   "type": "quiz_answer",
+   "question_id": "q_ds3",
+   "domain": "digital_safety",
+   "attempt": 2,
+   "correct": true
+  },
+  {
+   "ts": "2026-03-19T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ad2",
+   "domain": "applied_decisions",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-03-20T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ad3",
+   "domain": "applied_decisions",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-03-20T18:35:00",
+   "type": "quiz_answer",
+   "question_id": "q_ad2",
+   "domain": "applied_decisions",
+   "attempt": 2,
+   "correct": true
+  },
+  {
+   "ts": "2026-04-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_protect"
+  }
+ ]
+}

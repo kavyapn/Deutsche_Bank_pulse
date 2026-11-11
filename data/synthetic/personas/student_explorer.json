@@ -1,0 +1,2818 @@
+{
+ "schema_version": "0.1",
+ "synthetic": true,
+ "window": {
+  "start": "2025-11-01",
+  "end": "2026-10-31",
+  "months": [
+   "2025-11",
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07",
+   "2026-08",
+   "2026-09",
+   "2026-10"
+  ]
+ },
+ "profile": {
+  "persona_id": "student_explorer",
+  "name": "Mia",
+  "age": 20,
+  "tier": "start",
+  "personas": [
+   {
+    "id": "student_explorer",
+    "share": 1.0
+   }
+  ],
+  "income_type": "stable",
+  "story": "Second-year student in a shared flat. Lives on BAfoeG, a parental transfer and a mini-job. Saves small amounts, used buy-now-pay-later twice and paid one instalment late."
+ },
+ "accounts": [
+  {
+   "id": "current",
+   "type": "current",
+   "opening_balance": 180
+  },
+  {
+   "id": "savings",
+   "type": "savings",
+   "access": "instant",
+   "opening_balance": 900
+  }
+ ],
+ "transactions": [
+  {
+   "id": "stu-00001",
+   "date": "2025-11-01",
+   "account_id": "current",
+   "amount": 450,
+   "category": "income",
+   "subcategory": "student_grant",
+   "counterparty": "BAfoeG office"
+  },
+  {
+   "id": "stu-00004",
+   "date": "2025-11-02",
+   "account_id": "current",
+   "amount": -380,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "stu-00002",
+   "date": "2025-11-03",
+   "account_id": "current",
+   "amount": 250,
+   "category": "income",
+   "subcategory": "parental_transfer",
+   "counterparty": "Parents"
+  },
+  {
+   "id": "stu-00012",
+   "date": "2025-11-03",
+   "account_id": "current",
+   "amount": -5.99,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00022",
+   "date": "2025-11-04",
+   "account_id": "current",
+   "amount": -40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-stu-21"
+  },
+  {
+   "id": "stu-00023",
+   "date": "2025-11-04",
+   "account_id": "savings",
+   "amount": 40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-stu-21"
+  },
+  {
+   "id": "stu-00005",
+   "date": "2025-11-05",
+   "account_id": "current",
+   "amount": -15,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "stu-00006",
+   "date": "2025-11-07",
+   "account_id": "current",
+   "amount": -12,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "stu-00013",
+   "date": "2025-11-07",
+   "account_id": "current",
+   "amount": -5.04,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00018",
+   "date": "2025-11-07",
+   "account_id": "current",
+   "amount": -45.99,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "stu-00008",
+   "date": "2025-11-08",
+   "account_id": "current",
+   "amount": -31.14,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00020",
+   "date": "2025-11-09",
+   "account_id": "current",
+   "amount": -12.26,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  },
+  {
+   "id": "stu-00007",
+   "date": "2025-11-10",
+   "account_id": "current",
+   "amount": -20,
+   "category": "subscriptions",
+   "subcategory": "gym",
+   "counterparty": "University gym"
+  },
+  {
+   "id": "stu-00011",
+   "date": "2025-11-11",
+   "account_id": "current",
+   "amount": -37.82,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00014",
+   "date": "2025-11-11",
+   "account_id": "current",
+   "amount": -21.82,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "stu-00019",
+   "date": "2025-11-11",
+   "account_id": "current",
+   "amount": -25.32,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "stu-00016",
+   "date": "2025-11-14",
+   "account_id": "current",
+   "amount": -31.46,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "stu-00017",
+   "date": "2025-11-15",
+   "account_id": "current",
+   "amount": -3.09,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "stu-00009",
+   "date": "2025-11-16",
+   "account_id": "current",
+   "amount": -36.68,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00015",
+   "date": "2025-11-21",
+   "account_id": "current",
+   "amount": -6.26,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "stu-00003",
+   "date": "2025-11-26",
+   "account_id": "current",
+   "amount": 127,
+   "category": "income",
+   "subcategory": "mini_job",
+   "counterparty": "Cafe Morgenrot"
+  },
+  {
+   "id": "stu-00010",
+   "date": "2025-11-26",
+   "account_id": "current",
+   "amount": -28.5,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00021",
+   "date": "2025-11-26",
+   "account_id": "current",
+   "amount": -2.01,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  },
+  {
+   "id": "stu-00024",
+   "date": "2025-12-01",
+   "account_id": "current",
+   "amount": 450,
+   "category": "income",
+   "subcategory": "student_grant",
+   "counterparty": "BAfoeG office"
+  },
+  {
+   "id": "stu-00042",
+   "date": "2025-12-01",
+   "account_id": "current",
+   "amount": -28.41,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "stu-00027",
+   "date": "2025-12-02",
+   "account_id": "current",
+   "amount": -380,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "stu-00036",
+   "date": "2025-12-02",
+   "account_id": "current",
+   "amount": -19.99,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00025",
+   "date": "2025-12-03",
+   "account_id": "current",
+   "amount": 250,
+   "category": "income",
+   "subcategory": "parental_transfer",
+   "counterparty": "Parents"
+  },
+  {
+   "id": "stu-00045",
+   "date": "2025-12-04",
+   "account_id": "current",
+   "amount": -40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-stu-44"
+  },
+  {
+   "id": "stu-00046",
+   "date": "2025-12-04",
+   "account_id": "savings",
+   "amount": 40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-stu-44"
+  },
+  {
+   "id": "stu-00028",
+   "date": "2025-12-05",
+   "account_id": "current",
+   "amount": -15,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "stu-00029",
+   "date": "2025-12-07",
+   "account_id": "current",
+   "amount": -12,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "stu-00034",
+   "date": "2025-12-09",
+   "account_id": "current",
+   "amount": -50.84,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00030",
+   "date": "2025-12-10",
+   "account_id": "current",
+   "amount": -20,
+   "category": "subscriptions",
+   "subcategory": "gym",
+   "counterparty": "University gym"
+  },
+  {
+   "id": "stu-00032",
+   "date": "2025-12-12",
+   "account_id": "current",
+   "amount": -19.03,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00033",
+   "date": "2025-12-12",
+   "account_id": "current",
+   "amount": -31.46,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00039",
+   "date": "2025-12-16",
+   "account_id": "current",
+   "amount": -14.67,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "stu-00040",
+   "date": "2025-12-17",
+   "account_id": "current",
+   "amount": -21.61,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "stu-00044",
+   "date": "2025-12-18",
+   "account_id": "current",
+   "amount": -12.08,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  },
+  {
+   "id": "stu-00043",
+   "date": "2025-12-19",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  },
+  {
+   "id": "stu-00038",
+   "date": "2025-12-21",
+   "account_id": "current",
+   "amount": -24.86,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "stu-00037",
+   "date": "2025-12-24",
+   "account_id": "current",
+   "amount": -7.02,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "stu-00026",
+   "date": "2025-12-26",
+   "account_id": "current",
+   "amount": 152,
+   "category": "income",
+   "subcategory": "mini_job",
+   "counterparty": "Cafe Morgenrot"
+  },
+  {
+   "id": "stu-00031",
+   "date": "2025-12-26",
+   "account_id": "current",
+   "amount": -14.77,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00035",
+   "date": "2025-12-27",
+   "account_id": "current",
+   "amount": -19.86,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00041",
+   "date": "2025-12-28",
+   "account_id": "current",
+   "amount": -21.74,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "stu-00047",
+   "date": "2026-01-01",
+   "account_id": "current",
+   "amount": 450,
+   "category": "income",
+   "subcategory": "student_grant",
+   "counterparty": "BAfoeG office"
+  },
+  {
+   "id": "stu-00067",
+   "date": "2026-01-01",
+   "account_id": "current",
+   "amount": -26.34,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Bike repair"
+  },
+  {
+   "id": "stu-00050",
+   "date": "2026-01-02",
+   "account_id": "current",
+   "amount": -380,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "stu-00048",
+   "date": "2026-01-03",
+   "account_id": "current",
+   "amount": 250,
+   "category": "income",
+   "subcategory": "parental_transfer",
+   "counterparty": "Parents"
+  },
+  {
+   "id": "stu-00057",
+   "date": "2026-01-03",
+   "account_id": "current",
+   "amount": -2.55,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00062",
+   "date": "2026-01-03",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "stu-00068",
+   "date": "2026-01-04",
+   "account_id": "current",
+   "amount": -40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-stu-67"
+  },
+  {
+   "id": "stu-00069",
+   "date": "2026-01-04",
+   "account_id": "savings",
+   "amount": 40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-stu-67"
+  },
+  {
+   "id": "stu-00051",
+   "date": "2026-01-05",
+   "account_id": "current",
+   "amount": -15,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "stu-00054",
+   "date": "2026-01-06",
+   "account_id": "current",
+   "amount": -20.15,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00052",
+   "date": "2026-01-07",
+   "account_id": "current",
+   "amount": -12,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "stu-00060",
+   "date": "2026-01-07",
+   "account_id": "current",
+   "amount": -26.28,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "stu-00064",
+   "date": "2026-01-07",
+   "account_id": "current",
+   "amount": -2.8,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "stu-00063",
+   "date": "2026-01-09",
+   "account_id": "current",
+   "amount": -41.82,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "stu-00053",
+   "date": "2026-01-10",
+   "account_id": "current",
+   "amount": -20,
+   "category": "subscriptions",
+   "subcategory": "gym",
+   "counterparty": "University gym"
+  },
+  {
+   "id": "stu-00058",
+   "date": "2026-01-10",
+   "account_id": "current",
+   "amount": -2.44,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00065",
+   "date": "2026-01-11",
+   "account_id": "current",
+   "amount": -60.74,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "stu-00059",
+   "date": "2026-01-13",
+   "account_id": "current",
+   "amount": -27.39,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00056",
+   "date": "2026-01-15",
+   "account_id": "current",
+   "amount": -9.87,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00066",
+   "date": "2026-01-21",
+   "account_id": "current",
+   "amount": -2.78,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Bike repair"
+  },
+  {
+   "id": "stu-00061",
+   "date": "2026-01-22",
+   "account_id": "current",
+   "amount": -30.4,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "stu-00055",
+   "date": "2026-01-24",
+   "account_id": "current",
+   "amount": -81.19,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00049",
+   "date": "2026-01-26",
+   "account_id": "current",
+   "amount": 161,
+   "category": "income",
+   "subcategory": "mini_job",
+   "counterparty": "Cafe Morgenrot"
+  },
+  {
+   "id": "stu-00070",
+   "date": "2026-02-01",
+   "account_id": "current",
+   "amount": 450,
+   "category": "income",
+   "subcategory": "student_grant",
+   "counterparty": "BAfoeG office"
+  },
+  {
+   "id": "stu-00089",
+   "date": "2026-02-01",
+   "account_id": "current",
+   "amount": -40.7,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "stu-00073",
+   "date": "2026-02-02",
+   "account_id": "current",
+   "amount": -380,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "stu-00071",
+   "date": "2026-02-03",
+   "account_id": "current",
+   "amount": 250,
+   "category": "income",
+   "subcategory": "parental_transfer",
+   "counterparty": "Parents"
+  },
+  {
+   "id": "stu-00088",
+   "date": "2026-02-04",
+   "account_id": "current",
+   "amount": -6.95,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "stu-00074",
+   "date": "2026-02-05",
+   "account_id": "current",
+   "amount": -15,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "stu-00083",
+   "date": "2026-02-05",
+   "account_id": "current",
+   "amount": -30.08,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00092",
+   "date": "2026-02-05",
+   "account_id": "current",
+   "amount": -3.08,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  },
+  {
+   "id": "stu-00075",
+   "date": "2026-02-07",
+   "account_id": "current",
+   "amount": -12,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "stu-00086",
+   "date": "2026-02-07",
+   "account_id": "current",
+   "amount": -4.09,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "stu-00076",
+   "date": "2026-02-10",
+   "account_id": "current",
+   "amount": -20,
+   "category": "subscriptions",
+   "subcategory": "gym",
+   "counterparty": "University gym"
+  },
+  {
+   "id": "stu-00082",
+   "date": "2026-02-11",
+   "account_id": "current",
+   "amount": -14.16,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00084",
+   "date": "2026-02-12",
+   "account_id": "current",
+   "amount": -25.07,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00077",
+   "date": "2026-02-14",
+   "account_id": "current",
+   "amount": -320,
+   "category": "education",
+   "subcategory": "semester_fee",
+   "counterparty": "University"
+  },
+  {
+   "id": "stu-00078",
+   "date": "2026-02-15",
+   "account_id": "current",
+   "amount": -60,
+   "category": "debt_payment",
+   "subcategory": "bnpl_instalment",
+   "counterparty": "PayLater GmbH"
+  },
+  {
+   "id": "stu-00085",
+   "date": "2026-02-17",
+   "account_id": "current",
+   "amount": -24.46,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "stu-00091",
+   "date": "2026-02-17",
+   "account_id": "current",
+   "amount": -14.33,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Bike repair"
+  },
+  {
+   "id": "stu-00080",
+   "date": "2026-02-18",
+   "account_id": "current",
+   "amount": -4.45,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00081",
+   "date": "2026-02-18",
+   "account_id": "current",
+   "amount": -23.76,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00079",
+   "date": "2026-02-22",
+   "account_id": "current",
+   "amount": -30.55,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00087",
+   "date": "2026-02-22",
+   "account_id": "current",
+   "amount": -9.77,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "stu-00090",
+   "date": "2026-02-22",
+   "account_id": "current",
+   "amount": -40.15,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "stu-00072",
+   "date": "2026-02-26",
+   "account_id": "current",
+   "amount": 97,
+   "category": "income",
+   "subcategory": "mini_job",
+   "counterparty": "Cafe Morgenrot"
+  },
+  {
+   "id": "stu-00093",
+   "date": "2026-03-01",
+   "account_id": "current",
+   "amount": 450,
+   "category": "income",
+   "subcategory": "student_grant",
+   "counterparty": "BAfoeG office"
+  },
+  {
+   "id": "stu-00108",
+   "date": "2026-03-01",
+   "account_id": "current",
+   "amount": -33.44,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "stu-00096",
+   "date": "2026-03-02",
+   "account_id": "current",
+   "amount": -380,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "stu-00106",
+   "date": "2026-03-02",
+   "account_id": "current",
+   "amount": -38.79,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00094",
+   "date": "2026-03-03",
+   "account_id": "current",
+   "amount": 250,
+   "category": "income",
+   "subcategory": "parental_transfer",
+   "counterparty": "Parents"
+  },
+  {
+   "id": "stu-00113",
+   "date": "2026-03-03",
+   "account_id": "current",
+   "amount": -2.7,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  },
+  {
+   "id": "stu-00097",
+   "date": "2026-03-05",
+   "account_id": "current",
+   "amount": -15,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "stu-00098",
+   "date": "2026-03-07",
+   "account_id": "current",
+   "amount": -12,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "stu-00102",
+   "date": "2026-03-08",
+   "account_id": "current",
+   "amount": -28.44,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00099",
+   "date": "2026-03-10",
+   "account_id": "current",
+   "amount": -20,
+   "category": "subscriptions",
+   "subcategory": "gym",
+   "counterparty": "University gym"
+  },
+  {
+   "id": "stu-00101",
+   "date": "2026-03-10",
+   "account_id": "current",
+   "amount": -35.21,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00114",
+   "date": "2026-03-11",
+   "account_id": "current",
+   "amount": -19.55,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Bike repair"
+  },
+  {
+   "id": "stu-00100",
+   "date": "2026-03-15",
+   "account_id": "current",
+   "amount": -60,
+   "category": "debt_payment",
+   "subcategory": "bnpl_instalment",
+   "counterparty": "PayLater GmbH"
+  },
+  {
+   "id": "stu-00105",
+   "date": "2026-03-15",
+   "account_id": "current",
+   "amount": -8.61,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00109",
+   "date": "2026-03-15",
+   "account_id": "current",
+   "amount": -3.87,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "stu-00111",
+   "date": "2026-03-16",
+   "account_id": "current",
+   "amount": -27.44,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "stu-00103",
+   "date": "2026-03-19",
+   "account_id": "current",
+   "amount": -2.89,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00107",
+   "date": "2026-03-20",
+   "account_id": "current",
+   "amount": -1.3,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "stu-00110",
+   "date": "2026-03-20",
+   "account_id": "current",
+   "amount": -10.36,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "stu-00112",
+   "date": "2026-03-20",
+   "account_id": "current",
+   "amount": -58.64,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "stu-00276",
+   "date": "2026-03-22",
+   "account_id": "current",
+   "amount": -5,
+   "category": "fee",
+   "subcategory": "bnpl_late_fee",
+   "counterparty": "PayLater GmbH",
+   "flags": [
+    "late"
+   ]
+  },
+  {
+   "id": "stu-00104",
+   "date": "2026-03-24",
+   "account_id": "current",
+   "amount": -32.33,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00095",
+   "date": "2026-03-26",
+   "account_id": "current",
+   "amount": 116,
+   "category": "income",
+   "subcategory": "mini_job",
+   "counterparty": "Cafe Morgenrot"
+  },
+  {
+   "id": "stu-00115",
+   "date": "2026-04-01",
+   "account_id": "current",
+   "amount": 450,
+   "category": "income",
+   "subcategory": "student_grant",
+   "counterparty": "BAfoeG office"
+  },
+  {
+   "id": "stu-00132",
+   "date": "2026-04-01",
+   "account_id": "current",
+   "amount": -21.56,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "stu-00118",
+   "date": "2026-04-02",
+   "account_id": "current",
+   "amount": -380,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "stu-00135",
+   "date": "2026-04-02",
+   "account_id": "current",
+   "amount": -1.92,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  },
+  {
+   "id": "stu-00116",
+   "date": "2026-04-03",
+   "account_id": "current",
+   "amount": 250,
+   "category": "income",
+   "subcategory": "parental_transfer",
+   "counterparty": "Parents"
+  },
+  {
+   "id": "stu-00123",
+   "date": "2026-04-04",
+   "account_id": "current",
+   "amount": -36.62,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00131",
+   "date": "2026-04-04",
+   "account_id": "current",
+   "amount": -20.48,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "stu-00137",
+   "date": "2026-04-04",
+   "account_id": "current",
+   "amount": -40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-stu-136"
+  },
+  {
+   "id": "stu-00138",
+   "date": "2026-04-04",
+   "account_id": "savings",
+   "amount": 40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-stu-136"
+  },
+  {
+   "id": "stu-00119",
+   "date": "2026-04-05",
+   "account_id": "current",
+   "amount": -15,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "stu-00134",
+   "date": "2026-04-05",
+   "account_id": "current",
+   "amount": -22.83,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "stu-00126",
+   "date": "2026-04-06",
+   "account_id": "current",
+   "amount": -25.67,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00120",
+   "date": "2026-04-07",
+   "account_id": "current",
+   "amount": -12,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "stu-00121",
+   "date": "2026-04-10",
+   "account_id": "current",
+   "amount": -20,
+   "category": "subscriptions",
+   "subcategory": "gym",
+   "counterparty": "University gym"
+  },
+  {
+   "id": "stu-00122",
+   "date": "2026-04-15",
+   "account_id": "current",
+   "amount": -60,
+   "category": "debt_payment",
+   "subcategory": "bnpl_instalment",
+   "counterparty": "PayLater GmbH"
+  },
+  {
+   "id": "stu-00130",
+   "date": "2026-04-17",
+   "account_id": "current",
+   "amount": -13.87,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "stu-00133",
+   "date": "2026-04-17",
+   "account_id": "current",
+   "amount": -19.32,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "stu-00127",
+   "date": "2026-04-19",
+   "account_id": "current",
+   "amount": -64.05,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00136",
+   "date": "2026-04-20",
+   "account_id": "current",
+   "amount": -15.42,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Bike repair"
+  },
+  {
+   "id": "stu-00125",
+   "date": "2026-04-21",
+   "account_id": "current",
+   "amount": -4.5,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00129",
+   "date": "2026-04-23",
+   "account_id": "current",
+   "amount": -8.02,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "stu-00124",
+   "date": "2026-04-24",
+   "account_id": "current",
+   "amount": -3.67,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00128",
+   "date": "2026-04-24",
+   "account_id": "current",
+   "amount": -34.39,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00117",
+   "date": "2026-04-26",
+   "account_id": "current",
+   "amount": 188,
+   "category": "income",
+   "subcategory": "mini_job",
+   "counterparty": "Cafe Morgenrot"
+  },
+  {
+   "id": "stu-00139",
+   "date": "2026-05-01",
+   "account_id": "current",
+   "amount": 450,
+   "category": "income",
+   "subcategory": "student_grant",
+   "counterparty": "BAfoeG office"
+  },
+  {
+   "id": "stu-00142",
+   "date": "2026-05-02",
+   "account_id": "current",
+   "amount": -380,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "stu-00140",
+   "date": "2026-05-03",
+   "account_id": "current",
+   "amount": 250,
+   "category": "income",
+   "subcategory": "parental_transfer",
+   "counterparty": "Parents"
+  },
+  {
+   "id": "stu-00160",
+   "date": "2026-05-04",
+   "account_id": "current",
+   "amount": -40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-stu-159"
+  },
+  {
+   "id": "stu-00161",
+   "date": "2026-05-04",
+   "account_id": "savings",
+   "amount": 40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-stu-159"
+  },
+  {
+   "id": "stu-00143",
+   "date": "2026-05-05",
+   "account_id": "current",
+   "amount": -15,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "stu-00144",
+   "date": "2026-05-07",
+   "account_id": "current",
+   "amount": -12,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "stu-00158",
+   "date": "2026-05-07",
+   "account_id": "current",
+   "amount": -15.33,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  },
+  {
+   "id": "stu-00147",
+   "date": "2026-05-08",
+   "account_id": "current",
+   "amount": -11.1,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00153",
+   "date": "2026-05-08",
+   "account_id": "current",
+   "amount": -13.73,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "stu-00154",
+   "date": "2026-05-08",
+   "account_id": "current",
+   "amount": -30.54,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "stu-00157",
+   "date": "2026-05-09",
+   "account_id": "current",
+   "amount": -27.15,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "stu-00145",
+   "date": "2026-05-10",
+   "account_id": "current",
+   "amount": -20,
+   "category": "subscriptions",
+   "subcategory": "gym",
+   "counterparty": "University gym"
+  },
+  {
+   "id": "stu-00146",
+   "date": "2026-05-10",
+   "account_id": "current",
+   "amount": -8.9,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00152",
+   "date": "2026-05-10",
+   "account_id": "current",
+   "amount": -1.48,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "stu-00150",
+   "date": "2026-05-13",
+   "account_id": "current",
+   "amount": -68.05,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00156",
+   "date": "2026-05-16",
+   "account_id": "current",
+   "amount": -11.84,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "stu-00155",
+   "date": "2026-05-20",
+   "account_id": "current",
+   "amount": -8.16,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "stu-00149",
+   "date": "2026-05-21",
+   "account_id": "current",
+   "amount": -36.23,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00148",
+   "date": "2026-05-24",
+   "account_id": "current",
+   "amount": -23.06,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00159",
+   "date": "2026-05-25",
+   "account_id": "current",
+   "amount": -4.94,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Bike repair"
+  },
+  {
+   "id": "stu-00141",
+   "date": "2026-05-26",
+   "account_id": "current",
+   "amount": 191,
+   "category": "income",
+   "subcategory": "mini_job",
+   "counterparty": "Cafe Morgenrot"
+  },
+  {
+   "id": "stu-00151",
+   "date": "2026-05-26",
+   "account_id": "current",
+   "amount": -2.06,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00162",
+   "date": "2026-06-01",
+   "account_id": "current",
+   "amount": 450,
+   "category": "income",
+   "subcategory": "student_grant",
+   "counterparty": "BAfoeG office"
+  },
+  {
+   "id": "stu-00165",
+   "date": "2026-06-02",
+   "account_id": "current",
+   "amount": -380,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "stu-00175",
+   "date": "2026-06-02",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "stu-00176",
+   "date": "2026-06-02",
+   "account_id": "current",
+   "amount": -19.84,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "stu-00177",
+   "date": "2026-06-02",
+   "account_id": "current",
+   "amount": -22.26,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "stu-00163",
+   "date": "2026-06-03",
+   "account_id": "current",
+   "amount": 250,
+   "category": "income",
+   "subcategory": "parental_transfer",
+   "counterparty": "Parents"
+  },
+  {
+   "id": "stu-00183",
+   "date": "2026-06-04",
+   "account_id": "current",
+   "amount": -40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-stu-182"
+  },
+  {
+   "id": "stu-00184",
+   "date": "2026-06-04",
+   "account_id": "savings",
+   "amount": 40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-stu-182"
+  },
+  {
+   "id": "stu-00166",
+   "date": "2026-06-05",
+   "account_id": "current",
+   "amount": -15,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "stu-00178",
+   "date": "2026-06-05",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "stu-00167",
+   "date": "2026-06-07",
+   "account_id": "current",
+   "amount": -12,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "stu-00182",
+   "date": "2026-06-09",
+   "account_id": "current",
+   "amount": -3.77,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  },
+  {
+   "id": "stu-00168",
+   "date": "2026-06-10",
+   "account_id": "current",
+   "amount": -20,
+   "category": "subscriptions",
+   "subcategory": "gym",
+   "counterparty": "University gym"
+  },
+  {
+   "id": "stu-00179",
+   "date": "2026-06-13",
+   "account_id": "current",
+   "amount": -45.78,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "stu-00174",
+   "date": "2026-06-15",
+   "account_id": "current",
+   "amount": -18.09,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00170",
+   "date": "2026-06-20",
+   "account_id": "current",
+   "amount": -15.97,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00172",
+   "date": "2026-06-20",
+   "account_id": "current",
+   "amount": -11.69,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00169",
+   "date": "2026-06-21",
+   "account_id": "current",
+   "amount": -5.63,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00180",
+   "date": "2026-06-23",
+   "account_id": "current",
+   "amount": -41.68,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "stu-00181",
+   "date": "2026-06-24",
+   "account_id": "current",
+   "amount": -14.63,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  },
+  {
+   "id": "stu-00171",
+   "date": "2026-06-25",
+   "account_id": "current",
+   "amount": -78.02,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00164",
+   "date": "2026-06-26",
+   "account_id": "current",
+   "amount": 158,
+   "category": "income",
+   "subcategory": "mini_job",
+   "counterparty": "Cafe Morgenrot"
+  },
+  {
+   "id": "stu-00173",
+   "date": "2026-06-28",
+   "account_id": "current",
+   "amount": -38.69,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00185",
+   "date": "2026-07-01",
+   "account_id": "current",
+   "amount": 450,
+   "category": "income",
+   "subcategory": "student_grant",
+   "counterparty": "BAfoeG office"
+  },
+  {
+   "id": "stu-00188",
+   "date": "2026-07-02",
+   "account_id": "current",
+   "amount": -380,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "stu-00195",
+   "date": "2026-07-02",
+   "account_id": "current",
+   "amount": -24.46,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00204",
+   "date": "2026-07-02",
+   "account_id": "current",
+   "amount": -24.43,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  },
+  {
+   "id": "stu-00186",
+   "date": "2026-07-03",
+   "account_id": "current",
+   "amount": 250,
+   "category": "income",
+   "subcategory": "parental_transfer",
+   "counterparty": "Parents"
+  },
+  {
+   "id": "stu-00206",
+   "date": "2026-07-04",
+   "account_id": "current",
+   "amount": -40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-stu-205"
+  },
+  {
+   "id": "stu-00207",
+   "date": "2026-07-04",
+   "account_id": "savings",
+   "amount": 40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-stu-205"
+  },
+  {
+   "id": "stu-00189",
+   "date": "2026-07-05",
+   "account_id": "current",
+   "amount": -15,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "stu-00199",
+   "date": "2026-07-05",
+   "account_id": "current",
+   "amount": -20.52,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "stu-00190",
+   "date": "2026-07-07",
+   "account_id": "current",
+   "amount": -12,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "stu-00193",
+   "date": "2026-07-08",
+   "account_id": "current",
+   "amount": -16.42,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00205",
+   "date": "2026-07-09",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  },
+  {
+   "id": "stu-00191",
+   "date": "2026-07-10",
+   "account_id": "current",
+   "amount": -20,
+   "category": "subscriptions",
+   "subcategory": "gym",
+   "counterparty": "University gym"
+  },
+  {
+   "id": "stu-00192",
+   "date": "2026-07-16",
+   "account_id": "current",
+   "amount": -41.43,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00200",
+   "date": "2026-07-16",
+   "account_id": "current",
+   "amount": -22.61,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "stu-00203",
+   "date": "2026-07-16",
+   "account_id": "current",
+   "amount": -22.21,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "stu-00196",
+   "date": "2026-07-17",
+   "account_id": "current",
+   "amount": -10.71,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00198",
+   "date": "2026-07-20",
+   "account_id": "current",
+   "amount": -17.28,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "stu-00197",
+   "date": "2026-07-23",
+   "account_id": "current",
+   "amount": -35.25,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00202",
+   "date": "2026-07-24",
+   "account_id": "current",
+   "amount": -9.31,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "stu-00201",
+   "date": "2026-07-25",
+   "account_id": "current",
+   "amount": -31.72,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "stu-00187",
+   "date": "2026-07-26",
+   "account_id": "current",
+   "amount": 213,
+   "category": "income",
+   "subcategory": "mini_job",
+   "counterparty": "Cafe Morgenrot"
+  },
+  {
+   "id": "stu-00194",
+   "date": "2026-07-28",
+   "account_id": "current",
+   "amount": -17.32,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00208",
+   "date": "2026-08-01",
+   "account_id": "current",
+   "amount": 450,
+   "category": "income",
+   "subcategory": "student_grant",
+   "counterparty": "BAfoeG office"
+  },
+  {
+   "id": "stu-00211",
+   "date": "2026-08-02",
+   "account_id": "current",
+   "amount": -380,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "stu-00209",
+   "date": "2026-08-03",
+   "account_id": "current",
+   "amount": 250,
+   "category": "income",
+   "subcategory": "parental_transfer",
+   "counterparty": "Parents"
+  },
+  {
+   "id": "stu-00212",
+   "date": "2026-08-05",
+   "account_id": "current",
+   "amount": -15,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "stu-00222",
+   "date": "2026-08-05",
+   "account_id": "current",
+   "amount": -7.89,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "stu-00228",
+   "date": "2026-08-05",
+   "account_id": "current",
+   "amount": -2.57,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  },
+  {
+   "id": "stu-00213",
+   "date": "2026-08-07",
+   "account_id": "current",
+   "amount": -12,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "stu-00227",
+   "date": "2026-08-07",
+   "account_id": "current",
+   "amount": -36.36,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "stu-00214",
+   "date": "2026-08-10",
+   "account_id": "current",
+   "amount": -20,
+   "category": "subscriptions",
+   "subcategory": "gym",
+   "counterparty": "University gym"
+  },
+  {
+   "id": "stu-00220",
+   "date": "2026-08-12",
+   "account_id": "current",
+   "amount": -1.9,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00215",
+   "date": "2026-08-14",
+   "account_id": "current",
+   "amount": -320,
+   "category": "education",
+   "subcategory": "semester_fee",
+   "counterparty": "University"
+  },
+  {
+   "id": "stu-00229",
+   "date": "2026-08-16",
+   "account_id": "current",
+   "amount": -18.95,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  },
+  {
+   "id": "stu-00216",
+   "date": "2026-08-17",
+   "account_id": "current",
+   "amount": -10.87,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00224",
+   "date": "2026-08-17",
+   "account_id": "current",
+   "amount": -8.97,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "stu-00226",
+   "date": "2026-08-18",
+   "account_id": "current",
+   "amount": -18.27,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "stu-00225",
+   "date": "2026-08-22",
+   "account_id": "current",
+   "amount": -25.42,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "stu-00219",
+   "date": "2026-08-23",
+   "account_id": "current",
+   "amount": -9.77,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00217",
+   "date": "2026-08-24",
+   "account_id": "current",
+   "amount": -90.64,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00223",
+   "date": "2026-08-24",
+   "account_id": "current",
+   "amount": -33.01,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "stu-00218",
+   "date": "2026-08-25",
+   "account_id": "current",
+   "amount": -9.95,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00210",
+   "date": "2026-08-26",
+   "account_id": "current",
+   "amount": 162,
+   "category": "income",
+   "subcategory": "mini_job",
+   "counterparty": "Cafe Morgenrot"
+  },
+  {
+   "id": "stu-00221",
+   "date": "2026-08-27",
+   "account_id": "current",
+   "amount": -18.99,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00230",
+   "date": "2026-09-01",
+   "account_id": "current",
+   "amount": 450,
+   "category": "income",
+   "subcategory": "student_grant",
+   "counterparty": "BAfoeG office"
+  },
+  {
+   "id": "stu-00240",
+   "date": "2026-09-01",
+   "account_id": "current",
+   "amount": -19.45,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00233",
+   "date": "2026-09-02",
+   "account_id": "current",
+   "amount": -380,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "stu-00231",
+   "date": "2026-09-03",
+   "account_id": "current",
+   "amount": 250,
+   "category": "income",
+   "subcategory": "parental_transfer",
+   "counterparty": "Parents"
+  },
+  {
+   "id": "stu-00234",
+   "date": "2026-09-05",
+   "account_id": "current",
+   "amount": -15,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "stu-00242",
+   "date": "2026-09-05",
+   "account_id": "current",
+   "amount": -61.54,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00239",
+   "date": "2026-09-06",
+   "account_id": "current",
+   "amount": -47.47,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00235",
+   "date": "2026-09-07",
+   "account_id": "current",
+   "amount": -12,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "stu-00243",
+   "date": "2026-09-08",
+   "account_id": "current",
+   "amount": -18.01,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "stu-00236",
+   "date": "2026-09-10",
+   "account_id": "current",
+   "amount": -20,
+   "category": "subscriptions",
+   "subcategory": "gym",
+   "counterparty": "University gym"
+  },
+  {
+   "id": "stu-00249",
+   "date": "2026-09-10",
+   "account_id": "current",
+   "amount": -26.02,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "stu-00241",
+   "date": "2026-09-11",
+   "account_id": "current",
+   "amount": -2.87,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00245",
+   "date": "2026-09-11",
+   "account_id": "current",
+   "amount": -35.6,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "stu-00248",
+   "date": "2026-09-11",
+   "account_id": "current",
+   "amount": -35.56,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "stu-00237",
+   "date": "2026-09-15",
+   "account_id": "current",
+   "amount": -60,
+   "category": "debt_payment",
+   "subcategory": "bnpl_instalment",
+   "counterparty": "PayLater GmbH"
+  },
+  {
+   "id": "stu-00238",
+   "date": "2026-09-19",
+   "account_id": "current",
+   "amount": -9.46,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00251",
+   "date": "2026-09-22",
+   "account_id": "current",
+   "amount": -1.12,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Bike repair"
+  },
+  {
+   "id": "stu-00246",
+   "date": "2026-09-25",
+   "account_id": "current",
+   "amount": -4.81,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "stu-00232",
+   "date": "2026-09-26",
+   "account_id": "current",
+   "amount": 160,
+   "category": "income",
+   "subcategory": "mini_job",
+   "counterparty": "Cafe Morgenrot"
+  },
+  {
+   "id": "stu-00250",
+   "date": "2026-09-26",
+   "account_id": "current",
+   "amount": -17.02,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Bike repair"
+  },
+  {
+   "id": "stu-00244",
+   "date": "2026-09-28",
+   "account_id": "current",
+   "amount": -13.19,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "stu-00247",
+   "date": "2026-09-28",
+   "account_id": "current",
+   "amount": -17.87,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "stu-00252",
+   "date": "2026-10-01",
+   "account_id": "current",
+   "amount": 450,
+   "category": "income",
+   "subcategory": "student_grant",
+   "counterparty": "BAfoeG office"
+  },
+  {
+   "id": "stu-00255",
+   "date": "2026-10-02",
+   "account_id": "current",
+   "amount": -380,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Shared flat landlord"
+  },
+  {
+   "id": "stu-00266",
+   "date": "2026-10-02",
+   "account_id": "current",
+   "amount": -20.28,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "stu-00253",
+   "date": "2026-10-03",
+   "account_id": "current",
+   "amount": 250,
+   "category": "income",
+   "subcategory": "parental_transfer",
+   "counterparty": "Parents"
+  },
+  {
+   "id": "stu-00263",
+   "date": "2026-10-03",
+   "account_id": "current",
+   "amount": -64.71,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00274",
+   "date": "2026-10-04",
+   "account_id": "current",
+   "amount": -40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-stu-273"
+  },
+  {
+   "id": "stu-00275",
+   "date": "2026-10-04",
+   "account_id": "savings",
+   "amount": 40,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-stu-273"
+  },
+  {
+   "id": "stu-00256",
+   "date": "2026-10-05",
+   "account_id": "current",
+   "amount": -15,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "stu-00262",
+   "date": "2026-10-05",
+   "account_id": "current",
+   "amount": -27.34,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00257",
+   "date": "2026-10-07",
+   "account_id": "current",
+   "amount": -12,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "stu-00269",
+   "date": "2026-10-07",
+   "account_id": "current",
+   "amount": -36.49,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "stu-00258",
+   "date": "2026-10-10",
+   "account_id": "current",
+   "amount": -20,
+   "category": "subscriptions",
+   "subcategory": "gym",
+   "counterparty": "University gym"
+  },
+  {
+   "id": "stu-00271",
+   "date": "2026-10-12",
+   "account_id": "current",
+   "amount": -36.86,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "stu-00259",
+   "date": "2026-10-15",
+   "account_id": "current",
+   "amount": -60,
+   "category": "debt_payment",
+   "subcategory": "bnpl_instalment",
+   "counterparty": "PayLater GmbH"
+  },
+  {
+   "id": "stu-00260",
+   "date": "2026-10-15",
+   "account_id": "current",
+   "amount": -16.0,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00261",
+   "date": "2026-10-19",
+   "account_id": "current",
+   "amount": -21.08,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00267",
+   "date": "2026-10-20",
+   "account_id": "current",
+   "amount": -9.95,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "stu-00268",
+   "date": "2026-10-20",
+   "account_id": "current",
+   "amount": -10.22,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "stu-00264",
+   "date": "2026-10-22",
+   "account_id": "current",
+   "amount": -2.05,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "stu-00273",
+   "date": "2026-10-23",
+   "account_id": "current",
+   "amount": -10.64,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Bike repair"
+  },
+  {
+   "id": "stu-00265",
+   "date": "2026-10-25",
+   "account_id": "current",
+   "amount": -16.64,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "stu-00254",
+   "date": "2026-10-26",
+   "account_id": "current",
+   "amount": 149,
+   "category": "income",
+   "subcategory": "mini_job",
+   "counterparty": "Cafe Morgenrot"
+  },
+  {
+   "id": "stu-00270",
+   "date": "2026-10-26",
+   "account_id": "current",
+   "amount": -16.62,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "stu-00272",
+   "date": "2026-10-26",
+   "account_id": "current",
+   "amount": -10.82,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Regional train"
+  }
+ ],
+ "liabilities": [
+  {
+   "id": "bnpl",
+   "type": "bnpl",
+   "outstanding_end": 120
+  }
+ ],
+ "securities": null,
+ "protection": {
+  "liability_insurance": true,
+  "disability_insurance": false,
+  "health_insurance": true,
+  "pension": {
+   "projected_monthly": 0
+  },
+  "documents": {
+   "power_of_attorney": false,
+   "will": false,
+   "emergency_folder": false
+  }
+ },
+ "life_events": [
+  {
+   "id": "ev1",
+   "type": "university",
+   "status": "confirmed",
+   "confirmed_on": "2025-10-01",
+   "checklist": [
+    {
+     "item": "Semester costs planned",
+     "done": true
+    },
+    {
+     "item": "Grant application renewed",
+     "done": true
+    },
+    {
+     "item": "Liability cover checked",
+     "done": true
+    },
+    {
+     "item": "Buffer for semester fee",
+     "done": false
+    }
+   ]
+  }
+ ],
+ "risk_questionnaire": {
+  "answered_on": "2026-10-05",
+  "scale": "1-5",
+  "answers": {
+   "rt1": 3,
+   "rt2": 2,
+   "rt3": 4,
+   "rt4": 2,
+   "rt5": 4
+  },
+  "horizon_years": 4
+ },
+ "self_efficacy": {
+  "answered_on": "2026-10-05",
+  "scale": "1-5",
+  "answers": {
+   "se1": 3,
+   "se2": 3,
+   "se3": 4,
+   "se4": 3
+  }
+ },
+ "learning_events": [
+  {
+   "ts": "2025-12-03T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_mf1",
+   "domain": "money_fundamentals",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-12-04T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_mf2",
+   "domain": "money_fundamentals",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-12-05T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_mf3",
+   "domain": "money_fundamentals",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-12-06T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_cb1",
+   "domain": "credit_borrowing",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-12-07T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_cb2",
+   "domain": "credit_borrowing",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2025-12-08T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_cb3",
+   "domain": "credit_borrowing",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2025-12-08T18:35:00",
+   "type": "quiz_answer",
+   "question_id": "q_cb2",
+   "domain": "credit_borrowing",
+   "attempt": 2,
+   "correct": true
+  },
+  {
+   "ts": "2025-12-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_budget"
+  },
+  {
+   "ts": "2026-01-09T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir1",
+   "domain": "investing_risk",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-01-10T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir2",
+   "domain": "investing_risk",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-01-11T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir3",
+   "domain": "investing_risk",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-01-12T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_te1",
+   "domain": "tax_employment",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-01-12T18:35:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir3",
+   "domain": "investing_risk",
+   "attempt": 2,
+   "correct": true
+  },
+  {
+   "ts": "2026-01-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_emergency"
+  },
+  {
+   "ts": "2026-01-13T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_te2",
+   "domain": "tax_employment",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-01-14T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_te3",
+   "domain": "tax_employment",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-01-14T18:35:00",
+   "type": "quiz_answer",
+   "question_id": "q_te2",
+   "domain": "tax_employment",
+   "attempt": 2,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-15T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ds1",
+   "domain": "digital_safety",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-16T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ds2",
+   "domain": "digital_safety",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-17T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ds3",
+   "domain": "digital_safety",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-18T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ad1",
+   "domain": "applied_decisions",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-19T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ad2",
+   "domain": "applied_decisions",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-20T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ad3",
+   "domain": "applied_decisions",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-05-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_debt"
+  },
+  {
+   "ts": "2026-06-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_scam"
+  },
+  {
+   "ts": "2026-07-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_protect"
+  }
+ ]
+}

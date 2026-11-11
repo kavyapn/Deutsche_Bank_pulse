@@ -1,0 +1,3743 @@
+{
+ "schema_version": "0.1",
+ "synthetic": true,
+ "window": {
+  "start": "2025-11-01",
+  "end": "2026-10-31",
+  "months": [
+   "2025-11",
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07",
+   "2026-08",
+   "2026-09",
+   "2026-10"
+  ]
+ },
+ "profile": {
+  "persona_id": "freelance_creator",
+  "name": "Samira",
+  "age": 26,
+  "tier": "pro",
+  "personas": [
+   {
+    "id": "freelance_creator",
+    "share": 1.0
+   }
+  ],
+  "income_type": "variable",
+  "story": "Freelance designer with irregular invoices and quarterly tax prepayments. Saves in strong months. States a low risk tolerance but holds a concentrated equity portfolio and sold part of it during the market drawdown."
+ },
+ "accounts": [
+  {
+   "id": "current",
+   "type": "current",
+   "opening_balance": 1400
+  },
+  {
+   "id": "savings",
+   "type": "savings",
+   "access": "instant",
+   "opening_balance": 6000
+  },
+  {
+   "id": "securities",
+   "type": "securities"
+  }
+ ],
+ "transactions": [
+  {
+   "id": "fre-00003",
+   "date": "2025-11-01",
+   "account_id": "current",
+   "amount": -780,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "fre-00007",
+   "date": "2025-11-01",
+   "account_id": "current",
+   "amount": -380,
+   "category": "health",
+   "subcategory": "health_insurance",
+   "counterparty": "Health insurer"
+  },
+  {
+   "id": "fre-00012",
+   "date": "2025-11-02",
+   "account_id": "current",
+   "amount": -99.0,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00018",
+   "date": "2025-11-02",
+   "account_id": "current",
+   "amount": -8.55,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00019",
+   "date": "2025-11-02",
+   "account_id": "current",
+   "amount": -11.24,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00023",
+   "date": "2025-11-02",
+   "account_id": "current",
+   "amount": -7.44,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "fre-00004",
+   "date": "2025-11-03",
+   "account_id": "current",
+   "amount": -80,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "fre-00028",
+   "date": "2025-11-03",
+   "account_id": "current",
+   "amount": -28.03,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00009",
+   "date": "2025-11-04",
+   "account_id": "current",
+   "amount": -4.32,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00005",
+   "date": "2025-11-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "fre-00029",
+   "date": "2025-11-05",
+   "account_id": "current",
+   "amount": -35.02,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00026",
+   "date": "2025-11-06",
+   "account_id": "current",
+   "amount": -17.47,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "fre-00006",
+   "date": "2025-11-07",
+   "account_id": "current",
+   "amount": -60,
+   "category": "subscriptions",
+   "subcategory": "software",
+   "counterparty": "Design software"
+  },
+  {
+   "id": "fre-00027",
+   "date": "2025-11-07",
+   "account_id": "current",
+   "amount": -2.06,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Car sharing"
+  },
+  {
+   "id": "fre-00001",
+   "date": "2025-11-08",
+   "account_id": "current",
+   "amount": 2776,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client A"
+  },
+  {
+   "id": "fre-00025",
+   "date": "2025-11-08",
+   "account_id": "current",
+   "amount": -23.17,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "fre-00016",
+   "date": "2025-11-09",
+   "account_id": "current",
+   "amount": -50.03,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00008",
+   "date": "2025-11-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "fre-00011",
+   "date": "2025-11-12",
+   "account_id": "current",
+   "amount": -42.36,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00021",
+   "date": "2025-11-12",
+   "account_id": "current",
+   "amount": -40.31,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "fre-00014",
+   "date": "2025-11-13",
+   "account_id": "current",
+   "amount": -22.92,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00002",
+   "date": "2025-11-19",
+   "account_id": "current",
+   "amount": 897,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client B"
+  },
+  {
+   "id": "fre-00013",
+   "date": "2025-11-19",
+   "account_id": "current",
+   "amount": -24.0,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00015",
+   "date": "2025-11-20",
+   "account_id": "current",
+   "amount": -27.02,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00010",
+   "date": "2025-11-21",
+   "account_id": "current",
+   "amount": -38.75,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00024",
+   "date": "2025-11-21",
+   "account_id": "current",
+   "amount": -49.19,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "fre-00020",
+   "date": "2025-11-26",
+   "account_id": "current",
+   "amount": -45.4,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00022",
+   "date": "2025-11-27",
+   "account_id": "current",
+   "amount": -49.43,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "fre-00352",
+   "date": "2025-11-27",
+   "account_id": "current",
+   "amount": -600,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-fre-351"
+  },
+  {
+   "id": "fre-00353",
+   "date": "2025-11-27",
+   "account_id": "savings",
+   "amount": 600,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-fre-351"
+  },
+  {
+   "id": "fre-00017",
+   "date": "2025-11-28",
+   "account_id": "current",
+   "amount": -6.93,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00032",
+   "date": "2025-12-01",
+   "account_id": "current",
+   "amount": -780,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "fre-00036",
+   "date": "2025-12-01",
+   "account_id": "current",
+   "amount": -380,
+   "category": "health",
+   "subcategory": "health_insurance",
+   "counterparty": "Health insurer"
+  },
+  {
+   "id": "fre-00043",
+   "date": "2025-12-01",
+   "account_id": "current",
+   "amount": -2.5,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00033",
+   "date": "2025-12-03",
+   "account_id": "current",
+   "amount": -80,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "fre-00050",
+   "date": "2025-12-03",
+   "account_id": "current",
+   "amount": -8.29,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00047",
+   "date": "2025-12-04",
+   "account_id": "current",
+   "amount": -17.07,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00034",
+   "date": "2025-12-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "fre-00056",
+   "date": "2025-12-06",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "fre-00035",
+   "date": "2025-12-07",
+   "account_id": "current",
+   "amount": -60,
+   "category": "subscriptions",
+   "subcategory": "software",
+   "counterparty": "Design software"
+  },
+  {
+   "id": "fre-00048",
+   "date": "2025-12-07",
+   "account_id": "current",
+   "amount": -37.9,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00030",
+   "date": "2025-12-08",
+   "account_id": "current",
+   "amount": 2237,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client A"
+  },
+  {
+   "id": "fre-00049",
+   "date": "2025-12-08",
+   "account_id": "current",
+   "amount": -33.69,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00055",
+   "date": "2025-12-08",
+   "account_id": "current",
+   "amount": -37.54,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "fre-00038",
+   "date": "2025-12-10",
+   "account_id": "current",
+   "amount": -450,
+   "category": "tax",
+   "subcategory": "income_tax_prepayment",
+   "counterparty": "Tax office"
+  },
+  {
+   "id": "fre-00041",
+   "date": "2025-12-10",
+   "account_id": "current",
+   "amount": -79.65,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00037",
+   "date": "2025-12-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "fre-00374",
+   "date": "2025-12-14",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "investment_buy",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "fre-00046",
+   "date": "2025-12-16",
+   "account_id": "current",
+   "amount": -2.78,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "fre-00045",
+   "date": "2025-12-17",
+   "account_id": "current",
+   "amount": -74.07,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00039",
+   "date": "2025-12-18",
+   "account_id": "current",
+   "amount": -18.96,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00054",
+   "date": "2025-12-18",
+   "account_id": "current",
+   "amount": -24.01,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "fre-00031",
+   "date": "2025-12-19",
+   "account_id": "current",
+   "amount": 2298,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client B"
+  },
+  {
+   "id": "fre-00057",
+   "date": "2025-12-19",
+   "account_id": "current",
+   "amount": -59.16,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00052",
+   "date": "2025-12-21",
+   "account_id": "current",
+   "amount": -47.0,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "fre-00059",
+   "date": "2025-12-21",
+   "account_id": "current",
+   "amount": -9.76,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00040",
+   "date": "2025-12-24",
+   "account_id": "current",
+   "amount": -44.95,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00058",
+   "date": "2025-12-24",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00051",
+   "date": "2025-12-26",
+   "account_id": "current",
+   "amount": -8.74,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "fre-00042",
+   "date": "2025-12-27",
+   "account_id": "current",
+   "amount": -19.3,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00044",
+   "date": "2025-12-27",
+   "account_id": "current",
+   "amount": -22.82,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00354",
+   "date": "2025-12-27",
+   "account_id": "current",
+   "amount": -600,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-fre-353"
+  },
+  {
+   "id": "fre-00355",
+   "date": "2025-12-27",
+   "account_id": "savings",
+   "amount": 600,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-fre-353"
+  },
+  {
+   "id": "fre-00053",
+   "date": "2025-12-28",
+   "account_id": "current",
+   "amount": -29.7,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "fre-00062",
+   "date": "2026-01-01",
+   "account_id": "current",
+   "amount": -780,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "fre-00066",
+   "date": "2026-01-01",
+   "account_id": "current",
+   "amount": -380,
+   "category": "health",
+   "subcategory": "health_insurance",
+   "counterparty": "Health insurer"
+  },
+  {
+   "id": "fre-00079",
+   "date": "2026-01-01",
+   "account_id": "current",
+   "amount": -66.73,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "fre-00063",
+   "date": "2026-01-03",
+   "account_id": "current",
+   "amount": -80,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "fre-00069",
+   "date": "2026-01-03",
+   "account_id": "current",
+   "amount": -17.08,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00086",
+   "date": "2026-01-03",
+   "account_id": "current",
+   "amount": -40.97,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Car sharing"
+  },
+  {
+   "id": "fre-00084",
+   "date": "2026-01-04",
+   "account_id": "current",
+   "amount": -106.4,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "fre-00087",
+   "date": "2026-01-04",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Car sharing"
+  },
+  {
+   "id": "fre-00064",
+   "date": "2026-01-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "fre-00077",
+   "date": "2026-01-06",
+   "account_id": "current",
+   "amount": -59.12,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00080",
+   "date": "2026-01-06",
+   "account_id": "current",
+   "amount": -2.47,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "fre-00065",
+   "date": "2026-01-07",
+   "account_id": "current",
+   "amount": -60,
+   "category": "subscriptions",
+   "subcategory": "software",
+   "counterparty": "Design software"
+  },
+  {
+   "id": "fre-00060",
+   "date": "2026-01-08",
+   "account_id": "current",
+   "amount": 732,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client A"
+  },
+  {
+   "id": "fre-00068",
+   "date": "2026-01-08",
+   "account_id": "current",
+   "amount": -1.71,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00078",
+   "date": "2026-01-09",
+   "account_id": "current",
+   "amount": -1.28,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "fre-00082",
+   "date": "2026-01-10",
+   "account_id": "current",
+   "amount": -54.21,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "fre-00067",
+   "date": "2026-01-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "fre-00071",
+   "date": "2026-01-13",
+   "account_id": "current",
+   "amount": -40.83,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00072",
+   "date": "2026-01-13",
+   "account_id": "current",
+   "amount": -49.52,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00074",
+   "date": "2026-01-15",
+   "account_id": "current",
+   "amount": -28.68,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00076",
+   "date": "2026-01-15",
+   "account_id": "current",
+   "amount": -4.38,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00083",
+   "date": "2026-01-15",
+   "account_id": "current",
+   "amount": -1.94,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "fre-00070",
+   "date": "2026-01-16",
+   "account_id": "current",
+   "amount": -43.87,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00061",
+   "date": "2026-01-19",
+   "account_id": "current",
+   "amount": 1815,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client B"
+  },
+  {
+   "id": "fre-00075",
+   "date": "2026-01-19",
+   "account_id": "current",
+   "amount": -5.48,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00073",
+   "date": "2026-01-25",
+   "account_id": "current",
+   "amount": -34.07,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00081",
+   "date": "2026-01-26",
+   "account_id": "current",
+   "amount": -9.27,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "fre-00085",
+   "date": "2026-01-26",
+   "account_id": "current",
+   "amount": -52.12,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "fre-00088",
+   "date": "2026-01-26",
+   "account_id": "current",
+   "amount": -8.96,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Car sharing"
+  },
+  {
+   "id": "fre-00356",
+   "date": "2026-01-27",
+   "account_id": "current",
+   "amount": -200,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-fre-355"
+  },
+  {
+   "id": "fre-00357",
+   "date": "2026-01-27",
+   "account_id": "savings",
+   "amount": 200,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-fre-355"
+  },
+  {
+   "id": "fre-00090",
+   "date": "2026-02-01",
+   "account_id": "current",
+   "amount": -780,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "fre-00094",
+   "date": "2026-02-01",
+   "account_id": "current",
+   "amount": -380,
+   "category": "health",
+   "subcategory": "health_insurance",
+   "counterparty": "Health insurer"
+  },
+  {
+   "id": "fre-00091",
+   "date": "2026-02-03",
+   "account_id": "current",
+   "amount": -80,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "fre-00097",
+   "date": "2026-02-04",
+   "account_id": "current",
+   "amount": -15.03,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00092",
+   "date": "2026-02-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "fre-00109",
+   "date": "2026-02-06",
+   "account_id": "current",
+   "amount": -15.38,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "fre-00093",
+   "date": "2026-02-07",
+   "account_id": "current",
+   "amount": -60,
+   "category": "subscriptions",
+   "subcategory": "software",
+   "counterparty": "Design software"
+  },
+  {
+   "id": "fre-00104",
+   "date": "2026-02-07",
+   "account_id": "current",
+   "amount": -18.06,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00089",
+   "date": "2026-02-08",
+   "account_id": "current",
+   "amount": 1542,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client A"
+  },
+  {
+   "id": "fre-00101",
+   "date": "2026-02-08",
+   "account_id": "current",
+   "amount": -23.43,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00102",
+   "date": "2026-02-08",
+   "account_id": "current",
+   "amount": -47.82,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00112",
+   "date": "2026-02-08",
+   "account_id": "current",
+   "amount": -56.43,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "fre-00375",
+   "date": "2026-02-09",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "investment_buy",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "fre-00100",
+   "date": "2026-02-10",
+   "account_id": "current",
+   "amount": -4.89,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00098",
+   "date": "2026-02-11",
+   "account_id": "current",
+   "amount": -78.29,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00103",
+   "date": "2026-02-11",
+   "account_id": "current",
+   "amount": -5.19,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00095",
+   "date": "2026-02-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "fre-00096",
+   "date": "2026-02-12",
+   "account_id": "current",
+   "amount": -40.38,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00113",
+   "date": "2026-02-14",
+   "account_id": "current",
+   "amount": -85.95,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "fre-00115",
+   "date": "2026-02-17",
+   "account_id": "current",
+   "amount": -4.96,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00108",
+   "date": "2026-02-18",
+   "account_id": "current",
+   "amount": -12.79,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "fre-00111",
+   "date": "2026-02-20",
+   "account_id": "current",
+   "amount": -5.19,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "fre-00358",
+   "date": "2026-02-20",
+   "account_id": "savings",
+   "amount": -500,
+   "category": "transfer",
+   "subcategory": "from_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-fre-357"
+  },
+  {
+   "id": "fre-00359",
+   "date": "2026-02-20",
+   "account_id": "current",
+   "amount": 500,
+   "category": "transfer",
+   "subcategory": "from_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-fre-357"
+  },
+  {
+   "id": "fre-00099",
+   "date": "2026-02-22",
+   "account_id": "current",
+   "amount": -57.42,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00107",
+   "date": "2026-02-22",
+   "account_id": "current",
+   "amount": -67.79,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00110",
+   "date": "2026-02-23",
+   "account_id": "current",
+   "amount": -32.65,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "fre-00105",
+   "date": "2026-02-24",
+   "account_id": "current",
+   "amount": -14.78,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00116",
+   "date": "2026-02-26",
+   "account_id": "current",
+   "amount": -15.29,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00114",
+   "date": "2026-02-27",
+   "account_id": "current",
+   "amount": -38.9,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00106",
+   "date": "2026-02-28",
+   "account_id": "current",
+   "amount": -53.63,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "fre-00119",
+   "date": "2026-03-01",
+   "account_id": "current",
+   "amount": -780,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "fre-00123",
+   "date": "2026-03-01",
+   "account_id": "current",
+   "amount": -380,
+   "category": "health",
+   "subcategory": "health_insurance",
+   "counterparty": "Health insurer"
+  },
+  {
+   "id": "fre-00136",
+   "date": "2026-03-01",
+   "account_id": "current",
+   "amount": -19.47,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "fre-00135",
+   "date": "2026-03-02",
+   "account_id": "current",
+   "amount": -5.41,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "fre-00137",
+   "date": "2026-03-02",
+   "account_id": "current",
+   "amount": -8.41,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00120",
+   "date": "2026-03-03",
+   "account_id": "current",
+   "amount": -80,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "fre-00146",
+   "date": "2026-03-03",
+   "account_id": "current",
+   "amount": -6.56,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00144",
+   "date": "2026-03-04",
+   "account_id": "current",
+   "amount": -19.42,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00121",
+   "date": "2026-03-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "fre-00134",
+   "date": "2026-03-05",
+   "account_id": "current",
+   "amount": -50.59,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00143",
+   "date": "2026-03-05",
+   "account_id": "current",
+   "amount": -7.95,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "fre-00122",
+   "date": "2026-03-07",
+   "account_id": "current",
+   "amount": -60,
+   "category": "subscriptions",
+   "subcategory": "software",
+   "counterparty": "Design software"
+  },
+  {
+   "id": "fre-00117",
+   "date": "2026-03-08",
+   "account_id": "current",
+   "amount": 2891,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client A"
+  },
+  {
+   "id": "fre-00139",
+   "date": "2026-03-09",
+   "account_id": "current",
+   "amount": -9.56,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "fre-00145",
+   "date": "2026-03-09",
+   "account_id": "current",
+   "amount": -27.98,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00125",
+   "date": "2026-03-10",
+   "account_id": "current",
+   "amount": -450,
+   "category": "tax",
+   "subcategory": "income_tax_prepayment",
+   "counterparty": "Tax office"
+  },
+  {
+   "id": "fre-00124",
+   "date": "2026-03-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "fre-00128",
+   "date": "2026-03-13",
+   "account_id": "current",
+   "amount": -76.99,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00132",
+   "date": "2026-03-13",
+   "account_id": "current",
+   "amount": -55.5,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00142",
+   "date": "2026-03-14",
+   "account_id": "current",
+   "amount": -62.76,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "fre-00140",
+   "date": "2026-03-16",
+   "account_id": "current",
+   "amount": -9.54,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "fre-00118",
+   "date": "2026-03-19",
+   "account_id": "current",
+   "amount": 960,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client B"
+  },
+  {
+   "id": "fre-00127",
+   "date": "2026-03-19",
+   "account_id": "current",
+   "amount": -14.5,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00126",
+   "date": "2026-03-20",
+   "account_id": "current",
+   "amount": -63.66,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00133",
+   "date": "2026-03-21",
+   "account_id": "current",
+   "amount": -99.91,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00129",
+   "date": "2026-03-22",
+   "account_id": "current",
+   "amount": -11.0,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00141",
+   "date": "2026-03-23",
+   "account_id": "current",
+   "amount": -34.84,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "fre-00138",
+   "date": "2026-03-25",
+   "account_id": "current",
+   "amount": -25.9,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "fre-00130",
+   "date": "2026-03-26",
+   "account_id": "current",
+   "amount": -4.28,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00131",
+   "date": "2026-03-26",
+   "account_id": "current",
+   "amount": -16.73,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00360",
+   "date": "2026-03-27",
+   "account_id": "current",
+   "amount": -600,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-fre-359"
+  },
+  {
+   "id": "fre-00361",
+   "date": "2026-03-27",
+   "account_id": "savings",
+   "amount": 600,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-fre-359"
+  },
+  {
+   "id": "fre-00149",
+   "date": "2026-04-01",
+   "account_id": "current",
+   "amount": -780,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "fre-00153",
+   "date": "2026-04-01",
+   "account_id": "current",
+   "amount": -380,
+   "category": "health",
+   "subcategory": "health_insurance",
+   "counterparty": "Health insurer"
+  },
+  {
+   "id": "fre-00170",
+   "date": "2026-04-02",
+   "account_id": "current",
+   "amount": -65.13,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "fre-00150",
+   "date": "2026-04-03",
+   "account_id": "current",
+   "amount": -80,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "fre-00163",
+   "date": "2026-04-04",
+   "account_id": "current",
+   "amount": -41.27,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00151",
+   "date": "2026-04-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "fre-00175",
+   "date": "2026-04-05",
+   "account_id": "current",
+   "amount": -49.37,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00161",
+   "date": "2026-04-06",
+   "account_id": "current",
+   "amount": -3.65,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00165",
+   "date": "2026-04-06",
+   "account_id": "current",
+   "amount": -29.19,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "fre-00152",
+   "date": "2026-04-07",
+   "account_id": "current",
+   "amount": -60,
+   "category": "subscriptions",
+   "subcategory": "software",
+   "counterparty": "Design software"
+  },
+  {
+   "id": "fre-00155",
+   "date": "2026-04-07",
+   "account_id": "current",
+   "amount": -10.39,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00158",
+   "date": "2026-04-07",
+   "account_id": "current",
+   "amount": -29.84,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00160",
+   "date": "2026-04-07",
+   "account_id": "current",
+   "amount": -103.61,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00147",
+   "date": "2026-04-08",
+   "account_id": "current",
+   "amount": 2252,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client A"
+  },
+  {
+   "id": "fre-00162",
+   "date": "2026-04-11",
+   "account_id": "current",
+   "amount": -26.44,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00154",
+   "date": "2026-04-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "fre-00174",
+   "date": "2026-04-12",
+   "account_id": "current",
+   "amount": -8.4,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00171",
+   "date": "2026-04-13",
+   "account_id": "current",
+   "amount": -14.86,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "fre-00166",
+   "date": "2026-04-16",
+   "account_id": "current",
+   "amount": -1.76,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00168",
+   "date": "2026-04-17",
+   "account_id": "current",
+   "amount": -66.69,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "fre-00167",
+   "date": "2026-04-18",
+   "account_id": "current",
+   "amount": -3.15,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "fre-00148",
+   "date": "2026-04-19",
+   "account_id": "current",
+   "amount": 952,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client B"
+  },
+  {
+   "id": "fre-00164",
+   "date": "2026-04-19",
+   "account_id": "current",
+   "amount": -14.4,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00159",
+   "date": "2026-04-20",
+   "account_id": "current",
+   "amount": -50.95,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00376",
+   "date": "2026-04-21",
+   "account_id": "current",
+   "amount": 1200,
+   "category": "transfer",
+   "subcategory": "investment_sell",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "fre-00157",
+   "date": "2026-04-23",
+   "account_id": "current",
+   "amount": -27.84,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00172",
+   "date": "2026-04-24",
+   "account_id": "current",
+   "amount": -14.67,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "fre-00169",
+   "date": "2026-04-27",
+   "account_id": "current",
+   "amount": -6.93,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "fre-00362",
+   "date": "2026-04-27",
+   "account_id": "current",
+   "amount": -600,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-fre-361"
+  },
+  {
+   "id": "fre-00363",
+   "date": "2026-04-27",
+   "account_id": "savings",
+   "amount": 600,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-fre-361"
+  },
+  {
+   "id": "fre-00156",
+   "date": "2026-04-28",
+   "account_id": "current",
+   "amount": -36.4,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00173",
+   "date": "2026-04-28",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Car sharing"
+  },
+  {
+   "id": "fre-00178",
+   "date": "2026-05-01",
+   "account_id": "current",
+   "amount": -780,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "fre-00182",
+   "date": "2026-05-01",
+   "account_id": "current",
+   "amount": -380,
+   "category": "health",
+   "subcategory": "health_insurance",
+   "counterparty": "Health insurer"
+  },
+  {
+   "id": "fre-00179",
+   "date": "2026-05-03",
+   "account_id": "current",
+   "amount": -80,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "fre-00186",
+   "date": "2026-05-03",
+   "account_id": "current",
+   "amount": -4.04,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00192",
+   "date": "2026-05-04",
+   "account_id": "current",
+   "amount": -7.53,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00180",
+   "date": "2026-05-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "fre-00194",
+   "date": "2026-05-05",
+   "account_id": "current",
+   "amount": -35.54,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "fre-00181",
+   "date": "2026-05-07",
+   "account_id": "current",
+   "amount": -60,
+   "category": "subscriptions",
+   "subcategory": "software",
+   "counterparty": "Design software"
+  },
+  {
+   "id": "fre-00184",
+   "date": "2026-05-07",
+   "account_id": "current",
+   "amount": -129.94,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00187",
+   "date": "2026-05-07",
+   "account_id": "current",
+   "amount": -16.66,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00176",
+   "date": "2026-05-08",
+   "account_id": "current",
+   "amount": 384,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client A"
+  },
+  {
+   "id": "fre-00188",
+   "date": "2026-05-10",
+   "account_id": "current",
+   "amount": -14.38,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00190",
+   "date": "2026-05-10",
+   "account_id": "current",
+   "amount": -38.02,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00195",
+   "date": "2026-05-11",
+   "account_id": "current",
+   "amount": -79.09,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00202",
+   "date": "2026-05-11",
+   "account_id": "current",
+   "amount": -1.39,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00183",
+   "date": "2026-05-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "fre-00197",
+   "date": "2026-05-12",
+   "account_id": "current",
+   "amount": -13.99,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "fre-00201",
+   "date": "2026-05-12",
+   "account_id": "current",
+   "amount": -52.99,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "fre-00204",
+   "date": "2026-05-13",
+   "account_id": "current",
+   "amount": -51.56,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Car sharing"
+  },
+  {
+   "id": "fre-00199",
+   "date": "2026-05-16",
+   "account_id": "current",
+   "amount": -73.45,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "fre-00193",
+   "date": "2026-05-18",
+   "account_id": "current",
+   "amount": -5.8,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00177",
+   "date": "2026-05-19",
+   "account_id": "current",
+   "amount": 653,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client B"
+  },
+  {
+   "id": "fre-00198",
+   "date": "2026-05-19",
+   "account_id": "current",
+   "amount": -35.77,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "fre-00200",
+   "date": "2026-05-19",
+   "account_id": "current",
+   "amount": -8.04,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "fre-00364",
+   "date": "2026-05-20",
+   "account_id": "savings",
+   "amount": -500,
+   "category": "transfer",
+   "subcategory": "from_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-fre-363"
+  },
+  {
+   "id": "fre-00365",
+   "date": "2026-05-20",
+   "account_id": "current",
+   "amount": 500,
+   "category": "transfer",
+   "subcategory": "from_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-fre-363"
+  },
+  {
+   "id": "fre-00185",
+   "date": "2026-05-23",
+   "account_id": "current",
+   "amount": -6.04,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00191",
+   "date": "2026-05-23",
+   "account_id": "current",
+   "amount": -29.34,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "fre-00196",
+   "date": "2026-05-23",
+   "account_id": "current",
+   "amount": -3.99,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "fre-00189",
+   "date": "2026-05-24",
+   "account_id": "current",
+   "amount": -52.18,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00203",
+   "date": "2026-05-27",
+   "account_id": "current",
+   "amount": -5.91,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00207",
+   "date": "2026-06-01",
+   "account_id": "current",
+   "amount": -780,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "fre-00211",
+   "date": "2026-06-01",
+   "account_id": "current",
+   "amount": -380,
+   "category": "health",
+   "subcategory": "health_insurance",
+   "counterparty": "Health insurer"
+  },
+  {
+   "id": "fre-00216",
+   "date": "2026-06-02",
+   "account_id": "current",
+   "amount": -36.66,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00232",
+   "date": "2026-06-02",
+   "account_id": "current",
+   "amount": -15.29,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Car sharing"
+  },
+  {
+   "id": "fre-00208",
+   "date": "2026-06-03",
+   "account_id": "current",
+   "amount": -80,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "fre-00220",
+   "date": "2026-06-03",
+   "account_id": "current",
+   "amount": -16.85,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00234",
+   "date": "2026-06-03",
+   "account_id": "current",
+   "amount": -5.15,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00209",
+   "date": "2026-06-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "fre-00224",
+   "date": "2026-06-05",
+   "account_id": "current",
+   "amount": -21.44,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00229",
+   "date": "2026-06-06",
+   "account_id": "current",
+   "amount": -76.19,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "fre-00210",
+   "date": "2026-06-07",
+   "account_id": "current",
+   "amount": -60,
+   "category": "subscriptions",
+   "subcategory": "software",
+   "counterparty": "Design software"
+  },
+  {
+   "id": "fre-00205",
+   "date": "2026-06-08",
+   "account_id": "current",
+   "amount": 1851,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client A"
+  },
+  {
+   "id": "fre-00214",
+   "date": "2026-06-09",
+   "account_id": "current",
+   "amount": -63.86,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00213",
+   "date": "2026-06-10",
+   "account_id": "current",
+   "amount": -450,
+   "category": "tax",
+   "subcategory": "income_tax_prepayment",
+   "counterparty": "Tax office"
+  },
+  {
+   "id": "fre-00212",
+   "date": "2026-06-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "fre-00223",
+   "date": "2026-06-12",
+   "account_id": "current",
+   "amount": -2.89,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00222",
+   "date": "2026-06-18",
+   "account_id": "current",
+   "amount": -51.01,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00206",
+   "date": "2026-06-19",
+   "account_id": "current",
+   "amount": 1106,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client B"
+  },
+  {
+   "id": "fre-00221",
+   "date": "2026-06-19",
+   "account_id": "current",
+   "amount": -6.22,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00231",
+   "date": "2026-06-20",
+   "account_id": "current",
+   "amount": -22.35,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "fre-00225",
+   "date": "2026-06-21",
+   "account_id": "current",
+   "amount": -23.77,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00233",
+   "date": "2026-06-22",
+   "account_id": "current",
+   "amount": -37.27,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00226",
+   "date": "2026-06-23",
+   "account_id": "current",
+   "amount": -4.83,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "fre-00219",
+   "date": "2026-06-24",
+   "account_id": "current",
+   "amount": -3.61,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00228",
+   "date": "2026-06-24",
+   "account_id": "current",
+   "amount": -7.04,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "fre-00217",
+   "date": "2026-06-25",
+   "account_id": "current",
+   "amount": -35.94,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00218",
+   "date": "2026-06-25",
+   "account_id": "current",
+   "amount": -41.56,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00230",
+   "date": "2026-06-25",
+   "account_id": "current",
+   "amount": -16.13,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "fre-00227",
+   "date": "2026-06-27",
+   "account_id": "current",
+   "amount": -57.96,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "fre-00366",
+   "date": "2026-06-27",
+   "account_id": "current",
+   "amount": -200,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-fre-365"
+  },
+  {
+   "id": "fre-00367",
+   "date": "2026-06-27",
+   "account_id": "savings",
+   "amount": 200,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-fre-365"
+  },
+  {
+   "id": "fre-00215",
+   "date": "2026-06-28",
+   "account_id": "current",
+   "amount": -63.15,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00237",
+   "date": "2026-07-01",
+   "account_id": "current",
+   "amount": -780,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "fre-00241",
+   "date": "2026-07-01",
+   "account_id": "current",
+   "amount": -380,
+   "category": "health",
+   "subcategory": "health_insurance",
+   "counterparty": "Health insurer"
+  },
+  {
+   "id": "fre-00260",
+   "date": "2026-07-01",
+   "account_id": "current",
+   "amount": -5.15,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "fre-00238",
+   "date": "2026-07-03",
+   "account_id": "current",
+   "amount": -80,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "fre-00239",
+   "date": "2026-07-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "fre-00256",
+   "date": "2026-07-05",
+   "account_id": "current",
+   "amount": -9.8,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "fre-00258",
+   "date": "2026-07-05",
+   "account_id": "current",
+   "amount": -21.25,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "fre-00240",
+   "date": "2026-07-07",
+   "account_id": "current",
+   "amount": -60,
+   "category": "subscriptions",
+   "subcategory": "software",
+   "counterparty": "Design software"
+  },
+  {
+   "id": "fre-00235",
+   "date": "2026-07-08",
+   "account_id": "current",
+   "amount": 1123,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client A"
+  },
+  {
+   "id": "fre-00248",
+   "date": "2026-07-09",
+   "account_id": "current",
+   "amount": -36.23,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00254",
+   "date": "2026-07-11",
+   "account_id": "current",
+   "amount": -72.6,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "fre-00242",
+   "date": "2026-07-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "fre-00244",
+   "date": "2026-07-12",
+   "account_id": "current",
+   "amount": -29.83,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00249",
+   "date": "2026-07-12",
+   "account_id": "current",
+   "amount": -25.13,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00243",
+   "date": "2026-07-13",
+   "account_id": "current",
+   "amount": -81.29,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00257",
+   "date": "2026-07-13",
+   "account_id": "current",
+   "amount": -57.07,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "fre-00262",
+   "date": "2026-07-13",
+   "account_id": "current",
+   "amount": -32.69,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Car sharing"
+  },
+  {
+   "id": "fre-00255",
+   "date": "2026-07-15",
+   "account_id": "current",
+   "amount": -1.33,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "fre-00247",
+   "date": "2026-07-18",
+   "account_id": "current",
+   "amount": -13.08,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00251",
+   "date": "2026-07-18",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "fre-00236",
+   "date": "2026-07-19",
+   "account_id": "current",
+   "amount": 1636,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client B"
+  },
+  {
+   "id": "fre-00253",
+   "date": "2026-07-19",
+   "account_id": "current",
+   "amount": -1.95,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "fre-00261",
+   "date": "2026-07-19",
+   "account_id": "current",
+   "amount": -17.76,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00250",
+   "date": "2026-07-20",
+   "account_id": "current",
+   "amount": -8.22,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00263",
+   "date": "2026-07-20",
+   "account_id": "current",
+   "amount": -13.93,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Car sharing"
+  },
+  {
+   "id": "fre-00246",
+   "date": "2026-07-22",
+   "account_id": "current",
+   "amount": -11.71,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00259",
+   "date": "2026-07-26",
+   "account_id": "current",
+   "amount": -129.67,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "fre-00368",
+   "date": "2026-07-27",
+   "account_id": "current",
+   "amount": -200,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-fre-367"
+  },
+  {
+   "id": "fre-00369",
+   "date": "2026-07-27",
+   "account_id": "savings",
+   "amount": 200,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-fre-367"
+  },
+  {
+   "id": "fre-00245",
+   "date": "2026-07-28",
+   "account_id": "current",
+   "amount": -40.63,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00252",
+   "date": "2026-07-28",
+   "account_id": "current",
+   "amount": -12.92,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00266",
+   "date": "2026-08-01",
+   "account_id": "current",
+   "amount": -780,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "fre-00270",
+   "date": "2026-08-01",
+   "account_id": "current",
+   "amount": -380,
+   "category": "health",
+   "subcategory": "health_insurance",
+   "counterparty": "Health insurer"
+  },
+  {
+   "id": "fre-00267",
+   "date": "2026-08-03",
+   "account_id": "current",
+   "amount": -80,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "fre-00268",
+   "date": "2026-08-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "fre-00269",
+   "date": "2026-08-07",
+   "account_id": "current",
+   "amount": -60,
+   "category": "subscriptions",
+   "subcategory": "software",
+   "counterparty": "Design software"
+  },
+  {
+   "id": "fre-00282",
+   "date": "2026-08-07",
+   "account_id": "current",
+   "amount": -83.04,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00264",
+   "date": "2026-08-08",
+   "account_id": "current",
+   "amount": 1729,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client A"
+  },
+  {
+   "id": "fre-00277",
+   "date": "2026-08-09",
+   "account_id": "current",
+   "amount": -23.42,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00280",
+   "date": "2026-08-11",
+   "account_id": "current",
+   "amount": -9.23,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00271",
+   "date": "2026-08-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "fre-00281",
+   "date": "2026-08-12",
+   "account_id": "current",
+   "amount": -81.78,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00278",
+   "date": "2026-08-15",
+   "account_id": "current",
+   "amount": -7.58,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00285",
+   "date": "2026-08-15",
+   "account_id": "current",
+   "amount": -8.03,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "fre-00274",
+   "date": "2026-08-16",
+   "account_id": "current",
+   "amount": -72.84,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00286",
+   "date": "2026-08-16",
+   "account_id": "current",
+   "amount": -9.58,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "fre-00291",
+   "date": "2026-08-16",
+   "account_id": "current",
+   "amount": -24.32,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00276",
+   "date": "2026-08-17",
+   "account_id": "current",
+   "amount": -23.29,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00273",
+   "date": "2026-08-18",
+   "account_id": "current",
+   "amount": -57.33,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00265",
+   "date": "2026-08-19",
+   "account_id": "current",
+   "amount": 888,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client B"
+  },
+  {
+   "id": "fre-00275",
+   "date": "2026-08-19",
+   "account_id": "current",
+   "amount": -16.0,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00288",
+   "date": "2026-08-19",
+   "account_id": "current",
+   "amount": -6.85,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "fre-00272",
+   "date": "2026-08-20",
+   "account_id": "current",
+   "amount": -56.65,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00283",
+   "date": "2026-08-20",
+   "account_id": "current",
+   "amount": -17.5,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00279",
+   "date": "2026-08-21",
+   "account_id": "current",
+   "amount": -11.62,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00290",
+   "date": "2026-08-22",
+   "account_id": "current",
+   "amount": -21.88,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00292",
+   "date": "2026-08-22",
+   "account_id": "current",
+   "amount": -26.77,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00287",
+   "date": "2026-08-23",
+   "account_id": "current",
+   "amount": -62.68,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "fre-00289",
+   "date": "2026-08-23",
+   "account_id": "current",
+   "amount": -76.35,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "fre-00284",
+   "date": "2026-08-25",
+   "account_id": "current",
+   "amount": -77.75,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "fre-00370",
+   "date": "2026-08-27",
+   "account_id": "current",
+   "amount": -200,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-fre-369"
+  },
+  {
+   "id": "fre-00371",
+   "date": "2026-08-27",
+   "account_id": "savings",
+   "amount": 200,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-fre-369"
+  },
+  {
+   "id": "fre-00295",
+   "date": "2026-09-01",
+   "account_id": "current",
+   "amount": -780,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "fre-00299",
+   "date": "2026-09-01",
+   "account_id": "current",
+   "amount": -380,
+   "category": "health",
+   "subcategory": "health_insurance",
+   "counterparty": "Health insurer"
+  },
+  {
+   "id": "fre-00314",
+   "date": "2026-09-01",
+   "account_id": "current",
+   "amount": -21.37,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "fre-00296",
+   "date": "2026-09-03",
+   "account_id": "current",
+   "amount": -80,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "fre-00303",
+   "date": "2026-09-04",
+   "account_id": "current",
+   "amount": -29.84,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00297",
+   "date": "2026-09-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "fre-00298",
+   "date": "2026-09-07",
+   "account_id": "current",
+   "amount": -60,
+   "category": "subscriptions",
+   "subcategory": "software",
+   "counterparty": "Design software"
+  },
+  {
+   "id": "fre-00308",
+   "date": "2026-09-07",
+   "account_id": "current",
+   "amount": -88.83,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00310",
+   "date": "2026-09-07",
+   "account_id": "current",
+   "amount": -15.89,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00293",
+   "date": "2026-09-08",
+   "account_id": "current",
+   "amount": 265,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client A"
+  },
+  {
+   "id": "fre-00301",
+   "date": "2026-09-10",
+   "account_id": "current",
+   "amount": -450,
+   "category": "tax",
+   "subcategory": "income_tax_prepayment",
+   "counterparty": "Tax office"
+  },
+  {
+   "id": "fre-00319",
+   "date": "2026-09-10",
+   "account_id": "current",
+   "amount": -76.31,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "fre-00316",
+   "date": "2026-09-11",
+   "account_id": "current",
+   "amount": -49.96,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "fre-00300",
+   "date": "2026-09-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "fre-00317",
+   "date": "2026-09-13",
+   "account_id": "current",
+   "amount": -32.81,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "fre-00322",
+   "date": "2026-09-13",
+   "account_id": "current",
+   "amount": -8.18,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Car sharing"
+  },
+  {
+   "id": "fre-00321",
+   "date": "2026-09-14",
+   "account_id": "current",
+   "amount": -17.53,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Car sharing"
+  },
+  {
+   "id": "fre-00306",
+   "date": "2026-09-15",
+   "account_id": "current",
+   "amount": -2.57,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00305",
+   "date": "2026-09-17",
+   "account_id": "current",
+   "amount": -80.74,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00311",
+   "date": "2026-09-18",
+   "account_id": "current",
+   "amount": -23.78,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "fre-00294",
+   "date": "2026-09-19",
+   "account_id": "current",
+   "amount": 1346,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client B"
+  },
+  {
+   "id": "fre-00315",
+   "date": "2026-09-20",
+   "account_id": "current",
+   "amount": -13.04,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "fre-00318",
+   "date": "2026-09-20",
+   "account_id": "current",
+   "amount": -7.62,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "fre-00372",
+   "date": "2026-09-20",
+   "account_id": "savings",
+   "amount": -500,
+   "category": "transfer",
+   "subcategory": "from_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-fre-371"
+  },
+  {
+   "id": "fre-00373",
+   "date": "2026-09-20",
+   "account_id": "current",
+   "amount": 500,
+   "category": "transfer",
+   "subcategory": "from_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-fre-371"
+  },
+  {
+   "id": "fre-00307",
+   "date": "2026-09-24",
+   "account_id": "current",
+   "amount": -13.61,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00302",
+   "date": "2026-09-25",
+   "account_id": "current",
+   "amount": -36.36,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00320",
+   "date": "2026-09-25",
+   "account_id": "current",
+   "amount": -30.3,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Car sharing"
+  },
+  {
+   "id": "fre-00312",
+   "date": "2026-09-26",
+   "account_id": "current",
+   "amount": -3.38,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00313",
+   "date": "2026-09-26",
+   "account_id": "current",
+   "amount": -33.22,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00304",
+   "date": "2026-09-28",
+   "account_id": "current",
+   "amount": -7.15,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00309",
+   "date": "2026-09-28",
+   "account_id": "current",
+   "amount": -32.32,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00325",
+   "date": "2026-10-01",
+   "account_id": "current",
+   "amount": -780,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "fre-00329",
+   "date": "2026-10-01",
+   "account_id": "current",
+   "amount": -380,
+   "category": "health",
+   "subcategory": "health_insurance",
+   "counterparty": "Health insurer"
+  },
+  {
+   "id": "fre-00326",
+   "date": "2026-10-03",
+   "account_id": "current",
+   "amount": -80,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "fre-00333",
+   "date": "2026-10-03",
+   "account_id": "current",
+   "amount": -131.3,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "fre-00340",
+   "date": "2026-10-04",
+   "account_id": "current",
+   "amount": -17.87,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00350",
+   "date": "2026-10-04",
+   "account_id": "current",
+   "amount": -13.13,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Car sharing"
+  },
+  {
+   "id": "fre-00327",
+   "date": "2026-10-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "fre-00334",
+   "date": "2026-10-05",
+   "account_id": "current",
+   "amount": -1.06,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "fre-00346",
+   "date": "2026-10-06",
+   "account_id": "current",
+   "amount": -42.57,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "fre-00328",
+   "date": "2026-10-07",
+   "account_id": "current",
+   "amount": -60,
+   "category": "subscriptions",
+   "subcategory": "software",
+   "counterparty": "Design software"
+  },
+  {
+   "id": "fre-00336",
+   "date": "2026-10-07",
+   "account_id": "current",
+   "amount": -32.46,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00338",
+   "date": "2026-10-07",
+   "account_id": "current",
+   "amount": -48.49,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "fre-00323",
+   "date": "2026-10-08",
+   "account_id": "current",
+   "amount": 1618,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client A"
+  },
+  {
+   "id": "fre-00331",
+   "date": "2026-10-09",
+   "account_id": "current",
+   "amount": -22.9,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00351",
+   "date": "2026-10-09",
+   "account_id": "current",
+   "amount": -43.37,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Car sharing"
+  },
+  {
+   "id": "fre-00344",
+   "date": "2026-10-11",
+   "account_id": "current",
+   "amount": -54.29,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "fre-00330",
+   "date": "2026-10-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "fre-00335",
+   "date": "2026-10-13",
+   "account_id": "current",
+   "amount": -14.54,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00345",
+   "date": "2026-10-13",
+   "account_id": "current",
+   "amount": -23.46,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "fre-00342",
+   "date": "2026-10-14",
+   "account_id": "current",
+   "amount": -3.44,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00349",
+   "date": "2026-10-14",
+   "account_id": "current",
+   "amount": -4.83,
+   "category": "transport",
+   "subcategory": "local",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "fre-00343",
+   "date": "2026-10-15",
+   "account_id": "current",
+   "amount": -13.73,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "fre-00337",
+   "date": "2026-10-17",
+   "account_id": "current",
+   "amount": -78.86,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "fre-00348",
+   "date": "2026-10-17",
+   "account_id": "current",
+   "amount": -55.53,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "fre-00339",
+   "date": "2026-10-18",
+   "account_id": "current",
+   "amount": -57.71,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "fre-00324",
+   "date": "2026-10-19",
+   "account_id": "current",
+   "amount": 482,
+   "category": "income",
+   "subcategory": "freelance_invoice",
+   "counterparty": "Client B"
+  },
+  {
+   "id": "fre-00347",
+   "date": "2026-10-19",
+   "account_id": "current",
+   "amount": -20.98,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "fre-00341",
+   "date": "2026-10-21",
+   "account_id": "current",
+   "amount": -50.35,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "fre-00332",
+   "date": "2026-10-25",
+   "account_id": "current",
+   "amount": -18.74,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  }
+ ],
+ "liabilities": [],
+ "securities": {
+  "opening_positions": [
+   {
+    "instrument_id": "etf_world",
+    "units": 50.0
+   },
+   {
+    "instrument_id": "tech_stock",
+    "units": 40.0
+   }
+  ],
+  "plan": null,
+  "trades": [
+   {
+    "date": "2025-12-14",
+    "instrument_id": "tech_stock",
+    "side": "buy",
+    "amount": 300,
+    "units": 3.084776,
+    "price": 97.2518,
+    "source": "manual"
+   },
+   {
+    "date": "2026-02-09",
+    "instrument_id": "etf_world",
+    "side": "buy",
+    "amount": 300,
+    "units": 2.871896,
+    "price": 104.4606,
+    "source": "manual"
+   },
+   {
+    "date": "2026-04-21",
+    "instrument_id": "etf_world",
+    "side": "sell",
+    "amount": 1200,
+    "units": 11.410315,
+    "price": 105.168,
+    "source": "manual"
+   }
+  ]
+ },
+ "protection": {
+  "liability_insurance": true,
+  "disability_insurance": false,
+  "health_insurance": true,
+  "pension": {
+   "projected_monthly": 240
+  },
+  "documents": {
+   "power_of_attorney": false,
+   "will": false,
+   "emergency_folder": false
+  }
+ },
+ "life_events": [
+  {
+   "id": "ev1",
+   "type": "self_employment",
+   "status": "confirmed",
+   "confirmed_on": "2025-06-01",
+   "checklist": [
+    {
+     "item": "Business and private accounts separated",
+     "done": true
+    },
+    {
+     "item": "Tax reserve set up",
+     "done": true
+    },
+    {
+     "item": "Health insurance arranged",
+     "done": true
+    }
+   ]
+  }
+ ],
+ "risk_questionnaire": {
+  "answered_on": "2026-10-05",
+  "scale": "1-5",
+  "answers": {
+   "rt1": 3,
+   "rt2": 2,
+   "rt3": 4,
+   "rt4": 2,
+   "rt5": 4
+  },
+  "horizon_years": 8
+ },
+ "self_efficacy": {
+  "answered_on": "2026-10-05",
+  "scale": "1-5",
+  "answers": {
+   "se1": 3,
+   "se2": 4,
+   "se3": 3,
+   "se4": 4
+  }
+ },
+ "learning_events": [
+  {
+   "ts": "2026-02-03T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_mf1",
+   "domain": "money_fundamentals",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-04T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_mf2",
+   "domain": "money_fundamentals",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-05T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_mf3",
+   "domain": "money_fundamentals",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-06T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_cb1",
+   "domain": "credit_borrowing",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-07T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_cb2",
+   "domain": "credit_borrowing",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-02-08T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_cb3",
+   "domain": "credit_borrowing",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-08T18:35:00",
+   "type": "quiz_answer",
+   "question_id": "q_cb2",
+   "domain": "credit_borrowing",
+   "attempt": 2,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_budget"
+  },
+  {
+   "ts": "2026-03-09T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir1",
+   "domain": "investing_risk",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-03-10T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir2",
+   "domain": "investing_risk",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-03-11T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir3",
+   "domain": "investing_risk",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-03-12T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_te1",
+   "domain": "tax_employment",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-03-12T18:35:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir3",
+   "domain": "investing_risk",
+   "attempt": 2,
+   "correct": true
+  },
+  {
+   "ts": "2026-03-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_tax"
+  },
+  {
+   "ts": "2026-03-13T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_te2",
+   "domain": "tax_employment",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-03-14T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_te3",
+   "domain": "tax_employment",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-04-15T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ds1",
+   "domain": "digital_safety",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-04-16T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ds2",
+   "domain": "digital_safety",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-04-17T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ds3",
+   "domain": "digital_safety",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-04-18T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ad1",
+   "domain": "applied_decisions",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-04-19T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ad2",
+   "domain": "applied_decisions",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-04-20T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ad3",
+   "domain": "applied_decisions",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-05-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_invest"
+  },
+  {
+   "ts": "2026-07-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_diversify"
+  }
+ ]
+}

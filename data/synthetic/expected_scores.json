@@ -1,0 +1,1032 @@
+{
+ "schema_version": "0.1",
+ "synthetic": true,
+ "as_of": "2026-10-31",
+ "personas": {
+  "student_explorer": {
+   "persona_id": "student_explorer",
+   "name": "Mia",
+   "tier": "start",
+   "score": 63.3,
+   "level": 4,
+   "level_label": "Confident",
+   "gate_active": false,
+   "reference_score": 61.6,
+   "sub_scores": {
+    "F": 56.9,
+    "B": 78.9,
+    "Z": 38.9,
+    "L": 75.0,
+    "K": 65.5,
+    "E": 37.5
+   },
+   "weights": {
+    "F": 20.0,
+    "B": 30.0,
+    "Z": 10.0,
+    "L": 10.0,
+    "K": 20.0,
+    "E": 10.0
+   },
+   "event_overlay_active": false,
+   "indicator_points": {
+    "F1": 50.1,
+    "F2": 24.9,
+    "F3": 97.9,
+    "B1": 66.7,
+    "B2": 83.3,
+    "B3": 91.7,
+    "B4": null,
+    "Z1": null,
+    "Z2": 66.7,
+    "Z3": 0,
+    "L1": 75.0,
+    "K1": 71.7,
+    "K2": 56.2,
+    "E1": 37.5
+   },
+   "contributions": {
+    "F1": 4.009,
+    "F2": 1.495,
+    "F3": 5.874,
+    "B1": 8.0,
+    "B2": 8.333,
+    "B3": 7.333,
+    "Z2": 3.889,
+    "Z3": 0.0,
+    "L1": 7.5,
+    "K1": 8.6,
+    "K2": 4.5,
+    "E1": 3.75
+   },
+   "raw": {
+    "income_monthly_mean": 856.17,
+    "spending_monthly_mean": 802.62,
+    "essential_monthly_mean": 643.21,
+    "reserve_60d_average": 1198.67,
+    "emergency_fund_months": 1.86,
+    "savings_rate": 0.0311,
+    "consumer_debt": 120.0,
+    "consumer_debt_months_of_income": 0.14,
+    "saving_months": 8,
+    "months_within_budget": 10,
+    "months_without_late_event": 11,
+    "overdraft_days_total": 0
+   },
+   "spending_diagnostics": {
+    "fixed_cost_ratio": 0.7513,
+    "discretionary_share": 0.1986,
+    "subscriptions_monthly": 32.0,
+    "category_monthly_mean": {
+     "debt_payment": 25.0,
+     "education": 53.33,
+     "fee": 0.42,
+     "groceries": 149.98,
+     "housing": 380.0,
+     "leisure": 43.45,
+     "restaurants": 48.02,
+     "shopping": 35.53,
+     "subscriptions": 32.0,
+     "telecom": 15.0,
+     "transport": 19.89
+    }
+   },
+   "investing": {
+    "has_securities_account": false
+   },
+   "risk_profile": {
+    "tolerance": 30.0,
+    "capacity": 70.2,
+    "capacity_components": {
+     "emergency_fund": 50.1,
+     "income_stability": 92.7,
+     "debt": 97.9,
+     "horizon": 40
+    },
+    "effective": 30.0,
+    "band": "defensive",
+    "max_risk_asset_share": 0.3,
+    "tolerance_minus_capacity": -40.2,
+    "risk_knowledge_share": 0.6667
+   },
+   "knowledge": {
+    "domain_share_correct": {
+     "money_fundamentals": 1.0,
+     "credit_borrowing": 0.3333,
+     "investing_risk": 0.6667,
+     "tax_employment": 0.6667,
+     "digital_safety": 1.0,
+     "applied_decisions": 0.6667
+    },
+    "checkpoints": {
+     "cp_budget_3m": false,
+     "cp_emergency_3m": false,
+     "cp_bills_12m": false,
+     "cp_plan_6m": false,
+     "cp_diversified": false,
+     "cp_liability": true,
+     "cp_tax_refund": false
+    },
+    "lessons_completed": [
+     "l_budget",
+     "l_debt",
+     "l_emergency",
+     "l_protect",
+     "l_scam"
+    ],
+    "lessons_verified": [
+     "l_protect"
+    ],
+    "xp": 530,
+    "xp_level": 2
+   }
+  },
+  "apprentice_builder": {
+   "persona_id": "apprentice_builder",
+   "name": "Jonas",
+   "tier": "start",
+   "score": 74.3,
+   "level": 4,
+   "level_label": "Confident",
+   "gate_active": false,
+   "reference_score": 70.8,
+   "sub_scores": {
+    "F": 74.7,
+    "B": 100.0,
+    "Z": 36.8,
+    "L": null,
+    "K": 58.0,
+    "E": 37.5
+   },
+   "weights": {
+    "F": 27.78,
+    "B": 38.89,
+    "Z": 11.11,
+    "L": 0.0,
+    "K": 11.11,
+    "E": 11.11
+   },
+   "event_overlay_active": false,
+   "indicator_points": {
+    "F1": 73.4,
+    "F2": 62.2,
+    "F3": 89.0,
+    "B1": 100.0,
+    "B2": 100.0,
+    "B3": 100.0,
+    "B4": null,
+    "Z1": 33.7,
+    "Z2": 66.7,
+    "Z3": 0,
+    "L1": null,
+    "K1": 55.0,
+    "K2": 62.5,
+    "E1": 37.5
+   },
+   "contributions": {
+    "F1": 8.151,
+    "F2": 5.181,
+    "F3": 7.42,
+    "B1": 15.556,
+    "B2": 12.963,
+    "B3": 10.37,
+    "Z1": 1.498,
+    "Z2": 2.593,
+    "Z3": 0.0,
+    "K1": 3.667,
+    "K2": 2.778,
+    "E1": 4.167
+   },
+   "raw": {
+    "income_monthly_mean": 1150.0,
+    "spending_monthly_mean": 926.97,
+    "essential_monthly_mean": 768.42,
+    "reserve_60d_average": 2563.33,
+    "emergency_fund_months": 3.34,
+    "savings_rate": 0.087,
+    "consumer_debt": 840.0,
+    "consumer_debt_months_of_income": 0.73,
+    "saving_months": 12,
+    "months_within_budget": 12,
+    "months_without_late_event": 12,
+    "overdraft_days_total": 0
+   },
+   "spending_diagnostics": {
+    "fixed_cost_ratio": 0.6682,
+    "discretionary_share": 0.171,
+    "subscriptions_monthly": 25.0,
+    "category_monthly_mean": {
+     "debt_payment": 90.0,
+     "groceries": 172.42,
+     "housing": 420.0,
+     "insurance": 6.0,
+     "leisure": 45.15,
+     "restaurants": 49.64,
+     "shopping": 38.76,
+     "subscriptions": 25.0,
+     "telecom": 20.0,
+     "transport": 60.0
+    }
+   },
+   "investing": {
+    "has_securities_account": false
+   },
+   "risk_profile": {
+    "tolerance": 25.0,
+    "capacity": 83.1,
+    "capacity_components": {
+     "emergency_fund": 73.4,
+     "income_stability": 100.0,
+     "debt": 89.0,
+     "horizon": 70
+    },
+    "effective": 25.0,
+    "band": "defensive",
+    "max_risk_asset_share": 0.3,
+    "tolerance_minus_capacity": -58.1,
+    "risk_knowledge_share": 0.3333
+   },
+   "knowledge": {
+    "domain_share_correct": {
+     "money_fundamentals": 0.6667,
+     "credit_borrowing": 0.6667,
+     "investing_risk": 0.3333,
+     "tax_employment": 0.3333,
+     "digital_safety": 0.6667,
+     "applied_decisions": 0.6667
+    },
+    "checkpoints": {
+     "cp_budget_3m": true,
+     "cp_emergency_3m": true,
+     "cp_bills_12m": true,
+     "cp_plan_6m": false,
+     "cp_diversified": false,
+     "cp_liability": true,
+     "cp_tax_refund": false
+    },
+    "lessons_completed": [
+     "l_budget",
+     "l_debt",
+     "l_protect"
+    ],
+    "lessons_verified": [
+     "l_budget",
+     "l_debt",
+     "l_protect"
+    ],
+    "xp": 700,
+    "xp_level": 2
+   }
+  },
+  "first_salary_professional": {
+   "persona_id": "first_salary_professional",
+   "name": "Lena",
+   "tier": "pro",
+   "score": 70.2,
+   "level": 4,
+   "level_label": "Confident",
+   "gate_active": false,
+   "reference_score": 71.0,
+   "sub_scores": {
+    "F": 70.9,
+    "B": 93.6,
+    "Z": 48.1,
+    "L": 50.0,
+    "K": 77.5,
+    "E": 56.2
+   },
+   "weights": {
+    "F": 23.61,
+    "B": 28.33,
+    "Z": 14.17,
+    "L": 15.0,
+    "K": 9.44,
+    "E": 9.44
+   },
+   "event_overlay_active": true,
+   "indicator_points": {
+    "F1": 61.8,
+    "F2": 54.0,
+    "F3": 100.0,
+    "B1": 83.3,
+    "B2": 100.0,
+    "B3": 100.0,
+    "B4": 94.4,
+    "Z1": 41.0,
+    "Z2": 66.7,
+    "Z3": 33.3,
+    "L1": 50.0,
+    "K1": 83.3,
+    "K2": 68.8,
+    "E1": 56.2
+   },
+   "contributions": {
+    "F1": 5.837,
+    "F2": 3.825,
+    "F3": 7.083,
+    "B1": 7.083,
+    "B2": 7.083,
+    "B3": 5.667,
+    "B4": 6.69,
+    "Z1": 2.323,
+    "Z2": 3.306,
+    "Z3": 1.181,
+    "L1": 7.5,
+    "K1": 4.722,
+    "K2": 2.597,
+    "E1": 5.312
+   },
+   "raw": {
+    "income_monthly_mean": 2500.0,
+    "spending_monthly_mean": 1874.98,
+    "essential_monthly_mean": 1340.96,
+    "reserve_60d_average": 3395.0,
+    "emergency_fund_months": 2.53,
+    "savings_rate": 0.0733,
+    "consumer_debt": 0.0,
+    "consumer_debt_months_of_income": 0.0,
+    "saving_months": 10,
+    "months_within_budget": 12,
+    "months_without_late_event": 12,
+    "overdraft_days_total": 0
+   },
+   "spending_diagnostics": {
+    "fixed_cost_ratio": 0.5364,
+    "discretionary_share": 0.2848,
+    "subscriptions_monthly": 70.0,
+    "category_monthly_mean": {
+     "groceries": 290.37,
+     "health": 19.59,
+     "housing": 940.0,
+     "insurance": 6.0,
+     "leisure": 103.32,
+     "restaurants": 150.92,
+     "shopping": 132.28,
+     "subscriptions": 70.0,
+     "telecom": 25.0,
+     "transport": 60.0,
+     "travel": 77.5
+    }
+   },
+   "investing": {
+    "has_securities_account": true,
+    "portfolio_value_end": 3344.81,
+    "risk_asset_share": 0.4963,
+    "single_stock_and_crypto_share": 0.0,
+    "largest_position_share": 1.0,
+    "asset_classes": 1,
+    "trades_manual": 0,
+    "criteria": {
+     "plan_kept": 0.8333,
+     "no_panic_sale": 1.0,
+     "risk_consistent": 1.0
+    }
+   },
+   "risk_profile": {
+    "tolerance": 55.0,
+    "capacity": 90.5,
+    "capacity_components": {
+     "emergency_fund": 61.8,
+     "income_stability": 100.0,
+     "debt": 100.0,
+     "horizon": 100
+    },
+    "effective": 55.0,
+    "band": "balanced",
+    "max_risk_asset_share": 0.6,
+    "tolerance_minus_capacity": -35.5,
+    "risk_knowledge_share": 0.6667
+   },
+   "knowledge": {
+    "domain_share_correct": {
+     "money_fundamentals": 1.0,
+     "credit_borrowing": 0.6667,
+     "investing_risk": 0.6667,
+     "tax_employment": 1.0,
+     "digital_safety": 1.0,
+     "applied_decisions": 0.6667
+    },
+    "checkpoints": {
+     "cp_budget_3m": true,
+     "cp_emergency_3m": false,
+     "cp_bills_12m": true,
+     "cp_plan_6m": false,
+     "cp_diversified": true,
+     "cp_liability": true,
+     "cp_tax_refund": true
+    },
+    "lessons_completed": [
+     "l_budget",
+     "l_emergency",
+     "l_invest",
+     "l_protect",
+     "l_scam",
+     "l_tax"
+    ],
+    "lessons_verified": [
+     "l_budget",
+     "l_protect",
+     "l_tax"
+    ],
+    "xp": 900,
+    "xp_level": 2
+   }
+  },
+  "freelance_creator": {
+   "persona_id": "freelance_creator",
+   "name": "Samira",
+   "tier": "pro",
+   "score": 58.3,
+   "level": 3,
+   "level_label": "Stable",
+   "gate_active": false,
+   "reference_score": 57.2,
+   "sub_scores": {
+    "F": 72.1,
+    "B": 50.8,
+    "Z": 27.8,
+    "L": 100.0,
+    "K": 71.0,
+    "E": 25.0
+   },
+   "weights": {
+    "F": 30.0,
+    "B": 25.0,
+    "Z": 20.0,
+    "L": 10.0,
+    "K": 10.0,
+    "E": 5.0
+   },
+   "event_overlay_active": false,
+   "indicator_points": {
+    "F1": 85.0,
+    "F2": 27.1,
+    "F3": 100.0,
+    "B1": 33.3,
+    "B2": 83.3,
+    "B3": 100.0,
+    "B4": 0.0,
+    "Z1": 11.1,
+    "Z2": 66.7,
+    "Z3": 0,
+    "L1": 100,
+    "K1": 76.7,
+    "K2": 62.5,
+    "E1": 25.0
+   },
+   "contributions": {
+    "F1": 10.199,
+    "F2": 2.442,
+    "F3": 9.0,
+    "B1": 2.5,
+    "B2": 5.208,
+    "B3": 5.0,
+    "B4": 0.0,
+    "Z1": 0.888,
+    "Z2": 4.667,
+    "Z3": 0.0,
+    "L1": 10.0,
+    "K1": 4.6,
+    "K2": 2.5,
+    "E1": 1.25
+   },
+   "raw": {
+    "income_monthly_mean": 2702.75,
+    "spending_monthly_mean": 2138.73,
+    "essential_monthly_mean": 1744.91,
+    "reserve_60d_average": 7850.0,
+    "emergency_fund_months": 4.5,
+    "savings_rate": 0.0339,
+    "consumer_debt": 0.0,
+    "consumer_debt_months_of_income": 0.0,
+    "saving_months": 4,
+    "months_within_budget": 10,
+    "months_without_late_event": 12,
+    "overdraft_days_total": 3
+   },
+   "spending_diagnostics": {
+    "fixed_cost_ratio": 0.6456,
+    "discretionary_share": 0.1841,
+    "subscriptions_monthly": 60.0,
+    "category_monthly_mean": {
+     "groceries": 257.15,
+     "health": 380.0,
+     "housing": 860.0,
+     "insurance": 7.0,
+     "leisure": 74.51,
+     "restaurants": 138.68,
+     "shopping": 120.63,
+     "subscriptions": 60.0,
+     "tax": 150.0,
+     "telecom": 30.0,
+     "transport": 60.76
+    }
+   },
+   "investing": {
+    "has_securities_account": true,
+    "portfolio_value_end": 7954.86,
+    "risk_asset_share": 0.5033,
+    "single_stock_and_crypto_share": 0.4723,
+    "largest_position_share": 0.5277,
+    "asset_classes": 2,
+    "trades_manual": 3,
+    "criteria": {
+     "no_panic_sale": 0.0,
+     "risk_consistent": 0.0
+    }
+   },
+   "risk_profile": {
+    "tolerance": 30.0,
+    "capacity": 70.5,
+    "capacity_components": {
+     "emergency_fund": 85.0,
+     "income_stability": 27.1,
+     "debt": 100.0,
+     "horizon": 70
+    },
+    "effective": 30.0,
+    "band": "defensive",
+    "max_risk_asset_share": 0.3,
+    "tolerance_minus_capacity": -40.5,
+    "risk_knowledge_share": 0.3333
+   },
+   "knowledge": {
+    "domain_share_correct": {
+     "money_fundamentals": 1.0,
+     "credit_borrowing": 0.6667,
+     "investing_risk": 0.3333,
+     "tax_employment": 1.0,
+     "digital_safety": 1.0,
+     "applied_decisions": 0.6667
+    },
+    "checkpoints": {
+     "cp_budget_3m": false,
+     "cp_emergency_3m": true,
+     "cp_bills_12m": true,
+     "cp_plan_6m": false,
+     "cp_diversified": false,
+     "cp_liability": true,
+     "cp_tax_refund": false
+    },
+    "lessons_completed": [
+     "l_budget",
+     "l_diversify",
+     "l_invest",
+     "l_tax"
+    ],
+    "lessons_verified": [],
+    "xp": 340,
+    "xp_level": 1
+   }
+  },
+  "startup_founder": {
+   "persona_id": "startup_founder",
+   "name": "David",
+   "tier": "pro",
+   "score": 63.2,
+   "level": 4,
+   "level_label": "Confident",
+   "gate_active": false,
+   "reference_score": 65.2,
+   "sub_scores": {
+    "F": 70.0,
+    "B": 83.8,
+    "Z": 34.1,
+    "L": 60.0,
+    "K": 85.5,
+    "E": 25.0
+   },
+   "weights": {
+    "F": 28.24,
+    "B": 18.82,
+    "Z": 18.82,
+    "L": 20.0,
+    "K": 9.41,
+    "E": 4.71
+   },
+   "event_overlay_active": true,
+   "indicator_points": {
+    "F1": 100.0,
+    "F2": 0.0,
+    "F3": 100.0,
+    "B1": 58.3,
+    "B2": 91.7,
+    "B3": 91.7,
+    "B4": 100.0,
+    "Z1": 26.9,
+    "Z2": 66.7,
+    "Z3": 0,
+    "L1": 60.0,
+    "K1": 88.3,
+    "K2": 81.2,
+    "E1": 25.0
+   },
+   "contributions": {
+    "F1": 11.294,
+    "F2": 0.0,
+    "F3": 8.471,
+    "B1": 3.294,
+    "B2": 4.314,
+    "B3": 3.451,
+    "B4": 4.706,
+    "Z1": 2.024,
+    "Z2": 4.392,
+    "Z3": 0.0,
+    "L1": 12.0,
+    "K1": 4.988,
+    "K2": 3.059,
+    "E1": 1.176
+   },
+   "raw": {
+    "income_monthly_mean": 2000.0,
+    "spending_monthly_mean": 1665.41,
+    "essential_monthly_mean": 1150.57,
+    "reserve_60d_average": 8550.0,
+    "emergency_fund_months": 7.43,
+    "savings_rate": 0.0,
+    "consumer_debt": 0.0,
+    "consumer_debt_months_of_income": 0.0,
+    "saving_months": 7,
+    "months_within_budget": 11,
+    "months_without_late_event": 11,
+    "overdraft_days_total": 0
+   },
+   "spending_diagnostics": {
+    "fixed_cost_ratio": 0.5753,
+    "discretionary_share": 0.3091,
+    "subscriptions_monthly": 30.0,
+    "category_monthly_mean": {
+     "fee": 2.08,
+     "groceries": 278.57,
+     "housing": 775.0,
+     "insurance": 7.0,
+     "leisure": 115.78,
+     "restaurants": 220.13,
+     "shopping": 109.35,
+     "subscriptions": 30.0,
+     "telecom": 30.0,
+     "transport": 60.0,
+     "travel": 37.5
+    }
+   },
+   "investing": {
+    "has_securities_account": true,
+    "portfolio_value_end": 1385.07,
+    "risk_asset_share": 0.1394,
+    "single_stock_and_crypto_share": 1.0,
+    "largest_position_share": 1.0,
+    "asset_classes": 1,
+    "trades_manual": 1,
+    "criteria": {
+     "no_panic_sale": 1.0,
+     "risk_consistent": 1.0
+    }
+   },
+   "risk_profile": {
+    "tolerance": 90.0,
+    "capacity": 83.8,
+    "capacity_components": {
+     "emergency_fund": 100.0,
+     "income_stability": 65.4,
+     "debt": 100.0,
+     "horizon": 70
+    },
+    "effective": 83.8,
+    "band": "growth",
+    "max_risk_asset_share": 0.9,
+    "tolerance_minus_capacity": 6.2,
+    "risk_knowledge_share": 0.6667
+   },
+   "knowledge": {
+    "domain_share_correct": {
+     "money_fundamentals": 1.0,
+     "credit_borrowing": 1.0,
+     "investing_risk": 0.6667,
+     "tax_employment": 0.6667,
+     "digital_safety": 1.0,
+     "applied_decisions": 1.0
+    },
+    "checkpoints": {
+     "cp_budget_3m": false,
+     "cp_emergency_3m": true,
+     "cp_bills_12m": false,
+     "cp_plan_6m": false,
+     "cp_diversified": false,
+     "cp_liability": true,
+     "cp_tax_refund": false
+    },
+    "lessons_completed": [
+     "l_budget",
+     "l_diversify",
+     "l_emergency"
+    ],
+    "lessons_verified": [
+     "l_emergency"
+    ],
+    "xp": 460,
+    "xp_level": 1
+   }
+  },
+  "life_stage_planner": {
+   "persona_id": "life_stage_planner",
+   "name": "Hannah",
+   "tier": "pro",
+   "score": 79.3,
+   "level": 4,
+   "level_label": "Confident",
+   "gate_active": false,
+   "reference_score": 85.8,
+   "sub_scores": {
+    "F": 100.0,
+    "B": 100.0,
+    "Z": 68.8,
+    "L": 40.0,
+    "K": 89.5,
+    "E": 81.2
+   },
+   "weights": {
+    "F": 23.53,
+    "B": 23.53,
+    "Z": 23.53,
+    "L": 20.0,
+    "K": 4.71,
+    "E": 4.71
+   },
+   "event_overlay_active": true,
+   "indicator_points": {
+    "F1": 100.0,
+    "F2": 100.0,
+    "F3": 100.0,
+    "B1": 100.0,
+    "B2": 100.0,
+    "B3": 100.0,
+    "B4": 100.0,
+    "Z1": 63.6,
+    "Z2": 100,
+    "Z3": 33.3,
+    "L1": 40.0,
+    "K1": 95.0,
+    "K2": 81.2,
+    "E1": 81.2
+   },
+   "contributions": {
+    "F1": 9.412,
+    "F2": 7.059,
+    "F3": 7.059,
+    "B1": 7.059,
+    "B2": 5.882,
+    "B3": 4.706,
+    "B4": 5.882,
+    "Z1": 5.985,
+    "Z2": 8.235,
+    "Z3": 1.961,
+    "L1": 8.0,
+    "K1": 2.682,
+    "K2": 1.529,
+    "E1": 3.824
+   },
+   "raw": {
+    "income_monthly_mean": 3243.17,
+    "spending_monthly_mean": 2186.27,
+    "essential_monthly_mean": 1666.6,
+    "reserve_60d_average": 14158.33,
+    "emergency_fund_months": 8.5,
+    "savings_rate": 0.2004,
+    "consumer_debt": 0.0,
+    "consumer_debt_months_of_income": 0.0,
+    "saving_months": 12,
+    "months_within_budget": 12,
+    "months_without_late_event": 12,
+    "overdraft_days_total": 0
+   },
+   "spending_diagnostics": {
+    "fixed_cost_ratio": 0.5139,
+    "discretionary_share": 0.2377,
+    "subscriptions_monthly": 40.0,
+    "category_monthly_mean": {
+     "groceries": 385.38,
+     "health": 41.22,
+     "housing": 1060.0,
+     "insurance": 90.0,
+     "leisure": 91.23,
+     "restaurants": 131.57,
+     "shopping": 256.87,
+     "subscriptions": 40.0,
+     "telecom": 30.0,
+     "transport": 60.0
+    }
+   },
+   "investing": {
+    "has_securities_account": true,
+    "portfolio_value_end": 21886.2,
+    "risk_asset_share": 0.4552,
+    "single_stock_and_crypto_share": 0.0,
+    "largest_position_share": 0.7496,
+    "asset_classes": 3,
+    "trades_manual": 0,
+    "criteria": {
+     "plan_kept": 1.0,
+     "no_panic_sale": 1.0,
+     "risk_consistent": 1.0
+    }
+   },
+   "risk_profile": {
+    "tolerance": 60.0,
+    "capacity": 98.5,
+    "capacity_components": {
+     "emergency_fund": 100.0,
+     "income_stability": 94.0,
+     "debt": 100.0,
+     "horizon": 100
+    },
+    "effective": 60.0,
+    "band": "balanced",
+    "max_risk_asset_share": 0.6,
+    "tolerance_minus_capacity": -38.5,
+    "risk_knowledge_share": 1.0
+   },
+   "knowledge": {
+    "domain_share_correct": {
+     "money_fundamentals": 1.0,
+     "credit_borrowing": 1.0,
+     "investing_risk": 1.0,
+     "tax_employment": 0.6667,
+     "digital_safety": 1.0,
+     "applied_decisions": 1.0
+    },
+    "checkpoints": {
+     "cp_budget_3m": true,
+     "cp_emergency_3m": true,
+     "cp_bills_12m": true,
+     "cp_plan_6m": true,
+     "cp_diversified": true,
+     "cp_liability": true,
+     "cp_tax_refund": false
+    },
+    "lessons_completed": [
+     "l_budget",
+     "l_debt",
+     "l_diversify",
+     "l_emergency",
+     "l_invest",
+     "l_protect",
+     "l_scam"
+    ],
+    "lessons_verified": [
+     "l_budget",
+     "l_emergency",
+     "l_debt",
+     "l_invest",
+     "l_diversify",
+     "l_protect"
+    ],
+    "xp": 1420,
+    "xp_level": 3
+   }
+  },
+  "wealth_successor": {
+   "persona_id": "wealth_successor",
+   "name": "Felix",
+   "tier": "wealth",
+   "score": 52.0,
+   "level": 3,
+   "level_label": "Stable",
+   "gate_active": false,
+   "reference_score": 57.1,
+   "sub_scores": {
+    "F": 70.0,
+    "B": 74.2,
+    "Z": 39.0,
+    "L": 20.0,
+    "K": 69.5,
+    "E": 12.5
+   },
+   "weights": {
+    "F": 23.53,
+    "B": 18.82,
+    "Z": 28.24,
+    "L": 20.0,
+    "K": 9.41,
+    "E": 0.0
+   },
+   "event_overlay_active": true,
+   "indicator_points": {
+    "F1": 100.0,
+    "F2": 0.0,
+    "F3": 100.0,
+    "B1": 41.7,
+    "B2": 66.7,
+    "B3": 100.0,
+    "B4": 100.0,
+    "Z1": 39.3,
+    "Z2": 66.7,
+    "Z3": 0,
+    "L1": 20.0,
+    "K1": 78.3,
+    "K2": 56.2,
+    "E1": 12.5
+   },
+   "contributions": {
+    "F1": 9.412,
+    "F2": 0.0,
+    "F3": 7.059,
+    "B1": 2.353,
+    "B2": 3.137,
+    "B3": 3.765,
+    "B4": 4.706,
+    "Z1": 4.437,
+    "Z2": 6.588,
+    "Z3": 0.0,
+    "L1": 4.0,
+    "K1": 4.424,
+    "K2": 2.118,
+    "E1": 0.0
+   },
+   "raw": {
+    "income_monthly_mean": 3500.0,
+    "spending_monthly_mean": 3308.7,
+    "essential_monthly_mean": 1598.08,
+    "reserve_60d_average": 177525.0,
+    "emergency_fund_months": 111.09,
+    "savings_rate": 0.0,
+    "consumer_debt": 0.0,
+    "consumer_debt_months_of_income": 0.0,
+    "saving_months": 5,
+    "months_within_budget": 8,
+    "months_without_late_event": 12,
+    "overdraft_days_total": 0
+   },
+   "spending_diagnostics": {
+    "fixed_cost_ratio": 0.4566,
+    "discretionary_share": 0.517,
+    "subscriptions_monthly": 60.0,
+    "category_monthly_mean": {
+     "groceries": 290.08,
+     "housing": 1200.0,
+     "insurance": 8.0,
+     "leisure": 161.24,
+     "restaurants": 272.22,
+     "shopping": 800.49,
+     "subscriptions": 60.0,
+     "telecom": 40.0,
+     "transport": 60.0,
+     "travel": 416.67
+    }
+   },
+   "investing": {
+    "has_securities_account": true,
+    "portfolio_value_end": 62934.11,
+    "risk_asset_share": 0.2617,
+    "single_stock_and_crypto_share": 0.6461,
+    "largest_position_share": 0.6461,
+    "asset_classes": 2,
+    "trades_manual": 0,
+    "criteria": {
+     "no_panic_sale": 1.0,
+     "risk_consistent": 1.0
+    }
+   },
+   "risk_profile": {
+    "tolerance": 65.0,
+    "capacity": 100.0,
+    "capacity_components": {
+     "emergency_fund": 100.0,
+     "income_stability": 100.0,
+     "debt": 100.0,
+     "horizon": 100
+    },
+    "effective": 65.0,
+    "band": "growth",
+    "max_risk_asset_share": 0.9,
+    "tolerance_minus_capacity": -35.0,
+    "risk_knowledge_share": 0.6667
+   },
+   "knowledge": {
+    "domain_share_correct": {
+     "money_fundamentals": 1.0,
+     "credit_borrowing": 0.6667,
+     "investing_risk": 0.6667,
+     "tax_employment": 0.6667,
+     "digital_safety": 1.0,
+     "applied_decisions": 0.6667
+    },
+    "checkpoints": {
+     "cp_budget_3m": false,
+     "cp_emergency_3m": true,
+     "cp_bills_12m": true,
+     "cp_plan_6m": false,
+     "cp_diversified": false,
+     "cp_liability": true,
+     "cp_tax_refund": false
+    },
+    "lessons_completed": [
+     "l_diversify",
+     "l_invest"
+    ],
+    "lessons_verified": [],
+    "xp": 240,
+    "xp_level": 1
+   }
+  }
+ }
+}

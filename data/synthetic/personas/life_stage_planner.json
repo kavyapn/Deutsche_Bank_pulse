@@ -1,0 +1,4079 @@
+{
+ "schema_version": "0.1",
+ "synthetic": true,
+ "window": {
+  "start": "2025-11-01",
+  "end": "2026-10-31",
+  "months": [
+   "2025-11",
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07",
+   "2026-08",
+   "2026-09",
+   "2026-10"
+  ]
+ },
+ "profile": {
+  "persona_id": "life_stage_planner",
+  "name": "Hannah",
+  "age": 29,
+  "tier": "pro",
+  "personas": [
+   {
+    "id": "life_stage_planner",
+    "share": 1.0
+   }
+  ],
+  "income_type": "stable",
+  "story": "Shared household, first child born in September 2026. Saves and invests every month, is well insured and holds a diversified portfolio. Estate documents are still open."
+ },
+ "accounts": [
+  {
+   "id": "current",
+   "type": "current",
+   "opening_balance": 3100
+  },
+  {
+   "id": "savings",
+   "type": "savings",
+   "access": "instant",
+   "opening_balance": 11500
+  },
+  {
+   "id": "securities",
+   "type": "securities"
+  }
+ ],
+ "transactions": [
+  {
+   "id": "lif-00002",
+   "date": "2025-11-01",
+   "account_id": "current",
+   "amount": -950,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "lif-00010",
+   "date": "2025-11-02",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "pension_contribution",
+   "counterparty": "Pension provider"
+  },
+  {
+   "id": "lif-00003",
+   "date": "2025-11-03",
+   "account_id": "current",
+   "amount": -110,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "lif-00009",
+   "date": "2025-11-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "lif-00022",
+   "date": "2025-11-03",
+   "account_id": "current",
+   "amount": -55.81,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00004",
+   "date": "2025-11-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "lif-00021",
+   "date": "2025-11-05",
+   "account_id": "current",
+   "amount": -1.17,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "lif-00026",
+   "date": "2025-11-05",
+   "account_id": "current",
+   "amount": -74.13,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "lif-00028",
+   "date": "2025-11-05",
+   "account_id": "current",
+   "amount": -87.86,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "lif-00029",
+   "date": "2025-11-05",
+   "account_id": "current",
+   "amount": -24.28,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00033",
+   "date": "2025-11-05",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "investment_buy",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "lif-00005",
+   "date": "2025-11-07",
+   "account_id": "current",
+   "amount": -40,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "lif-00015",
+   "date": "2025-11-08",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00030",
+   "date": "2025-11-09",
+   "account_id": "current",
+   "amount": -19.56,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00014",
+   "date": "2025-11-10",
+   "account_id": "current",
+   "amount": -226.27,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00019",
+   "date": "2025-11-10",
+   "account_id": "current",
+   "amount": -15.93,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "lif-00020",
+   "date": "2025-11-11",
+   "account_id": "current",
+   "amount": -14.95,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00006",
+   "date": "2025-11-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00007",
+   "date": "2025-11-12",
+   "account_id": "current",
+   "amount": -65,
+   "category": "insurance",
+   "subcategory": "disability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00008",
+   "date": "2025-11-12",
+   "account_id": "current",
+   "amount": -18,
+   "category": "insurance",
+   "subcategory": "term_life",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00023",
+   "date": "2025-11-12",
+   "account_id": "current",
+   "amount": -83.17,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "lif-00012",
+   "date": "2025-11-14",
+   "account_id": "current",
+   "amount": -14.65,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00016",
+   "date": "2025-11-15",
+   "account_id": "current",
+   "amount": -5.38,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00011",
+   "date": "2025-11-16",
+   "account_id": "current",
+   "amount": -6.15,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00027",
+   "date": "2025-11-16",
+   "account_id": "current",
+   "amount": -12.56,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "lif-00025",
+   "date": "2025-11-20",
+   "account_id": "current",
+   "amount": -24.13,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "lif-00018",
+   "date": "2025-11-21",
+   "account_id": "current",
+   "amount": -21.25,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00017",
+   "date": "2025-11-23",
+   "account_id": "current",
+   "amount": -44.41,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00024",
+   "date": "2025-11-23",
+   "account_id": "current",
+   "amount": -7.37,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "lif-00013",
+   "date": "2025-11-24",
+   "account_id": "current",
+   "amount": -48.07,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00001",
+   "date": "2025-11-27",
+   "account_id": "current",
+   "amount": 3200,
+   "category": "income",
+   "subcategory": "salary",
+   "counterparty": "Mainwerk AG"
+  },
+  {
+   "id": "lif-00031",
+   "date": "2025-11-28",
+   "account_id": "current",
+   "amount": -250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-lif-30"
+  },
+  {
+   "id": "lif-00032",
+   "date": "2025-11-28",
+   "account_id": "savings",
+   "amount": 250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-lif-30"
+  },
+  {
+   "id": "lif-00035",
+   "date": "2025-12-01",
+   "account_id": "current",
+   "amount": -950,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "lif-00063",
+   "date": "2025-12-01",
+   "account_id": "current",
+   "amount": -4.18,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00043",
+   "date": "2025-12-02",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "pension_contribution",
+   "counterparty": "Pension provider"
+  },
+  {
+   "id": "lif-00036",
+   "date": "2025-12-03",
+   "account_id": "current",
+   "amount": -110,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "lif-00042",
+   "date": "2025-12-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "lif-00059",
+   "date": "2025-12-03",
+   "account_id": "current",
+   "amount": -104.57,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "lif-00058",
+   "date": "2025-12-04",
+   "account_id": "current",
+   "amount": -9.33,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "lif-00037",
+   "date": "2025-12-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "lif-00066",
+   "date": "2025-12-05",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "investment_buy",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "lif-00051",
+   "date": "2025-12-06",
+   "account_id": "current",
+   "amount": -2.63,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00038",
+   "date": "2025-12-07",
+   "account_id": "current",
+   "amount": -40,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "lif-00044",
+   "date": "2025-12-07",
+   "account_id": "current",
+   "amount": -146.48,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00055",
+   "date": "2025-12-08",
+   "account_id": "current",
+   "amount": -37.73,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00062",
+   "date": "2025-12-11",
+   "account_id": "current",
+   "amount": -42.41,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00039",
+   "date": "2025-12-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00040",
+   "date": "2025-12-12",
+   "account_id": "current",
+   "amount": -65,
+   "category": "insurance",
+   "subcategory": "disability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00041",
+   "date": "2025-12-12",
+   "account_id": "current",
+   "amount": -18,
+   "category": "insurance",
+   "subcategory": "term_life",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00047",
+   "date": "2025-12-12",
+   "account_id": "current",
+   "amount": -14.96,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00049",
+   "date": "2025-12-13",
+   "account_id": "current",
+   "amount": -45.22,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00045",
+   "date": "2025-12-14",
+   "account_id": "current",
+   "amount": -73.24,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00053",
+   "date": "2025-12-16",
+   "account_id": "current",
+   "amount": -29.94,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "lif-00054",
+   "date": "2025-12-17",
+   "account_id": "current",
+   "amount": -9.25,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00046",
+   "date": "2025-12-21",
+   "account_id": "current",
+   "amount": -22.47,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00061",
+   "date": "2025-12-22",
+   "account_id": "current",
+   "amount": -35.05,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00050",
+   "date": "2025-12-23",
+   "account_id": "current",
+   "amount": -26.62,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00052",
+   "date": "2025-12-23",
+   "account_id": "current",
+   "amount": -85.61,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00057",
+   "date": "2025-12-24",
+   "account_id": "current",
+   "amount": -93.33,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "lif-00060",
+   "date": "2025-12-24",
+   "account_id": "current",
+   "amount": -24.2,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00048",
+   "date": "2025-12-25",
+   "account_id": "current",
+   "amount": -78.3,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00034",
+   "date": "2025-12-27",
+   "account_id": "current",
+   "amount": 3200,
+   "category": "income",
+   "subcategory": "salary",
+   "counterparty": "Mainwerk AG"
+  },
+  {
+   "id": "lif-00056",
+   "date": "2025-12-27",
+   "account_id": "current",
+   "amount": -1.28,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "lif-00064",
+   "date": "2025-12-28",
+   "account_id": "current",
+   "amount": -250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-lif-63"
+  },
+  {
+   "id": "lif-00065",
+   "date": "2025-12-28",
+   "account_id": "savings",
+   "amount": 250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-lif-63"
+  },
+  {
+   "id": "lif-00068",
+   "date": "2026-01-01",
+   "account_id": "current",
+   "amount": -950,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "lif-00076",
+   "date": "2026-01-02",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "pension_contribution",
+   "counterparty": "Pension provider"
+  },
+  {
+   "id": "lif-00092",
+   "date": "2026-01-02",
+   "account_id": "current",
+   "amount": -74.3,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "lif-00069",
+   "date": "2026-01-03",
+   "account_id": "current",
+   "amount": -110,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "lif-00075",
+   "date": "2026-01-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "lif-00083",
+   "date": "2026-01-04",
+   "account_id": "current",
+   "amount": -61.62,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00070",
+   "date": "2026-01-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "lif-00099",
+   "date": "2026-01-05",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "investment_buy",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "lif-00071",
+   "date": "2026-01-07",
+   "account_id": "current",
+   "amount": -40,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "lif-00085",
+   "date": "2026-01-07",
+   "account_id": "current",
+   "amount": -4.71,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00093",
+   "date": "2026-01-10",
+   "account_id": "current",
+   "amount": -124.57,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "lif-00077",
+   "date": "2026-01-11",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00081",
+   "date": "2026-01-11",
+   "account_id": "current",
+   "amount": -4.16,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00072",
+   "date": "2026-01-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00073",
+   "date": "2026-01-12",
+   "account_id": "current",
+   "amount": -65,
+   "category": "insurance",
+   "subcategory": "disability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00074",
+   "date": "2026-01-12",
+   "account_id": "current",
+   "amount": -18,
+   "category": "insurance",
+   "subcategory": "term_life",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00091",
+   "date": "2026-01-13",
+   "account_id": "current",
+   "amount": -15.22,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "lif-00088",
+   "date": "2026-01-14",
+   "account_id": "current",
+   "amount": -32.72,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00078",
+   "date": "2026-01-17",
+   "account_id": "current",
+   "amount": -11.58,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00094",
+   "date": "2026-01-17",
+   "account_id": "current",
+   "amount": -24.81,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00086",
+   "date": "2026-01-18",
+   "account_id": "current",
+   "amount": -69.36,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "lif-00090",
+   "date": "2026-01-18",
+   "account_id": "current",
+   "amount": -22.93,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "lif-00087",
+   "date": "2026-01-20",
+   "account_id": "current",
+   "amount": -31.57,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00089",
+   "date": "2026-01-20",
+   "account_id": "current",
+   "amount": -32.74,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "lif-00079",
+   "date": "2026-01-22",
+   "account_id": "current",
+   "amount": -65.5,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00096",
+   "date": "2026-01-25",
+   "account_id": "current",
+   "amount": -14.31,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00080",
+   "date": "2026-01-26",
+   "account_id": "current",
+   "amount": -27.86,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00095",
+   "date": "2026-01-26",
+   "account_id": "current",
+   "amount": -31.21,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00067",
+   "date": "2026-01-27",
+   "account_id": "current",
+   "amount": 3200,
+   "category": "income",
+   "subcategory": "salary",
+   "counterparty": "Mainwerk AG"
+  },
+  {
+   "id": "lif-00084",
+   "date": "2026-01-27",
+   "account_id": "current",
+   "amount": -58.78,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00082",
+   "date": "2026-01-28",
+   "account_id": "current",
+   "amount": -133.14,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00097",
+   "date": "2026-01-28",
+   "account_id": "current",
+   "amount": -250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-lif-96"
+  },
+  {
+   "id": "lif-00098",
+   "date": "2026-01-28",
+   "account_id": "savings",
+   "amount": 250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-lif-96"
+  },
+  {
+   "id": "lif-00101",
+   "date": "2026-02-01",
+   "account_id": "current",
+   "amount": -950,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "lif-00109",
+   "date": "2026-02-02",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "pension_contribution",
+   "counterparty": "Pension provider"
+  },
+  {
+   "id": "lif-00122",
+   "date": "2026-02-02",
+   "account_id": "current",
+   "amount": -45.67,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "lif-00124",
+   "date": "2026-02-02",
+   "account_id": "current",
+   "amount": -44.63,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "lif-00102",
+   "date": "2026-02-03",
+   "account_id": "current",
+   "amount": -110,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "lif-00108",
+   "date": "2026-02-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "lif-00113",
+   "date": "2026-02-04",
+   "account_id": "current",
+   "amount": -10.43,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00103",
+   "date": "2026-02-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "lif-00112",
+   "date": "2026-02-05",
+   "account_id": "current",
+   "amount": -14.73,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00132",
+   "date": "2026-02-05",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "investment_buy",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "lif-00127",
+   "date": "2026-02-06",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00104",
+   "date": "2026-02-07",
+   "account_id": "current",
+   "amount": -40,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "lif-00118",
+   "date": "2026-02-07",
+   "account_id": "current",
+   "amount": -9.29,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00119",
+   "date": "2026-02-08",
+   "account_id": "current",
+   "amount": -12.44,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00121",
+   "date": "2026-02-09",
+   "account_id": "current",
+   "amount": -67.46,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00123",
+   "date": "2026-02-09",
+   "account_id": "current",
+   "amount": -19.15,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "lif-00125",
+   "date": "2026-02-09",
+   "account_id": "current",
+   "amount": -137.5,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "lif-00105",
+   "date": "2026-02-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00106",
+   "date": "2026-02-12",
+   "account_id": "current",
+   "amount": -65,
+   "category": "insurance",
+   "subcategory": "disability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00107",
+   "date": "2026-02-12",
+   "account_id": "current",
+   "amount": -18,
+   "category": "insurance",
+   "subcategory": "term_life",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00126",
+   "date": "2026-02-12",
+   "account_id": "current",
+   "amount": -20.23,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00110",
+   "date": "2026-02-15",
+   "account_id": "current",
+   "amount": -31.55,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00117",
+   "date": "2026-02-18",
+   "account_id": "current",
+   "amount": -11.93,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00111",
+   "date": "2026-02-19",
+   "account_id": "current",
+   "amount": -79.02,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00116",
+   "date": "2026-02-19",
+   "account_id": "current",
+   "amount": -125.4,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00128",
+   "date": "2026-02-20",
+   "account_id": "current",
+   "amount": -21.58,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00114",
+   "date": "2026-02-21",
+   "account_id": "current",
+   "amount": -60.4,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00115",
+   "date": "2026-02-23",
+   "account_id": "current",
+   "amount": -38.1,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00129",
+   "date": "2026-02-25",
+   "account_id": "current",
+   "amount": -15.43,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00100",
+   "date": "2026-02-27",
+   "account_id": "current",
+   "amount": 3200,
+   "category": "income",
+   "subcategory": "salary",
+   "counterparty": "Mainwerk AG"
+  },
+  {
+   "id": "lif-00120",
+   "date": "2026-02-28",
+   "account_id": "current",
+   "amount": -16.01,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00130",
+   "date": "2026-02-28",
+   "account_id": "current",
+   "amount": -250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-lif-129"
+  },
+  {
+   "id": "lif-00131",
+   "date": "2026-02-28",
+   "account_id": "savings",
+   "amount": 250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-lif-129"
+  },
+  {
+   "id": "lif-00134",
+   "date": "2026-03-01",
+   "account_id": "current",
+   "amount": -950,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "lif-00142",
+   "date": "2026-03-02",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "pension_contribution",
+   "counterparty": "Pension provider"
+  },
+  {
+   "id": "lif-00144",
+   "date": "2026-03-02",
+   "account_id": "current",
+   "amount": -135.88,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00150",
+   "date": "2026-03-02",
+   "account_id": "current",
+   "amount": -136.42,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00135",
+   "date": "2026-03-03",
+   "account_id": "current",
+   "amount": -110,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "lif-00141",
+   "date": "2026-03-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "lif-00136",
+   "date": "2026-03-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "lif-00165",
+   "date": "2026-03-05",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "investment_buy",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "lif-00156",
+   "date": "2026-03-06",
+   "account_id": "current",
+   "amount": -41.97,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "lif-00162",
+   "date": "2026-03-06",
+   "account_id": "current",
+   "amount": -14.64,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00137",
+   "date": "2026-03-07",
+   "account_id": "current",
+   "amount": -40,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "lif-00145",
+   "date": "2026-03-08",
+   "account_id": "current",
+   "amount": -59.18,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00161",
+   "date": "2026-03-08",
+   "account_id": "current",
+   "amount": -28.06,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00148",
+   "date": "2026-03-10",
+   "account_id": "current",
+   "amount": -28.65,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00147",
+   "date": "2026-03-11",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00138",
+   "date": "2026-03-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00139",
+   "date": "2026-03-12",
+   "account_id": "current",
+   "amount": -65,
+   "category": "insurance",
+   "subcategory": "disability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00140",
+   "date": "2026-03-12",
+   "account_id": "current",
+   "amount": -18,
+   "category": "insurance",
+   "subcategory": "term_life",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00151",
+   "date": "2026-03-12",
+   "account_id": "current",
+   "amount": -1.81,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "lif-00155",
+   "date": "2026-03-15",
+   "account_id": "current",
+   "amount": -41.1,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "lif-00159",
+   "date": "2026-03-16",
+   "account_id": "current",
+   "amount": -59.2,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "lif-00157",
+   "date": "2026-03-17",
+   "account_id": "current",
+   "amount": -7.74,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "lif-00143",
+   "date": "2026-03-18",
+   "account_id": "current",
+   "amount": -2.5,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00146",
+   "date": "2026-03-19",
+   "account_id": "current",
+   "amount": -21.58,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00152",
+   "date": "2026-03-19",
+   "account_id": "current",
+   "amount": -7.72,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00149",
+   "date": "2026-03-20",
+   "account_id": "current",
+   "amount": -4.12,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00153",
+   "date": "2026-03-20",
+   "account_id": "current",
+   "amount": -37.3,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00154",
+   "date": "2026-03-25",
+   "account_id": "current",
+   "amount": -48.91,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00158",
+   "date": "2026-03-26",
+   "account_id": "current",
+   "amount": -45.89,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "lif-00133",
+   "date": "2026-03-27",
+   "account_id": "current",
+   "amount": 3200,
+   "category": "income",
+   "subcategory": "salary",
+   "counterparty": "Mainwerk AG"
+  },
+  {
+   "id": "lif-00160",
+   "date": "2026-03-27",
+   "account_id": "current",
+   "amount": -22.88,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "lif-00163",
+   "date": "2026-03-28",
+   "account_id": "current",
+   "amount": -250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-lif-162"
+  },
+  {
+   "id": "lif-00164",
+   "date": "2026-03-28",
+   "account_id": "savings",
+   "amount": 250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-lif-162"
+  },
+  {
+   "id": "lif-00167",
+   "date": "2026-04-01",
+   "account_id": "current",
+   "amount": -950,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "lif-00175",
+   "date": "2026-04-02",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "pension_contribution",
+   "counterparty": "Pension provider"
+  },
+  {
+   "id": "lif-00168",
+   "date": "2026-04-03",
+   "account_id": "current",
+   "amount": -110,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "lif-00174",
+   "date": "2026-04-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "lif-00176",
+   "date": "2026-04-03",
+   "account_id": "current",
+   "amount": -56.56,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00194",
+   "date": "2026-04-03",
+   "account_id": "current",
+   "amount": -10.72,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00169",
+   "date": "2026-04-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "lif-00198",
+   "date": "2026-04-05",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "investment_buy",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "lif-00170",
+   "date": "2026-04-07",
+   "account_id": "current",
+   "amount": -40,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "lif-00180",
+   "date": "2026-04-07",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00182",
+   "date": "2026-04-07",
+   "account_id": "current",
+   "amount": -16.77,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00186",
+   "date": "2026-04-07",
+   "account_id": "current",
+   "amount": -55.15,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00190",
+   "date": "2026-04-11",
+   "account_id": "current",
+   "amount": -20.18,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "lif-00171",
+   "date": "2026-04-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00172",
+   "date": "2026-04-12",
+   "account_id": "current",
+   "amount": -65,
+   "category": "insurance",
+   "subcategory": "disability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00173",
+   "date": "2026-04-12",
+   "account_id": "current",
+   "amount": -18,
+   "category": "insurance",
+   "subcategory": "term_life",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00181",
+   "date": "2026-04-12",
+   "account_id": "current",
+   "amount": -15.14,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00183",
+   "date": "2026-04-13",
+   "account_id": "current",
+   "amount": -22.06,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00178",
+   "date": "2026-04-14",
+   "account_id": "current",
+   "amount": -49.17,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00185",
+   "date": "2026-04-17",
+   "account_id": "current",
+   "amount": -6.06,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "lif-00191",
+   "date": "2026-04-17",
+   "account_id": "current",
+   "amount": -40.11,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00195",
+   "date": "2026-04-17",
+   "account_id": "current",
+   "amount": -33.48,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00184",
+   "date": "2026-04-18",
+   "account_id": "current",
+   "amount": -9.16,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "lif-00192",
+   "date": "2026-04-19",
+   "account_id": "current",
+   "amount": -30.45,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "lif-00177",
+   "date": "2026-04-20",
+   "account_id": "current",
+   "amount": -207.27,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00187",
+   "date": "2026-04-20",
+   "account_id": "current",
+   "amount": -42.85,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00188",
+   "date": "2026-04-22",
+   "account_id": "current",
+   "amount": -3.04,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "lif-00179",
+   "date": "2026-04-23",
+   "account_id": "current",
+   "amount": -20.87,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00193",
+   "date": "2026-04-26",
+   "account_id": "current",
+   "amount": -161.02,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "lif-00166",
+   "date": "2026-04-27",
+   "account_id": "current",
+   "amount": 3200,
+   "category": "income",
+   "subcategory": "salary",
+   "counterparty": "Mainwerk AG"
+  },
+  {
+   "id": "lif-00189",
+   "date": "2026-04-27",
+   "account_id": "current",
+   "amount": -43.49,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "lif-00196",
+   "date": "2026-04-28",
+   "account_id": "current",
+   "amount": -250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-lif-195"
+  },
+  {
+   "id": "lif-00197",
+   "date": "2026-04-28",
+   "account_id": "savings",
+   "amount": 250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-lif-195"
+  },
+  {
+   "id": "lif-00200",
+   "date": "2026-05-01",
+   "account_id": "current",
+   "amount": -950,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "lif-00208",
+   "date": "2026-05-02",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "pension_contribution",
+   "counterparty": "Pension provider"
+  },
+  {
+   "id": "lif-00216",
+   "date": "2026-05-02",
+   "account_id": "current",
+   "amount": -55.13,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00201",
+   "date": "2026-05-03",
+   "account_id": "current",
+   "amount": -110,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "lif-00207",
+   "date": "2026-05-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "lif-00210",
+   "date": "2026-05-03",
+   "account_id": "current",
+   "amount": -60.64,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00214",
+   "date": "2026-05-03",
+   "account_id": "current",
+   "amount": -44.95,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00217",
+   "date": "2026-05-03",
+   "account_id": "current",
+   "amount": -122.32,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00202",
+   "date": "2026-05-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "lif-00231",
+   "date": "2026-05-05",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "investment_buy",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "lif-00209",
+   "date": "2026-05-06",
+   "account_id": "current",
+   "amount": -61.6,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00203",
+   "date": "2026-05-07",
+   "account_id": "current",
+   "amount": -40,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "lif-00218",
+   "date": "2026-05-07",
+   "account_id": "current",
+   "amount": -36.79,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "lif-00224",
+   "date": "2026-05-09",
+   "account_id": "current",
+   "amount": -87.22,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "lif-00204",
+   "date": "2026-05-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00205",
+   "date": "2026-05-12",
+   "account_id": "current",
+   "amount": -65,
+   "category": "insurance",
+   "subcategory": "disability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00206",
+   "date": "2026-05-12",
+   "account_id": "current",
+   "amount": -18,
+   "category": "insurance",
+   "subcategory": "term_life",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00215",
+   "date": "2026-05-15",
+   "account_id": "current",
+   "amount": -47.55,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00220",
+   "date": "2026-05-15",
+   "account_id": "current",
+   "amount": -9.61,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00211",
+   "date": "2026-05-17",
+   "account_id": "current",
+   "amount": -31.53,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00227",
+   "date": "2026-05-18",
+   "account_id": "current",
+   "amount": -5.02,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00222",
+   "date": "2026-05-21",
+   "account_id": "current",
+   "amount": -4.9,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "lif-00213",
+   "date": "2026-05-22",
+   "account_id": "current",
+   "amount": -42.22,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00221",
+   "date": "2026-05-22",
+   "account_id": "current",
+   "amount": -34.77,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "lif-00223",
+   "date": "2026-05-23",
+   "account_id": "current",
+   "amount": -10.33,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "lif-00228",
+   "date": "2026-05-23",
+   "account_id": "current",
+   "amount": -26.59,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00226",
+   "date": "2026-05-26",
+   "account_id": "current",
+   "amount": -18.37,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "lif-00199",
+   "date": "2026-05-27",
+   "account_id": "current",
+   "amount": 3200,
+   "category": "income",
+   "subcategory": "salary",
+   "counterparty": "Mainwerk AG"
+  },
+  {
+   "id": "lif-00212",
+   "date": "2026-05-27",
+   "account_id": "current",
+   "amount": -37.31,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00219",
+   "date": "2026-05-27",
+   "account_id": "current",
+   "amount": -11.02,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "lif-00225",
+   "date": "2026-05-27",
+   "account_id": "current",
+   "amount": -91.61,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "lif-00229",
+   "date": "2026-05-28",
+   "account_id": "current",
+   "amount": -250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-lif-228"
+  },
+  {
+   "id": "lif-00230",
+   "date": "2026-05-28",
+   "account_id": "savings",
+   "amount": 250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-lif-228"
+  },
+  {
+   "id": "lif-00233",
+   "date": "2026-06-01",
+   "account_id": "current",
+   "amount": -950,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "lif-00241",
+   "date": "2026-06-02",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "pension_contribution",
+   "counterparty": "Pension provider"
+  },
+  {
+   "id": "lif-00234",
+   "date": "2026-06-03",
+   "account_id": "current",
+   "amount": -110,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "lif-00240",
+   "date": "2026-06-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "lif-00245",
+   "date": "2026-06-03",
+   "account_id": "current",
+   "amount": -183.62,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00250",
+   "date": "2026-06-03",
+   "account_id": "current",
+   "amount": -52.36,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00259",
+   "date": "2026-06-03",
+   "account_id": "current",
+   "amount": -47.32,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00235",
+   "date": "2026-06-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "lif-00264",
+   "date": "2026-06-05",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "investment_buy",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "lif-00248",
+   "date": "2026-06-06",
+   "account_id": "current",
+   "amount": -44.62,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00236",
+   "date": "2026-06-07",
+   "account_id": "current",
+   "amount": -40,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "lif-00244",
+   "date": "2026-06-07",
+   "account_id": "current",
+   "amount": -36.22,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00256",
+   "date": "2026-06-08",
+   "account_id": "current",
+   "amount": -82.83,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Bar"
+  },
+  {
+   "id": "lif-00246",
+   "date": "2026-06-09",
+   "account_id": "current",
+   "amount": -15.09,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00261",
+   "date": "2026-06-11",
+   "account_id": "current",
+   "amount": -35.55,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00237",
+   "date": "2026-06-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00238",
+   "date": "2026-06-12",
+   "account_id": "current",
+   "amount": -65,
+   "category": "insurance",
+   "subcategory": "disability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00239",
+   "date": "2026-06-12",
+   "account_id": "current",
+   "amount": -18,
+   "category": "insurance",
+   "subcategory": "term_life",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00260",
+   "date": "2026-06-13",
+   "account_id": "current",
+   "amount": -15.54,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00253",
+   "date": "2026-06-17",
+   "account_id": "current",
+   "amount": -23.02,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00255",
+   "date": "2026-06-19",
+   "account_id": "current",
+   "amount": -9.25,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "lif-00257",
+   "date": "2026-06-19",
+   "account_id": "current",
+   "amount": -35.31,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "lif-00247",
+   "date": "2026-06-21",
+   "account_id": "current",
+   "amount": -91.43,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00242",
+   "date": "2026-06-24",
+   "account_id": "current",
+   "amount": -2.86,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00243",
+   "date": "2026-06-24",
+   "account_id": "current",
+   "amount": -1.75,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00254",
+   "date": "2026-06-25",
+   "account_id": "current",
+   "amount": -30.51,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "lif-00249",
+   "date": "2026-06-26",
+   "account_id": "current",
+   "amount": -19.27,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00251",
+   "date": "2026-06-26",
+   "account_id": "current",
+   "amount": -33.81,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00252",
+   "date": "2026-06-26",
+   "account_id": "current",
+   "amount": -16.13,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "lif-00232",
+   "date": "2026-06-27",
+   "account_id": "current",
+   "amount": 3200,
+   "category": "income",
+   "subcategory": "salary",
+   "counterparty": "Mainwerk AG"
+  },
+  {
+   "id": "lif-00258",
+   "date": "2026-06-28",
+   "account_id": "current",
+   "amount": -94.91,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00262",
+   "date": "2026-06-28",
+   "account_id": "current",
+   "amount": -250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-lif-261"
+  },
+  {
+   "id": "lif-00263",
+   "date": "2026-06-28",
+   "account_id": "savings",
+   "amount": 250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-lif-261"
+  },
+  {
+   "id": "lif-00266",
+   "date": "2026-07-01",
+   "account_id": "current",
+   "amount": -950,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "lif-00293",
+   "date": "2026-07-01",
+   "account_id": "current",
+   "amount": -8.12,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00274",
+   "date": "2026-07-02",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "pension_contribution",
+   "counterparty": "Pension provider"
+  },
+  {
+   "id": "lif-00267",
+   "date": "2026-07-03",
+   "account_id": "current",
+   "amount": -110,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "lif-00273",
+   "date": "2026-07-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "lif-00291",
+   "date": "2026-07-03",
+   "account_id": "current",
+   "amount": -38.5,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00294",
+   "date": "2026-07-03",
+   "account_id": "current",
+   "amount": -27.19,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00290",
+   "date": "2026-07-04",
+   "account_id": "current",
+   "amount": -108.44,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00268",
+   "date": "2026-07-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "lif-00289",
+   "date": "2026-07-05",
+   "account_id": "current",
+   "amount": -1.92,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "lif-00297",
+   "date": "2026-07-05",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "investment_buy",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "lif-00269",
+   "date": "2026-07-07",
+   "account_id": "current",
+   "amount": -40,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "lif-00279",
+   "date": "2026-07-07",
+   "account_id": "current",
+   "amount": -109.31,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00276",
+   "date": "2026-07-08",
+   "account_id": "current",
+   "amount": -47.76,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00285",
+   "date": "2026-07-09",
+   "account_id": "current",
+   "amount": -37.86,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00292",
+   "date": "2026-07-10",
+   "account_id": "current",
+   "amount": -75.57,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "lif-00277",
+   "date": "2026-07-11",
+   "account_id": "current",
+   "amount": -7.31,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00270",
+   "date": "2026-07-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00271",
+   "date": "2026-07-12",
+   "account_id": "current",
+   "amount": -65,
+   "category": "insurance",
+   "subcategory": "disability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00272",
+   "date": "2026-07-12",
+   "account_id": "current",
+   "amount": -18,
+   "category": "insurance",
+   "subcategory": "term_life",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00275",
+   "date": "2026-07-14",
+   "account_id": "current",
+   "amount": -6.07,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00281",
+   "date": "2026-07-14",
+   "account_id": "current",
+   "amount": -1.16,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00282",
+   "date": "2026-07-14",
+   "account_id": "current",
+   "amount": -103.81,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00284",
+   "date": "2026-07-15",
+   "account_id": "current",
+   "amount": -49.34,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00287",
+   "date": "2026-07-17",
+   "account_id": "current",
+   "amount": -60.73,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "lif-00288",
+   "date": "2026-07-23",
+   "account_id": "current",
+   "amount": -29.93,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "lif-00280",
+   "date": "2026-07-26",
+   "account_id": "current",
+   "amount": -109.01,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00283",
+   "date": "2026-07-26",
+   "account_id": "current",
+   "amount": -21.71,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00286",
+   "date": "2026-07-26",
+   "account_id": "current",
+   "amount": -42.41,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "lif-00265",
+   "date": "2026-07-27",
+   "account_id": "current",
+   "amount": 3200,
+   "category": "income",
+   "subcategory": "salary",
+   "counterparty": "Mainwerk AG"
+  },
+  {
+   "id": "lif-00278",
+   "date": "2026-07-27",
+   "account_id": "current",
+   "amount": -32.17,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00295",
+   "date": "2026-07-28",
+   "account_id": "current",
+   "amount": -250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-lif-294"
+  },
+  {
+   "id": "lif-00296",
+   "date": "2026-07-28",
+   "account_id": "savings",
+   "amount": 250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-lif-294"
+  },
+  {
+   "id": "lif-00299",
+   "date": "2026-08-01",
+   "account_id": "current",
+   "amount": -950,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "lif-00320",
+   "date": "2026-08-01",
+   "account_id": "current",
+   "amount": -59.58,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "lif-00307",
+   "date": "2026-08-02",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "pension_contribution",
+   "counterparty": "Pension provider"
+  },
+  {
+   "id": "lif-00319",
+   "date": "2026-08-02",
+   "account_id": "current",
+   "amount": -9.57,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00300",
+   "date": "2026-08-03",
+   "account_id": "current",
+   "amount": -110,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "lif-00306",
+   "date": "2026-08-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "lif-00301",
+   "date": "2026-08-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "lif-00330",
+   "date": "2026-08-05",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "investment_buy",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "lif-00302",
+   "date": "2026-08-07",
+   "account_id": "current",
+   "amount": -40,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "lif-00310",
+   "date": "2026-08-07",
+   "account_id": "current",
+   "amount": -18.91,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00311",
+   "date": "2026-08-08",
+   "account_id": "current",
+   "amount": -58.39,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00399",
+   "date": "2026-08-08",
+   "account_id": "current",
+   "amount": -340,
+   "category": "shopping",
+   "subcategory": "baby_equipment",
+   "counterparty": "Baby store"
+  },
+  {
+   "id": "lif-00323",
+   "date": "2026-08-11",
+   "account_id": "current",
+   "amount": -29.24,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00303",
+   "date": "2026-08-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00304",
+   "date": "2026-08-12",
+   "account_id": "current",
+   "amount": -65,
+   "category": "insurance",
+   "subcategory": "disability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00305",
+   "date": "2026-08-12",
+   "account_id": "current",
+   "amount": -18,
+   "category": "insurance",
+   "subcategory": "term_life",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00321",
+   "date": "2026-08-13",
+   "account_id": "current",
+   "amount": -14.9,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "lif-00309",
+   "date": "2026-08-14",
+   "account_id": "current",
+   "amount": -52.08,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00315",
+   "date": "2026-08-15",
+   "account_id": "current",
+   "amount": -34.54,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00324",
+   "date": "2026-08-15",
+   "account_id": "current",
+   "amount": -7.29,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00317",
+   "date": "2026-08-17",
+   "account_id": "current",
+   "amount": -34.03,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00322",
+   "date": "2026-08-17",
+   "account_id": "current",
+   "amount": -13.44,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "lif-00308",
+   "date": "2026-08-19",
+   "account_id": "current",
+   "amount": -2.18,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00314",
+   "date": "2026-08-19",
+   "account_id": "current",
+   "amount": -107.42,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00318",
+   "date": "2026-08-19",
+   "account_id": "current",
+   "amount": -65.36,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00325",
+   "date": "2026-08-22",
+   "account_id": "current",
+   "amount": -99.58,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00327",
+   "date": "2026-08-22",
+   "account_id": "current",
+   "amount": -19.86,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00316",
+   "date": "2026-08-24",
+   "account_id": "current",
+   "amount": -10.38,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00312",
+   "date": "2026-08-25",
+   "account_id": "current",
+   "amount": -14.88,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00313",
+   "date": "2026-08-25",
+   "account_id": "current",
+   "amount": -59.33,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00326",
+   "date": "2026-08-26",
+   "account_id": "current",
+   "amount": -4.9,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00298",
+   "date": "2026-08-27",
+   "account_id": "current",
+   "amount": 3200,
+   "category": "income",
+   "subcategory": "salary",
+   "counterparty": "Mainwerk AG"
+  },
+  {
+   "id": "lif-00328",
+   "date": "2026-08-28",
+   "account_id": "current",
+   "amount": -250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-lif-327"
+  },
+  {
+   "id": "lif-00329",
+   "date": "2026-08-28",
+   "account_id": "savings",
+   "amount": 250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-lif-327"
+  },
+  {
+   "id": "lif-00333",
+   "date": "2026-09-01",
+   "account_id": "current",
+   "amount": -950,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "lif-00341",
+   "date": "2026-09-02",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "pension_contribution",
+   "counterparty": "Pension provider"
+  },
+  {
+   "id": "lif-00343",
+   "date": "2026-09-02",
+   "account_id": "current",
+   "amount": -42.13,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00334",
+   "date": "2026-09-03",
+   "account_id": "current",
+   "amount": -110,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "lif-00340",
+   "date": "2026-09-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "lif-00356",
+   "date": "2026-09-03",
+   "account_id": "current",
+   "amount": -35.5,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "lif-00332",
+   "date": "2026-09-05",
+   "account_id": "current",
+   "amount": 259,
+   "category": "income",
+   "subcategory": "child_benefit",
+   "counterparty": "Family benefits office"
+  },
+  {
+   "id": "lif-00335",
+   "date": "2026-09-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "lif-00364",
+   "date": "2026-09-05",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "investment_buy",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "lif-00336",
+   "date": "2026-09-07",
+   "account_id": "current",
+   "amount": -40,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "lif-00361",
+   "date": "2026-09-09",
+   "account_id": "current",
+   "amount": -6.39,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00353",
+   "date": "2026-09-10",
+   "account_id": "current",
+   "amount": -22.58,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00400",
+   "date": "2026-09-11",
+   "account_id": "current",
+   "amount": -290,
+   "category": "shopping",
+   "subcategory": "baby_equipment",
+   "counterparty": "Baby store"
+  },
+  {
+   "id": "lif-00337",
+   "date": "2026-09-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00338",
+   "date": "2026-09-12",
+   "account_id": "current",
+   "amount": -65,
+   "category": "insurance",
+   "subcategory": "disability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00339",
+   "date": "2026-09-12",
+   "account_id": "current",
+   "amount": -18,
+   "category": "insurance",
+   "subcategory": "term_life",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00351",
+   "date": "2026-09-13",
+   "account_id": "current",
+   "amount": -1.45,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "lif-00349",
+   "date": "2026-09-14",
+   "account_id": "current",
+   "amount": -40.44,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00346",
+   "date": "2026-09-15",
+   "account_id": "current",
+   "amount": -37.21,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00342",
+   "date": "2026-09-18",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00355",
+   "date": "2026-09-19",
+   "account_id": "current",
+   "amount": -58.17,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "lif-00347",
+   "date": "2026-09-20",
+   "account_id": "current",
+   "amount": -34.97,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00357",
+   "date": "2026-09-20",
+   "account_id": "current",
+   "amount": -105.51,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "lif-00350",
+   "date": "2026-09-21",
+   "account_id": "current",
+   "amount": -104.14,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00348",
+   "date": "2026-09-22",
+   "account_id": "current",
+   "amount": -45.26,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00345",
+   "date": "2026-09-23",
+   "account_id": "current",
+   "amount": -103.08,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00360",
+   "date": "2026-09-23",
+   "account_id": "current",
+   "amount": -34.11,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00359",
+   "date": "2026-09-25",
+   "account_id": "current",
+   "amount": -12.6,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00352",
+   "date": "2026-09-26",
+   "account_id": "current",
+   "amount": -29.72,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Cafe"
+  },
+  {
+   "id": "lif-00331",
+   "date": "2026-09-27",
+   "account_id": "current",
+   "amount": 3200,
+   "category": "income",
+   "subcategory": "salary",
+   "counterparty": "Mainwerk AG"
+  },
+  {
+   "id": "lif-00344",
+   "date": "2026-09-27",
+   "account_id": "current",
+   "amount": -80.33,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00354",
+   "date": "2026-09-28",
+   "account_id": "current",
+   "amount": -3.51,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "lif-00358",
+   "date": "2026-09-28",
+   "account_id": "current",
+   "amount": -57.19,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00362",
+   "date": "2026-09-28",
+   "account_id": "current",
+   "amount": -250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-lif-361"
+  },
+  {
+   "id": "lif-00363",
+   "date": "2026-09-28",
+   "account_id": "savings",
+   "amount": 250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-lif-361"
+  },
+  {
+   "id": "lif-00367",
+   "date": "2026-10-01",
+   "account_id": "current",
+   "amount": -950,
+   "category": "housing",
+   "subcategory": "rent",
+   "counterparty": "Landlord"
+  },
+  {
+   "id": "lif-00375",
+   "date": "2026-10-02",
+   "account_id": "current",
+   "amount": -100,
+   "category": "transfer",
+   "subcategory": "pension_contribution",
+   "counterparty": "Pension provider"
+  },
+  {
+   "id": "lif-00368",
+   "date": "2026-10-03",
+   "account_id": "current",
+   "amount": -110,
+   "category": "housing",
+   "subcategory": "utilities",
+   "counterparty": "Utility company"
+  },
+  {
+   "id": "lif-00374",
+   "date": "2026-10-03",
+   "account_id": "current",
+   "amount": -60,
+   "category": "transport",
+   "subcategory": "transit_pass",
+   "counterparty": "Transit operator"
+  },
+  {
+   "id": "lif-00386",
+   "date": "2026-10-03",
+   "account_id": "current",
+   "amount": -54.25,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00382",
+   "date": "2026-10-04",
+   "account_id": "current",
+   "amount": -5.54,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00366",
+   "date": "2026-10-05",
+   "account_id": "current",
+   "amount": 259,
+   "category": "income",
+   "subcategory": "child_benefit",
+   "counterparty": "Family benefits office"
+  },
+  {
+   "id": "lif-00369",
+   "date": "2026-10-05",
+   "account_id": "current",
+   "amount": -30,
+   "category": "telecom",
+   "subcategory": "mobile",
+   "counterparty": "Mobile provider"
+  },
+  {
+   "id": "lif-00398",
+   "date": "2026-10-05",
+   "account_id": "current",
+   "amount": -300,
+   "category": "transfer",
+   "subcategory": "investment_buy",
+   "counterparty": "Securities account"
+  },
+  {
+   "id": "lif-00401",
+   "date": "2026-10-06",
+   "account_id": "current",
+   "amount": -260,
+   "category": "shopping",
+   "subcategory": "baby_equipment",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "lif-00370",
+   "date": "2026-10-07",
+   "account_id": "current",
+   "amount": -40,
+   "category": "subscriptions",
+   "subcategory": "streaming",
+   "counterparty": "Streaming service"
+  },
+  {
+   "id": "lif-00377",
+   "date": "2026-10-07",
+   "account_id": "current",
+   "amount": -113.71,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Discounter"
+  },
+  {
+   "id": "lif-00385",
+   "date": "2026-10-08",
+   "account_id": "current",
+   "amount": -52.5,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Food delivery"
+  },
+  {
+   "id": "lif-00371",
+   "date": "2026-10-12",
+   "account_id": "current",
+   "amount": -7,
+   "category": "insurance",
+   "subcategory": "liability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00372",
+   "date": "2026-10-12",
+   "account_id": "current",
+   "amount": -65,
+   "category": "insurance",
+   "subcategory": "disability",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00373",
+   "date": "2026-10-12",
+   "account_id": "current",
+   "amount": -18,
+   "category": "insurance",
+   "subcategory": "term_life",
+   "counterparty": "Insurance company"
+  },
+  {
+   "id": "lif-00383",
+   "date": "2026-10-12",
+   "account_id": "current",
+   "amount": -81.11,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00391",
+   "date": "2026-10-12",
+   "account_id": "current",
+   "amount": -156.46,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Electronics store"
+  },
+  {
+   "id": "lif-00381",
+   "date": "2026-10-13",
+   "account_id": "current",
+   "amount": -32.36,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00384",
+   "date": "2026-10-13",
+   "account_id": "current",
+   "amount": -3.29,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00394",
+   "date": "2026-10-15",
+   "account_id": "current",
+   "amount": -17.24,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00378",
+   "date": "2026-10-16",
+   "account_id": "current",
+   "amount": -5.16,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00387",
+   "date": "2026-10-16",
+   "account_id": "current",
+   "amount": -32.32,
+   "category": "restaurants",
+   "subcategory": "eating_out",
+   "counterparty": "Restaurant"
+  },
+  {
+   "id": "lif-00379",
+   "date": "2026-10-18",
+   "account_id": "current",
+   "amount": -95.23,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00389",
+   "date": "2026-10-18",
+   "account_id": "current",
+   "amount": -39.75,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Cinema"
+  },
+  {
+   "id": "lif-00380",
+   "date": "2026-10-20",
+   "account_id": "current",
+   "amount": -1.0,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Supermarket"
+  },
+  {
+   "id": "lif-00390",
+   "date": "2026-10-20",
+   "account_id": "current",
+   "amount": -39.42,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Sports club"
+  },
+  {
+   "id": "lif-00393",
+   "date": "2026-10-21",
+   "account_id": "current",
+   "amount": -34.16,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Online shop"
+  },
+  {
+   "id": "lif-00395",
+   "date": "2026-10-22",
+   "account_id": "current",
+   "amount": -34.26,
+   "category": "health",
+   "subcategory": "pharmacy",
+   "counterparty": "Pharmacy"
+  },
+  {
+   "id": "lif-00388",
+   "date": "2026-10-24",
+   "account_id": "current",
+   "amount": -8.83,
+   "category": "leisure",
+   "subcategory": "going_out",
+   "counterparty": "Concert tickets"
+  },
+  {
+   "id": "lif-00376",
+   "date": "2026-10-25",
+   "account_id": "current",
+   "amount": -75.4,
+   "category": "groceries",
+   "subcategory": "food",
+   "counterparty": "Organic market"
+  },
+  {
+   "id": "lif-00365",
+   "date": "2026-10-27",
+   "account_id": "current",
+   "amount": 3200,
+   "category": "income",
+   "subcategory": "salary",
+   "counterparty": "Mainwerk AG"
+  },
+  {
+   "id": "lif-00392",
+   "date": "2026-10-28",
+   "account_id": "current",
+   "amount": -12.84,
+   "category": "shopping",
+   "subcategory": "general",
+   "counterparty": "Clothing store"
+  },
+  {
+   "id": "lif-00396",
+   "date": "2026-10-28",
+   "account_id": "current",
+   "amount": -250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own savings account",
+   "transfer_id": "tr-lif-395"
+  },
+  {
+   "id": "lif-00397",
+   "date": "2026-10-28",
+   "account_id": "savings",
+   "amount": 250,
+   "category": "transfer",
+   "subcategory": "to_savings",
+   "counterparty": "Own current account",
+   "transfer_id": "tr-lif-395"
+  }
+ ],
+ "liabilities": [],
+ "securities": {
+  "opening_positions": [
+   {
+    "instrument_id": "etf_world",
+    "units": 126.0
+   },
+   {
+    "instrument_id": "bond_fund",
+    "units": 36.0
+   },
+   {
+    "instrument_id": "money_market",
+    "units": 18.0
+   }
+  ],
+  "plan": {
+   "instrument_id": "etf_world",
+   "amount": 300,
+   "scheduled_months": [
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09",
+    "2026-10"
+   ]
+  },
+  "trades": [
+   {
+    "date": "2025-11-05",
+    "instrument_id": "etf_world",
+    "side": "buy",
+    "amount": 300,
+    "units": 3.0,
+    "price": 100.0,
+    "source": "plan"
+   },
+   {
+    "date": "2025-12-05",
+    "instrument_id": "etf_world",
+    "side": "buy",
+    "amount": 300,
+    "units": 2.955665,
+    "price": 101.5,
+    "source": "plan"
+   },
+   {
+    "date": "2026-01-05",
+    "instrument_id": "etf_world",
+    "side": "buy",
+    "amount": 300,
+    "units": 2.932207,
+    "price": 102.312,
+    "source": "plan"
+   },
+   {
+    "date": "2026-02-05",
+    "instrument_id": "etf_world",
+    "side": "buy",
+    "amount": 300,
+    "units": 2.871896,
+    "price": 104.4606,
+    "source": "plan"
+   },
+   {
+    "date": "2026-03-05",
+    "instrument_id": "etf_world",
+    "side": "buy",
+    "amount": 300,
+    "units": 2.90678,
+    "price": 103.207,
+    "source": "plan"
+   },
+   {
+    "date": "2026-04-05",
+    "instrument_id": "etf_world",
+    "side": "buy",
+    "amount": 300,
+    "units": 2.852579,
+    "price": 105.168,
+    "source": "plan"
+   },
+   {
+    "date": "2026-05-05",
+    "instrument_id": "etf_world",
+    "side": "buy",
+    "amount": 300,
+    "units": 3.241568,
+    "price": 92.5478,
+    "source": "plan"
+   },
+   {
+    "date": "2026-06-05",
+    "instrument_id": "etf_world",
+    "side": "buy",
+    "amount": 300,
+    "units": 3.131949,
+    "price": 95.787,
+    "source": "plan"
+   },
+   {
+    "date": "2026-07-05",
+    "instrument_id": "etf_world",
+    "side": "buy",
+    "amount": 300,
+    "units": 3.06453,
+    "price": 97.8943,
+    "source": "plan"
+   },
+   {
+    "date": "2026-08-05",
+    "instrument_id": "etf_world",
+    "side": "buy",
+    "amount": 300,
+    "units": 3.034189,
+    "price": 98.8732,
+    "source": "plan"
+   },
+   {
+    "date": "2026-09-05",
+    "instrument_id": "etf_world",
+    "side": "buy",
+    "amount": 300,
+    "units": 3.052503,
+    "price": 98.28,
+    "source": "plan"
+   },
+   {
+    "date": "2026-10-05",
+    "instrument_id": "etf_world",
+    "side": "buy",
+    "amount": 300,
+    "units": 2.998531,
+    "price": 100.049,
+    "source": "plan"
+   }
+  ]
+ },
+ "protection": {
+  "liability_insurance": true,
+  "disability_insurance": true,
+  "health_insurance": true,
+  "pension": {
+   "projected_monthly": 1650
+  },
+  "documents": {
+   "power_of_attorney": false,
+   "will": false,
+   "emergency_folder": true
+  }
+ },
+ "life_events": [
+  {
+   "id": "ev1",
+   "type": "parenthood",
+   "status": "confirmed",
+   "confirmed_on": "2026-09-10",
+   "checklist": [
+    {
+     "item": "Child benefit applied for",
+     "done": true
+    },
+    {
+     "item": "Term life cover in place",
+     "done": true
+    },
+    {
+     "item": "Parental-leave budget planned",
+     "done": false
+    },
+    {
+     "item": "Guardianship and will prepared",
+     "done": false
+    },
+    {
+     "item": "Savings plan for the child",
+     "done": false
+    }
+   ]
+  }
+ ],
+ "risk_questionnaire": {
+  "answered_on": "2026-10-05",
+  "scale": "1-5",
+  "answers": {
+   "rt1": 4,
+   "rt2": 4,
+   "rt3": 3,
+   "rt4": 3,
+   "rt5": 3
+  },
+  "horizon_years": 15
+ },
+ "self_efficacy": {
+  "answered_on": "2026-10-05",
+  "scale": "1-5",
+  "answers": {
+   "se1": 5,
+   "se2": 4,
+   "se3": 4,
+   "se4": 4
+  }
+ },
+ "learning_events": [
+  {
+   "ts": "2025-11-03T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_mf1",
+   "domain": "money_fundamentals",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-11-04T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_mf2",
+   "domain": "money_fundamentals",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-11-05T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_mf3",
+   "domain": "money_fundamentals",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-11-06T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_cb1",
+   "domain": "credit_borrowing",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-11-07T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_cb2",
+   "domain": "credit_borrowing",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-11-08T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_cb3",
+   "domain": "credit_borrowing",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-11-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_budget"
+  },
+  {
+   "ts": "2025-11-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_emergency"
+  },
+  {
+   "ts": "2025-12-09T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir1",
+   "domain": "investing_risk",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-12-10T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir2",
+   "domain": "investing_risk",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-12-11T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ir3",
+   "domain": "investing_risk",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-12-12T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_te1",
+   "domain": "tax_employment",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-12-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_debt"
+  },
+  {
+   "ts": "2025-12-13T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_te2",
+   "domain": "tax_employment",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2025-12-14T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_te3",
+   "domain": "tax_employment",
+   "attempt": 1,
+   "correct": false
+  },
+  {
+   "ts": "2026-01-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_invest"
+  },
+  {
+   "ts": "2026-01-15T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ds1",
+   "domain": "digital_safety",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-01-16T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ds2",
+   "domain": "digital_safety",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-01-17T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ds3",
+   "domain": "digital_safety",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-01-18T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ad1",
+   "domain": "applied_decisions",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-01-19T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ad2",
+   "domain": "applied_decisions",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-01-20T18:30:00",
+   "type": "quiz_answer",
+   "question_id": "q_ad3",
+   "domain": "applied_decisions",
+   "attempt": 1,
+   "correct": true
+  },
+  {
+   "ts": "2026-02-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_diversify"
+  },
+  {
+   "ts": "2026-03-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_protect"
+  },
+  {
+   "ts": "2026-04-12T19:00:00",
+   "type": "lesson_completed",
+   "lesson_id": "l_scam"
+  }
+ ]
+}
