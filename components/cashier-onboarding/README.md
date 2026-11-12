@@ -68,3 +68,7 @@ Das metallische PIN-Pad zeigt einen vertieften Tastendruck mit 4 px Hub, leichte
 ## Abschluss: Widget freigeschaltet
 
 Der Cashier-Ablauf endet nach den optionalen Datenquellen mit „Finish setup“. Der Cashier-Adapter `cashier-completion.js` ersetzt die ursprüngliche Aktion „View my PULS score“ durch eine eigene, zentrierte Abschlussseite: „Your PULS widget is unlocked.“ Die Erklärung verweist auf die Kontoübersicht der Banking-App. Der ursprüngliche Scan und die Score-Ansicht werden dabei nicht aufgerufen. Die Freischaltung ist im HTML eine Simulation; eine echte Banking-App wird nicht verändert. Der separate Original-Export bleibt unverändert.
+
+## Kein Website-Modusumschalter
+
+Der Umschalter „Branch / Mobile banking“ ist im Cashier-Display auf allen Seiten ausgeblendet. Das Banklogo bleibt sichtbar. Der separat exportierte Original-Stand behält seinen Website-Umschalter.

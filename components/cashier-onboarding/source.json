@@ -4,6 +4,7 @@
   "verifiedFrontendFiles": 39,
   "changesToOriginalSource": [],
   "cashierPresentationOverrides": [
+    "Website prototype mode selector hidden throughout the Cashier display.",
     "Welcome screen fills the display without white margins or rounded card corners.",
     "PIN area centered; native PIN actions operated from outer Cashier controls.",
     "Long content split into display pages without scrolling; original form nodes and actions preserved.",

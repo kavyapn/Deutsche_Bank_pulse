@@ -22,3 +22,6 @@ body[data-mode="terminal"] .branch-flow:has(#pin-display) {
 .branch-flow:has(#pin-display) .branch-lead { margin-inline:auto; }
 .branch-flow:has(#pin-display) #pin-display { margin-inline:auto; }
 .branch-flow:has(#pin-display) .branch-content .actions { display:none; }
+
+/* The Cashier has no website prototype mode selector. */
+body .site-header .mode-switch { display:none; }

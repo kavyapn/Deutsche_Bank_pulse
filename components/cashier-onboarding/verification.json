@@ -43,12 +43,13 @@
     "onboardingCompletesAtWidgetUnlock": true,
     "finishSetupBypassesOriginalScanAndScore": true,
     "widgetUnlockFitsDesktop1280x720": true,
-    "widgetUnlockFitsMobile390x844": true
+    "widgetUnlockFitsMobile390x844": true,
+    "websiteModeSwitchHiddenInCashier": true
   },
   "limits": [
     "Demo environment; no real card/PIN/bank connection.",
     "Browser testing; no physical terminal or phone tested.",
     "Tested through the local HTTP preview. Direct file:// navigation is not permitted in the in-app test browser and was not tested."
   ],
-  "htmlSha256": "495aba73d216e670d9055108daed5555f44b60114755473b263411680357cc44"
+  "htmlSha256": "94ba6d55c6b63eec8b1f36031a2ad4eaf3d4613b24a07a705c10304259eb10e6"
 }
