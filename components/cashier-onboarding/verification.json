@@ -25,12 +25,27 @@
     "chooseAnotherCardOutsideMock": true,
     "externalCardSwitchReturnsToPicker": true,
     "mobilePinHorizontallyCentered": true,
-    "externalPinReachesOriginalIntroduction": true
+    "externalPinReachesOriginalIntroduction": true,
+    "noScrollDesktopViewport": [
+      1280,
+      720
+    ],
+    "noScrollMobileViewport": [
+      390,
+      844
+    ],
+    "goalsPaginateWithoutLosingSelection": true,
+    "nativeQuestionsSubmitAfterPagination": true,
+    "priorityPagesAccessible": true,
+    "manualAssetAcrossPages": true,
+    "requiredFieldReturnsToCorrectPage": true,
+    "mobileIntroPagesFit": true,
+    "allScorePagesFitDesktopAndMobile": true
   },
   "limits": [
     "Demo environment; no real card/PIN/bank connection.",
     "Browser testing; no physical terminal or phone tested.",
     "Tested through the local HTTP preview. Direct file:// navigation is not permitted in the in-app test browser and was not tested."
   ],
-  "htmlSha256": "d5823a0902c77dc63f0312aa69cf412602a04b4eff070a86b7f203f78ccc2548"
+  "htmlSha256": "df0dfe66cdfe402227bc676d8c09d0a4613ef9a73eee9d4874324d2efffc7739"
 }

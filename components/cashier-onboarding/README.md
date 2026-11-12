@@ -54,3 +54,9 @@ Im Browser geprüft: Startfläche beginnt bei x=0, füllt die 397 px breite Disp
 Im PIN-Schritt sind Überschrift, Erklärung und PIN-Anzeige zentriert. Die ursprünglichen PIN-Aktionsbuttons im Display werden nur in diesem Schritt ausgeblendet. „Enter PIN“ und „Choose another card“ stehen in der äußeren Mock-Steuerung. Der Kartenwechsel löst weiterhin die originale Kartenauswahl aus und setzt den Zustand der Hardware-Simulation zurück. Der neue äußere Button wird nur im PIN-Schritt angezeigt.
 
 PIN-Layout geprüft: Anzeige und Display haben am Desktop dieselbe horizontale Mitte (198,5 px), bei 320 px Displaybreite ebenfalls (160 px). Äußerer Kartenwechsel und äußere automatische PIN funktionieren; danach erscheint wieder die unveränderte Einführung.
+
+## Displayseiten ohne Scrollen
+
+`cashier-layout.css` passt den gesamten Mock an die Fensterhöhe an. `cashier-pages.js` und `cashier-pages.css` teilen lange Inhalte anhand der tatsächlich verfügbaren Displayhöhe auf Vor-/Zurück-Seiten auf. Die nativen Aktionsbuttons bleiben unten sichtbar. Die vorhandenen Formularfelder werden erhalten; Auswahl und Eingaben bleiben beim Blättern bestehen. Pflichtfeldfehler führen auf die Seite des betroffenen Feldes. Der separat exportierte Original-Stand wird nicht verändert.
+
+Geprüft bei 1280 × 720 und 390 × 844: Kartenauswahl, Einführung, Lebenspläne, Fragen, Themenprioritäten und Datenquellen. Manuelles Demo-Asset über mehrere Displayseiten angelegt, Pflichtfeldprüfung und Auswahl beim Blättern geprüft. Score-Seiten ebenfalls auf Displayhöhe verteilt. Keine vertikale oder horizontale Scrollstrecke im äußeren Mock bei den geprüften Größen.

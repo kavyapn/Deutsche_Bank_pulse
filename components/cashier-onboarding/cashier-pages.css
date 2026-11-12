@@ -1,0 +1,54 @@
+/* A fixed display with semantic pages, not clipped or scaled-down forms. */
+html:has(body[data-mode="terminal"]),body[data-mode="terminal"] { height:100dvh; overflow:hidden; }
+body[data-mode="terminal"] .site-footer { display:none; }
+body.cashier-paged #main { width:100%; max-width:none; min-height:0; height:calc(100dvh - var(--site-header-height,60px)); margin:0; padding:10px 14px; overflow:hidden; }
+body.cashier-paged .branch-flow { padding:0; }
+body.cashier-paged .branch-inner { width:100%; }
+body.cashier-paged .branch-steps { margin-bottom:8px; min-height:26px; }
+body.cashier-paged .branch-steps li { flex-direction:row; align-items:center; font-size:12px; }
+body.cashier-paged .branch-steps li:not([aria-current="step"]) { display:none; }
+body.cashier-paged .branch-heading { display:block; position:relative; margin-bottom:8px; }
+body.cashier-paged .branch-heading h1 { font-size:24px; line-height:1.15; padding-right:0; }
+body.cashier-paged .branch-heading .branch-exit { position:absolute; right:0; top:-36px; min-height:32px; padding:5px 9px; font-size:12px; }
+body.cashier-paged .branch-content { margin-top:8px; }
+body.cashier-paged .branch-lead { font-size:14px; line-height:1.4; }
+body.cashier-paged .stack,body.cashier-paged .intro-notes { gap:10px; }
+body.cashier-paged h1 { font-size:24px; line-height:1.15; }
+body.cashier-paged h2 { font-size:19px; }
+body.cashier-paged .card { padding:12px; border-radius:12px; }
+body.cashier-paged .branch-card-grid,body.cashier-paged .branch-goal-grid,body.cashier-paged .branch-options { margin-top:8px; gap:7px; }
+body.cashier-paged .branch-card { min-height:58px; }
+body.cashier-paged .branch-goal,body.cashier-paged .branch-option { min-height:44px; padding:9px 11px; }
+body.cashier-paged .source-choices { gap:7px; }
+body.cashier-paged .priority-list li { min-height:48px; padding-block:3px; }
+.cashier-page-off { display:none!important; }
+.cashier-page-footer { position:fixed; z-index:20; bottom:0; left:0; right:0; padding:8px 14px; background:#fff; border-top:1px solid #e2eaf3; }
+.cashier-page-navigation { display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:6px; }
+.cashier-page-navigation[hidden] { display:none; }
+.cashier-page-navigation button { min-height:36px; border:0; border-radius:7px; padding:6px 10px; background:#edf3fb; color:#123e78; font:inherit; font-size:13px; font-weight:650; }
+.cashier-page-navigation button:disabled { opacity:.35; }
+.cashier-page-navigation span { font-size:12px; color:#556c87; white-space:nowrap; }
+.cashier-native-actions { display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+.cashier-native-actions:empty { display:none; }
+.cashier-native-actions .actions { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:6px; margin:0; width:100%; }
+.cashier-native-actions .button { min-height:42px; padding:9px 11px; font-size:13px; }
+.cashier-page-error { font-size:12px; color:#943b26; margin:4px 0 0; line-height:1.3; }
+.cashier-page-error:empty { display:none; }
+body.cashier-paged .main-health { background:#072e65!important; border-radius:14px; overflow:hidden; }
+body.cashier-paged .main-health::before { display:none; }
+body.cashier-paged .score-circle { width:min(220px,100%,max(100px,calc(100dvh - 290px))); }
+body.cashier-paged .health-widget { padding:12px; }
+body.cashier-paged .health-heading { flex-wrap:wrap; }
+body.cashier-paged .health-kicker { min-height:30px; font-size:19px; }
+body.cashier-paged .health-score-center strong { font-size:44px; }
+body.cashier-paged .health-outline { display:none; }
+@media(max-height:450px) {
+  body[data-view="welcome"] .branch-welcome { padding:18px; }
+  body[data-view="welcome"] .welcome-content > .eyebrow { display:none; }
+  body[data-view="welcome"] .welcome-content h1 { font-size:52px; margin:6px 0; }
+  body[data-view="welcome"] .welcome-content .welcome-subtitle { font-size:22px; }
+  body[data-view="welcome"] .welcome-action { margin-top:14px; }
+  body.cashier-paged .branch-heading h1 { font-size:22px; }
+}
+
+body.cashier-paged .branch-content .message { display:none; }
