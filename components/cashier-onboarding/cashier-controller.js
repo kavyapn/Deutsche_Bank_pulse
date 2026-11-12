@@ -1,6 +1,7 @@
 (() => {
   'use strict';
   const frame=document.querySelector('#pulsScreen'),hw=document.querySelector('#hardwarePad');
+  const chooseAnother=document.querySelector('#chooseAnotherCard');
   const enterPin=document.querySelector('#enterPin'),status=document.querySelector('#status');
   const terminal=document.querySelector('.terminal'),windowMask=document.querySelector('#cashierCardWindow'),actor=document.querySelector('#cashierCardActor');
   const card=actor.querySelector('deutsche-bank-card');
@@ -16,10 +17,11 @@
   function showDots(doc){doc.querySelectorAll('#pin-display span').forEach((dot,index)=>{dot.style.background=index<count?'#cde8ff':'';dot.style.boxShadow=index<count?'0 0 0 2px #a3cdf655':'';});}
   function sync(){
     const doc=getDoc(),native=getNative();
-    if(!doc?.querySelector('#main')){enterPin.disabled=true;allKeys.forEach(key=>key.disabled=true);setStatus('Loading PULS…');return;}
+    if(!doc?.querySelector('#main')){chooseAnother.hidden=true;enterPin.disabled=true;allKeys.forEach(key=>key.disabled=true);setStatus('Loading PULS…');return;}
     if(!native&&wasPin){count=0;busy=false;generation++;}
     wasPin=Boolean(native);
     const enabled=Boolean(native)&&!busy&&!native.button.disabled;
+    chooseAnother.hidden=!native;chooseAnother.disabled=!enabled;
     enterPin.disabled=!enabled;digits.forEach(key=>key.disabled=!enabled||count>=4);
     hw.querySelector('[data-key="clear"]').disabled=!enabled||count===0;
     hw.querySelector('[data-key="enter"]').disabled=!enabled||count!==4;
@@ -85,6 +87,7 @@
     if(token!==generation||!getNative())return;
     busy=false;submit();
   });
+  chooseAnother.addEventListener('click',()=>{const native=getNative();if(!native||busy||native.button.disabled)return;generation++;count=0;busy=false;wasPin=false;cardAnimation?.cancel();cardAnimation=null;windowMask.hidden=true;terminal.dataset.cardState='ready';native.doc.querySelector('[data-branch="cards"]')?.click();sync();});
   function reload(){generation++;observer?.disconnect();observer=null;boundDocument=null;cardAnimation?.cancel();cardAnimation=null;windowMask.hidden=true;count=0;busy=false;wasPin=false;terminal.dataset.cardState='ready';allKeys.forEach(key=>key.classList.remove('pressed'));setStatus('Loading current GitHub onboarding…');frame.srcdoc=appHTML;}
   document.querySelector('#restart').addEventListener('click',reload);
   document.querySelector('#reloadApp').addEventListener('click',reload);

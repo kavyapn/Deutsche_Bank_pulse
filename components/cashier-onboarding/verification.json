@@ -20,12 +20,17 @@
     "finalBuildAutomaticPinSkipAndScore": true,
     "standaloneDownloadMatchesBuild": true,
     "welcomeScreenWithoutOuterWhiteMargins": true,
-    "followingCardPickerStillIntake": true
+    "followingCardPickerStillIntake": true,
+    "pinHorizontallyCentered": true,
+    "chooseAnotherCardOutsideMock": true,
+    "externalCardSwitchReturnsToPicker": true,
+    "mobilePinHorizontallyCentered": true,
+    "externalPinReachesOriginalIntroduction": true
   },
   "limits": [
     "Demo environment; no real card/PIN/bank connection.",
     "Browser testing; no physical terminal or phone tested.",
     "Tested through the local HTTP preview. Direct file:// navigation is not permitted in the in-app test browser and was not tested."
   ],
-  "htmlSha256": "2042c5078c46c3e9f4b48c45c8fc41fe62a916e47b4eb9b674433bb57994e132"
+  "htmlSha256": "d5823a0902c77dc63f0312aa69cf412602a04b4eff070a86b7f203f78ccc2548"
 }

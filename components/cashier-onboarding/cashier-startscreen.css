@@ -9,3 +9,16 @@ body[data-mode="terminal"][data-view="welcome"] .branch-welcome {
   min-height:calc(100dvh - var(--site-header-height,60px));
 }
 body[data-mode="terminal"][data-view="welcome"] .site-footer { display:none; }
+
+/* PIN step: centered focus area; its navigation buttons are operated from the outer mock controls. */
+body[data-mode="terminal"] .branch-flow:has(#pin-display) {
+  display:flex; min-height:320px; height:calc(100dvh - var(--site-header-height,60px)); padding:20px 19px;
+}
+.branch-flow:has(#pin-display) .branch-inner { position:relative; flex:1; display:flex; flex-direction:column; }
+.branch-flow:has(#pin-display) .branch-steps { margin-bottom:0; }
+.branch-flow:has(#pin-display) .branch-heading { margin-top:auto; justify-content:center; text-align:center; }
+.branch-flow:has(#pin-display) .branch-heading .branch-exit { position:absolute; right:0; top:50px; }
+.branch-flow:has(#pin-display) .branch-content { margin-bottom:auto; text-align:center; }
+.branch-flow:has(#pin-display) .branch-lead { margin-inline:auto; }
+.branch-flow:has(#pin-display) #pin-display { margin-inline:auto; }
+.branch-flow:has(#pin-display) .branch-content .actions { display:none; }

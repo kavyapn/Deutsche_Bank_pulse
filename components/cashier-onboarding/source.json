@@ -4,7 +4,8 @@
   "verifiedFrontendFiles": 39,
   "changesToOriginalSource": [],
   "cashierPresentationOverrides": [
-    "Welcome screen fills the display without white margins or rounded card corners."
+    "Welcome screen fills the display without white margins or rounded card corners.",
+    "PIN area centered; native PIN actions operated from outer Cashier controls."
   ],
   "shellTemplate": "User supplied puls-cashier-onboarding-reloaded.html",
   "demoData": "Original embedded dist/api/banking fixtures",

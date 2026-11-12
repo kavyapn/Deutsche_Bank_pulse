@@ -48,3 +48,9 @@ Getestet über lokalen HTTP-Server; direkter file://-Aufruf ist im In-App-Testbr
 `cashier-startscreen.css` entfernt ausschließlich im Cashier-Startzustand die weißen Außenabstände, die runden Ecken der blauen Startfläche und die darunterliegende Fußzeile. Die Startfläche füllt das Display unter dem Bank-Header. Alle Folgeschritte und der separat exportierte Original-Stand behalten ihr Layout.
 
 Im Browser geprüft: Startfläche beginnt bei x=0, füllt die 397 px breite Displayfläche, Eckenradius 0. Kartenauswahl erreicht weiterhin den originalen Intake-Zustand; Neustart stellt die randlose Startfläche wieder her.
+
+## PIN-Bereich und externe Kartenauswahl
+
+Im PIN-Schritt sind Überschrift, Erklärung und PIN-Anzeige zentriert. Die ursprünglichen PIN-Aktionsbuttons im Display werden nur in diesem Schritt ausgeblendet. „Enter PIN“ und „Choose another card“ stehen in der äußeren Mock-Steuerung. Der Kartenwechsel löst weiterhin die originale Kartenauswahl aus und setzt den Zustand der Hardware-Simulation zurück. Der neue äußere Button wird nur im PIN-Schritt angezeigt.
+
+PIN-Layout geprüft: Anzeige und Display haben am Desktop dieselbe horizontale Mitte (198,5 px), bei 320 px Displaybreite ebenfalls (160 px). Äußerer Kartenwechsel und äußere automatische PIN funktionieren; danach erscheint wieder die unveränderte Einführung.
