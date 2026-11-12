@@ -1,0 +1,420 @@
+[
+  {
+    "file": "01-start.html",
+    "title": "Startseite",
+    "section": "Onboarding",
+    "screen": "home"
+  },
+  {
+    "file": "02-karte.html",
+    "title": "Karte auswählen",
+    "section": "Onboarding",
+    "screen": "cards"
+  },
+  {
+    "file": "03-demo-pin.html",
+    "title": "Simulierte PIN-Eingabe",
+    "section": "Onboarding",
+    "screen": "pin"
+  },
+  {
+    "file": "04-einfuehrung.html",
+    "title": "Start with your plans",
+    "section": "Onboarding",
+    "screen": "intro"
+  },
+  {
+    "file": "05-lebensplaene.html",
+    "title": "Lebenspläne auswählen",
+    "section": "Onboarding",
+    "screen": "goals"
+  },
+  {
+    "file": "frage-buffer-01.html",
+    "title": "Build a cash buffer · Zeitpunkt",
+    "section": "Fragen je Lebensplan",
+    "screen": "q1",
+    "goal": "buffer"
+  },
+  {
+    "file": "frage-buffer-02.html",
+    "title": "Build a cash buffer · What would you like your buffer to cover?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q2",
+    "goal": "buffer"
+  },
+  {
+    "file": "frage-buffer-03.html",
+    "title": "Build a cash buffer · How do you set aside money today?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q3",
+    "goal": "buffer"
+  },
+  {
+    "file": "frage-business-01.html",
+    "title": "Start or grow a business · Zeitpunkt",
+    "section": "Fragen je Lebensplan",
+    "screen": "q1",
+    "goal": "business"
+  },
+  {
+    "file": "frage-business-02.html",
+    "title": "Start or grow a business · What would you like to prepare for?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q2",
+    "goal": "business"
+  },
+  {
+    "file": "frage-business-03.html",
+    "title": "Start or grow a business · Have you planned for a lean month?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q3",
+    "goal": "business"
+  },
+  {
+    "file": "frage-inheritance-01.html",
+    "title": "Receive an inheritance · Zeitpunkt",
+    "section": "Fragen je Lebensplan",
+    "screen": "q1",
+    "goal": "inheritance"
+  },
+  {
+    "file": "frage-inheritance-02.html",
+    "title": "Receive an inheritance · What would you like to work through?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q2",
+    "goal": "inheritance"
+  },
+  {
+    "file": "frage-inheritance-03.html",
+    "title": "Receive an inheritance · What do you know about the timing of inherited cash?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q3",
+    "goal": "inheritance"
+  },
+  {
+    "file": "frage-home-01.html",
+    "title": "Move home · Zeitpunkt",
+    "section": "Fragen je Lebensplan",
+    "screen": "q1",
+    "goal": "home"
+  },
+  {
+    "file": "frage-home-02.html",
+    "title": "Move home · Which parts of the move are you planning for?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q2",
+    "goal": "home"
+  },
+  {
+    "file": "frage-home-03.html",
+    "title": "Move home · How certain are the new housing costs?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q3",
+    "goal": "home"
+  },
+  {
+    "file": "frage-family-01.html",
+    "title": "Prepare for a growing family · Zeitpunkt",
+    "section": "Fragen je Lebensplan",
+    "screen": "q1",
+    "goal": "family"
+  },
+  {
+    "file": "frage-family-02.html",
+    "title": "Prepare for a growing family · Which changes would you like to plan for?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q2",
+    "goal": "family"
+  },
+  {
+    "file": "frage-family-03.html",
+    "title": "Prepare for a growing family · Have you estimated the new household budget?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q3",
+    "goal": "family"
+  },
+  {
+    "file": "frage-income-01.html",
+    "title": "Change jobs or take a break · Zeitpunkt",
+    "section": "Fragen je Lebensplan",
+    "screen": "q1",
+    "goal": "income"
+  },
+  {
+    "file": "frage-income-02.html",
+    "title": "Change jobs or take a break · What would make the change easier?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q2",
+    "goal": "income"
+  },
+  {
+    "file": "frage-income-03.html",
+    "title": "Change jobs or take a break · How clearly can you estimate your next income?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q3",
+    "goal": "income"
+  },
+  {
+    "file": "frage-university-01.html",
+    "title": "Go to university · Zeitpunkt",
+    "section": "Fragen je Lebensplan",
+    "screen": "q1",
+    "goal": "university"
+  },
+  {
+    "file": "frage-university-02.html",
+    "title": "Go to university · What would you like to plan for at university?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q2",
+    "goal": "university"
+  },
+  {
+    "file": "frage-university-03.html",
+    "title": "Go to university · How much of the study budget have you estimated?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q3",
+    "goal": "university"
+  },
+  {
+    "file": "frage-salary-01.html",
+    "title": "Receive a first salary · Zeitpunkt",
+    "section": "Fragen je Lebensplan",
+    "screen": "q1",
+    "goal": "salary"
+  },
+  {
+    "file": "frage-salary-02.html",
+    "title": "Receive a first salary · What should your first salary help you do?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q2",
+    "goal": "salary"
+  },
+  {
+    "file": "frage-salary-03.html",
+    "title": "Receive a first salary · Do you know your take-home pay?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q3",
+    "goal": "salary"
+  },
+  {
+    "file": "frage-travel-01.html",
+    "title": "Plan travel · Zeitpunkt",
+    "section": "Fragen je Lebensplan",
+    "screen": "q1",
+    "goal": "travel"
+  },
+  {
+    "file": "frage-travel-02.html",
+    "title": "Plan travel · What would you like to prepare for before travelling?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q2",
+    "goal": "travel"
+  },
+  {
+    "file": "frage-travel-03.html",
+    "title": "Plan travel · Have you estimated the trip costs?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q3",
+    "goal": "travel"
+  },
+  {
+    "file": "frage-marriage-01.html",
+    "title": "Get married · Zeitpunkt",
+    "section": "Fragen je Lebensplan",
+    "screen": "q1",
+    "goal": "marriage"
+  },
+  {
+    "file": "frage-marriage-02.html",
+    "title": "Get married · What would you like to discuss before getting married?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q2",
+    "goal": "marriage"
+  },
+  {
+    "file": "frage-marriage-03.html",
+    "title": "Get married · Have you estimated the one-time costs?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q3",
+    "goal": "marriage"
+  },
+  {
+    "file": "frage-succession-01.html",
+    "title": "Plan family business succession · Zeitpunkt",
+    "section": "Fragen je Lebensplan",
+    "screen": "q1",
+    "goal": "succession"
+  },
+  {
+    "file": "frage-succession-02.html",
+    "title": "Plan family business succession · What would you like to resolve before the handover?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q2",
+    "goal": "succession"
+  },
+  {
+    "file": "frage-succession-03.html",
+    "title": "Plan family business succession · How far along is the transition plan?",
+    "section": "Fragen je Lebensplan",
+    "screen": "q3",
+    "goal": "succession"
+  },
+  {
+    "file": "06-themen-prioritaeten.html",
+    "title": "Themenprioritäten · bestehende Daumen-Auswahl",
+    "section": "Onboarding",
+    "screen": "priorities"
+  },
+  {
+    "file": "07-datenquellen.html",
+    "title": "Datenquellen · Übersicht",
+    "section": "Datenquellen",
+    "screen": "sources"
+  },
+  {
+    "file": "08-datenquelle-bank.html",
+    "title": "Bank verbinden",
+    "section": "Datenquellen",
+    "screen": "sources",
+    "assetMode": "bank"
+  },
+  {
+    "file": "08-datenquelle-csv.html",
+    "title": "CSV importieren",
+    "section": "Datenquellen",
+    "screen": "sources",
+    "assetMode": "csv"
+  },
+  {
+    "file": "08-datenquelle-manual.html",
+    "title": "Manuell hinzufügen",
+    "section": "Datenquellen",
+    "screen": "sources",
+    "assetMode": "manual"
+  },
+  {
+    "file": "09-bank-vorschau.html",
+    "title": "Bankverbindung · Demo-Salden prüfen",
+    "section": "Datenquellen",
+    "screen": "bank-preview"
+  },
+  {
+    "file": "10-puls-score.html",
+    "title": "PULS · Score-Übersicht",
+    "section": "PULS Hauptansichten",
+    "screen": "score"
+  },
+  {
+    "file": "puls-fitness.html",
+    "title": "Financial fitness",
+    "section": "PULS Hauptansichten",
+    "screen": "fitness"
+  },
+  {
+    "file": "puls-behaviour.html",
+    "title": "Financial behavior",
+    "section": "PULS Hauptansichten",
+    "screen": "behaviour"
+  },
+  {
+    "file": "puls-report.html",
+    "title": "Score report",
+    "section": "PULS Hauptansichten",
+    "screen": "report"
+  },
+  {
+    "file": "puls-capability.html",
+    "title": "Capability assessment",
+    "section": "PULS Hauptansichten",
+    "screen": "capability"
+  },
+  {
+    "file": "puls-weekly.html",
+    "title": "Weekly advice",
+    "section": "PULS Hauptansichten",
+    "screen": "weekly"
+  },
+  {
+    "file": "puls-edit-priorities.html",
+    "title": "Personalize priorities",
+    "section": "PULS Hauptansichten",
+    "screen": "edit-priorities"
+  },
+  {
+    "file": "puls-simulator.html",
+    "title": "Simulator · Lebensereignisse",
+    "section": "PULS Hauptansichten",
+    "screen": "simulator"
+  },
+  {
+    "file": "puls-simulator-family.html",
+    "title": "Simulator · Family",
+    "section": "PULS Hauptansichten",
+    "screen": "simulator-family"
+  },
+  {
+    "file": "puls-simulator-retirement.html",
+    "title": "Simulator · Retirement",
+    "section": "PULS Hauptansichten",
+    "screen": "simulator-retirement"
+  },
+  {
+    "file": "puls-learn.html",
+    "title": "Lernpfad",
+    "section": "PULS Hauptansichten",
+    "screen": "learn"
+  },
+  {
+    "file": "puls-progress.html",
+    "title": "Fortschritt",
+    "section": "PULS Hauptansichten",
+    "screen": "progress"
+  },
+  {
+    "file": "lernen-lesson-cash.html",
+    "title": "Lektion · Cash buffer",
+    "section": "Lernen",
+    "screen": "lesson",
+    "lesson": "lesson-cash"
+  },
+  {
+    "file": "lernen-lesson-borrowing.html",
+    "title": "Lektion · Borrowing",
+    "section": "Lernen",
+    "screen": "lesson",
+    "lesson": "lesson-borrowing"
+  },
+  {
+    "file": "lernen-lesson-diversification.html",
+    "title": "Lektion · Diversification",
+    "section": "Lernen",
+    "screen": "lesson",
+    "lesson": "lesson-diversification"
+  },
+  {
+    "file": "lernen-lesson-fraud.html",
+    "title": "Lektion · Fraud",
+    "section": "Lernen",
+    "screen": "lesson",
+    "lesson": "lesson-fraud"
+  },
+  {
+    "file": "mobile-bank-home.html",
+    "title": "Mobile banking · Übersicht",
+    "section": "Mobile banking",
+    "screen": "bank-home"
+  },
+  {
+    "file": "mobile-invest.html",
+    "title": "Mobile banking · Investments",
+    "section": "Mobile banking",
+    "screen": "invest"
+  },
+  {
+    "file": "mobile-services.html",
+    "title": "Mobile banking · Services",
+    "section": "Mobile banking",
+    "screen": "services"
+  }
+]

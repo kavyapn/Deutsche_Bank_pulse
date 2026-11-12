@@ -41,3 +41,10 @@ Frontendvergleich mit statischem lokalem Server. Kein KI-Backend gestartet. Kein
 - HTML neu exportiert und den vollständigen Filialablauf bis zu den Datenquellen durchlaufen.
 - Bankverbindung als 68 px hohe Hauptaktion mit linksbündigem Text und Pfeil rechts visuell geprüft. CSV und manuelle Eingabe sind kompakte Textbuttons, behalten aber mindestens 44 px Bedienhöhe. Keine zusätzlichen Container.
 - Aktionskennungen und bestehende Formulare unverändert. Screenshot: `screenshots/bank-modern.jpg`.
+
+## Separate HTML-Seiten
+
+- 63 Ansichten exportiert: Onboarding, 33 Fragenansichten der elf Lebenspläne, Datenquellen, Hauptmodule, vier Lektionen und Mobile Banking.
+- Jede Datei enthält die aktuelle vollständige Anwendung und einen Startablauf, der ausschließlich vorhandene Bedienelemente ausführt. Keine Layoutrekonstruktion.
+- Alle 63 Dateien einzeln im Browser geöffnet und erfolgreich auf exportReady geprüft; keine exportError-Meldung. Details: seperatre i. files/browser-pruefung.json.
+- Kein neues Daumen-Design umgesetzt. Der ursprüngliche aktuelle Stand ist exportiert.

@@ -1,0 +1,375 @@
+[
+  {
+    "file": "01-start.html",
+    "error": null,
+    "heading": "PULS",
+    "ready": "true"
+  },
+  {
+    "file": "02-karte.html",
+    "error": null,
+    "heading": "Insert a bank card",
+    "ready": "true"
+  },
+  {
+    "file": "03-demo-pin.html",
+    "error": null,
+    "heading": "Enter your demo PIN",
+    "ready": "true"
+  },
+  {
+    "file": "04-einfuehrung.html",
+    "error": null,
+    "heading": "Start with your plans",
+    "ready": "true"
+  },
+  {
+    "file": "05-lebensplaene.html",
+    "error": null,
+    "heading": "What’s coming up for you?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-buffer-01.html",
+    "error": null,
+    "heading": "When do you expect this change?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-buffer-02.html",
+    "error": null,
+    "heading": "What would you like your buffer to cover?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-buffer-03.html",
+    "error": null,
+    "heading": "How do you set aside money today?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-business-01.html",
+    "error": null,
+    "heading": "When do you expect this change?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-business-02.html",
+    "error": null,
+    "heading": "What would you like to prepare for?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-business-03.html",
+    "error": null,
+    "heading": "Have you planned for a lean month?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-inheritance-01.html",
+    "error": null,
+    "heading": "When do you expect this change?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-inheritance-02.html",
+    "error": null,
+    "heading": "What would you like to work through?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-inheritance-03.html",
+    "error": null,
+    "heading": "What do you know about the timing of inherited cash?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-home-01.html",
+    "error": null,
+    "heading": "When do you expect this change?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-home-02.html",
+    "error": null,
+    "heading": "Which parts of the move are you planning for?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-home-03.html",
+    "error": null,
+    "heading": "How certain are the new housing costs?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-family-01.html",
+    "error": null,
+    "heading": "When do you expect this change?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-family-02.html",
+    "error": null,
+    "heading": "Which changes would you like to plan for?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-family-03.html",
+    "error": null,
+    "heading": "Have you estimated the new household budget?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-income-01.html",
+    "error": null,
+    "heading": "When do you expect this change?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-income-02.html",
+    "error": null,
+    "heading": "What would make the change easier?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-income-03.html",
+    "error": null,
+    "heading": "How clearly can you estimate your next income?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-university-01.html",
+    "error": null,
+    "heading": "When do you expect this change?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-university-02.html",
+    "error": null,
+    "heading": "What would you like to plan for at university?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-university-03.html",
+    "error": null,
+    "heading": "How much of the study budget have you estimated?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-salary-01.html",
+    "error": null,
+    "heading": "When do you expect this change?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-salary-02.html",
+    "error": null,
+    "heading": "What should your first salary help you do?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-salary-03.html",
+    "error": null,
+    "heading": "Do you know your take-home pay?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-travel-01.html",
+    "error": null,
+    "heading": "When do you expect this change?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-travel-02.html",
+    "error": null,
+    "heading": "What would you like to prepare for before travelling?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-travel-03.html",
+    "error": null,
+    "heading": "Have you estimated the trip costs?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-marriage-01.html",
+    "error": null,
+    "heading": "When do you expect this change?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-marriage-02.html",
+    "error": null,
+    "heading": "What would you like to discuss before getting married?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-marriage-03.html",
+    "error": null,
+    "heading": "Have you estimated the one-time costs?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-succession-01.html",
+    "error": null,
+    "heading": "When do you expect this change?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-succession-02.html",
+    "error": null,
+    "heading": "What would you like to resolve before the handover?",
+    "ready": "true"
+  },
+  {
+    "file": "frage-succession-03.html",
+    "error": null,
+    "heading": "How far along is the transition plan?",
+    "ready": "true"
+  },
+  {
+    "file": "06-themen-prioritaeten.html",
+    "error": null,
+    "heading": "What matters most to you?",
+    "ready": "true"
+  },
+  {
+    "file": "07-datenquellen.html",
+    "error": null,
+    "heading": "Add data sources",
+    "ready": "true"
+  },
+  {
+    "file": "08-datenquelle-bank.html",
+    "error": null,
+    "heading": "Add data sources",
+    "ready": "true"
+  },
+  {
+    "file": "08-datenquelle-csv.html",
+    "error": null,
+    "heading": "Add data sources",
+    "ready": "true"
+  },
+  {
+    "file": "08-datenquelle-manual.html",
+    "error": null,
+    "heading": "Add data sources",
+    "ready": "true"
+  },
+  {
+    "file": "09-bank-vorschau.html",
+    "error": null,
+    "heading": "Add data sources",
+    "ready": "true"
+  },
+  {
+    "file": "10-puls-score.html",
+    "error": null,
+    "heading": "PULS Financial Health",
+    "ready": "true"
+  },
+  {
+    "file": "puls-fitness.html",
+    "error": null,
+    "ready": "true"
+  },
+  {
+    "file": "puls-behaviour.html",
+    "error": null,
+    "ready": "true"
+  },
+  {
+    "file": "puls-report.html",
+    "error": null,
+    "heading": "Score report",
+    "ready": "true"
+  },
+  {
+    "file": "puls-capability.html",
+    "error": null,
+    "heading": "Financial capability check",
+    "ready": "true"
+  },
+  {
+    "file": "puls-weekly.html",
+    "error": null,
+    "heading": "This week with Pip",
+    "ready": "true"
+  },
+  {
+    "file": "puls-edit-priorities.html",
+    "error": null,
+    "heading": "Personalize priorities",
+    "ready": "true"
+  },
+  {
+    "file": "puls-simulator.html",
+    "error": null,
+    "ready": "true"
+  },
+  {
+    "file": "puls-simulator-family.html",
+    "error": null,
+    "ready": "true"
+  },
+  {
+    "file": "puls-simulator-retirement.html",
+    "error": null,
+    "ready": "true"
+  },
+  {
+    "file": "puls-learn.html",
+    "error": null,
+    "heading": "Your learning path",
+    "ready": "true"
+  },
+  {
+    "file": "puls-progress.html",
+    "error": null,
+    "heading": "Your progress",
+    "ready": "true"
+  },
+  {
+    "file": "lernen-lesson-cash.html",
+    "error": null,
+    "heading": "Build an accessible cash buffer",
+    "ready": "true"
+  },
+  {
+    "file": "lernen-lesson-borrowing.html",
+    "error": null,
+    "heading": "Compare the full cost of borrowing",
+    "ready": "true"
+  },
+  {
+    "file": "lernen-lesson-diversification.html",
+    "error": null,
+    "heading": "Look through funds to spot concentration",
+    "ready": "true"
+  },
+  {
+    "file": "lernen-lesson-fraud.html",
+    "error": null,
+    "heading": "Recognise a suspicious bank message",
+    "ready": "true"
+  },
+  {
+    "file": "mobile-bank-home.html",
+    "error": null,
+    "heading": "Financial overview",
+    "ready": "true"
+  },
+  {
+    "file": "mobile-invest.html",
+    "error": null,
+    "heading": "Investments",
+    "ready": "true"
+  },
+  {
+    "file": "mobile-services.html",
+    "error": null,
+    "heading": "Services",
+    "ready": "true"
+  }
+]

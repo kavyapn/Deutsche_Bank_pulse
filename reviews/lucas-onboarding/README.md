@@ -49,3 +49,9 @@ Prüfungen: [verification.md](verification.md). Die Dateien in `screenshots/` ze
 [PULS_Deine_Aenderungen.html](PULS_Deine_Aenderungen.html) enthält die vollständige geänderte Frontend-Version als eine Datei: JavaScript, Styles, Logo, Maskottchen und Demo-Bankdaten sind eingebettet. Direkt im Browser öffnen. Inter wird wie im Original über Google Fonts geladen; ohne Internet greift die ursprüngliche Systemschrift als Ersatz. Kein KI-Backend enthalten, der vorhandene Demo-Coach bleibt nutzbar.
 
 Neu erzeugen: `node export-html.mjs`, nachdem `build-full-apps.mjs` gelaufen ist. Der Export verwendet esbuild 0.25.12 und verändert die UI-Quellkopie nicht.
+
+## Jede Seite einzeln
+
+Im Ordner [seperatre i. files](seperatre%20i.%20files/) liegen 63 einzeln öffnbare HTML-Dateien plus [index.html](seperatre%20i.%20files/index.html). Jede enthält die vollständige geänderte App und öffnet durch die originalen Demo-Aktionen die gewünschte Ansicht. Alle 63 Direkteinstiege im Browser geprüft. Die bestehende Daumen-Auswahl ist unverändert.
+
+Neu erzeugen: `node export-pages.mjs`. Die Dateien sind absichtlich unabhängig voneinander, damit einzelne Seiten separat weitergegeben werden können.
