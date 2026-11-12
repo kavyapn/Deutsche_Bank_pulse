@@ -1,5 +1,9 @@
 # Deutsche Bank PULS
 
+## UI-Review: Welche Seiten wurden geändert?
+
+Im separaten [Review-Ordner „seperatre i. files“](reviews/lucas-onboarding/seperatre%20i.%20files/README.md) sind die **sechs zuerst zu prüfenden HTML-Seiten** mit den Änderungen gegenüber Lucas’ GitHub-Original verlinkt. Dort stehen auch alle weiteren geänderten Varianten und die unveränderten Ansichten.
+
 ## English widget website
 
 Open [the English widget website](PULS_App_English.html) in a browser. This adapts the English V10 prototype into a responsive standalone HTML surface without a smartphone frame, studio controls, or a banking home page. The scope is the financial wellbeing widget and its detail, learning, goal, and demo coach views. Banking data and actions remain illustrative.

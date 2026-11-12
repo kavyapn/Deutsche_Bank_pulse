@@ -66,10 +66,63 @@ for(const page of pages){
  html=html.replace('</body>',`<script>(${openPage.toString()})(${JSON.stringify(page)});</script>\n</body>`);
  fs.writeFileSync(path.join(folder,page.file),html);
 }
+// Review metadata is kept outside the application HTML; it describes the exported entry screen.
+for(const page of pages){
+ page.changed=['intro','goals','q1','q2','q3','sources','bank-preview'].includes(page.screen);
+ page.change=page.screen==='intro'?'Kürzere Texte; Erklärung und größerer Button zentriert.':page.screen==='goals'?'Ganze Auswahlkarten; gewählte Karten dunkelblau statt sichtbarer Checkboxen.':['q1','q2','q3'].includes(page.screen)?'Ganze Antwortflächen; Auswahl dunkelblau, Einzel-/Mehrfachauswahl unverändert.':['sources','bank-preview'].includes(page.screen)?'Bankverbindung als Hauptaktion; CSV/manuell als Textbuttons; leerer Asset-Container entfernt; Score-Button mittig.':'Einstiegsansicht unverändert gegenüber dem GitHub-Original.';
+}
+const firstReviewFiles=['04-einfuehrung.html','05-lebensplaene.html','frage-income-01.html','frage-income-02.html','frage-income-03.html','07-datenquellen.html'];
+const firstReview=firstReviewFiles.map(file=>pages.find(page=>page.file===file));
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
 const sections=[...new Set(pages.map(p=>p.section))];
-const index=`<!doctype html><html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>PULS · Einzelne Seiten</title><style>body{font:16px/1.5 system-ui;color:#142944;background:#f4f7fb;margin:0}main{max-width:1000px;margin:auto;padding:32px 24px}h1{letter-spacing:-.04em}h2{margin:32px 0 12px}ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}a{display:block;background:white;border:1px solid #dce5ef;border-radius:10px;padding:12px 16px;color:#0756bc;text-decoration:none}a:hover{text-decoration:underline}p{color:#556c87;max-width:760px}@media(max-width:600px){ul{grid-template-columns:1fr}}</style><main><h1>PULS · Einzelne Seiten</h1><p>${pages.length} eigenständige HTML-Dateien deiner aktuellen Version. Jede Datei öffnet automatisch die angegebene Ansicht der vollständigen Anwendung. Der Aufbau wird aus dem echten App-Code erzeugt. Beim Öffnen späterer Seiten werden die nötigen Demo-Schritte kurz im Hintergrund ausgeführt.</p><p>Die bestehende Daumen-Auswahl ist unverändert. Schrift: Inter über Google Fonts, mit Systemschrift als Offline-Ersatz. Keine echte Bankverbindung, kein KI-Backend.</p>${sections.map(section=>`<h2>${section}</h2><ul>${pages.filter(p=>p.section===section).map(p=>`<li><a href="${p.file}" target="_blank">${esc(p.title)}</a></li>`).join('')}</ul>`).join('')}</main></html>`;
+const index=`<!doctype html><html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>PULS · Einzelne Seiten</title><style>body{font:16px/1.5 system-ui;color:#142944;background:#f4f7fb;margin:0}main{max-width:1000px;margin:auto;padding:32px 24px}h1{letter-spacing:-.04em}h2{margin:32px 0 12px}ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}a{display:block;background:white;border:1px solid #dce5ef;border-radius:10px;padding:12px 16px;color:#0756bc;text-decoration:none}a:hover{text-decoration:underline}p{color:#556c87;max-width:760px}.badge{display:inline-block;margin-left:8px;padding:1px 7px;border-radius:5px;background:#e8f0fc;color:#072e65;font-size:12px;font-weight:600}.review-first{border-left:4px solid #072e65;padding-left:16px}@media(max-width:600px){ul{grid-template-columns:1fr}}</style><main><h1>PULS · Einzelne Seiten</h1><p>${pages.length} eigenständige HTML-Dateien deiner aktuellen Version. Jede Datei öffnet automatisch die angegebene Ansicht der vollständigen Anwendung. Der Aufbau wird aus dem echten App-Code erzeugt. Beim Öffnen späterer Seiten werden die nötigen Demo-Schritte kurz im Hintergrund ausgeführt.</p><p>Die bestehende Daumen-Auswahl ist unverändert. Schrift: Inter über Google Fonts, mit Systemschrift als Offline-Ersatz. Keine echte Bankverbindung, kein KI-Backend.</p><section class="review-first"><h2>Diese 6 Seiten zuerst anschauen</h2><p>Sie zeigen alle besprochenen Designänderungen. Insgesamt sind ${pages.filter(p=>p.changed).length} Einstiegsansichten geändert; ${pages.filter(p=>!p.changed).length} sind als Kontext unverändert enthalten. Maßstab: LucasKi9000/PULS, Commit b9537cc.</p><ul>${firstReview.map(p=>`<li><a href="${p.file}" target="_blank">${esc(p.title)}<span class="badge">Geändert</span></a></li>`).join('')}</ul></section>${sections.map(section=>`<h2>${section}</h2><ul>${pages.filter(p=>p.section===section).map(p=>`<li><a href="${p.file}" target="_blank">${esc(p.title)}${p.changed?'<span class="badge">Geändert</span>':''}</a></li>`).join('')}</ul>`).join('')}</main></html>`;
 fs.writeFileSync(path.join(folder,'index.html'),index);
 fs.writeFileSync(path.join(folder,'seiten.json'),JSON.stringify(pages,null,2)+'\n');
-fs.writeFileSync(path.join(folder,'README.md'),`# Einzelne HTML-Seiten\n\nindex.html öffnen. ${pages.length} eigenständige Ansichten; jede HTML-Datei enthält die vollständige Anwendung samt Styles, Bildern und Demo-Bankdaten. Kein Server erforderlich. Der genaue Dateiname des Ordners ist wie gewünscht „seperatre i. files“.\n\nDie richtige Ansicht wird durch das Ausführen der bestehenden Demo-Aktionen geöffnet, ohne eigene Seiten-Templates oder Änderungen an den App-Funktionen. Spätere Ansichten benötigen kurz für die ursprüngliche PIN-/Scan-Animation. Danach ist die Seite regulär bedienbar.\n\nEnthalten: Onboarding, alle drei Fragen für jeden der elf Lebenspläne, bestehende Themenprioritäten, Datenquellen und Eingabemodi, Hauptansichten, vier Lektionen und Mobile Banking. Nicht jede mögliche Zwischenmeldung, Dialog- oder Antwortkombination ist eine eigene Datei.\n\nDer zuletzt besprochene Vorschlag zum Ersetzen der Daumen wurde nicht umgesetzt. Jede Datei zeigt den aktuellen freigegebenen Designstand. Demo-Antworten sind bei direkten Fragenansichten exemplarisch vorausgewählt.\n\nNeu erzeugen: im übergeordneten Ordner node export-pages.mjs ausführen, nachdem die einzelne Gesamt-HTML exportiert wurde.\n`);
+const mdLink=p=>`[${p.file}](${p.file})`;
+const changedGuide=`# Diese Seiten bitte anschauen
+
+Vergleichsbasis: [LucasKi9000/PULS · b9537cc](https://github.com/LucasKi9000/PULS/tree/b9537cc0d7adb739c289b8f0a80c3433324fb37a). Die Kennzeichnung bezieht sich auf die beim Öffnen angezeigte Ansicht, nicht auf alle später erreichbaren Seiten der enthaltenen App.
+
+## Zuerst diese sechs Dateien prüfen
+
+Diese Auswahl zeigt alle besprochenen Designänderungen, ohne alle 63 Dateien öffnen zu müssen.
+
+| Datei | Was gegenüber dem Original geändert wurde |
+| --- | --- |
+${firstReview.map(p=>`| ${mdLink(p)} | ${p.change} |`).join('\n')}
+
+## Alle geänderten Einstiegsansichten (${pages.filter(p=>p.changed).length})
+
+**Einführung:** ${mdLink(pages.find(p=>p.screen==='intro'))}.
+
+**Lebenspläne:** ${mdLink(pages.find(p=>p.screen==='goals'))}.
+
+**Fragen:** Das gleiche neue Auswahlprinzip gilt für alle elf Lebenspläne. Texte und Auswahlregeln wurden nicht geändert. Pro Lebensplan sind diese drei Dateien vorhanden:
+
+| Lebensplan | Zeitpunkt | Mehrfachantwort | Vorbereitung |
+| --- | --- | --- | --- |
+${Object.entries(goals).map(([goal,info])=>`| ${info.label} | [Frage 1](frage-${goal}-01.html) | [Frage 2](frage-${goal}-02.html) | [Frage 3](frage-${goal}-03.html) |`).join('\n')}
+
+**Datenquellen:**
+
+${pages.filter(p=>['sources','bank-preview'].includes(p.screen)).map(p=>`- ${mdLink(p)} — ${p.title}`).join('\n')}
+
+Hier stehen Bankverbindung und zentraler Score-Button im Fokus. CSV und manuelle Eingabe sind reduzierte Textbuttons. Der leere Asset-Container entfällt beim Onboarding; tatsächlich hinzugefügte Assets bleiben sichtbar.
+
+## Unveränderte Ansichten (${pages.filter(p=>!p.changed).length})
+
+Diese Dateien müssen nicht für die Designänderungen geprüft werden. Sie sind nur enthalten, damit der restliche Ablauf einzeln angeschaut werden kann. Insbesondere sind die **simulierte PIN-Eingabe und die Daumen-Auswahl unverändert**.
+
+${pages.filter(p=>!p.changed).map(p=>`- ${mdLink(p)} — ${p.title}`).join('\n')}
+
+## Öffnen und Prüfung
+
+[index.html](index.html) öffnen. Jede Datei enthält die vollständige aktuelle App mit eingebetteten Styles, Bildern und Demo-Daten. Der gewünschte Zustand wird durch bestehende Demo-Aktionen geöffnet, ohne nachgebaute Seiten-Templates. Spätere Ansichten benötigen kurz für die ursprünglichen PIN-/Scan-Animationen. Danach sind sie regulär bedienbar.
+
+Alle 63 Direkteinstiege im Browser ohne Exportfehler geprüft; Ergebnisse: [browser-pruefung.json](browser-pruefung.json). Prüfung über lokalen HTTP-Server; file:// nicht separat automatisiert getestet. Inter wird wie im Original über Google Fonts geladen, offline greift die Systemschrift. Kein KI-Backend und keine echte Bankverbindung.
+
+Neu erzeugen: im übergeordneten Ordner node export-pages.mjs ausführen, nachdem die Gesamt-HTML exportiert wurde.
+`;
+fs.writeFileSync(path.join(folder,'README.md'),changedGuide);
+
 console.log(`Exported ${pages.length} pages to ${folder}`);
