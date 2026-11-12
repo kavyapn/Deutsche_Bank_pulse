@@ -44,12 +44,16 @@
     "finishSetupBypassesOriginalScanAndScore": true,
     "widgetUnlockFitsDesktop1280x720": true,
     "widgetUnlockFitsMobile390x844": true,
-    "websiteModeSwitchHiddenInCashier": true
+    "websiteModeSwitchHiddenInCashier": true,
+    "unifiedContinueBackWithoutExtraNavigation": true,
+    "continueSubmitsOriginalQuestionsAfterLastContentPage": true,
+    "backRetainsGoalSelection": true,
+    "mobileUnifiedNavigationToWidgetUnlock": true
   },
   "limits": [
     "Demo environment; no real card/PIN/bank connection.",
     "Browser testing; no physical terminal or phone tested.",
     "Tested through the local HTTP preview. Direct file:// navigation is not permitted in the in-app test browser and was not tested."
   ],
-  "htmlSha256": "94ba6d55c6b63eec8b1f36031a2ad4eaf3d4613b24a07a705c10304259eb10e6"
+  "htmlSha256": "4591cb66b0ab8533a6d45f9007b861216b254db8687160404b9f67014175c30f"
 }

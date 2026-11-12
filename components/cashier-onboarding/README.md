@@ -72,3 +72,7 @@ Der Cashier-Ablauf endet nach den optionalen Datenquellen mit „Finish setup“
 ## Kein Website-Modusumschalter
 
 Der Umschalter „Branch / Mobile banking“ ist im Cashier-Display auf allen Seiten ausgeblendet. Das Banklogo bleibt sichtbar. Der separat exportierte Original-Stand behält seinen Website-Umschalter.
+
+## Eine gemeinsame Navigation
+
+Die zusätzliche Navigation „Previous / Next / Page …“ entfällt. Im Cashier übernehmen „Continue“ und „Back“ sowohl das Blättern innerhalb langer Inhalte als auch den anschließenden Wechsel des Onboarding-Schritts. Erst am Ende eines Inhaltsblocks löst der Hauptbutton die originale Formularaktion aus; am Anfang führt „Back“ zum vorigen Schritt. Abschließende Aktionsbezeichnungen wie „Finish setup“ bleiben erhalten. Eingaben und die originale Pflichtfeldprüfung bleiben bestehen.

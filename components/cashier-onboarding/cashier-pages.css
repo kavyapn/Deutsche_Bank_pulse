@@ -23,15 +23,12 @@ body.cashier-paged .source-choices { gap:7px; }
 body.cashier-paged .priority-list li { min-height:48px; padding-block:3px; }
 .cashier-page-off { display:none!important; }
 .cashier-page-footer { position:fixed; z-index:20; bottom:0; left:0; right:0; padding:8px 14px; background:#fff; border-top:1px solid #e2eaf3; }
-.cashier-page-navigation { display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:6px; }
-.cashier-page-navigation[hidden] { display:none; }
-.cashier-page-navigation button { min-height:36px; border:0; border-radius:7px; padding:6px 10px; background:#edf3fb; color:#123e78; font:inherit; font-size:13px; font-weight:650; }
-.cashier-page-navigation button:disabled { opacity:.35; }
-.cashier-page-navigation span { font-size:12px; color:#556c87; white-space:nowrap; }
-.cashier-native-actions { display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
-.cashier-native-actions:empty { display:none; }
-.cashier-native-actions .actions { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:6px; margin:0; width:100%; }
+.cashier-flow-controls { display:flex; flex-wrap:wrap; gap:6px; align-items:center; justify-content:space-between; }
+.cashier-flow-controls > .button { min-height:42px; padding:9px 11px; font-size:13px; }
+.cashier-flow-controls [hidden],.cashier-flow-action { display:none!important; }
+.cashier-native-actions,.cashier-native-actions .actions,.cashier-native-actions .row { display:contents; }
 .cashier-native-actions .button { min-height:42px; padding:9px 11px; font-size:13px; }
+.cashier-flow-controls > [data-flow="continue"] { margin-left:auto; }
 .cashier-page-error { font-size:12px; color:#943b26; margin:4px 0 0; line-height:1.3; }
 .cashier-page-error:empty { display:none; }
 body.cashier-paged .main-health { background:#072e65!important; border-radius:14px; overflow:hidden; }

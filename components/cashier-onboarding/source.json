@@ -7,7 +7,7 @@
     "Website prototype mode selector hidden throughout the Cashier display.",
     "Welcome screen fills the display without white margins or rounded card corners.",
     "PIN area centered; native PIN actions operated from outer Cashier controls.",
-    "Long content split into display pages without scrolling; original form nodes and actions preserved.",
+    "Long content uses unified Continue/Back navigation without scrolling or a separate page counter; original form nodes and actions preserved.",
     "Cashier onboarding finishes at widget activation; original score retrieval is not invoked."
   ],
   "shellTemplate": "User supplied puls-cashier-onboarding-reloaded.html",
