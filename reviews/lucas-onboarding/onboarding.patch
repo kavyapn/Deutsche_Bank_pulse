@@ -1,0 +1,30 @@
+--- a/dist/branch.js
++++ b/dist/branch.js
+@@ -168,13 +168,11 @@
+     </div>`;
+ }
+ 
++// REVIEW-02: Explain the next interaction once; remove the definition and two marketing panels.
+ function introduction() {
+-  return `<p class="branch-lead">Financial wellbeing means feeling in control of your money today and being able to make choices about tomorrow.</p>
+-    <div class="intro-notes">
+-      <section><h2>Why it matters</h2><p>Meeting everyday costs and having room for a surprise can reduce money stress. A plan gives you more choices when life changes.</p></section>
+-      <section><h2>How PULS helps</h2><p>See how your banking activity, habits and knowledge shape your score. Then try one next step or test a goal before committing.</p></section>
+-    </div>
+-    <div class="actions"><button class="button" type="button" data-branch="goals">Choose life goals <span aria-hidden="true">→</span></button></div>`;
++  return `<p class="branch-lead">Choose what’s coming up in your life, then answer a few questions about your finances.</p>
++    <!-- REVIEW-03: Name the next screen. Preserve the existing goals action and navigation. -->
++    <div class="actions"><button class="button" type="button" data-branch="goals">Choose your plans <span aria-hidden="true">→</span></button></div>`;
+ }
+ 
+ export function branchSteps(step) {
+@@ -240,7 +238,8 @@
+   }
+ 
+   function intro() {
+-    screen(1, "Get to know PULS", introduction());
++    // REVIEW-01: Give this screen a specific purpose rather than a product introduction.
++    screen(1, "Start with your plans", introduction());
+   }
+ 
+   function pin(id) {
