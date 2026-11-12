@@ -1,0 +1,6 @@
+{
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "mkdir -p public && cp PULS_Cashier_Onboarding.html public/index.html",
+  "outputDirectory": "public"
+}

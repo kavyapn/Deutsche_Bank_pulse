@@ -78,3 +78,9 @@ Der Umschalter „Branch / Mobile banking“ ist im Cashier-Display auf allen Se
 Die zusätzliche Navigation „Previous / Next / Page …“ entfällt. Im Cashier übernehmen „Continue“ und „Back“ sowohl das Blättern innerhalb langer Inhalte als auch den anschließenden Wechsel des Onboarding-Schritts. Erst am Ende eines Inhaltsblocks löst der Hauptbutton die originale Formularaktion aus; am Anfang führt „Back“ zum vorigen Schritt. Abschließende Aktionsbezeichnungen wie „Finish setup“ bleiben erhalten. Eingaben und die originale Pflichtfeldprüfung bleiben bestehen.
 
 Im PIN-Schritt entfällt die zusätzliche Statuszeile „… sample card is ready.“; Überschrift und PIN-Anzeige bleiben zentriert.
+
+## Vercel
+
+Live-Demo: https://puls-cashier-onboarding.vercel.app/
+
+Projekt `puls-cashier-onboarding` im Vercel-Team `Private`. Root Directory: `components/cashier-onboarding`. `vercel.json` veröffentlicht ausschließlich die fertige Cashier-HTML als `public/index.html`; kein Backend und keine zusätzlichen Quell- oder Review-Dateien werden benötigt. Das erste Production-Deployment verwendet Commit `1565ca3`; die ausgelieferte Datei wurde per SHA-256 mit der lokalen HTML verglichen.
