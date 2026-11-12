@@ -1,18 +1,21 @@
-# PULS · Sein Design / Dein Design
+# PULS · Echter Strukturvergleich
 
-Designvergleich für Tobias. Quelle: [LucasKi9000/PULS, b9537cc](https://github.com/LucasKi9000/PULS/tree/b9537cc0d7adb739c289b8f0a80c3433324fb37a). Die Vorschläge liegen getrennt im Branch `codex/puls-onboarding-review` von `kavyapn/Deutsche_Bank_pulse`. Lucas’ Repository und seine laufende Website wurden nicht verändert.
+Links läuft die **vollständige, unveränderte Frontend-Anwendung** aus [LucasKi9000/PULS, b9537cc](https://github.com/LucasKi9000/PULS/tree/b9537cc0d7adb739c289b8f0a80c3433324fb37a). Rechts läuft dieselbe Anwendung mit `design-review.patch`. Keine nachgebauten Frage-Templates und keine ersetzten Bildschirmstrukturen. Die früheren statischen Nachbauten wurden entfernt.
 
-## Direkt vergleichen
+Der Quellstand wurde am 12. November 2026 gegen GitHub HEAD geprüft. Alle 39 Dateien in `dist/` werden aus einem Git-Archiv erzeugt und anhand ihrer Git-Blob-Hashes byteweise verifiziert. Rechts dürfen ausschließlich `dist/branch.js`, `dist/branch.css` und `dist/feature-ui.js` abweichen. Nachweis: [full-app-verification.json](full-app-verification.json).
 
-`preview.html` über einen lokalen HTTP-Server öffnen, zum Beispiel aus diesem Ordner:
+## Starten
 
 ```sh
-python3 -m http.server 8012
+node build-full-apps.mjs /pfad/zu/Lucas-PULS
+python3 -m http.server 8012 --bind 127.0.0.1
 ```
 
-Dann http://localhost:8012/preview.html öffnen. Das Menü bietet fünf Ansichten: Einführung, Lebenspläne, Zeitpunkt, Mehrfachantworten und Datenquellen. Links Original, rechts Vorschlag. Beide Ansichten haben immer dieselben Viewportmaße: Desktop 900 × 900 px oder Mobil 390 × 1200 px. Die Ansichten werden proportional verkleinert, wenn der Platz für beide nebeneinander nicht reicht. Auswahlaktionen werden in beide Richtungen synchronisiert. So sieht man dieselben Antworten in beiden Designs. Quellen kopiert aus dem genannten Commit, kein Abgleich mit der Serverversion. Diese hat im Screenshot drei statt vier Fortschrittsschritte und weniger Lebenspläne.
+Aus diesem Review-Ordner ausführen. Dann http://localhost:8012/preview.html öffnen. Der Generator schreibt nur in den ignorierten Ordner `.runtime/`; das Quellrepository bleibt unverändert. Die vollständigen App-Dateien werden nicht als zweiter Quellbestand committed.
 
-Der Vergleich ist ein bedienbarer Designprototyp. Weiterleitung, Bankverbindung, CSV-Import und Score-Aktion führen keine App-Funktionen aus. Formulare werden nicht abgeschickt. Der Patch behält dagegen die Original-Aktionskennungen und die echte Formularsemantik bei.
+Beide Anwendungen sind eigenständig bedienbar. Derselbe Ablauf lässt sich auf beiden Seiten durchgehen. Desktop: jeweils 900 × 900 px. Mobil: jeweils 390 × 1200 px. Bei weniger Platz werden beide gleichmäßig verkleinert. Die Links „groß öffnen“ zeigen die vollständigen Apps ohne Vergleichsrahmen. Es gibt keine Vorschau-Navigation mehr, die erfundene Bildschirmzustände erzeugt.
+
+Die Demo-Bankdaten werden unverändert aus den mitgelieferten JSON-Dateien geladen. Es läuft nur ein statischer Server, kein KI-Backend. Die Anwendungen liegen auf demselben lokalen Ursprung: Bei Tests der Mobile-Banking-Speicherung teilen sie sich den ursprünglichen Local-Storage-Schlüssel. Der hier geprüfte Filialablauf hält seinen Zustand je Anwendung getrennt im Speicher. Kein produktiver Dienst wurde verändert.
 
 ## Änderungen mit Kommentar
 
@@ -23,11 +26,10 @@ Der Vergleich ist ein bedienbarer Designprototyp. Weiterleitung, Bankverbindung,
 | REVIEW-03 | `Choose your plans` als Buttontext. | Greift die Überschrift auf. |
 | REVIEW-04 | Ganze Auswahlkarten, dunkelblauer ausgewählter Zustand, weiße Schrift, keine sichtbaren Checkboxen oder Radiokreise. | Auswahl durch die gesamte Fläche erkennbar. Native Inputs bleiben für Tastatur, Screenreader und Formularlogik vorhanden. Einzelauswahl und Mehrfachauswahl behalten ihre Regeln. |
 | REVIEW-05 | Große Verbindungsmöglichkeiten, leerer Asset-Container entfällt beim Onboarding, Score-Button außerhalb und mittig. | Verbindungen und nächste Aktion stehen im Fokus. Bereits hinzugefügte Assets bleiben im tatsächlichen Patch sichtbar. Datenbasis und Speicherhinweis bleiben erhalten. |
-| REVIEW-06 | Synchronisierte Auswahl in der Gegenüberstellung. | Vergleichbare Zustände. Nur Vorschau-Code, kein Bestandteil des Anwendungspatches. |
 
 ## Selbst übernehmen
 
-`design-review.patch` enthält alle vorgeschlagenen Änderungen für `dist/branch.js`, `dist/branch.css` und `dist/feature-ui.js`. Er verändert die ursprüngliche Anwendung in diesem Review-Repository nicht. Im lokalen Lucas-Checkout prüfen und anschließend übernehmen:
+Der Gesamtpatch betrifft drei Dateien und enthält die Einführung bereits. Nicht zusätzlich `onboarding.patch` anwenden.
 
 ```sh
 git apply --check /pfad/zu/design-review.patch
@@ -35,12 +37,6 @@ git apply /pfad/zu/design-review.patch
 git diff -- dist/branch.js dist/branch.css dist/feature-ui.js
 ```
 
-`onboarding.patch` ist weiterhin der frühere, ausschließlich auf die Einführung begrenzte Patch. **Nur einen der beiden Patches anwenden**, da der Gesamtpatch die Einführung bereits enthält. `data-view.proposed.js` zeigt die kommentierte Ersatzfunktion einzeln. Die CSS-Vorschläge stehen in `proposal.css` und werden vom Gesamtpatch in `dist/branch.css` ergänzt.
+Die laufende Website und Lucas’ Repository bleiben unverändert. Dieser Review liegt ausschließlich im Branch `codex/puls-onboarding-review` von `kavyapn/Deutsche_Bank_pulse`.
 
-## Herkunft und Prüfung
-
-Die Vorschau verwendet die unveränderten Quell-CSS-Regeln und das Original-Logo. Original-Einführung, Lebenspläne und Datenansicht werden aus den Quellfunktionen erzeugt; die beiden Fragen sind auf Grundlage der dortigen Vorlage und Auswahltexte aufgebaut. Nur die rechte Seite erhält die vorgeschlagenen Texte, Styles und das neue Datenquellen-Layout. Google Fonts wird wie im Original verwendet, offline greift die vorhandene Ersatzschrift.
-
-`node build-comparison.mjs /pfad/zu/Lucas-PULS` erzeugt Ansichts-Daten, Frame-Dateien und Vorschlags-CSS neu. Die Vergleichsoberfläche selbst wird in `preview.html`, `comparison.css` und `comparison.js` gepflegt. Das Skript schreibt ausschließlich in diesen Review-Ordner.
-
-Browserprüfungen, Grenzen und Vergleichsbilder stehen in [verification.md](verification.md) und [screenshots](screenshots/).
+Prüfungen: [verification.md](verification.md). Die Dateien in `screenshots/` zeigen die tatsächlich laufenden vollständigen Anwendungen.

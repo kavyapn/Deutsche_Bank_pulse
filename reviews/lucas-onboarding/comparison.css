@@ -3,3 +3,5 @@
 .frame-host{position:relative;overflow:hidden;width:100%;height:calc(900px * var(--scale,1))}iframe{width:900px;height:900px;transform:scale(var(--scale,1));transform-origin:top left}.mobile .comparison{grid-template-columns:repeat(2,minmax(0,1fr))}.mobile .frame-host{height:calc(1200px * var(--scale,1))}.mobile iframe{width:390px;height:1200px}@media(max-width:700px){.comparison{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 iframe{box-sizing:content-box}.frame-host{height:calc(902px * var(--scale,1))}.mobile .frame-host{height:calc(1202px * var(--scale,1))}
+
+nav>button{min-height:44px;padding:8px 14px;border:1px solid #ccd8e6;border-radius:8px;background:white;color:#142944;font:15px system-ui}

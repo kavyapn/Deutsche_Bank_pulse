@@ -1,7 +1,8 @@
-const view=document.querySelector('#view'),size=document.querySelector('#size'),frames=[...document.querySelectorAll('iframe')];
-const notes={intro:['Überschrift benennt den nächsten Schritt.','Ein konkreter Satz ersetzt Definition und beide Erklärungskästen.','Button: „Choose your plans“.'],goals:['Die gesamte Karte ist auswählbar.','Ausgewählte Karten sind dunkelblau mit weißer Schrift; keine sichtbaren Checkboxen.','Mehrfachauswahl und Tastaturbedienung bleiben erhalten.'],timing:['Die gesamte Antwortbox ist auswählbar.','Dunkelblau zeigt die Auswahl; es bleibt genau eine Antwort wählbar.'],priorities:['Dasselbe Auswahlprinzip für Mehrfachantworten.','Mehrere Karten können gleichzeitig dunkelblau gewählt werden.'],sources:['Verbindungsmöglichkeiten als große, klare Auswahlflächen.','Der leere Container „Your added assets“ entfällt.','„View my PULS score“ steht außerhalb des Containers und mittig.','Hinweis zu Datenbasis und lokaler Speicherung bleibt sichtbar.']};
-function scaleFrames(){document.querySelectorAll(".frame-host").forEach(host=>host.style.setProperty("--scale",Math.min(1,host.getBoundingClientRect().width/(size.value==="mobile"?392:902))))}
-new ResizeObserver(scaleFrames).observe(document.querySelector(".comparison"));
-function render(){const key=view.value;frames.forEach((f,i)=>f.src='comparison-'+(i?'after':'before')+'.html?view='+key);document.querySelector('#notes').innerHTML='<h2>Deine Änderungen auf dieser Seite</h2><ul>'+notes[key].map(x=>'<li>'+x+'</li>').join('')+'</ul>';document.body.classList.toggle('mobile',size.value==='mobile');scaleFrames();history.replaceState(null,'','?view='+key+'&size='+size.value)}
-const params=new URLSearchParams(location.search);if(notes[params.get('view')])view.value=params.get('view');if(params.get('size')==='mobile')size.value='mobile';view.addEventListener('change',render);size.addEventListener('change',render);
-window.addEventListener('message',e=>{if(e.origin!==location.origin||!frames.some(f=>f.contentWindow===e.source))return;const d=e.data;if(d.key!==view.value)return;for(const f of frames){if(f.contentWindow===e.source)continue;if(d.type==='puls-review-selection')f.contentWindow.postMessage({...d,type:'puls-review-sync'},location.origin);if(d.type==='puls-review-mode')f.contentWindow.postMessage({...d,type:'puls-review-sync-mode'},location.origin)}});render();
+const size=document.querySelector('#size');
+function scaleFrames(){document.querySelectorAll('.frame-host').forEach(host=>host.style.setProperty('--scale',Math.min(1,host.getBoundingClientRect().width/(size.value==='mobile'?392:902))))}
+function resize(){document.body.classList.toggle('mobile',size.value==='mobile');scaleFrames();history.replaceState(null,'','?size='+size.value)}
+const params=new URLSearchParams(location.search);if(params.get('size')==='mobile')size.value='mobile';
+new ResizeObserver(scaleFrames).observe(document.querySelector('.comparison'));
+size.addEventListener('change',resize);
+document.querySelector('#restart').addEventListener('click',()=>document.querySelectorAll('iframe').forEach(frame=>frame.src=frame.src));
+resize();
