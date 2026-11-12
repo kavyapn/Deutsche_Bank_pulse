@@ -22,3 +22,10 @@ Frontendvergleich mit statischem lokalem Server. Kein KI-Backend gestartet. Kein
 - Zentrierung am Desktop gemessen: Zwischenraum der Originalkästen y=376–386 px, neue Blockmitte y=385 px. Erklärung horizontal zentriert; Button mindestens 56 px hoch und 280 px breit (bei ausreichend Platz).
 - Die Rahmen verhindern mit overflow:clip, dass die Browser-Fokusbewegung eine Vergleichsspalte innerhalb ihres Rahmens verschiebt.
 - Nicht alle denkbaren App-Interaktionen und Dateiimporte geprüft. Verifiziert sind der obige Filialablauf, Auswahlen, Formularnavigation und Texteingaben.
+
+## HTML-Export
+
+- JavaScript mit esbuild gebündelt, Styles/Bilder und unveränderte Demo-JSON-Daten eingebettet. Kein externer JavaScript-Modulimport und keine relativen Bildpfade mehr.
+- Inline-JavaScript mit `node --check` geprüft.
+- Export im Browser geöffnet und Start → Alex-Karte → simulierte PIN → zentrierte Einführung erfolgreich durchlaufen. Demo-Daten werden aus dem HTML geladen.
+- Direkter file://-Aufruf nicht separat automatisiert getestet; Prüfung über lokalen HTTP-Server. Google Fonts bleibt wie im Original eine optionale Netzwerkabhängigkeit.

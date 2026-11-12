@@ -42,3 +42,9 @@ git diff -- dist/branch.js dist/branch.css dist/feature-ui.js
 Die laufende Website und Lucas’ Repository bleiben unverändert. Dieser Review liegt ausschließlich im Branch `codex/puls-onboarding-review` von `kavyapn/Deutsche_Bank_pulse`.
 
 Prüfungen: [verification.md](verification.md). Die Dateien in `screenshots/` zeigen die tatsächlich laufenden vollständigen Anwendungen.
+
+## Einzelne HTML-Datei
+
+[PULS_Deine_Aenderungen.html](PULS_Deine_Aenderungen.html) enthält die vollständige geänderte Frontend-Version als eine Datei: JavaScript, Styles, Logo, Maskottchen und Demo-Bankdaten sind eingebettet. Direkt im Browser öffnen. Inter wird wie im Original über Google Fonts geladen; ohne Internet greift die ursprüngliche Systemschrift als Ersatz. Kein KI-Backend enthalten, der vorhandene Demo-Coach bleibt nutzbar.
+
+Neu erzeugen: `node export-html.mjs`, nachdem `build-full-apps.mjs` gelaufen ist. Der Export verwendet esbuild 0.25.12 und verändert die UI-Quellkopie nicht.
