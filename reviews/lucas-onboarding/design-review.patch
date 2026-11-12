@@ -1,0 +1,89 @@
+--- a/dist/branch.js
++++ b/dist/branch.js
+@@ -168,13 +168,11 @@
+     </div>`;
+ }
+ 
++// REVIEW-02: Explain the next interaction once; remove the definition and two marketing panels.
+ function introduction() {
+-  return `<p class="branch-lead">Financial wellbeing means feeling in control of your money today and being able to make choices about tomorrow.</p>
+-    <div class="intro-notes">
+-      <section><h2>Why it matters</h2><p>Meeting everyday costs and having room for a surprise can reduce money stress. A plan gives you more choices when life changes.</p></section>
+-      <section><h2>How PULS helps</h2><p>See how your banking activity, habits and knowledge shape your score. Then try one next step or test a goal before committing.</p></section>
+-    </div>
+-    <div class="actions"><button class="button" type="button" data-branch="goals">Choose life goals <span aria-hidden="true">→</span></button></div>`;
++  return `<p class="branch-lead">Choose what’s coming up in your life, then answer a few questions about your finances.</p>
++    <!-- REVIEW-03: Name the next screen. Preserve the existing goals action and navigation. -->
++    <div class="actions"><button class="button" type="button" data-branch="goals">Choose your plans <span aria-hidden="true">→</span></button></div>`;
+ }
+ 
+ export function branchSteps(step) {
+@@ -240,7 +238,8 @@
+   }
+ 
+   function intro() {
+-    screen(1, "Get to know PULS", introduction());
++    // REVIEW-01: Give this screen a specific purpose rather than a product introduction.
++    screen(1, "Start with your plans", introduction());
+   }
+ 
+   function pin(id) {
+--- a/dist/feature-ui.js
++++ b/dist/feature-ui.js
+@@ -16,9 +16,9 @@
+     <label class="field">CSV report<input type="file" name="report" accept=".csv,text/csv" required></label>
+     <button class="button" type="submit">Review import</button>
+   </form>` : mode === "bank" ? `<p class="subtle">Connect a sample partner bank to preview its read-only balances.</p>${button("Preview bank balances","asset-bank")}` : "";
+-  return `<div class="stack narrow-page sources-page">
++  return `<div class="stack narrow-page sources-page ${duringScan ? "sources-review" : ""}">
+     <h1 id="data-sources-title">Add data sources</h1><p class="subtle">${duringScan
+-      ? "Optional. Add another account, import a report or enter assets before opening your score."
++      ? "Optional. Connect another account, import a CSV or enter assets manually."
+       : "Add assets for a fuller view. You can include accessible cash in your forecasts."}</p>
+     <div class="source-choices" role="group" aria-label="Ways to add data">
+       ${[["bank","Connect a bank"],["csv","Import a CSV"],["manual","Add manually"]].map(([id,label]) =>
+@@ -28,15 +28,18 @@
+       <dl class="metric-list">${preview.map(item=>`<div><dt>${escapeHtml(item.name)}</dt><dd>${euro(item.value)}</dd></div>`).join("")}</dl>
+       ${button("Confirm import","asset-confirm")}` : add}
+       ${error ? `<p class="message" role="alert">${escapeHtml(error)}</p>` : ""}</section>` : ""}
+-    <section class="card stack"><h2>Your added assets</h2>
++    <!-- REVIEW-05: Omit the empty asset container during onboarding; keep real added assets visible. -->
++    ${assets.length || !duringScan ? `<section class="${duringScan ? "sources-summary stack" : "card stack"}"><h2>Your added assets</h2>
+       ${assets.length ? `<div class="forecast-results"><div><span>Accessible cash</span><strong>${euro(totals.cash)}</strong></div>
+         <div><span>Investments and other</span><strong>${euro(totals.investment+totals.other)}</strong></div></div>
+         <ul class="added-assets">${assets.map((item,i)=>`<li><span><strong>${escapeHtml(item.name)}</strong><small>${ASSET_TYPES[item.type]} · ${item.source}</small></span>
+           <span><strong>${euro(item.value)}</strong><button class="back-button" type="button" data-action="asset-remove" data-index="${i}" aria-label="Remove ${escapeHtml(item.name)}">Remove</button></span></li>`).join("")}</ul>`
+         : '<p class="subtle">No additional assets yet.</p>'}
+-    <p class="subtle">The measured score uses your verified banking snapshot. Added assets are stored in this demo on this device.</p>
+-    ${duringScan ? `<div class="actions">${button("View my PULS score", "finish-sources")}</div>` : ""}
+-    </section>
++    ${!duringScan ? '<p class="subtle">The measured score uses your verified banking snapshot. Added assets are stored in this demo on this device.</p>' : ""}
++    </section>` : ""}
++    <!-- REVIEW-05: Keep disclosure and score action outside the optional asset summary. -->
++    ${duringScan ? `<p class="sources-disclosure subtle">The measured score uses your verified banking snapshot. Added assets are stored in this demo on this device.</p>
++    <div class="sources-score">${button("View my PULS score", "finish-sources")}</div>` : ""}
+   </div>`;
+ }
+ 
+--- a/dist/branch.css
++++ b/dist/branch.css
+@@ -53,3 +53,19 @@
+   .branch-card .card-symbol { grid-column: auto; }
+   .branch-exit { font-size: .78rem; padding-inline: 8px; }
+ }
++
++/* REVIEW-04: Select the entire card. Keep native inputs available to keyboard and assistive technology. */
++.branch-goal,.branch-option { position:relative; min-height:58px; padding:15px 18px; transition:background-color .12s,border-color .12s; }
++.branch-goal input,.branch-option input { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; border:0; }
++.branch-goal:has(input:checked),.branch-option:has(input:checked) { background:var(--navy); border-color:var(--navy); color:white; }
++.branch-goal:has(input:focus-visible),.branch-option:has(input:focus-visible) { outline:3px solid #2673ce; outline-offset:3px; }
++@media(prefers-reduced-motion:reduce){.branch-goal,.branch-option{transition:none}}
++/* REVIEW-05: Make connection methods the main choices; place the score action outside the asset summary. */
++.sources-review { display:grid; gap:16px; }
++.sources-review .source-choices { display:grid; gap:10px; margin-top:8px; }
++.sources-review .source-choices button { display:flex; align-items:center; justify-content:space-between; width:100%; min-height:64px; padding:16px 20px; text-align:left; font-size:1rem; }
++.sources-review .source-choices button[aria-pressed=true] { background:var(--navy); border-color:var(--navy); color:white; }
++.sources-review .sources-disclosure { margin-top:4px; font-size:.82rem; }
++.sources-review .sources-score { display:flex; justify-content:center; margin-top:12px; }
++.sources-review .sources-score .button { min-height:50px; min-width:min(100%,260px); }
++.sources-review .sources-summary { padding-top:16px; border-top:1px solid var(--line); }

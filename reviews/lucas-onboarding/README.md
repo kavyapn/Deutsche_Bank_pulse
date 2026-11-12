@@ -1,48 +1,46 @@
-# PULS: kommentierter Onboarding-Vorschlag
+# PULS · Sein Design / Dein Design
 
-Dieser Ordner enthält einen Vorschlag für **LucasKi9000/PULS**, keine Änderung an der Anwendung in diesem Repository. Lucas’ Repository und die laufende Website wurden nicht verändert. Der Vorschlag wird separat in `kavyapn/Deutsche_Bank_pulse` aufbewahrt, damit Tobias ihn selbst übernehmen kann.
+Designvergleich für Tobias. Quelle: [LucasKi9000/PULS, b9537cc](https://github.com/LucasKi9000/PULS/tree/b9537cc0d7adb739c289b8f0a80c3433324fb37a). Die Vorschläge liegen getrennt im Branch `codex/puls-onboarding-review` von `kavyapn/Deutsche_Bank_pulse`. Lucas’ Repository und seine laufende Website wurden nicht verändert.
 
-Quelle: https://github.com/LucasKi9000/PULS/tree/b9537cc0d7adb739c289b8f0a80c3433324fb37a
+## Direkt vergleichen
 
-## Vorschau
+`preview.html` über einen lokalen HTTP-Server öffnen, zum Beispiel aus diesem Ordner:
 
-`preview.html` im Browser öffnen: Vorher und Vorschlag nebeneinander. `after.html` zeigt den Vorschlag allein und passt sich an die Fensterbreite an. Die Navigation ist in diesen statischen Vorschauen deaktiviert. Die CSS-Datei und das Logo sind unveränderte Kopien der Quelle. Inter ist wie in der Quelle über Google Fonts eingebunden; offline greift die vorhandene Systemschrift als Ersatz.
+```sh
+python3 -m http.server 8012
+```
 
-Die Quelle hat inzwischen vier Fortschrittsschritte; der annotierte Screenshot zeigte drei. Die Vorschau verwendet den angegebenen Quellstand und behauptet keinen Pixelvergleich mit der Serverversion.
+Dann http://localhost:8012/preview.html öffnen. Das Menü bietet fünf Ansichten: Einführung, Lebenspläne, Zeitpunkt, Mehrfachantworten und Datenquellen. Links Original, rechts Vorschlag. Beide Ansichten haben immer dieselben Viewportmaße: Desktop 900 × 900 px oder Mobil 390 × 1200 px. Die Ansichten werden proportional verkleinert, wenn der Platz für beide nebeneinander nicht reicht. Auswahlaktionen werden in beide Richtungen synchronisiert. So sieht man dieselben Antworten in beiden Designs. Quellen kopiert aus dem genannten Commit, kein Abgleich mit der Serverversion. Diese hat im Screenshot drei statt vier Fortschrittsschritte und weniger Lebenspläne.
 
-## Jede Änderung mit Kommentar
+Der Vergleich ist ein bedienbarer Designprototyp. Weiterleitung, Bankverbindung, CSV-Import und Score-Aktion führen keine App-Funktionen aus. Formulare werden nicht abgeschickt. Der Patch behält dagegen die Original-Aktionskennungen und die echte Formularsemantik bei.
 
-| ID | Änderung | Begründung |
+## Änderungen mit Kommentar
+
+| ID | Dein Vorschlag | Grund |
 | --- | --- | --- |
-| REVIEW-01 | `Get to know PULS` → `Start with your plans` | Die Überschrift beschreibt, worum es auf dieser Seite geht. Sie kündigt keine allgemeine Produktwerbung an. |
-| REVIEW-02 | Definition von Financial Wellbeing und beide Kästen entfernen. Ein Satz bleibt: `Choose what’s coming up in your life, then answer a few questions about your finances.` | Der Satz beschreibt die tatsächlichen nächsten Schritte. Keine allgemeinen Versprechen über weniger Stress oder bessere Entscheidungen. Die zwei fast gleichen Erklärungsebenen entfallen. |
-| REVIEW-03 | `Choose life goals` → `Choose your plans` | Der Button greift die Überschrift auf und benennt die folgende Auswahl. `data-branch="goals"` bleibt erhalten. |
-
-Die IDs stehen auch direkt im Patch als JavaScript- bzw. HTML-Kommentare. Keine neue Karte, kein neues Farbsystem und keine zusätzlichen Symbole. Weißraum unter dem Inhalt bleibt bewusst frei. Die vorhandenen Abstände, Schriftgrößen, Breakpoints und Bedienelemente werden weiterverwendet.
+| REVIEW-01 | `Start with your plans` statt `Get to know PULS`. | Die Überschrift benennt den nächsten Schritt. |
+| REVIEW-02 | Ein konkreter Satz statt Definition und zwei Erklärungskästen. | Weniger allgemeine Aussagen, klarer Ablauf. |
+| REVIEW-03 | `Choose your plans` als Buttontext. | Greift die Überschrift auf. |
+| REVIEW-04 | Ganze Auswahlkarten, dunkelblauer ausgewählter Zustand, weiße Schrift, keine sichtbaren Checkboxen oder Radiokreise. | Auswahl durch die gesamte Fläche erkennbar. Native Inputs bleiben für Tastatur, Screenreader und Formularlogik vorhanden. Einzelauswahl und Mehrfachauswahl behalten ihre Regeln. |
+| REVIEW-05 | Große Verbindungsmöglichkeiten, leerer Asset-Container entfällt beim Onboarding, Score-Button außerhalb und mittig. | Verbindungen und nächste Aktion stehen im Fokus. Bereits hinzugefügte Assets bleiben im tatsächlichen Patch sichtbar. Datenbasis und Speicherhinweis bleiben erhalten. |
+| REVIEW-06 | Synchronisierte Auswahl in der Gegenüberstellung. | Vergleichbare Zustände. Nur Vorschau-Code, kein Bestandteil des Anwendungspatches. |
 
 ## Selbst übernehmen
 
-Im lokalen Checkout von **LucasKi9000/PULS** ausführen, nachdem du den Patch dorthin kopiert hast:
+`design-review.patch` enthält alle vorgeschlagenen Änderungen für `dist/branch.js`, `dist/branch.css` und `dist/feature-ui.js`. Er verändert die ursprüngliche Anwendung in diesem Review-Repository nicht. Im lokalen Lucas-Checkout prüfen und anschließend übernehmen:
 
 ```sh
-git apply --check /pfad/zu/onboarding.patch
-git apply /pfad/zu/onboarding.patch
-git diff -- dist/branch.js
+git apply --check /pfad/zu/design-review.patch
+git apply /pfad/zu/design-review.patch
+git diff -- dist/branch.js dist/branch.css dist/feature-ui.js
 ```
 
-Der Patch betrifft ausschließlich `dist/branch.js`. Bei späteren Quelländerungen zuerst den Kontext vergleichen. Die drei Kommentare erlauben auch eine manuelle Übernahme. Die bestehenden `.intro-notes`-CSS-Regeln bleiben absichtlich unberührt, um den Vorschlag klein zu halten.
+`onboarding.patch` ist weiterhin der frühere, ausschließlich auf die Einführung begrenzte Patch. **Nur einen der beiden Patches anwenden**, da der Gesamtpatch die Einführung bereits enthält. `data-view.proposed.js` zeigt die kommentierte Ersatzfunktion einzeln. Die CSS-Vorschläge stehen in `proposal.css` und werden vom Gesamtpatch in `dist/branch.css` ergänzt.
 
-## Prüfung
+## Herkunft und Prüfung
 
-- Patch gegen den oben genannten Quellstand mit `git apply --check` geprüft, ohne ihn im Quellrepository anzuwenden.
-- Vorgeschlagene JavaScript-Datei mit `node --check` geprüft.
-- Inhaltsvorschau im Browser bei Desktop- und Mobilbreite geprüft (Details in `verification.md`).
-- Keine vollständige Funktionsprüfung der Anwendung: Der Vorschlag verändert nur Texte und entfernt die zwei statischen Erklärungskästen. Bestehende Aktionskennung, Stufen und Fragebögen werden im Patch nicht verändert.
+Die Vorschau verwendet die unveränderten Quell-CSS-Regeln und das Original-Logo. Original-Einführung, Lebenspläne und Datenansicht werden aus den Quellfunktionen erzeugt; die beiden Fragen sind auf Grundlage der dortigen Vorlage und Auswahltexte aufgebaut. Nur die rechte Seite erhält die vorgeschlagenen Texte, Styles und das neue Datenquellen-Layout. Google Fonts wird wie im Original verwendet, offline greift die vorhandene Ersatzschrift.
 
-## Gemeinsamer Review: nächste Schritte
+`node build-comparison.mjs /pfad/zu/Lucas-PULS` erzeugt Ansichts-Daten, Frame-Dateien und Vorschlags-CSS neu. Die Vergleichsoberfläche selbst wird in `preview.html`, `comparison.css` und `comparison.js` gepflegt. Das Skript schreibt ausschließlich in diesen Review-Ordner.
 
-Die Gegenüberstellung nennt die Ansichten ausdrücklich „Seine Version“ und „Dein Vorschlag“ und zeigt die Begründungen direkt darunter. Zuerst wird die Einführung besprochen. Die neuen Kommentare sind als nächste Schritte dokumentiert, noch nicht umgesetzt:
-
-1. Lebenspläne: ganze Karten auswählen, ausgewählte Karten dunkelblau, keine sichtbaren Checkboxen.
-2. Fragen: ebenso ganze Boxen auswählen; Einzel- und Mehrfachauswahl funktional beibehalten.
-3. Datenquellen: weniger Container, Verbindungsmöglichkeiten hervorheben und „View my PULS score“ zentral präsentieren.
+Browserprüfungen, Grenzen und Vergleichsbilder stehen in [verification.md](verification.md) und [screenshots](screenshots/).
