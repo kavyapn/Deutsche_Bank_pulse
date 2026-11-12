@@ -38,3 +38,11 @@ Der Patch betrifft ausschließlich `dist/branch.js`. Bei späteren Quelländerun
 - Vorgeschlagene JavaScript-Datei mit `node --check` geprüft.
 - Inhaltsvorschau im Browser bei Desktop- und Mobilbreite geprüft (Details in `verification.md`).
 - Keine vollständige Funktionsprüfung der Anwendung: Der Vorschlag verändert nur Texte und entfernt die zwei statischen Erklärungskästen. Bestehende Aktionskennung, Stufen und Fragebögen werden im Patch nicht verändert.
+
+## Gemeinsamer Review: nächste Schritte
+
+Die Gegenüberstellung nennt die Ansichten ausdrücklich „Seine Version“ und „Dein Vorschlag“ und zeigt die Begründungen direkt darunter. Zuerst wird die Einführung besprochen. Die neuen Kommentare sind als nächste Schritte dokumentiert, noch nicht umgesetzt:
+
+1. Lebenspläne: ganze Karten auswählen, ausgewählte Karten dunkelblau, keine sichtbaren Checkboxen.
+2. Fragen: ebenso ganze Boxen auswählen; Einzel- und Mehrfachauswahl funktional beibehalten.
+3. Datenquellen: weniger Container, Verbindungsmöglichkeiten hervorheben und „View my PULS score“ zentral präsentieren.
