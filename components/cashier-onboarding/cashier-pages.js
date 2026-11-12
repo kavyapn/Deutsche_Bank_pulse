@@ -30,6 +30,8 @@
     const sourceTitle=main.querySelector('h1');if(sourceTitle&&!sourceTitle.closest('.branch-heading'))fixed.add(sourceTitle);
     footer=document.createElement('footer');footer.className='cashier-page-footer';footer.dataset.cashierUi='footer';
     footer.innerHTML='<div class="cashier-flow-controls"><button class="button quiet" type="button" data-flow="back">Back</button><div class="cashier-native-actions"></div><button class="button" type="button" data-flow="continue">Continue</button></div><p class="cashier-page-error" role="alert"></p>';
+    const weights=main.querySelector('#branch-priorities [data-priority-weights]');
+    if(weights)footer.prepend(weights);
     const actionHost=footer.querySelector('.cashier-native-actions');
     const actions=[...main.querySelectorAll('.actions,form > button[type="submit"]')].filter(e=>!e.closest('.puls-navigation')&&!e.parentElement.closest('.actions'));
     for(const action of actions){
@@ -69,12 +71,12 @@
     const sourceError=[...main.querySelectorAll('.message')].map(e=>e.textContent.trim()).filter(Boolean).join(' ');
     if(sourceError)footer.querySelector('.cashier-page-error').textContent=sourceError;
     const all=units.map((_,i)=>i);show(all);
-    if(fits(all))pages=[all];
+    if(fits(all)&&units.filter(e=>e.matches('.priority-list > li')).length<=4)pages=[all];
     else{
       pages=[];let current=[];show([]);
       for(let i=0;i<units.length;i++){
         show([...current,i]);
-        if(current.length&&!fits([...current,i])){pages.push(current);current=[i];show(current);}else current.push(i);
+        if(current.length&&(!fits([...current,i])||(units[i].matches('.priority-list > li')&&current.filter(index=>units[index].matches('.priority-list > li')).length>=4))){pages.push(current);current=[i];show(current);}else current.push(i);
       }
       if(current.length)pages.push(current);
     }

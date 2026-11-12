@@ -57,14 +57,18 @@
     "pinDotsCenteredInMainDesktopAndMobile": true,
     "pinMainWhiteWithoutDotContainer": true,
     "pinFilledDotsNeutralGray": true,
-    "pinHeadingAboveDisplayCenter": true
+    "pinHeadingAboveDisplayCenter": true,
+    "priorityWeightsPinnedAboveNavigation": true,
+    "priorityWeightsUpdateAfterVote": true,
+    "allEightPrioritiesReachableDesktopAndMobile": true,
+    "groupedPrioritiesFitWithoutScroll": true
   },
   "limits": [
     "Demo environment; no real card/PIN/bank connection.",
     "Browser testing; no physical terminal or phone tested.",
     "Tested through the local HTTP preview. Direct file:// navigation is not permitted in the in-app test browser and was not tested."
   ],
-  "htmlSha256": "14f28057e398c584132da461935789503dc9874def677ad43e5d30940ecdbc55",
+  "htmlSha256": "8cf97aeafb3d914f7c1424a653a0a158895e951ab83ebac45da3b9d454d0e807",
   "deployment": {
     "url": "https://puls-cashier-onboarding.vercel.app/",
     "target": "production",

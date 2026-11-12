@@ -94,3 +94,5 @@ Der Hinweis zu den Themenprioritäten ist gekürzt auf „Use + or − to set yo
 Der PIN-Schritt nutzt eine weiße Fläche ohne farbigen PIN-Container. Die neutralen Punkte sind horizontal und vertikal in der Displayfläche unter dem Bank-Header zentriert; „Enter PIN“ steht darüber. Gefüllte Punkte sind dunkelgrau statt hellblau.
 
 Zusätzlich entfernt: „PULS · BRANCH EXPERIENCE“ am Terminalgehäuse, der gleichnamige Startbildschirm-Zusatz und der technische Hinweis zu Score-Snapshot/lokaler Demo-Speicherung bei den Datenquellen. Die äußere Demo-Erklärung bleibt erhalten.
+
+Die aktuelle Gewichtung steht bei den Themenprioritäten fest unten über Back/Continue. Die acht Prioritäten werden in Gruppen von höchstens vier Einträgen verteilt; bei geringerer Displayhöhe passen entsprechend weniger Einträge auf einen Schritt. Plus und Minus haben mehr Abstand und eigene klar abgegrenzte Themenzeilen. Die Gewichtung bleibt das originale, bei jeder Auswahl aktualisierte Element.

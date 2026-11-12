@@ -58,3 +58,9 @@ body[data-mode="terminal"] #main:has(.cashier-complete) { height:calc(100dvh - v
 .cashier-complete .cashier-complete-kicker { margin:0; color:#65809f; font-size:11px; letter-spacing:.15em; font-weight:750; }
 .cashier-complete h1 { margin:0; font-size:clamp(25px,7vw,34px); line-height:1.12; letter-spacing:-.035em; color:#12386e; }
 .cashier-complete .cashier-complete-description { margin:0; max-width:300px; color:#526c8d; font-size:16px; line-height:1.5; }
+
+/* Keep the live weighting at the bottom; give priority controls their own space. */
+.cashier-page-footer > .priority-weights { padding:4px 0; margin:0 0 8px; background:none; border-radius:0; color:#526c8d; text-align:center; font-size:11px; line-height:1.5; font-weight:600; }
+body.cashier-paged #branch-priorities .priority-list li { min-height:68px; padding:10px 12px; margin-bottom:8px; border:1px solid #e0e8f2; border-radius:12px; background:#f8fbff; gap:12px; }
+body.cashier-paged #branch-priorities .priority-list li > span { flex:1; min-width:0; font-size:14px; line-height:1.35; }
+body.cashier-paged #branch-priorities .priority-votes { gap:12px; }
