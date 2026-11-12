@@ -40,12 +40,14 @@
     "manualAssetAcrossPages": true,
     "requiredFieldReturnsToCorrectPage": true,
     "mobileIntroPagesFit": true,
-    "allScorePagesFitDesktopAndMobile": true
+    "allScorePagesFitDesktopAndMobile": true,
+    "manualPinKeyPressClassAndInsetShadow": true,
+    "automaticPinKeyPressClass": true
   },
   "limits": [
     "Demo environment; no real card/PIN/bank connection.",
     "Browser testing; no physical terminal or phone tested.",
     "Tested through the local HTTP preview. Direct file:// navigation is not permitted in the in-app test browser and was not tested."
   ],
-  "htmlSha256": "df0dfe66cdfe402227bc676d8c09d0a4613ef9a73eee9d4874324d2efffc7739"
+  "htmlSha256": "f45cf0ff126925461397cb20055d4eb85df54a8607464a16cec88373736710e7"
 }

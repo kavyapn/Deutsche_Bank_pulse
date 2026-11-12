@@ -28,3 +28,10 @@ html,body { height:100dvh; overflow:hidden; }
   .minor { grid-column:1 / -1; padding:2px; font-size:10px; }
   .hardware { flex-basis:146px; min-height:146px; padding:8px; }
 }
+
+/* Raised metal keys visibly travel into their recess when a demo PIN is typed. */
+.pad-key { position:relative; transform:translateY(-1px); box-shadow:inset 0 1px 1px #ffffffed,0 4px 0 #838b98,0 5px 4px #25314766; transition:transform 85ms ease-out,box-shadow 85ms ease-out,background 85ms ease-out; }
+.pad-key:not(:disabled):active,.pad-key.pressed { transform:translateY(3px) scale(.96); background:linear-gradient(160deg,#a6afbD,#d0d5dc); box-shadow:inset 0 2px 4px #34415677,inset 0 -1px 0 #f0f3f766,0 0 1px #25314780; opacity:1; }
+.pad-key.ok.pressed { background:linear-gradient(#78a995,#badbcb); }
+.pad-key.clear.pressed { background:linear-gradient(#bda893,#e0d2c4); }
+@media(prefers-reduced-motion:reduce) { .pad-key { transition:none; } .pad-key:not(:disabled):active,.pad-key.pressed { transform:none; } }

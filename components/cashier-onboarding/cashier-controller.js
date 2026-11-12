@@ -70,9 +70,10 @@
     forwarding=true;try{button.click();}finally{forwarding=false;}
     sync();
   }
-  function increment(key){const native=getNative();if(!native||busy||count>=4||native.button.disabled)return;count++;showDots(native.doc);key?.classList.add('pressed');setTimeout(()=>key?.classList.remove('pressed'),reduced()?1:140);sync();}
-  function submit(){const native=getNative();if(!native||count!==4||busy||native.button.disabled)return;busy=true;setStatus('Demo PIN entered. Reading your profile…','ready');native.button.click();sync();}
-  function clear(){count=0;const native=getNative();if(native)showDots(native.doc);sync();}
+  function pressKey(key){if(!key)return;clearTimeout(key.pressTimer);key.classList.add('pressed');key.pressTimer=setTimeout(()=>key.classList.remove('pressed'),reduced()?1:240);}
+  function increment(key){const native=getNative();if(!native||busy||count>=4||native.button.disabled)return;count++;showDots(native.doc);pressKey(key);sync();}
+  function submit(){const native=getNative();if(!native||count!==4||busy||native.button.disabled)return;pressKey(hw.querySelector('[data-key="enter"]'));busy=true;setStatus('Demo PIN entered. Reading your profile…','ready');native.button.click();sync();}
+  function clear(){pressKey(hw.querySelector('[data-key="clear"]'));count=0;const native=getNative();if(native)showDots(native.doc);sync();}
   hw.addEventListener('click',event=>{const key=event.target.closest('.pad-key');if(!key||key.disabled||busy)return;if(key.dataset.digit!==undefined)increment(key);else if(key.dataset.key==='clear')clear();else if(key.dataset.key==='enter')submit();});
   function handleKeyboard(event){if(!getNative()||busy||event.ctrlKey||event.metaKey||event.altKey||event.target.closest('input,textarea,select'))return;if(/^\d$/.test(event.key)){event.preventDefault();increment(hw.querySelector(`[data-digit="${event.key}"]`));}else if(event.key==='Backspace'||event.key==='Delete'){event.preventDefault();clear();}else if(event.key==='Enter'&&event.target.tagName!=='BUTTON'){event.preventDefault();submit();}}
   document.addEventListener('keydown',handleKeyboard);
@@ -82,13 +83,15 @@
     const key=hw.querySelector('[data-digit="0"]');
     for(let i=0;i<4;i++){
       if(token!==generation||!getNative())return;
-      count++;showDots(getNative().doc);key.classList.add('pressed');await delay(reduced()?1:150);key.classList.remove('pressed');await delay(reduced()?1:90);
+      count++;showDots(getNative().doc);key.classList.add('pressed');await delay(reduced()?1:240);key.classList.remove('pressed');await delay(reduced()?1:180);
     }
+    if(token!==generation||!getNative())return;
+    pressKey(hw.querySelector('[data-key="enter"]'));await delay(reduced()?1:200);
     if(token!==generation||!getNative())return;
     busy=false;submit();
   });
   chooseAnother.addEventListener('click',()=>{const native=getNative();if(!native||busy||native.button.disabled)return;generation++;count=0;busy=false;wasPin=false;cardAnimation?.cancel();cardAnimation=null;windowMask.hidden=true;terminal.dataset.cardState='ready';native.doc.querySelector('[data-branch="cards"]')?.click();sync();});
-  function reload(){generation++;observer?.disconnect();observer=null;boundDocument=null;cardAnimation?.cancel();cardAnimation=null;windowMask.hidden=true;count=0;busy=false;wasPin=false;terminal.dataset.cardState='ready';allKeys.forEach(key=>key.classList.remove('pressed'));setStatus('Loading current GitHub onboarding…');frame.srcdoc=appHTML;}
+  function reload(){generation++;observer?.disconnect();observer=null;boundDocument=null;cardAnimation?.cancel();cardAnimation=null;windowMask.hidden=true;count=0;busy=false;wasPin=false;terminal.dataset.cardState='ready';allKeys.forEach(key=>{clearTimeout(key.pressTimer);key.classList.remove('pressed');});setStatus('Loading current GitHub onboarding…');frame.srcdoc=appHTML;}
   document.querySelector('#restart').addEventListener('click',reload);
   document.querySelector('#reloadApp').addEventListener('click',reload);
   function attach(){

@@ -60,3 +60,7 @@ PIN-Layout geprüft: Anzeige und Display haben am Desktop dieselbe horizontale M
 `cashier-layout.css` passt den gesamten Mock an die Fensterhöhe an. `cashier-pages.js` und `cashier-pages.css` teilen lange Inhalte anhand der tatsächlich verfügbaren Displayhöhe auf Vor-/Zurück-Seiten auf. Die nativen Aktionsbuttons bleiben unten sichtbar. Die vorhandenen Formularfelder werden erhalten; Auswahl und Eingaben bleiben beim Blättern bestehen. Pflichtfeldfehler führen auf die Seite des betroffenen Feldes. Der separat exportierte Original-Stand wird nicht verändert.
 
 Geprüft bei 1280 × 720 und 390 × 844: Kartenauswahl, Einführung, Lebenspläne, Fragen, Themenprioritäten und Datenquellen. Manuelles Demo-Asset über mehrere Displayseiten angelegt, Pflichtfeldprüfung und Auswahl beim Blättern geprüft. Score-Seiten ebenfalls auf Displayhöhe verteilt. Keine vertikale oder horizontale Scrollstrecke im äußeren Mock bei den geprüften Größen.
+
+## Physischer Tastendruck
+
+Das metallische PIN-Pad zeigt einen vertieften Tastendruck mit 4 px Hub, leichter Verkleinerung und Innenschatten. Manuelle Ziffern, Löschen und Bestätigen sowie die automatische Demo-PIN verwenden denselben Effekt. Die automatische Eingabe hält jede Taste 240 ms gedrückt und lässt sie vor dem nächsten Anschlag los; zum Schluss wird die grüne Bestätigungstaste gedrückt. Bei reduzierter Bewegung entfällt der räumliche Hub.
