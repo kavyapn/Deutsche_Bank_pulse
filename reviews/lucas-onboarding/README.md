@@ -28,6 +28,7 @@ Die Demo-Bankdaten werden unverändert aus den mitgelieferten JSON-Dateien gelad
 | REVIEW-05 | Große Verbindungsmöglichkeiten, leerer Asset-Container entfällt beim Onboarding, Score-Button außerhalb und mittig. | Verbindungen und nächste Aktion stehen im Fokus. Bereits hinzugefügte Assets bleiben im tatsächlichen Patch sichtbar. Datenbasis und Speicherhinweis bleiben erhalten. |
 | REVIEW-06 | Bedienung im Vergleich beidseitig spiegeln. | Die andere Version folgt demselben Ablauf. Die Event-Weiterleitung liegt nur in der Vergleichsoberfläche, nicht in der Anwendung. |
 | REVIEW-07 | Einführung und Erklärung mittig; größerer, zentrierter „Choose your plans“-Button. | Der Inhaltsblock liegt ungefähr auf Höhe des Zwischenraums der beiden Originalkästen. Desktop gemessen: Original-Zwischenraum bei y=381 px, Blockmitte bei y=385 px. |
+| REVIEW-08 | „Connect a bank“ groß, dunkelblau und über die gesamte Breite; „Import a CSV“ und „Add manually“ kleiner nebeneinander darunter. | Die Bankverbindung steht visuell im Fokus. |
 
 ## Selbst übernehmen
 

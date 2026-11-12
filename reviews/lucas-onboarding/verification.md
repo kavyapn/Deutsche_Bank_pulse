@@ -29,3 +29,9 @@ Frontendvergleich mit statischem lokalem Server. Kein KI-Backend gestartet. Kein
 - Inline-JavaScript mit `node --check` geprüft.
 - Export im Browser geöffnet und Start → Alex-Karte → simulierte PIN → zentrierte Einführung erfolgreich durchlaufen. Demo-Daten werden aus dem HTML geladen.
 - Direkter file://-Aufruf nicht separat automatisiert getestet; Prüfung über lokalen HTTP-Server. Google Fonts bleibt wie im Original eine optionale Netzwerkabhängigkeit.
+
+## Bankverbindung im Fokus
+
+- Einzelne HTML-Datei neu exportiert und bis zur echten Datenquellen-Seite durchlaufen.
+- Visuell geprüft: „Connect a bank“ dunkelblau, volle Breite und 72 px hoch; darunter „Import a CSV“ und „Add manually“ nebeneinander, jeweils 48 px hoch.
+- Am Desktop gemessen: Bank 680 px breit; Alternativen jeweils 335 px breit. Aktionskennungen und Formularlogik unverändert. Screenshot: `screenshots/bank-primary.jpg`.

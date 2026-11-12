@@ -6,8 +6,8 @@
 @media(prefers-reduced-motion:reduce){.branch-goal,.branch-option{transition:none}}
 /* REVIEW-05: Make connection methods the main choices; place the score action outside the asset summary. */
 .sources-review { display:grid; gap:16px; }
-.sources-review .source-choices { display:grid; gap:10px; margin-top:8px; }
-.sources-review .source-choices button { display:flex; align-items:center; justify-content:space-between; width:100%; min-height:64px; padding:16px 20px; text-align:left; font-size:1rem; }
+.sources-review .source-choices { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-top:8px; }
+.sources-review .source-choices button { display:flex; align-items:center; justify-content:center; width:100%; min-width:0; min-height:48px; padding:12px; text-align:center; font-size:.89rem; }
 .sources-review .source-choices button[aria-pressed=true] { background:var(--navy); border-color:var(--navy); color:white; }
 .sources-review .sources-disclosure { margin-top:4px; font-size:.82rem; }
 .sources-review .sources-score { display:flex; justify-content:center; margin-top:12px; }
@@ -25,3 +25,7 @@
  .branch-flow:has(.plans-introduction) .branch-heading { padding-inline:0; padding-top:56px; }
  .plans-introduction { min-height:310px; padding-block:24px; }
 }
+
+/* REVIEW-08: Bank connection is primary; CSV and manual entry are smaller alternatives below. */
+.sources-review .source-choices button[data-id="bank"] { grid-column:1 / -1; min-height:72px; padding:20px; background:var(--navy); border-color:var(--navy); color:white; font-size:1.05rem; }
+.sources-review .source-choices button[data-id="bank"]:hover { background:#10457f; border-color:#10457f; }
