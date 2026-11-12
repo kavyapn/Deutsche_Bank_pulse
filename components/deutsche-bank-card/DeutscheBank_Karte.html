@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#072e65">
+  <title>Deutsche Bank · HTML-Karte</title>
+  <style>
+    * { box-sizing: border-box; }
+    :root { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #142944; background: #f4f6f9; }
+    body { margin: 0; min-height: 100svh; display: grid; place-items: center; padding: 32px 20px; }
+    main { width: min(100%, 560px); text-align: center; }
+    .eyebrow { margin: 0 0 8px; color: #64748b; font-size: 11px; font-weight: 650; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 0; font-size: clamp(27px, 5vw, 36px); font-weight: 650; letter-spacing: -.045em; }
+    .stage { position: relative; height: 470px; margin-top: 10px; --card-width: min(360px, calc(100vw - 68px)); }
+    .insertion-window { position: absolute; inset: 0 0 auto; height: 390px; overflow: clip; }
+    .card-track { position: absolute; top: 64px; left: 50%; width: var(--card-width); transform: translateX(-50%) rotate(-6deg); transform-origin: center; will-change: transform; }
+    .reader { position: absolute; z-index: 2; top: 386px; left: 50%; width: 208px; height: 37px; transform: translateX(-50%); padding: 10px 14px; border: 1px solid #d5dce7; border-radius: 13px; background: #e4e9f0; box-shadow: 0 7px 14px #14294409; }
+    .slot { display: block; height: 7px; border-radius: 4px; background: #122338; box-shadow: inset 0 2px 3px #0008, 0 1px 0 #fff; }
+    .reader-light { position: absolute; right: 12px; bottom: 5px; width: 4px; height: 4px; border-radius: 50%; background: #99a9bc; }
+    .stage[data-state="inserted"] .reader-light { background: #07876b; box-shadow: 0 0 5px #07876b40; }
+    .status { min-height: 22px; margin: -24px 0 20px; color: #64748b; font-size: 14px; }
+    .controls { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; }
+    button { min-height: 48px; border: 0; border-radius: 12px; padding: 13px 22px; font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; }
+    .primary { background: #072e65; color: white; min-width: 190px; }
+    .primary:hover { background: #10457f; }
+    .secondary { background: transparent; color: #556c87; }
+    .secondary:hover { background: #e8edf4; }
+    button:focus-visible { outline: 3px solid #2673ce; outline-offset: 4px; }
+    button:disabled { cursor: default; opacity: .55; }
+    @media (max-width: 420px) { body { padding-inline: 12px; } .stage { margin-top: 0; } }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">PULS · Kartenanimation</p>
+    <h1>Deutsche Bank Karte</h1>
+    <div class="stage" id="card-stage" data-state="ready">
+      <div class="insertion-window">
+        <div class="card-track" id="card-track">
+          <deutsche-bank-card holder="Lena Muster" last-four="0428"></deutsche-bank-card>
+        </div>
+      </div>
+      <div class="reader" id="card-reader" aria-hidden="true"><span class="slot"></span><span class="reader-light"></span></div>
+    </div>
+    <p class="status" id="card-status" role="status" aria-live="polite">Bereit zum Einstecken.</p>
+    <div class="controls">
+      <button class="primary" id="insert-card" type="button">Karte einstecken <span aria-hidden="true">→</span></button>
+      <button class="secondary" id="reset-card" type="button">Zurücksetzen</button>
+    </div>
+  </main>
+
+  <!-- Reusable card component. Independent of the preview stage and the animation below. -->
+  <script id="deutsche-bank-card-component">
+    class DeutscheBankCard extends HTMLElement {
+      static get observedAttributes() { return ['holder', 'last-four']; }
+      constructor() {
+        super();
+        this.attachShadow({mode:'open'});
+        this.shadowRoot.innerHTML = `
+          <style>
+            :host { display:block; width:100%; aspect-ratio:85.6 / 53.98; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+            * { box-sizing:border-box; }
+            .card { position:relative; isolation:isolate; overflow:hidden; width:100%; height:100%; border:1px solid #ffffff21; border-radius:16px; color:#fff; background:linear-gradient(122deg,#153f77 0%,#092e61 48%,#061b3b 100%); box-shadow:0 22px 40px #09234828,0 4px 9px #09234818; }
+            .card::before { content:""; position:absolute; z-index:-1; inset:-45% -8% -45% 56%; transform:rotate(33deg); background:linear-gradient(90deg,#ffffff00,#ffffff09 45%,#ffffff02 46%,#ffffff00); }
+            .card::after { content:""; position:absolute; inset:0; border-radius:inherit; box-shadow:inset 0 1px 0 #ffffff1c; pointer-events:none; }
+            .wordmark { position:absolute; top:12%; left:8%; font-size:clamp(12px,3.7cqw,16px); font-weight:650; letter-spacing:-.025em; }
+            .logo { position:absolute; top:11%; right:8%; width:10%; height:auto; }
+            .chip { position:absolute; top:37%; left:8%; width:13%; height:auto; }
+            .contactless { position:absolute; top:40%; left:24%; width:6%; height:auto; color:#e7eef7; opacity:.85; }
+            .number { position:absolute; left:8%; top:64%; display:flex; align-items:center; gap:.8em; margin:0; font-size:clamp(13px,4.3cqw,17px); font-weight:450; letter-spacing:.11em; font-variant-numeric:tabular-nums; }
+            .masked { letter-spacing:.18em; opacity:.77; }
+            .holder { position:absolute; left:8%; bottom:11%; margin:0; max-width:65%; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; font-size:clamp(9px,2.8cqw,11px); font-weight:500; letter-spacing:.13em; text-transform:uppercase; color:#dce6f4; }
+            .demo { position:absolute; right:8%; bottom:11%; font-size:9px; font-weight:550; letter-spacing:.12em; color:#a3b9d5; }
+            :host { container-type:inline-size; }
+          </style>
+          <div class="card" aria-hidden="true">
+            <span class="wordmark">Deutsche Bank</span>
+            <svg class="logo" viewBox="0 0 64 64" focusable="false"><path d="M0 0H64V64H0V0ZM9.02564 9.00256V54.9974H55.1385V9.00256H9.02564ZM38.4 15.3862L14.1128 48.6138H25.6L49.8871 15.3862H38.4Z" fill="currentColor"/></svg>
+            <svg class="chip" viewBox="0 0 54 42" fill="none" focusable="false">
+              <defs><linearGradient id="chip-metal" x1="0" y1="0" x2="54" y2="42" gradientUnits="userSpaceOnUse"><stop stop-color="#e8d9af"/><stop offset=".48" stop-color="#c4ae7a"/><stop offset="1" stop-color="#e4d4a7"/></linearGradient></defs>
+              <rect x=".7" y=".7" width="52.6" height="40.6" rx="7" fill="url(#chip-metal)" stroke="#ac9867" stroke-width="1.4"/>
+              <path d="M18 1v10l-4 4v12l4 4v10M36 1v10l4 4v12l-4 4v10M1 14h13m26 0h13M1 28h13m26 0h13M18 11h18M18 31h18M18 21h18" stroke="#9b875c" stroke-width="1"/>
+            </svg>
+            <svg class="contactless" viewBox="0 0 24 28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" focusable="false"><path d="M5 11a6 6 0 0 1 0 6M10 7a12 12 0 0 1 0 14M15 3a18 18 0 0 1 0 22"/></svg>
+            <p class="number"><span class="masked">••••</span><span class="masked">••••</span><span class="masked">••••</span><span data-last-four></span></p>
+            <p class="holder" data-holder></p><span class="demo">DEMO</span>
+          </div>`;
+      }
+      connectedCallback() { this.update(); }
+      attributeChangedCallback() { if(this.shadowRoot) this.update(); }
+      update() {
+        const holder=this.getAttribute('holder')||'PULS Demo';
+        const digits=(this.getAttribute('last-four')||'0428').replace(/\D/g,'').slice(-4).padStart(4,'0');
+        this.shadowRoot.querySelector('[data-holder]').textContent=holder;
+        this.shadowRoot.querySelector('[data-last-four]').textContent=digits;
+        this.setAttribute('role','img');
+        this.setAttribute('aria-label',`Deutsche Bank Demokarte für ${holder}, Endziffern ${digits}`);
+      }
+    }
+    if(!customElements.get('deutsche-bank-card')) customElements.define('deutsche-bank-card',DeutscheBankCard);
+  </script>
+
+  <!-- Preview controller. The Cashier mock can call bankCardPreview.insert() later. -->
+  <script>
+    (()=>{
+      const stage=document.querySelector('#card-stage'),track=document.querySelector('#card-track');
+      const insertButton=document.querySelector('#insert-card'),resetButton=document.querySelector('#reset-card'),status=document.querySelector('#card-status');
+      let animation=null,run=0;
+      function reset(){
+        run++;animation?.cancel();animation=null;stage.dataset.state='ready';
+        insertButton.disabled=false;resetButton.disabled=false;
+        insertButton.innerHTML='Karte einstecken <span aria-hidden="true">→</span>';
+        status.textContent='Bereit zum Einstecken.';
+        stage.dispatchEvent(new CustomEvent('card:reset',{bubbles:true}));
+      }
+      async function insert(){
+        if(stage.dataset.state==='inserting')return false;
+        const current=++run;
+        animation?.cancel();stage.dataset.state='inserting';insertButton.disabled=true;
+        status.textContent='Karte wird eingesteckt …';
+        const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+        animation=track.animate([
+          {transform:'translateX(-50%) translateY(0) rotate(-6deg) scale(1)',offset:0},
+          {transform:'translateX(-50%) translateY(4px) rotate(90deg) scale(.7)',offset:.40},
+          {transform:'translateX(-50%) translateY(75px) rotate(90deg) scale(.7)',offset:.60},
+          {transform:'translateX(-50%) translateY(345px) rotate(90deg) scale(.7)',offset:1}
+        ],{duration:reduced?1:1900,easing:'cubic-bezier(.4,0,.2,1)',fill:'forwards'});
+        stage.dispatchEvent(new CustomEvent('card:inserting',{bubbles:true}));
+        try{await animation.finished;}catch{return false;}
+        if(current!==run)return false;
+        stage.dataset.state='inserted';insertButton.disabled=false;
+        insertButton.textContent='Animation wiederholen';status.textContent='Karte eingesteckt.';
+        stage.dispatchEvent(new CustomEvent('card:inserted',{bubbles:true}));
+        return true;
+      }
+      insertButton.addEventListener('click',insert);resetButton.addEventListener('click',reset);
+      window.bankCardPreview={insert,reset,get state(){return stage.dataset.state;}};
+    })();
+  </script>
+</body>
+</html>

@@ -8,6 +8,10 @@ Im separaten [Review-Ordner „seperatre i. files“](reviews/lucas-onboarding/s
 
 [Priorisierte offene Designvorschläge](reviews/lucas-onboarding/aesthetic-review/README.md) nach Prüfung aller 63 Einzelansichten und zehn mobilen Layouts. Mit direkten Seitenlinks, Screenshots und einer Reihenfolge für die nächsten Schritte. Empfehlungen, noch keine Designänderungen.
 
+## HTML-Bankkarte
+
+[Deutsche Bank Karte mit Einsteckanimation](components/deutsche-bank-card/README.md): eigenständige HTML-Datei und wiederverwendbare Komponente für die spätere Cashier-Integration.
+
 ## English widget website
 
 Open [the English widget website](PULS_App_English.html) in a browser. This adapts the English V10 prototype into a responsive standalone HTML surface without a smartphone frame, studio controls, or a banking home page. The scope is the financial wellbeing widget and its detail, learning, goal, and demo coach views. Banking data and actions remain illustrative.
