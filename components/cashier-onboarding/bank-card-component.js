@@ -31,18 +31,18 @@ class DeutscheBankCard extends HTMLElement {
             </svg>
             <svg class="contactless" viewBox="0 0 24 28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" focusable="false"><path d="M5 11a6 6 0 0 1 0 6M10 7a12 12 0 0 1 0 14M15 3a18 18 0 0 1 0 22"/></svg>
             <p class="number"><span class="masked">••••</span><span class="masked">••••</span><span class="masked">••••</span><span data-last-four></span></p>
-            <p class="holder" data-holder></p><span class="demo">DEMO</span>
+            <p class="holder" data-holder></p>
           </div>`;
       }
       connectedCallback() { this.update(); }
       attributeChangedCallback() { if(this.shadowRoot) this.update(); }
       update() {
-        const holder=this.getAttribute('holder')||'PULS Demo';
+        const holder=this.getAttribute('holder')||'PULS';
         const digits=(this.getAttribute('last-four')||'0428').replace(/\D/g,'').slice(-4).padStart(4,'0');
         this.shadowRoot.querySelector('[data-holder]').textContent=holder;
         this.shadowRoot.querySelector('[data-last-four]').textContent=digits;
         this.setAttribute('role','img');
-        this.setAttribute('aria-label',`Deutsche Bank Demokarte für ${holder}, Endziffern ${digits}`);
+        this.setAttribute('aria-label',`Deutsche Bank Karte für ${holder}, Endziffern ${digits}`);
       }
     }
     if(!customElements.get('deutsche-bank-card')) customElements.define('deutsche-bank-card',DeutscheBankCard);

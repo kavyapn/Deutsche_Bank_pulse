@@ -84,3 +84,9 @@ Im PIN-Schritt entfällt die zusätzliche Statuszeile „… sample card is read
 Live-Demo: https://puls-cashier-onboarding.vercel.app/
 
 Projekt `puls-cashier-onboarding` im Vercel-Team `Private`. Root Directory: `components/cashier-onboarding`. `vercel.json` veröffentlicht ausschließlich die fertige Cashier-HTML als `public/index.html`; kein Backend und keine zusätzlichen Quell- oder Review-Dateien werden benötigt. Das erste Production-Deployment verwendet Commit `1565ca3`; die ausgelieferte Datei wurde per SHA-256 mit der lokalen HTML verglichen.
+
+## Terminal ohne Demo-Zusätze
+
+Im Terminal entfallen Demo-/Sample-Bezeichnungen bei PIN, Kartenauswahl, Ladezuständen, Bankquellen und deren zugänglichen Beschriftungen. Der Hinweis unter dem Kartenschlitz und der DEMO-Aufdruck der animierten Karte entfallen ebenfalls. Die äußeren Hinweise zur Simulation bleiben erhalten. `cashier-copy.js` bearbeitet ausschließlich angezeigte Texte und Beschriftungen; Originaldaten, IDs und eingegebene Feldwerte bleiben unverändert. Die Freischaltung und Bankverbindung bleiben weiterhin simuliert.
+
+Der Hinweis zu den Themenprioritäten ist gekürzt auf „Use + or − to set your priorities.“

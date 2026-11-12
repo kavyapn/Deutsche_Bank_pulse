@@ -44,7 +44,7 @@
     if(busy)return;
     const token=++generation;busy=true;terminal.dataset.cardState='inserting';
     const id=button.dataset.persona;
-    card.setAttribute('holder',({lena:'Lena Muster',alex:'Alex Muster',maya:'Maya Muster'})[id]||'PULS Demo');
+    card.setAttribute('holder',({lena:'Lena',alex:'Alex',maya:'Maya'})[id]||'PULS');
     card.setAttribute('last-four',({lena:'0428',alex:'1580',maya:'6703'})[id]||'0428');
     setStatus('Inserting your demo card…','ready');sync();
     let slot=document.querySelector('.slot-opening').getBoundingClientRect();
