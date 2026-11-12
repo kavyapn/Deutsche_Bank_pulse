@@ -1,0 +1,627 @@
+[
+  {
+    "file": "10-puls-score.html",
+    "buttons": 12,
+    "cards": 0,
+    "error": null,
+    "heading": "PULS Financial Health",
+    "height": 1066,
+    "ready": "true",
+    "words": 67
+  },
+  {
+    "file": "puls-simulator.html",
+    "buttons": 10,
+    "cards": 4,
+    "error": null,
+    "height": 1468,
+    "ready": "true",
+    "words": 455
+  },
+  {
+    "file": "puls-learn.html",
+    "buttons": 15,
+    "cards": 5,
+    "error": null,
+    "heading": "Your learning path",
+    "height": 2122,
+    "ready": "true",
+    "words": 298
+  },
+  {
+    "file": "puls-fitness.html",
+    "buttons": 4,
+    "cards": 4,
+    "error": null,
+    "height": 1695,
+    "ready": "true",
+    "words": 260
+  },
+  {
+    "file": "puls-behaviour.html",
+    "buttons": 4,
+    "cards": 4,
+    "error": null,
+    "height": 1235,
+    "ready": "true",
+    "words": 186
+  },
+  {
+    "file": "puls-report.html",
+    "buttons": 8,
+    "cards": 5,
+    "error": null,
+    "heading": "Score report",
+    "height": 1941,
+    "ready": "true",
+    "words": 726
+  },
+  {
+    "file": "lernen-lesson-cash.html",
+    "buttons": 4,
+    "cards": 1,
+    "error": null,
+    "heading": "Build an accessible cash buffer",
+    "height": 900,
+    "ready": "true",
+    "words": 108
+  },
+  {
+    "file": "01-start.html",
+    "buttons": 1,
+    "cards": 0,
+    "error": null,
+    "heading": "PULS",
+    "height": 900,
+    "ready": "true",
+    "words": 25
+  },
+  {
+    "file": "02-karte.html",
+    "buttons": 4,
+    "cards": 0,
+    "error": null,
+    "heading": "Insert a bank card",
+    "height": 901,
+    "ready": "true",
+    "words": 31
+  },
+  {
+    "file": "03-demo-pin.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "Enter your demo PIN",
+    "height": 901,
+    "ready": "true",
+    "words": 30
+  },
+  {
+    "file": "04-einfuehrung.html",
+    "buttons": 2,
+    "cards": 0,
+    "error": null,
+    "heading": "Start with your plans",
+    "height": 901,
+    "ready": "true",
+    "words": 31
+  },
+  {
+    "file": "05-lebensplaene.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "What’s coming up for you?",
+    "height": 901,
+    "ready": "true",
+    "words": 66
+  },
+  {
+    "file": "frage-buffer-01.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "When do you expect this change?",
+    "height": 901,
+    "ready": "true",
+    "words": 50
+  },
+  {
+    "file": "frage-buffer-02.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "What would you like your buffer to cover?",
+    "height": 901,
+    "ready": "true",
+    "words": 54
+  },
+  {
+    "file": "frage-buffer-03.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "How do you set aside money today?",
+    "height": 901,
+    "ready": "true",
+    "words": 51
+  },
+  {
+    "file": "frage-business-01.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "When do you expect this change?",
+    "height": 901,
+    "ready": "true",
+    "words": 51
+  },
+  {
+    "file": "frage-business-02.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "What would you like to prepare for?",
+    "height": 901,
+    "ready": "true",
+    "words": 52
+  },
+  {
+    "file": "frage-business-03.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "Have you planned for a lean month?",
+    "height": 901,
+    "ready": "true",
+    "words": 54
+  },
+  {
+    "file": "frage-inheritance-01.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "When do you expect this change?",
+    "height": 901,
+    "ready": "true",
+    "words": 49
+  },
+  {
+    "file": "frage-inheritance-02.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "What would you like to work through?",
+    "height": 901,
+    "ready": "true",
+    "words": 50
+  },
+  {
+    "file": "frage-inheritance-03.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "What do you know about the timing of inherited cash?",
+    "height": 901,
+    "ready": "true",
+    "words": 57
+  },
+  {
+    "file": "frage-home-01.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "When do you expect this change?",
+    "height": 901,
+    "ready": "true",
+    "words": 48
+  },
+  {
+    "file": "frage-home-02.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "Which parts of the move are you planning for?",
+    "height": 901,
+    "ready": "true",
+    "words": 54
+  },
+  {
+    "file": "frage-home-03.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "How certain are the new housing costs?",
+    "height": 901,
+    "ready": "true",
+    "words": 47
+  },
+  {
+    "file": "frage-family-01.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "When do you expect this change?",
+    "height": 901,
+    "ready": "true",
+    "words": 51
+  },
+  {
+    "file": "frage-family-02.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "Which changes would you like to plan for?",
+    "height": 901,
+    "ready": "true",
+    "words": 54
+  },
+  {
+    "file": "frage-family-03.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "Have you estimated the new household budget?",
+    "height": 901,
+    "ready": "true",
+    "words": 50
+  },
+  {
+    "file": "frage-income-01.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "When do you expect this change?",
+    "height": 901,
+    "ready": "true",
+    "words": 52
+  },
+  {
+    "file": "frage-income-02.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "What would make the change easier?",
+    "height": 901,
+    "ready": "true",
+    "words": 54
+  },
+  {
+    "file": "frage-income-03.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "How clearly can you estimate your next income?",
+    "height": 901,
+    "ready": "true",
+    "words": 56
+  },
+  {
+    "file": "frage-university-01.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "When do you expect this change?",
+    "height": 901,
+    "ready": "true",
+    "words": 49
+  },
+  {
+    "file": "frage-university-02.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "What would you like to plan for at university?",
+    "height": 901,
+    "ready": "true",
+    "words": 56
+  },
+  {
+    "file": "frage-university-03.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "How much of the study budget have you estimated?",
+    "height": 901,
+    "ready": "true",
+    "words": 51
+  },
+  {
+    "file": "frage-salary-01.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "When do you expect this change?",
+    "height": 901,
+    "ready": "true",
+    "words": 50
+  },
+  {
+    "file": "frage-salary-02.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "What should your first salary help you do?",
+    "height": 901,
+    "ready": "true",
+    "words": 52
+  },
+  {
+    "file": "frage-salary-03.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "Do you know your take-home pay?",
+    "height": 901,
+    "ready": "true",
+    "words": 45
+  },
+  {
+    "file": "frage-travel-01.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "When do you expect this change?",
+    "height": 901,
+    "ready": "true",
+    "words": 48
+  },
+  {
+    "file": "frage-travel-02.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "What would you like to prepare for before travelling?",
+    "height": 901,
+    "ready": "true",
+    "words": 53
+  },
+  {
+    "file": "frage-travel-03.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "Have you estimated the trip costs?",
+    "height": 901,
+    "ready": "true",
+    "words": 44
+  },
+  {
+    "file": "frage-marriage-01.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "When do you expect this change?",
+    "height": 901,
+    "ready": "true",
+    "words": 48
+  },
+  {
+    "file": "frage-marriage-02.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "What would you like to discuss before getting married?",
+    "height": 901,
+    "ready": "true",
+    "words": 52
+  },
+  {
+    "file": "frage-marriage-03.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "Have you estimated the one-time costs?",
+    "height": 901,
+    "ready": "true",
+    "words": 42
+  },
+  {
+    "file": "frage-succession-01.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "When do you expect this change?",
+    "height": 901,
+    "ready": "true",
+    "words": 50
+  },
+  {
+    "file": "frage-succession-02.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "What would you like to resolve before the handover?",
+    "height": 901,
+    "ready": "true",
+    "words": 54
+  },
+  {
+    "file": "frage-succession-03.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "How far along is the transition plan?",
+    "height": 901,
+    "ready": "true",
+    "words": 49
+  },
+  {
+    "file": "06-themen-prioritaeten.html",
+    "buttons": 19,
+    "cards": 0,
+    "error": null,
+    "heading": "What matters most to you?",
+    "height": 901,
+    "ready": "true",
+    "words": 85
+  },
+  {
+    "file": "puls-capability.html",
+    "buttons": 4,
+    "cards": 1,
+    "error": null,
+    "heading": "Financial capability check",
+    "height": 1804,
+    "ready": "true",
+    "words": 439
+  },
+  {
+    "file": "puls-weekly.html",
+    "buttons": 5,
+    "cards": 0,
+    "error": null,
+    "heading": "This week with Pip",
+    "height": 900,
+    "ready": "true",
+    "words": 88
+  },
+  {
+    "file": "07-datenquellen.html",
+    "buttons": 4,
+    "cards": 0,
+    "error": null,
+    "heading": "Add data sources",
+    "height": 901,
+    "ready": "true",
+    "words": 47
+  },
+  {
+    "file": "08-datenquelle-bank.html",
+    "buttons": 5,
+    "cards": 1,
+    "error": null,
+    "heading": "Add data sources",
+    "height": 901,
+    "ready": "true",
+    "words": 59
+  },
+  {
+    "file": "08-datenquelle-csv.html",
+    "buttons": 5,
+    "cards": 1,
+    "error": null,
+    "heading": "Add data sources",
+    "height": 901,
+    "ready": "true",
+    "words": 68
+  },
+  {
+    "file": "08-datenquelle-manual.html",
+    "buttons": 5,
+    "cards": 1,
+    "error": null,
+    "heading": "Add data sources",
+    "height": 920,
+    "ready": "true",
+    "words": 59
+  },
+  {
+    "file": "09-bank-vorschau.html",
+    "buttons": 5,
+    "cards": 1,
+    "error": null,
+    "heading": "Add data sources",
+    "height": 901,
+    "ready": "true",
+    "words": 57
+  },
+  {
+    "file": "puls-edit-priorities.html",
+    "buttons": 20,
+    "cards": 1,
+    "error": null,
+    "heading": "Personalize priorities",
+    "height": 916,
+    "ready": "true",
+    "words": 91
+  },
+  {
+    "file": "puls-simulator-family.html",
+    "buttons": 17,
+    "cards": 4,
+    "error": null,
+    "height": 1717,
+    "ready": "true",
+    "words": 350
+  },
+  {
+    "file": "puls-simulator-retirement.html",
+    "buttons": 15,
+    "cards": 4,
+    "error": null,
+    "height": 1593,
+    "ready": "true",
+    "words": 343
+  },
+  {
+    "file": "puls-progress.html",
+    "buttons": 10,
+    "cards": 3,
+    "error": null,
+    "heading": "Your progress",
+    "height": 1164,
+    "ready": "true",
+    "words": 107
+  },
+  {
+    "file": "lernen-lesson-borrowing.html",
+    "buttons": 4,
+    "cards": 1,
+    "error": null,
+    "heading": "Compare the full cost of borrowing",
+    "height": 900,
+    "ready": "true",
+    "words": 109
+  },
+  {
+    "file": "lernen-lesson-diversification.html",
+    "buttons": 4,
+    "cards": 1,
+    "error": null,
+    "heading": "Look through funds to spot concentration",
+    "height": 900,
+    "ready": "true",
+    "words": 120
+  },
+  {
+    "file": "lernen-lesson-fraud.html",
+    "buttons": 4,
+    "cards": 1,
+    "error": null,
+    "heading": "Recognise a suspicious bank message",
+    "height": 900,
+    "ready": "true",
+    "words": 126
+  },
+  {
+    "file": "mobile-bank-home.html",
+    "buttons": 3,
+    "cards": 0,
+    "error": null,
+    "heading": "Financial overview",
+    "height": 900,
+    "ready": "true",
+    "words": 24
+  },
+  {
+    "file": "mobile-invest.html",
+    "buttons": 1,
+    "cards": 1,
+    "error": null,
+    "heading": "Investments",
+    "height": 900,
+    "ready": "true",
+    "words": 20
+  },
+  {
+    "file": "mobile-services.html",
+    "buttons": 3,
+    "cards": 2,
+    "error": null,
+    "heading": "Services",
+    "height": 900,
+    "ready": "true",
+    "words": 20
+  }
+]

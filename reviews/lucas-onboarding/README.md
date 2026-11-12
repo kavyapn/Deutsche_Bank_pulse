@@ -55,3 +55,7 @@ Neu erzeugen: `node export-html.mjs`, nachdem `build-full-apps.mjs` gelaufen ist
 Im Ordner [seperatre i. files](seperatre%20i.%20files/) liegen 63 einzeln öffnbare HTML-Dateien plus [index.html](seperatre%20i.%20files/index.html). Jede enthält die vollständige geänderte App und öffnet durch die originalen Demo-Aktionen die gewünschte Ansicht. Alle 63 Direkteinstiege im Browser geprüft. Die bestehende Daumen-Auswahl ist unverändert.
 
 Neu erzeugen: `node export-pages.mjs`. Die Dateien sind absichtlich unabhängig voneinander, damit einzelne Seiten separat weitergegeben werden können.
+
+## Offene ästhetische Verbesserungen
+
+[Review von Ästhetik und Einfachheit](aesthetic-review/README.md): priorisierte Vorschläge nach Prüfung aller 63 Einzelansichten und zehn mobilen Layouts. Diese Empfehlungen sind noch nicht umgesetzt.
