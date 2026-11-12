@@ -25,3 +25,6 @@ body[data-mode="terminal"] .branch-flow:has(#pin-display) {
 
 /* The Cashier has no website prototype mode selector. */
 body .site-header .mode-switch { display:none; }
+
+/* PIN entry needs no additional sample-card status copy. */
+.branch-flow:has(#pin-display) .branch-lead { display:none; }

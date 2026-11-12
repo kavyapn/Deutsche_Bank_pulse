@@ -48,12 +48,13 @@
     "unifiedContinueBackWithoutExtraNavigation": true,
     "continueSubmitsOriginalQuestionsAfterLastContentPage": true,
     "backRetainsGoalSelection": true,
-    "mobileUnifiedNavigationToWidgetUnlock": true
+    "mobileUnifiedNavigationToWidgetUnlock": true,
+    "pinSampleCardStatusHidden": true
   },
   "limits": [
     "Demo environment; no real card/PIN/bank connection.",
     "Browser testing; no physical terminal or phone tested.",
     "Tested through the local HTTP preview. Direct file:// navigation is not permitted in the in-app test browser and was not tested."
   ],
-  "htmlSha256": "4591cb66b0ab8533a6d45f9007b861216b254db8687160404b9f67014175c30f"
+  "htmlSha256": "231d18d41bac4379c11b51adceef20b06aa1145832cbaca95f9ae8cdb031e65e"
 }
