@@ -64,3 +64,7 @@ Geprüft bei 1280 × 720 und 390 × 844: Kartenauswahl, Einführung, Lebensplän
 ## Physischer Tastendruck
 
 Das metallische PIN-Pad zeigt einen vertieften Tastendruck mit 4 px Hub, leichter Verkleinerung und Innenschatten. Manuelle Ziffern, Löschen und Bestätigen sowie die automatische Demo-PIN verwenden denselben Effekt. Die automatische Eingabe hält jede Taste 240 ms gedrückt und lässt sie vor dem nächsten Anschlag los; zum Schluss wird die grüne Bestätigungstaste gedrückt. Bei reduzierter Bewegung entfällt der räumliche Hub.
+
+## Abschluss: Widget freigeschaltet
+
+Der Cashier-Ablauf endet nach den optionalen Datenquellen mit „Finish setup“. Der Cashier-Adapter `cashier-completion.js` ersetzt die ursprüngliche Aktion „View my PULS score“ durch eine eigene, zentrierte Abschlussseite: „Your PULS widget is unlocked.“ Die Erklärung verweist auf die Kontoübersicht der Banking-App. Der ursprüngliche Scan und die Score-Ansicht werden dabei nicht aufgerufen. Die Freischaltung ist im HTML eine Simulation; eine echte Banking-App wird nicht verändert. Der separate Original-Export bleibt unverändert.

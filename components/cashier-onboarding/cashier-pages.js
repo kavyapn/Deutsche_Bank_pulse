@@ -51,7 +51,7 @@
   }
   function layout(){
     observer.disconnect();
-    const direct=main.querySelector('.branch-welcome,#pin-display,.scan-transition');
+    const direct=main.querySelector('.branch-welcome,#pin-display,.scan-transition,.cashier-complete');
     document.body.classList.toggle('cashier-paged',!direct);
     if(direct){footer=null;units=[];pages=[];delete document.body.dataset.cashierPages;delete document.body.dataset.cashierPage;delete document.body.dataset.cashierPageOverflow;observer.takeRecords();watch();return;}
     if(!footer?.isConnected)attach();

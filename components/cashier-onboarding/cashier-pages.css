@@ -52,3 +52,12 @@ body.cashier-paged .health-outline { display:none; }
 }
 
 body.cashier-paged .branch-content .message { display:none; }
+
+/* A quiet final screen confirms widget activation; no score is retrieved here. */
+body[data-mode="terminal"] #main:has(.cashier-complete) { height:calc(100dvh - var(--site-header-height,60px)); min-height:0; width:100%; margin:0; padding:20px; display:grid; place-items:center; overflow:hidden; background:#fff; }
+.cashier-complete { max-width:380px; text-align:center; display:flex; flex-direction:column; align-items:center; gap:14px; }
+.cashier-complete-check { width:64px; height:64px; border-radius:50%; display:grid; place-items:center; background:#eaf6f0; color:#13816a; }
+.cashier-complete-check svg { width:32px; height:32px; }
+.cashier-complete .cashier-complete-kicker { margin:0; color:#65809f; font-size:11px; letter-spacing:.15em; font-weight:750; }
+.cashier-complete h1 { margin:0; font-size:clamp(25px,7vw,34px); line-height:1.12; letter-spacing:-.035em; color:#12386e; }
+.cashier-complete .cashier-complete-description { margin:0; max-width:300px; color:#526c8d; font-size:16px; line-height:1.5; }

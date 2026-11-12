@@ -29,10 +29,11 @@
     if(native?.button.disabled){setStatus('Demo PIN entered. Reading your profile…','ready');return;}
     if(busy)return;
     if(native){setStatus(count===4?'Four demo digits entered. Confirm with the green ✓ key.':`Enter four demo digits on the keypad, or use Enter PIN · ${count}/4.`, 'ready');return;}
-    if(doc.querySelector('#branch-goals'))setStatus('Choose your life plans on the display.','good');
+    if(doc.querySelector('.cashier-complete'))setStatus('Setup complete. The PULS widget is unlocked in your banking app.','good');
+    else if(doc.querySelector('#branch-goals'))setStatus('Choose your life plans on the display.','good');
     else if(doc.querySelector('#branch-answer'))setStatus('Answer the original onboarding question on the display.','good');
     else if(doc.querySelector('#branch-priorities'))setStatus('Set your topic priorities on the display.','good');
-    else if(doc.querySelector('#data-sources-title'))setStatus('Add optional demo data, or open your PULS score.','good');
+    else if(doc.querySelector('#data-sources-title'))setStatus('Add optional demo data, then finish your PULS setup.','good');
     else if(doc.querySelector('.scan-transition'))setStatus('Reading demo balances and preparing your PULS score…','ready');
     else if(doc.querySelector('.puls-navigation'))setStatus('Onboarding complete. Your demo PULS score is ready.','good');
     else if(doc.querySelector('[data-branch="goals"]'))setStatus('Card and demo PIN accepted. Continue on the display.','good');

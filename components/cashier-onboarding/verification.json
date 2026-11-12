@@ -6,7 +6,6 @@
     "questionsForBothGoals": 6,
     "topicPriorities": true,
     "mockBankBalancePreviewAndImport": true,
-    "onboardingCompletesAtScore": true,
     "lenaManualPinAndClear": true,
     "skipGoalsOption": true,
     "restartDuringCardAnimation": true,
@@ -17,7 +16,6 @@
     "mobileDisplayWidth": 320,
     "mobileDisplayScrollWidth": 320,
     "mobileCardInitialLeft": 16,
-    "finalBuildAutomaticPinSkipAndScore": true,
     "standaloneDownloadMatchesBuild": true,
     "welcomeScreenWithoutOuterWhiteMargins": true,
     "followingCardPickerStillIntake": true,
@@ -40,14 +38,17 @@
     "manualAssetAcrossPages": true,
     "requiredFieldReturnsToCorrectPage": true,
     "mobileIntroPagesFit": true,
-    "allScorePagesFitDesktopAndMobile": true,
     "manualPinKeyPressClassAndInsetShadow": true,
-    "automaticPinKeyPressClass": true
+    "automaticPinKeyPressClass": true,
+    "onboardingCompletesAtWidgetUnlock": true,
+    "finishSetupBypassesOriginalScanAndScore": true,
+    "widgetUnlockFitsDesktop1280x720": true,
+    "widgetUnlockFitsMobile390x844": true
   },
   "limits": [
     "Demo environment; no real card/PIN/bank connection.",
     "Browser testing; no physical terminal or phone tested.",
     "Tested through the local HTTP preview. Direct file:// navigation is not permitted in the in-app test browser and was not tested."
   ],
-  "htmlSha256": "f45cf0ff126925461397cb20055d4eb85df54a8607464a16cec88373736710e7"
+  "htmlSha256": "495aba73d216e670d9055108daed5555f44b60114755473b263411680357cc44"
 }
