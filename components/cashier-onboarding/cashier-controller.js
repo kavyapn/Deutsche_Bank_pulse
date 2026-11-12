@@ -14,7 +14,7 @@
   const setStatus=(text,kind='idle')=>{status.textContent=text;status.dataset.kind=kind;};
   const getDoc=()=>{try{return frame.contentDocument;}catch{return null;}};
   const getNative=()=>{const doc=getDoc(),button=doc?.querySelector('[data-branch="pin"]');return doc?.querySelector('#pin-display')&&button?{doc,button}:null;};
-  function showDots(doc){doc.querySelectorAll('#pin-display span').forEach((dot,index)=>{dot.style.background=index<count?'#cde8ff':'';dot.style.boxShadow=index<count?'0 0 0 2px #a3cdf655':'';});}
+  function showDots(doc){doc.querySelectorAll('#pin-display span').forEach((dot,index)=>dot.classList.toggle('pin-filled',index<count));}
   function sync(){
     const doc=getDoc(),native=getNative();
     if(!doc?.querySelector('#main')){chooseAnother.hidden=true;enterPin.disabled=true;allKeys.forEach(key=>key.disabled=true);setStatus('Loading PULS…');return;}

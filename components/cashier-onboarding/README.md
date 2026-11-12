@@ -90,3 +90,5 @@ Projekt `puls-cashier-onboarding` im Vercel-Team `Private`. Root Directory: `com
 Im Terminal entfallen Demo-/Sample-Bezeichnungen bei PIN, Kartenauswahl, Ladezuständen, Bankquellen und deren zugänglichen Beschriftungen. Der Hinweis unter dem Kartenschlitz und der DEMO-Aufdruck der animierten Karte entfallen ebenfalls. Die äußeren Hinweise zur Simulation bleiben erhalten. `cashier-copy.js` bearbeitet ausschließlich angezeigte Texte und Beschriftungen; Originaldaten, IDs und eingegebene Feldwerte bleiben unverändert. Die Freischaltung und Bankverbindung bleiben weiterhin simuliert.
 
 Der Hinweis zu den Themenprioritäten ist gekürzt auf „Use + or − to set your priorities.“
+
+Der PIN-Schritt nutzt eine weiße Fläche ohne farbigen PIN-Container. Die neutralen Punkte sind horizontal und vertikal in der Displayfläche unter dem Bank-Header zentriert; „Enter PIN“ steht darüber. Gefüllte Punkte sind dunkelgrau statt hellblau.

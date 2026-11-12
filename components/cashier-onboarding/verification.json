@@ -53,14 +53,18 @@
     "terminalDemoLabelsRemoved": true,
     "pinHeadingEnterPinWithoutDemo": true,
     "externalPrototypeDisclaimerRetained": true,
-    "shortPriorityInstruction": true
+    "shortPriorityInstruction": true,
+    "pinDotsCenteredInMainDesktopAndMobile": true,
+    "pinMainWhiteWithoutDotContainer": true,
+    "pinFilledDotsNeutralGray": true,
+    "pinHeadingAboveDisplayCenter": true
   },
   "limits": [
     "Demo environment; no real card/PIN/bank connection.",
     "Browser testing; no physical terminal or phone tested.",
     "Tested through the local HTTP preview. Direct file:// navigation is not permitted in the in-app test browser and was not tested."
   ],
-  "htmlSha256": "80bade6255985296174d463260a66976ecfd133e98515db740a1248206b96cd4",
+  "htmlSha256": "c2c239e071323f56049bce15c967609f48a4ddb6d34958a33fd282d98617a8c5",
   "deployment": {
     "url": "https://puls-cashier-onboarding.vercel.app/",
     "target": "production",

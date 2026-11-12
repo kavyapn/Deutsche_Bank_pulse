@@ -10,17 +10,17 @@ body[data-mode="terminal"][data-view="welcome"] .branch-welcome {
 }
 body[data-mode="terminal"][data-view="welcome"] .site-footer { display:none; }
 
-/* PIN step: centered focus area; its navigation buttons are operated from the outer mock controls. */
-body[data-mode="terminal"] .branch-flow:has(#pin-display) {
-  display:flex; min-height:320px; height:calc(100dvh - var(--site-header-height,60px)); padding:20px 19px;
-}
-.branch-flow:has(#pin-display) .branch-inner { position:relative; flex:1; display:flex; flex-direction:column; }
+/* PIN entry: plain white display, central neutral dots, heading above them. */
+body[data-mode="terminal"] #main:has(#pin-display) { width:100%; min-height:0; height:calc(100dvh - var(--site-header-height,60px)); padding:0; background:#fff; }
+body[data-mode="terminal"] .branch-flow:has(#pin-display) { display:flex; height:100%; min-height:0; padding:20px 19px; }
+.branch-flow:has(#pin-display) .branch-inner { position:relative; flex:1; height:100%; }
 .branch-flow:has(#pin-display) .branch-steps { margin-bottom:0; }
-.branch-flow:has(#pin-display) .branch-heading { margin-top:auto; justify-content:center; text-align:center; }
-.branch-flow:has(#pin-display) .branch-heading .branch-exit { position:absolute; right:0; top:50px; }
-.branch-flow:has(#pin-display) .branch-content { margin-bottom:auto; text-align:center; }
-.branch-flow:has(#pin-display) .branch-lead { margin-inline:auto; }
-.branch-flow:has(#pin-display) #pin-display { margin-inline:auto; }
+.branch-flow:has(#pin-display) .branch-heading,.branch-flow:has(#pin-display) .branch-content { display:contents; }
+.branch-flow:has(#pin-display) .branch-heading h1 { position:absolute; left:0; right:0; top:calc(50% - 100px); margin:0; text-align:center; font-size:28px; line-height:1.2; }
+.branch-flow:has(#pin-display) .branch-heading .branch-exit { position:absolute; right:0; top:40px; }
+.branch-flow:has(#pin-display) #pin-display { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:auto; margin:0; padding:0; border:0; border-radius:0; background:none; box-shadow:none; gap:20px; }
+.branch-flow:has(#pin-display) #pin-display span { width:14px; height:14px; border:1.5px solid #a9afb8; background:#fff!important; box-shadow:none!important; animation:none!important; }
+.branch-flow:has(#pin-display) #pin-display span.pin-filled { background:#242d3a!important; border-color:#242d3a; }
 .branch-flow:has(#pin-display) .branch-content .actions { display:none; }
 
 /* The Cashier has no website prototype mode selector. */
