@@ -8,6 +8,10 @@ Im separaten [Review-Ordner „seperatre i. files“](reviews/lucas-onboarding/s
 
 [Priorisierte offene Designvorschläge](reviews/lucas-onboarding/aesthetic-review/README.md) nach Prüfung aller 63 Einzelansichten und zehn mobilen Layouts. Mit direkten Seitenlinks, Screenshots und einer Reihenfolge für die nächsten Schritte. Empfehlungen, noch keine Designänderungen.
 
+## Cashier mit aktuellem GitHub-Onboarding
+
+[Cashier-Mock mit Karten- und PIN-Animation](components/cashier-onboarding/README.md): bereitgestellter Automaten-Mock mit dem aktuellen Original-Onboarding aus LucasKi9000/PULS (`f99a503`). Eigenständige HTML-Datei zum Durchspielen.
+
 ## HTML-Bankkarte
 
 [Deutsche Bank Karte mit Einsteckanimation](components/deutsche-bank-card/README.md): eigenständige HTML-Datei und wiederverwendbare Komponente für die spätere Cashier-Integration.

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#15245e">
+<title>PULS · Official onboarding in branch cashier · Demo</title>
+<style>
+  :root{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:#183250;background:#e8edf3;--blue:#0756bc;--dark:#121a32}
+  *{box-sizing:border-box}body{margin:0}button{font:inherit;cursor:pointer;touch-action:manipulation}button:focus-visible{outline:3px solid #4099ff;outline-offset:3px}button:disabled{cursor:default}
+  .workspace{min-height:100dvh;background:radial-gradient(ellipse 76% 80% at 50% 25%,#fff 0%,#f4f7fa 48%,#e3e9f0 100%);padding:16px clamp(14px,3vw,40px) 24px;display:flex;flex-direction:column;align-items:center;gap:12px}
+  .toolbar{width:min(1050px,100%);display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:12px;font-weight:680;color:#4a6381}.source{display:flex;align-items:center;gap:8px}.source i{width:7px;height:7px;background:#258568;border-radius:100%;box-shadow:0 0 0 4px #2585681a}.toolbar a{color:#155b9d;text-decoration:none}
+  .toolbar-actions{display:flex;align-items:center;gap:14px}.reload-app{border:1px solid #cbd9e8;background:#fff;border-radius:8px;padding:8px 10px;color:#155b9d;font-size:11px;font-weight:760}.reload-app:hover{background:#eff6ff}
+  .main{width:100%;display:grid;grid-template-columns:minmax(345px,510px) minmax(230px,330px);align-items:center;justify-content:center;gap:clamp(32px,5vw,88px)}
+  .terminal{position:relative;width:min(100%,465px);margin:0 auto;padding:19px 19px 0;isolation:isolate;border-radius:23px 23px 19px 19px;background:linear-gradient(100deg,#9da2a9 0%,#d6d8dd 7%,#eff0f2 16%,#b6b9c1 34%,#e1e2e7 61%,#b9bbc2 87%,#8b919c 100%);border:1px solid #8c949d;box-shadow:inset 3px 0 5px #ffffffc2,inset -4px 0 5px #333f546e,0 30px 55px #091e3a35,0 5px 12px #19314624}
+  .top-ridge{position:absolute;top:0;left:12px;right:12px;height:7px;border-radius:0 0 6px 6px;background:linear-gradient(#535967,#b6b8bf);box-shadow:0 1px 2px #fff8}
+  .bezel{background:linear-gradient(130deg,#191e27,#050912 44%,#171b24);padding:14px 13px 13px;border-radius:9px 9px 7px 7px;border:1px solid #262c35;box-shadow:inset 0 0 0 1px #000,0 1px 0 #fff9}
+  .camera-row{height:11px;display:flex;align-items:flex-start;justify-content:center}.camera{display:block;height:5px;width:5px;border-radius:50%;background:radial-gradient(circle at 35% 25%,#5876a4,#081020 65%);box-shadow:0 0 0 2px #28303c}
+  .screen{display:block;width:100%;height:clamp(450px,57dvh,690px);border:0;background:#fff;border-radius:2px;box-shadow:inset 0 0 5px #0004}
+  .screen-base{height:8px;display:flex;justify-content:center;align-items:flex-end}.screen-base span{height:2px;width:42%;border-radius:100px;background:#6a7181a8}
+  .hardware{margin:0 -1px;padding:15px 14px 18px;min-height:170px;display:flex;align-items:center;justify-content:space-evenly;gap:15px;position:relative;border-top:1px solid #f9f9fa7d;background:linear-gradient(115deg,#d5d7da 0%,#edeef0 23%,#c9ccd2 52%,#e7e7ea 77%,#b4b7bf 100%);border-radius:0 0 18px 18px}
+  .reader{flex:1 1 160px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:13px;min-width:135px}.reader-label{font-size:9px;letter-spacing:.15em;color:#5e6570;font-weight:820}.slot-wrap{height:66px;width:100%;display:flex;align-items:center;justify-content:center;position:relative}.slot-face{width:min(160px,96%);height:36px;border:1px solid #858d98;border-radius:8px;background:linear-gradient(140deg,#d6d9dd,#a8aeb5 75%,#e7e7e9);box-shadow:inset 0 2px 2px #fff9,0 3px 7px #737b8980;position:relative;display:grid;place-items:center}.slot-face:before{content:"";position:absolute;top:1px;left:14px;right:14px;height:3px;border-radius:3px;background:#539bf4;box-shadow:0 0 8px #2986ff94}.slot-opening{width:calc(100% - 27px);height:12px;border-radius:3px;background:#0c111a;border:2px solid #7d838d;box-shadow:inset 0 3px 5px #000b,0 1px 1px #fff8}.inserted-card{display:none;position:absolute;top:6px;left:50%;height:46px;width:73px;transform:translateX(-50%) rotate(-7deg);background:linear-gradient(140deg,#192c61,#31488d);border-radius:4px;box-shadow:0 4px 10px #0b163b75;color:#fff;text-align:right;font-size:8px;padding:8px;z-index:1;border:1px solid #8fadd8}.inserted-card:after{content:"";position:absolute;bottom:6px;left:9px;height:11px;width:14px;border-radius:2px;background:linear-gradient(135deg,#ddc897,#957e4f)}.inserted-card.visible{display:block}.reader-tip{font-size:9px;color:#6a7280;max-width:150px;text-align:center;line-height:1.35}
+  .pad-frame{width:164px;flex:0 0 164px;padding:7px;border-radius:10px;border:1px solid #9b9fa5;background:linear-gradient(140deg,#9b9fa7,#e5e6e9 29%,#b7bac1 69%,#9da2ab);box-shadow:inset 1px 2px 2px #ffffffc9,0 3px 6px #636c7977}.pad-title{display:flex;align-items:center;justify-content:space-between;letter-spacing:.12em;font-size:7px;font-weight:800;color:#626a79;padding:0 2px 5px}.lock-icon{font-size:9px}.pad-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}.pad-key{display:grid;place-items:center;min-height:27px;border-radius:4px;border:1px solid #959ca8;background:linear-gradient(150deg,#fbfbfc,#d4d8dd 75%,#adb3bd);box-shadow:inset 0 1px #fff,0 2px 2px #7179879e;color:#263347;font-size:12px;font-weight:750;padding:0;user-select:none;transition:filter .12s,transform .09s}.pad-key:not(:disabled):active,.pad-key.pressed{transform:translateY(2px);background:linear-gradient(#b3bdcc,#eef1f5);box-shadow:inset 0 2px 3px #8c929d83}.pad-key:disabled{opacity:.6}.pad-key.clear{color:#ae5b22;border-color:#b8a28e}.pad-key.ok{color:#0c6650;border-color:#8baea3;background:linear-gradient(#e4faf2,#a4cbbb)}
+  .base-foot{text-align:center;margin:0 -1px;padding:0 0 7px;font-size:7px;letter-spacing:.2em;font-weight:840;color:#6f7681}
+  .controls{align-self:center}.eyebrow{color:#55769b;font-weight:800;letter-spacing:.15em;font-size:10px;text-transform:uppercase;margin:0 0 12px}.controls h1{font-size:clamp(27px,2.9vw,38px);line-height:1.09;letter-spacing:-.05em;color:#1c314e;margin:0 0 15px;font-weight:790}.controls p{font-size:13px;line-height:1.57;color:#637590;margin:0 0 16px}.control-card{background:#fff;border:1px solid #dae3ed;border-radius:16px;box-shadow:0 11px 30px #0d2b5210;padding:18px;margin:18px 0}.card-label{font-size:10px;letter-spacing:.07em;color:#70829c;text-transform:uppercase;font-weight:840;margin:0 0 12px}.simulate{min-height:54px;width:100%;display:flex;align-items:center;justify-content:center;gap:10px;background:#0756bc;color:#fff;border:0;border-radius:9px;font-size:15px;font-weight:750}.simulate:hover:not(:disabled){background:#034ba6}.simulate:disabled{background:#b4c6dd;color:#fff}.status{background:#f1f6fc;border-radius:8px;margin-top:10px;padding:10px;color:#57708f;font-size:11px;line-height:1.5;min-height:54px}.status[data-kind="ready"]{background:#e3f4ff;color:#1c6088}.status[data-kind="good"]{background:#e4f7ee;color:#176349}.status[data-kind="warn"]{background:#fff0e8;color:#8a4b2c}.minor{border:0;background:transparent;padding:9px 0;color:#2a5c9a;font-size:11px;font-weight:680}.repo-info{font-size:11px;color:#7689a1;line-height:1.6}.repo-info code{font-size:10px;background:#e5ecf4;padding:2px 4px;border-radius:4px}.repo-info strong{color:#334e6f}.outline{display:flex;align-items:center;gap:7px;margin-top:16px}
+  @media(max-width:850px){.main{grid-template-columns:minmax(0,1fr);gap:22px}.controls{width:min(490px,100%);margin:0 auto}.toolbar{max-width:490px}.workspace{padding-top:12px}.terminal{width:min(100%,465px)}.controls h1{font-size:23px}.controls>p:not(.eyebrow){display:none}.screen{height:clamp(450px,63dvh,675px)}.control-card{margin:12px 0}}
+  @media(max-width:410px){.terminal{padding:12px 11px 0}.bezel{padding:10px 8px}.hardware{gap:7px;padding:12px 8px;min-height:164px}.pad-frame{width:148px;flex-basis:148px}.reader{min-width:0}.reader-label{font-size:8px}.slot-face{width:90%}.screen{height:520px}}
+  @media(prefers-reduced-motion:reduce){.pad-key{transition:none}}
+</style>
+</head>
+<body>
+<main class="workspace">
+  <header class="toolbar"><div class="source"><i aria-hidden="true"></i> PULS · ORIGINAL GITHUB ONBOARDING</div><div class="toolbar-actions"><button type="button" id="reloadApp" class="reload-app" title="Reload the unchanged PULS interface">Reload PULS ↻</button><a href="https://github.com/LucasKi9000/PULS" target="_blank" rel="noopener noreferrer">Repository</a></div></header>
+  <div class="main">
+    <section class="terminal" aria-label="Deutsche Bank PULS cashier terminal demonstration">
+      <div class="top-ridge"></div>
+      <div class="bezel">
+        <div class="camera-row"><span class="camera" aria-hidden="true"></span></div>
+        <iframe class="screen" id="pulsScreen" title="Original PULS onboarding loaded from the same GitHub checkout" src="./index.html" allow="clipboard-write"></iframe>
+        <div class="screen-base"><span></span></div>
+      </div>
+      <div class="hardware" aria-label="Simulated physical bank card reader and number pad">
+        <div class="reader">
+          <div class="reader-label">INSERT BANK CARD</div>
+          <div class="slot-wrap"><div class="slot-face"><div class="slot-opening"></div><div id="insertedCard" class="inserted-card" aria-hidden="true">DB</div></div></div>
+          <div class="reader-tip">Demo terminal · No real card reader</div>
+        </div>
+        <div class="pad-frame">
+          <div class="pad-title"><span>PIN PAD</span><span class="lock-icon" aria-hidden="true">◈</span></div>
+          <div class="pad-grid" id="hardwarePad">
+            <button type="button" class="pad-key" data-digit="1" disabled>1</button><button type="button" class="pad-key" data-digit="2" disabled>2</button><button type="button" class="pad-key" data-digit="3" disabled>3</button>
+            <button type="button" class="pad-key" data-digit="4" disabled>4</button><button type="button" class="pad-key" data-digit="5" disabled>5</button><button type="button" class="pad-key" data-digit="6" disabled>6</button>
+            <button type="button" class="pad-key" data-digit="7" disabled>7</button><button type="button" class="pad-key" data-digit="8" disabled>8</button><button type="button" class="pad-key" data-digit="9" disabled>9</button>
+            <button type="button" class="pad-key clear" data-key="clear" disabled aria-label="Clear simulated PIN">C</button><button type="button" class="pad-key" data-digit="0" disabled>0</button><button type="button" class="pad-key ok" data-key="enter" disabled aria-label="Confirm simulated PIN">✓</button>
+          </div>
+        </div>
+      </div>
+      <div class="base-foot">PULS · BRANCH EXPERIENCE</div>
+    </section>
+    <aside class="controls">
+      <div class="eyebrow">Interaction prototype · Cashier terminal</div>
+      <h1>Real onboarding.<br>Physical PIN simulation.</h1>
+      <p>Choose an original demo bank card on the display, then press the metal keypad or use the automatic PIN simulation. Every subsequent page comes directly from the current GitHub application.</p>
+      <div class="control-card">
+        <div class="card-label">Demo control</div>
+        <button type="button" class="simulate" id="enterPin" disabled>Enter PIN <span aria-hidden="true">→</span></button>
+        <div class="status" id="status" role="status" aria-live="polite" data-kind="idle">Choose a sample card in the original PULS app to activate the keypad.</div>
+        <button type="button" class="minor" id="restart">↻ Restart original onboarding</button>
+      </div>
+      <p class="repo-info"><strong>Unchanged original application:</strong> <code>dist/index.html</code>, <code>app.js</code>, <code>branch.js</code>. The keypad only controls the already existing demo PIN step. No real PIN is checked or stored.</p>
+    </aside>
+  </div>
+</main>
+<script>
+(() => {
+  'use strict';
+  const frame = document.getElementById('pulsScreen');
+  const hw = document.getElementById('hardwarePad');
+  const enterPin = document.getElementById('enterPin');
+  const insertedCard = document.getElementById('insertedCard');
+  const status = document.getElementById('status');
+  const restart = document.getElementById('restart');
+  const reloadApp = document.getElementById('reloadApp');
+  let observer = null, count = 0, busy = false, lastPinStep = false, generation = 0;
+  const digitButtons = [...hw.querySelectorAll('[data-digit]')];
+  const allKeys = [...hw.querySelectorAll('.pad-key')];
+  const setStatus = (text,kind='idle') => {status.textContent=text;status.dataset.kind=kind;};
+  function getDoc() { try {return frame.contentDocument;} catch {return null;} }
+  function nativePin(doc) {return doc?.querySelector('#pin-display') && doc.querySelector('[data-branch="pin"]');}
+  function getNative() {const doc=getDoc(); return nativePin(doc) ? {doc,button:doc.querySelector('[data-branch="pin"]')} : null;}
+  function showDots(doc) {
+    const dots = doc.querySelectorAll('#pin-display span');
+    dots.forEach((dot,i) => {
+      dot.style.background = i<count ? '#cde8ff' : '';
+      dot.style.boxShadow = i<count ? '0 0 0 2px #a3cdf655' : '';
+    });
+  }
+  function sync() {
+    const doc = getDoc();
+    if (!doc || !doc.querySelector('#main')) {
+      enterPin.disabled = true; allKeys.forEach(k=>k.disabled=true);
+      setStatus('Load this file beside the original dist/index.html, over the same local server.','warn');
+      return;
+    }
+    const isPin = Boolean(nativePin(doc));
+    if (!isPin && lastPinStep) {count=0;busy=false;generation++;}
+    lastPinStep=isPin;
+    const enabled=isPin && !busy && !doc.querySelector('[data-branch="pin"]').disabled;
+    enterPin.disabled=!enabled;
+    digitButtons.forEach(b=>b.disabled=!enabled || count>=4);
+    const clear=hw.querySelector('[data-key="clear"]'); clear.disabled=!enabled || count===0;
+    const confirm=hw.querySelector('[data-key="enter"]'); confirm.disabled=!enabled || count!==4;
+    insertedCard.classList.toggle('visible',isPin);
+    if (!busy) {
+      if (isPin) setStatus(count===4?'Four digits entered. Confirm with the green ✓ key or the on-screen Enter button.':`PIN step active · ${count}/4 simulated digits entered.`, 'ready');
+      else if (doc.querySelector('.branch-flow')) setStatus('Original PULS onboarding active. Select a sample card to enable the metal PIN pad.','idle');
+      else setStatus('Original PULS application loaded.','idle');
+    }
+  }
+  function increment(button) {
+    const native = getNative();
+    if (!native || count>=4) return;
+    count++;
+    showDots(native.doc);
+    button?.classList.add('pressed');
+    setTimeout(()=>button?.classList.remove('pressed'),140);
+    sync();
+  }
+  function submit() {
+    const native=getNative();
+    if (!native || count!==4 || busy || native.button.disabled) return;
+    busy=true;
+    setStatus('PIN accepted as demo input; starting original PULS PIN animation…','ready');
+    native.doc.querySelectorAll('#pin-display span').forEach(dot=>{dot.style.background='';dot.style.boxShadow='';});
+    native.button.click();
+    sync();
+  }
+  hw.addEventListener('click',e=>{
+    const button=e.target.closest('.pad-key'); if (!button || button.disabled || busy) return;
+    if (button.dataset.digit) {increment(button); return;}
+    if (button.dataset.key==='clear') {count=0;const native=getNative();if(native)showDots(native.doc);sync();}
+    else if (button.dataset.key==='enter') submit();
+  });
+  const delay=ms=>new Promise(r=>setTimeout(r,ms));
+  enterPin.addEventListener('click',async()=>{
+    if (!getNative() || busy) return;
+    busy=true; count=0; sync();
+    setStatus('Simulating four presses on the physical PIN pad…','ready');
+    const myGeneration=++generation;
+    const zero=hw.querySelector('[data-digit="0"]');
+    for(let i=0;i<4;i++) {
+      if (myGeneration!==generation||!getNative()) return;
+      count++;
+      showDots(getNative().doc);
+      zero.classList.add('pressed');
+      await delay(150);
+      zero.classList.remove('pressed');
+      await delay(90);
+    }
+    if(myGeneration!==generation||!getNative())return;
+    busy=false;
+    submit();
+  });
+  function reloadOriginal() {
+    generation++;count=0;busy=false;lastPinStep=false;
+    observer?.disconnect();
+    frame.src = './index.html?mode=terminal&kioskReload=' + Date.now();
+    setStatus('Reloading the unchanged PULS onboarding…');
+  }
+  restart.addEventListener('click',reloadOriginal);
+  reloadApp.addEventListener('click',reloadOriginal);
+  frame.addEventListener('load',()=>{
+    observer?.disconnect(); count=0;busy=false;lastPinStep=false;generation++;
+    const doc=getDoc();
+    if(doc?.body) {
+      observer = new MutationObserver(()=>sync());
+      observer.observe(doc.body,{childList:true,subtree:true,attributes:true,attributeFilter:['disabled','class']});
+    }
+    sync();
+  });
+  window.addEventListener('pagehide',()=>{observer?.disconnect(); generation++;});
+  sync();
+})();
+</script>
+</body>
+</html>

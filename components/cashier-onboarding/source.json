@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/LucasKi9000/PULS",
+  "commit": "f99a503617a1687e9c627d30e802822ebf2ba2aa",
+  "verifiedFrontendFiles": 39,
+  "changesToOriginalSource": [],
+  "shellTemplate": "User supplied puls-cashier-onboarding-reloaded.html",
+  "demoData": "Original embedded dist/api/banking fixtures",
+  "frontendEntry": "PULS_Onboarding_Original.html",
+  "cashier": "PULS_Cashier_Onboarding.html"
+}
