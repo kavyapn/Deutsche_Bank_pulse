@@ -64,7 +64,7 @@
     "Browser testing; no physical terminal or phone tested.",
     "Tested through the local HTTP preview. Direct file:// navigation is not permitted in the in-app test browser and was not tested."
   ],
-  "htmlSha256": "c2c239e071323f56049bce15c967609f48a4ddb6d34958a33fd282d98617a8c5",
+  "htmlSha256": "14f28057e398c584132da461935789503dc9874def677ad43e5d30940ecdbc55",
   "deployment": {
     "url": "https://puls-cashier-onboarding.vercel.app/",
     "target": "production",

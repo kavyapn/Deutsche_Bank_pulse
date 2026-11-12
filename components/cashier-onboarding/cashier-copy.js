@@ -10,6 +10,9 @@
       .replace(/\b(?:demo|prototype)\b/gi,'');
   }
   function refresh(){
+    // Entire prototype-only notes disappear rather than leaving reworded disclaimers.
+    document.querySelectorAll('.site-footer,.branch-welcome .eyebrow').forEach(element=>element.remove());
+    for(const note of document.querySelectorAll('.sources-page p'))if(note.textContent.includes('The measured score uses your verified banking snapshot.'))note.remove();
     const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
     while(walker.nextNode()){
       const node=walker.currentNode;

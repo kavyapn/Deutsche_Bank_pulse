@@ -92,3 +92,5 @@ Im Terminal entfallen Demo-/Sample-Bezeichnungen bei PIN, Kartenauswahl, Ladezus
 Der Hinweis zu den Themenprioritäten ist gekürzt auf „Use + or − to set your priorities.“
 
 Der PIN-Schritt nutzt eine weiße Fläche ohne farbigen PIN-Container. Die neutralen Punkte sind horizontal und vertikal in der Displayfläche unter dem Bank-Header zentriert; „Enter PIN“ steht darüber. Gefüllte Punkte sind dunkelgrau statt hellblau.
+
+Zusätzlich entfernt: „PULS · BRANCH EXPERIENCE“ am Terminalgehäuse, der gleichnamige Startbildschirm-Zusatz und der technische Hinweis zu Score-Snapshot/lokaler Demo-Speicherung bei den Datenquellen. Die äußere Demo-Erklärung bleibt erhalten.
