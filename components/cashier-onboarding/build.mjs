@@ -35,11 +35,12 @@ shell=shell.replace('The keypad only controls the already existing demo PIN step
 const overlay=`<div class="cashier-card-window" id="cashierCardWindow" hidden aria-hidden="true"><div class="cashier-card-actor" id="cashierCardActor"><deutsche-bank-card></deutsche-bank-card></div></div>`;
 const styles=`.cashier-card-window{position:fixed;inset:0;z-index:30;pointer-events:none;overflow:hidden}.cashier-card-window[hidden]{display:none}.cashier-card-actor{position:fixed;transform-origin:center;will-change:transform}.terminal[data-card-state="inserted"] .slot-face:before{background:#219778;box-shadow:0 0 8px #21977880}`;
 shell=shell.replace('</style>',styles+'</style>');
-const payload=Buffer.from(app).toString('base64');
+const cashierApp=app.replace('</head>',`<style>${fs.readFileSync(path.join(root,'cashier-startscreen.css'),'utf8')}</style></head>`);
+const payload=Buffer.from(cashierApp).toString('base64');
 const component=fs.readFileSync(path.join(root,'bank-card-component.js'),'utf8').replace(/<\/script/gi,'<\\/script');
 const controller=fs.readFileSync(path.join(root,'cashier-controller.js'),'utf8').replace(/<\/script/gi,'<\\/script');
 shell=shell.replace('</body>',`${overlay}\n<script type="application/octet-stream" id="puls-app-data">${payload}</script>\n<script>${component}</script>\n<script>${controller}</script>\n</body>`);
 fs.writeFileSync(path.join(root,'PULS_Cashier_Onboarding.html'),shell);
-const metadata={repository:'https://github.com/LucasKi9000/PULS',commit,verifiedFrontendFiles:entries.length,changesToOriginalSource:[],shellTemplate:'User supplied puls-cashier-onboarding-reloaded.html',demoData:'Original embedded dist/api/banking fixtures',frontendEntry:'PULS_Onboarding_Original.html',cashier:'PULS_Cashier_Onboarding.html'};
+const metadata={repository:'https://github.com/LucasKi9000/PULS',commit,verifiedFrontendFiles:entries.length,changesToOriginalSource:[],cashierPresentationOverrides:['Welcome screen fills the display without white margins or rounded card corners.'],shellTemplate:'User supplied puls-cashier-onboarding-reloaded.html',demoData:'Original embedded dist/api/banking fixtures',frontendEntry:'PULS_Onboarding_Original.html',cashier:'PULS_Cashier_Onboarding.html'};
 fs.writeFileSync(path.join(root,'source.json'),JSON.stringify(metadata,null,2)+'\n');
 console.log(JSON.stringify(metadata));

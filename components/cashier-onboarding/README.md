@@ -42,3 +42,9 @@ Die Quelldateien werden nur aus Git gelesen. `build.mjs` verwendet esbuild 0.25.
 [verification.json](verification.json) dokumentiert die Browserprüfung: Alex mit automatischer PIN, zwei Lebensplänen und allen sechs Fragen, Prioritäten, Demo-Bankimport und Score; Lena mit manueller PIN inklusive Löschen und der neuen Skip-Option; Maya mit Karteneinzug bei 390 px Breite. Neustart während Karten- und PIN-Animation geprüft. Außenansicht 390 px und Display 320 px breit, jeweils ohne horizontalen Überlauf.
 
 Getestet über lokalen HTTP-Server; direkter file://-Aufruf ist im In-App-Testbrowser nicht erlaubt und wurde nicht geprüft. Keine echte Bankverbindung oder PIN-Prüfung, kein physischer Automat getestet.
+
+## Randloser Startbildschirm
+
+`cashier-startscreen.css` entfernt ausschließlich im Cashier-Startzustand die weißen Außenabstände, die runden Ecken der blauen Startfläche und die darunterliegende Fußzeile. Die Startfläche füllt das Display unter dem Bank-Header. Alle Folgeschritte und der separat exportierte Original-Stand behalten ihr Layout.
+
+Im Browser geprüft: Startfläche beginnt bei x=0, füllt die 397 px breite Displayfläche, Eckenradius 0. Kartenauswahl erreicht weiterhin den originalen Intake-Zustand; Neustart stellt die randlose Startfläche wieder her.

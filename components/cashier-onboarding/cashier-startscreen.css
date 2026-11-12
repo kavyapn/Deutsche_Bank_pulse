@@ -1,0 +1,11 @@
+/* Cashier presentation override: only the initial welcome screen reaches the display edges. */
+body[data-mode="terminal"][data-view="welcome"] { background:#101749; }
+body[data-mode="terminal"][data-view="welcome"] #main {
+  width:100%; max-width:none; margin:0; padding:0;
+  min-height:calc(100dvh - var(--site-header-height,60px));
+}
+body[data-mode="terminal"][data-view="welcome"] .branch-welcome {
+  width:100%; border-radius:0;
+  min-height:calc(100dvh - var(--site-header-height,60px));
+}
+body[data-mode="terminal"][data-view="welcome"] .site-footer { display:none; }
