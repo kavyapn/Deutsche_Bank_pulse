@@ -27,3 +27,9 @@ Die bestehende PULS-Anwendung und der Cashier-Mock wurden nicht geändert. Die A
 - Abbruch während laufender Animation geprüft: stabiler Zustand `ready`.
 - Bei 390 × 844 px geprüft: Body und scrollWidth jeweils 390 px, kein horizontaler Überlauf.
 - Screenshots: [Desktop](screenshots/card.jpg), [Mobil](screenshots/mobile.jpg).
+
+## Vollständiger Einzug
+
+Die Animation ermittelt die tatsächliche Schlitzmitte und richtet dort ihre Schnittkante aus. Ihre Endposition wird aus der Kartengröße berechnet, mit zusätzlichem Abstand für den Schatten. Im Zustand `inserted` ist der Kartenträger vollständig ausgeblendet; beim Wiederholen und Zurücksetzen wird er wieder sichtbar.
+
+Die Korrektur wurde am Desktop und bei 390 px Breite im Browser geprüft: Schnittkante und Schlitzmitte stimmen überein; die Kartenoberkante liegt am Ende jeweils 96 px darunter. Karten-Träger im Endzustand unsichtbar. Wiederholen und Abbruch mit Zurücksetzen funktionieren weiterhin. Screenshots: [eingesteckt](screenshots/inserted.jpg), [mobil eingesteckt](screenshots/inserted-mobile.jpg).
