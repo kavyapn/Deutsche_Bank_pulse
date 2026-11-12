@@ -35,3 +35,9 @@ Frontendvergleich mit statischem lokalem Server. Kein KI-Backend gestartet. Kein
 - Einzelne HTML-Datei neu exportiert und bis zur echten Datenquellen-Seite durchlaufen.
 - Visuell geprüft: „Connect a bank“ dunkelblau, volle Breite und 72 px hoch; darunter „Import a CSV“ und „Add manually“ nebeneinander, jeweils 48 px hoch.
 - Am Desktop gemessen: Bank 680 px breit; Alternativen jeweils 335 px breit. Aktionskennungen und Formularlogik unverändert. Screenshot: `screenshots/bank-primary.jpg`.
+
+## Reduzierte Alternativen
+
+- HTML neu exportiert und den vollständigen Filialablauf bis zu den Datenquellen durchlaufen.
+- Bankverbindung als 68 px hohe Hauptaktion mit linksbündigem Text und Pfeil rechts visuell geprüft. CSV und manuelle Eingabe sind kompakte Textbuttons, behalten aber mindestens 44 px Bedienhöhe. Keine zusätzlichen Container.
+- Aktionskennungen und bestehende Formulare unverändert. Screenshot: `screenshots/bank-modern.jpg`.

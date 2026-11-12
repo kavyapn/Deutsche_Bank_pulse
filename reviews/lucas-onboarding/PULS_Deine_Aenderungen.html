@@ -631,9 +631,15 @@ html:has(#puls-mobile-navigation:not([hidden])) { scroll-padding-top: calc(125px
  .plans-introduction { min-height:310px; padding-block:24px; }
 }
 
-/* REVIEW-08: Bank connection is primary; CSV and manual entry are smaller alternatives below. */
-.sources-review .source-choices button[data-id="bank"] { grid-column:1 / -1; min-height:72px; padding:20px; background:var(--navy); border-color:var(--navy); color:white; font-size:1.05rem; }
+/* REVIEW-08: Keep one prominent bank action and reduce alternatives to compact text buttons. */
+.sources-review .source-choices { grid-template-columns:1fr auto auto 1fr; column-gap:16px; row-gap:4px; }
+.sources-review .source-choices button[data-id="bank"] { grid-column:1 / -1; justify-content:space-between; min-height:68px; padding:20px 24px; border-radius:16px; background:var(--navy); border-color:var(--navy); color:white; font-size:1.05rem; text-align:left; }
+.sources-review .source-choices button[data-id="bank"]::after { content:"→"; font-size:1.3rem; line-height:1; }
 .sources-review .source-choices button[data-id="bank"]:hover { background:#10457f; border-color:#10457f; }
+.sources-review .source-choices button[data-id="csv"],.sources-review .source-choices button[data-id="manual"] { width:auto; min-height:44px; padding:8px 4px; border:0; border-radius:6px; background:transparent; color:var(--muted); font-size:.86rem; font-weight:600; }
+.sources-review .source-choices button[data-id="csv"] { grid-column:2; }
+.sources-review .source-choices button[data-id="manual"] { grid-column:3; }
+.sources-review .source-choices button:not([data-id="bank"]):hover,.sources-review .source-choices button:not([data-id="bank"])[aria-pressed=true] { color:var(--navy); text-decoration:underline; text-underline-offset:4px; }
 
 </style>
 </head>
