@@ -13,7 +13,7 @@ python3 -m http.server 8012 --bind 127.0.0.1
 
 Aus diesem Review-Ordner ausführen. Dann http://localhost:8012/preview.html öffnen. Der Generator schreibt nur in den ignorierten Ordner `.runtime/`; das Quellrepository bleibt unverändert. Die vollständigen App-Dateien werden nicht als zweiter Quellbestand committed.
 
-Beide Anwendungen sind eigenständig bedienbar. Derselbe Ablauf lässt sich auf beiden Seiten durchgehen. Desktop: jeweils 900 × 900 px. Mobil: jeweils 390 × 1200 px. Bei weniger Platz werden beide gleichmäßig verkleinert. Die Links „groß öffnen“ zeigen die vollständigen Apps ohne Vergleichsrahmen. Es gibt keine Vorschau-Navigation mehr, die erfundene Bildschirmzustände erzeugt.
+Beide Anwendungen sind vollständig vorhanden. Die Vergleichsoberfläche spiegelt Klicks, Formulareingaben, Auswahlen und Navigation in beide Richtungen, ohne die Originaldateien zu verändern. Bediene eine Seite; die andere folgt. Die Spiegelung verwendet stabile Aktionskennungen und Formularfelder; unterschiedliche Beschriftungen der Einführungsbuttons funktionieren ebenfalls. Desktop: jeweils 900 × 900 px. Mobil: jeweils 390 × 1200 px. Bei weniger Platz werden beide gleichmäßig verkleinert. Die Links „groß öffnen“ zeigen die vollständigen Apps ohne Vergleichsrahmen. Es gibt keine Vorschau-Navigation mehr, die erfundene Bildschirmzustände erzeugt. „Beide neu starten“ setzt die Ansichten bei Bedarf wieder auf denselben Anfang.
 
 Die Demo-Bankdaten werden unverändert aus den mitgelieferten JSON-Dateien geladen. Es läuft nur ein statischer Server, kein KI-Backend. Die Anwendungen liegen auf demselben lokalen Ursprung: Bei Tests der Mobile-Banking-Speicherung teilen sie sich den ursprünglichen Local-Storage-Schlüssel. Der hier geprüfte Filialablauf hält seinen Zustand je Anwendung getrennt im Speicher. Kein produktiver Dienst wurde verändert.
 
@@ -26,6 +26,8 @@ Die Demo-Bankdaten werden unverändert aus den mitgelieferten JSON-Dateien gelad
 | REVIEW-03 | `Choose your plans` als Buttontext. | Greift die Überschrift auf. |
 | REVIEW-04 | Ganze Auswahlkarten, dunkelblauer ausgewählter Zustand, weiße Schrift, keine sichtbaren Checkboxen oder Radiokreise. | Auswahl durch die gesamte Fläche erkennbar. Native Inputs bleiben für Tastatur, Screenreader und Formularlogik vorhanden. Einzelauswahl und Mehrfachauswahl behalten ihre Regeln. |
 | REVIEW-05 | Große Verbindungsmöglichkeiten, leerer Asset-Container entfällt beim Onboarding, Score-Button außerhalb und mittig. | Verbindungen und nächste Aktion stehen im Fokus. Bereits hinzugefügte Assets bleiben im tatsächlichen Patch sichtbar. Datenbasis und Speicherhinweis bleiben erhalten. |
+| REVIEW-06 | Bedienung im Vergleich beidseitig spiegeln. | Die andere Version folgt demselben Ablauf. Die Event-Weiterleitung liegt nur in der Vergleichsoberfläche, nicht in der Anwendung. |
+| REVIEW-07 | Einführung und Erklärung mittig; größerer, zentrierter „Choose your plans“-Button. | Der Inhaltsblock liegt ungefähr auf Höhe des Zwischenraums der beiden Originalkästen. Desktop gemessen: Original-Zwischenraum bei y=381 px, Blockmitte bei y=385 px. |
 
 ## Selbst übernehmen
 

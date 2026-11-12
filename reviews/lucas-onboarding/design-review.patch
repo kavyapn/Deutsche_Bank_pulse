@@ -12,9 +12,9 @@
 -      <section><h2>How PULS helps</h2><p>See how your banking activity, habits and knowledge shape your score. Then try one next step or test a goal before committing.</p></section>
 -    </div>
 -    <div class="actions"><button class="button" type="button" data-branch="goals">Choose life goals <span aria-hidden="true">→</span></button></div>`;
-+  return `<p class="branch-lead">Choose what’s coming up in your life, then answer a few questions about your finances.</p>
++  return `<div class="plans-introduction"><p class="branch-lead">Choose what’s coming up in your life, then answer a few questions about your finances.</p>
 +    <!-- REVIEW-03: Name the next screen. Preserve the existing goals action and navigation. -->
-+    <div class="actions"><button class="button" type="button" data-branch="goals">Choose your plans <span aria-hidden="true">→</span></button></div>`;
++    <div class="actions"><button class="button" type="button" data-branch="goals">Choose your plans <span aria-hidden="true">→</span></button></div></div>`;
  }
  
  export function branchSteps(step) {
@@ -67,7 +67,7 @@
  
 --- a/dist/branch.css
 +++ b/dist/branch.css
-@@ -53,3 +53,19 @@
+@@ -53,3 +53,31 @@
    .branch-card .card-symbol { grid-column: auto; }
    .branch-exit { font-size: .78rem; padding-inline: 8px; }
  }
@@ -87,3 +87,15 @@
 +.sources-review .sources-score { display:flex; justify-content:center; margin-top:12px; }
 +.sources-review .sources-score .button { min-height:50px; min-width:min(100%,260px); }
 +.sources-review .sources-summary { padding-top:16px; border-top:1px solid var(--line); }
++
++/* REVIEW-07: Center the introduction and CTA near the gap between the original explanation panels. */
++.branch-flow:has(.plans-introduction) .branch-heading { position:relative; justify-content:center; padding-inline:100px; text-align:center; }
++.branch-flow:has(.plans-introduction) .branch-heading .branch-exit { position:absolute; right:0; top:0; }
++.plans-introduction { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:24px; min-height:350px; padding-block:36px; text-align:center; }
++.plans-introduction .branch-lead { max-width:450px; margin:0; }
++.plans-introduction .actions { justify-content:center; margin:0; width:100%; }
++.plans-introduction .button { min-height:56px; min-width:min(100%,280px); font-size:1rem; padding:16px 24px; }
++@media(max-width:570px){
++ .branch-flow:has(.plans-introduction) .branch-heading { padding-inline:0; padding-top:56px; }
++ .plans-introduction { min-height:310px; padding-block:24px; }
++}

@@ -5,3 +5,6 @@
 iframe{box-sizing:content-box}.frame-host{height:calc(902px * var(--scale,1))}.mobile .frame-host{height:calc(1202px * var(--scale,1))}
 
 nav>button{min-height:44px;padding:8px 14px;border:1px solid #ccd8e6;border-radius:8px;background:white;color:#142944;font:15px system-ui}
+/* Prevent browser focus from scrolling the scaled frame inside its comparison column. */
+.frame-host{overflow:clip}.comparison{overflow:visible}
+#mirror-status{margin-top:14px;color:#556c87;font-size:13px}

@@ -12,3 +12,13 @@
 ## Grenzen
 
 Frontendvergleich mit statischem lokalem Server. Kein KI-Backend gestartet. Keine produktive Bankverbindung und kein produktiver Dienst verändert. Gleicher lokaler Ursprung bedeutet gemeinsamen Local Storage für das ursprüngliche Mobile-Banking-Persistenzverhalten; der geprüfte Filialablauf verwaltet seinen Zustand separat pro Fenster. Die Serverversion unter 130.83.85.181 kann vom geprüften GitHub-Commit abweichen. Desktop-Rahmen 900 × 900 px, Mobil-Rahmen 390 × 1200 px; beide Seiten werden bei Platzmangel gleichmäßig skaliert.
+
+## Spiegelung und zentrierte Einführung
+
+- Vollständigen Filialablauf erneut durchlaufen, dabei pro Schritt ausschließlich eine Seite bedient. Abwechselnd links und rechts: Karte, PIN, Einführung, Lebensplan, Einzelantwort, Mehrfachantwort, Vorbereitung, Prioritäten, Datenquellen. Gegenüberliegende Anwendung folgt demselben Ablauf. Keine doppelte Formularnavigation.
+- Native Auswahlwerte werden gespiegelt, statt durch Label- und Input-Klicks doppelt umzuschalten. Zielereignisse sind gegen Rückkopplung geschützt.
+- Texteingaben rechts im manuellen Formular geprüft: Name „Review demo“ und Wert „100“ erscheinen auch links. Formular nicht abgeschickt; anschließend beide Anwendungen neu gestartet.
+- Originaldateien bleiben byteweise unverändert. Spiegelung liegt ausschließlich in comparison.js, das Event-Listener an beide Dokumente bindet. Die Vorschau zeigt einen Hinweis, wenn eine Aktion nicht zugeordnet werden kann.
+- Zentrierung am Desktop gemessen: Zwischenraum der Originalkästen y=376–386 px, neue Blockmitte y=385 px. Erklärung horizontal zentriert; Button mindestens 56 px hoch und 280 px breit (bei ausreichend Platz).
+- Die Rahmen verhindern mit overflow:clip, dass die Browser-Fokusbewegung eine Vergleichsspalte innerhalb ihres Rahmens verschiebt.
+- Nicht alle denkbaren App-Interaktionen und Dateiimporte geprüft. Verifiziert sind der obige Filialablauf, Auswahlen, Formularnavigation und Texteingaben.
