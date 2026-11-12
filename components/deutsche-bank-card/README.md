@@ -33,3 +33,5 @@ Die bestehende PULS-Anwendung und der Cashier-Mock wurden nicht geändert. Die A
 Die Animation ermittelt die tatsächliche Schlitzmitte und richtet dort ihre Schnittkante aus. Ihre Endposition wird aus der Kartengröße berechnet, mit zusätzlichem Abstand für den Schatten. Im Zustand `inserted` ist der Kartenträger vollständig ausgeblendet; beim Wiederholen und Zurücksetzen wird er wieder sichtbar.
 
 Die Korrektur wurde am Desktop und bei 390 px Breite im Browser geprüft: Schnittkante und Schlitzmitte stimmen überein; die Kartenoberkante liegt am Ende jeweils 96 px darunter. Karten-Träger im Endzustand unsichtbar. Wiederholen und Abbruch mit Zurücksetzen funktionieren weiterhin. Screenshots: [eingesteckt](screenshots/inserted.jpg), [mobil eingesteckt](screenshots/inserted-mobile.jpg).
+
+Die Leserabdeckung ist an der Schlitzmitte in zwei Ebenen getrennt: obere Platte hinter der Karte, untere Lippe davor. Die Karten-Schnittkante und die obere Kante der Vordergrundlippe liegen am Desktop beide bei derselben Schlitzmitte. Einzug bis `inserted` und Rücksetzen im Browser geprüft.
